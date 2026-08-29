@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "restaurants": [
+    {
+      "id": "quanjude-qianmen",
+      "name": "全聚德（前门店）",
+      "city": "北京",
+      "cuisine": "烤鸭",
+      "metrics": {
+        "online_rating": 4.3,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": [
+          "新华网专题报道《走进全聚德前门起源店》"
+        ],
+        "master_chef": null,
+        "founded_year": 1864
+      },
+      "sources": [
+        "https://www.quanjude.com.cn/article/df495d582c324ac49bd1fb719b201d36.html",
+        "http://m.dianping.com/shop/508130",
+        "http://www.bj.news.cn/20260507/7401366a2c5d4571aa147b3edcfba902/c.html"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Quanjude (Qianmen)",
+      "branch": "前门大街",
+      "index": "62069",
+      "index_detail": {
+        "overall": 6,
+        "celebrity": 2,
+        "popularity": 0,
+        "online": 6,
+        "age": 9
+      },
+      "notes": "1864年（清同治三年）创立，品牌起源店，素有'天下第一楼'之称；大众点评前门店 4.3 分、人均约163元（2026-08 检索）；点评数未获公开数值。"
+    },
+    {
+      "id": "donglaishun-wangfujing",
+      "name": "东来顺饭庄（王府井步行街店）",
+      "city": "北京",
+      "cuisine": "涮羊肉（清真火锅）",
+      "metrics": {
+        "online_rating": 3.9,
+        "review_count": 20000,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": [
+          "国家级非物质文化遗产：东来顺涮羊肉制作技艺"
+        ],
+        "master_chef": null,
+        "founded_year": 1903
+      },
+      "sources": [
+        "https://big5.visitbeijing.com.cn/article/4KF2PuKZYdf",
+        "http://m.dianping.com/shop/510678"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Donglaishun",
+      "branch": "王府井/东单",
+      "index": "52549",
+      "index_detail": {
+        "overall": 5,
+        "celebrity": 2,
+        "popularity": 5,
+        "online": 4,
+        "age": 9
+      },
+      "notes": "1903年（清光绪二十九年）创立，'中华老字号清真第一涮'；大众点评王府井区域门店约3.9分、步行街店2万+条评价（2026-08 检索）；未入选米其林/黑珍珠。"
+    },
+    {
+      "id": "siji-minfu-gugong",
+      "name": "四季民福烤鸭店（故宫店）",
+      "city": "北京",
+      "cuisine": "烤鸭",
+      "metrics": {
+        "online_rating": 4.8,
+        "review_count": 270000,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "http://m.dianping.com/shop/32333630",
+        "https://baike.baidu.com/item/%E5%9B%9B%E5%AD%A3%E6%B0%91%E7%A6%8F%E7%83%A4%E9%B8%AD%E5%BA%97%EF%BC%88%E6%95%85%E5%AE%AB%E5%BA%97%EF%BC%89/57997504"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Siji Minfu Roast Duck (Palace Museum)",
+      "branch": "南池子大街（故宫东华门旁）",
+      "index": "90890",
+      "index_detail": {
+        "overall": 9,
+        "celebrity": 0,
+        "popularity": 8,
+        "online": 9,
+        "age": 0
+      },
+      "notes": "大众点评 4.8 分、27万+条点评、北京烤鸭热门榜第1名（2026-08 检索）；未获米其林星级/黑珍珠钻级；品牌创立年份公开资料不一致，暂缺（待核实）。"
+    },
+    {
+      "id": "bianyifang-sanyuanqiao",
+      "name": "便宜坊烤鸭店（三元桥店）",
+      "city": "北京",
+      "cuisine": "焖炉烤鸭",
+      "metrics": {
+        "online_rating": 4.4,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": [
+          "国家级非物质文化遗产：便宜坊焖炉烤鸭技艺（2008年列入）",
+          "商务部首批'中华老字号'认定"
+        ],
+        "master_chef": null,
+        "founded_year": 1416
+      },
+      "sources": [
+        "https://zh.wikipedia.org/wiki/%E4%BE%BF%E5%AE%9C%E5%9D%8A",
+        "http://m.dianping.com/shop/600981583"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Bianyifang",
+      "branch": "亮马桥/三元桥",
+      "index": "63079",
+      "index_detail": {
+        "overall": 6,
+        "celebrity": 3,
+        "popularity": 0,
+        "online": 7,
+        "age": 9
+      },
+      "notes": "字号可追溯至明永乐十四年（1416年），现店创于1855年（鲜鱼口），北京历史最悠久的中华老字号饭庄；记录门店评分取大众点评三元桥店 4.4 分（有公开页面佐证；灯市口店检索显示4.8）；点评数未获公开数值。"
+    },
+    {
+      "id": "laozhengxing-fuzhoulu",
+      "name": "老正兴菜馆（福州路店）",
+      "city": "上海",
+      "cuisine": "本帮菜",
+      "metrics": {
+        "online_rating": 4.0,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": [
+          "michelin_1_star@2023"
+        ],
+        "celebrity_endorsements": null,
+        "media_features": [
+          "上海市非物质文化遗产：本帮菜烹饪技艺（2020年列入）"
+        ],
+        "master_chef": null,
+        "founded_year": 1862
+      },
+      "sources": [
+        "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/lao-zheng-xing-huangpu",
+        "http://m.dianping.com/shop/500368",
+        "https://baike.baidu.com/item/%E8%80%81%E6%AD%A3%E5%85%B4%E8%8F%9C%E9%A6%86/6695737"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Lao Zheng Xing",
+      "branch": "黄浦区福州路556号",
+      "index": "66059",
+      "index_detail": {
+        "overall": 6,
+        "celebrity": 6,
+        "popularity": 0,
+        "online": 5,
+        "age": 9
+      },
+      "notes": "1862年（清同治元年）创立，'本帮菜鼻祖'；米其林一星（2016年起连续多年）；大众点评福州路店 4.0 分（2026-08 检索）；点评数未获公开数值。"
+    },
+    {
+      "id": "lvbolang-yuyuan",
+      "name": "绿波廊（豫园店）",
+      "city": "上海",
+      "cuisine": "本帮菜/海派点心",
+      "metrics": {
+        "online_rating": 4.7,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": [
+          "michelin_plate"
+        ],
+        "celebrity_endorsements": [
+          "西哈努克亲王：1973年豫园设宴，绿波廊外事接待史起点",
+          "英国女王伊丽莎白二世：1986年到访九曲桥并用餐",
+          "美国总统克林顿：用餐后'克林顿拉糕'以其得名"
+        ],
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": 1979
+      },
+      "sources": [
+        "https://www.shobserver.cn/wx/detail.do?id=26176",
+        "https://zh.wikipedia.org/zh-cn/%E7%BB%BF%E6%B3%A2%E5%BB%8A%E9%85%92%E6%A5%BC",
+        "http://www.dianping.com/shop/500395"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Lv Bo Lang",
+      "branch": "黄浦区豫园路115号（九曲桥畔）",
+      "index": "65085",
+      "index_detail": {
+        "overall": 6,
+        "celebrity": 5,
+        "popularity": 0,
+        "online": 8,
+        "age": 5
+      },
+      "notes": "1979年正式命名创号（建筑可溯至明代楼阁、1924年茶馆），上海外事接待基地，累计接待元首级贵宾50-60批；评分取携程美食 4.7/5（2026-08 检索）；米其林指南入选（餐盘级）；点评数未获公开数值。"
+    },
+    {
+      "id": "nanxiang-mantou-yuyuan",
+      "name": "南翔馒头店（豫园店）",
+      "city": "上海",
+      "cuisine": "小笼包/点心",
+      "metrics": {
+        "online_rating": 4.6,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": [
+          "michelin_plate"
+        ],
+        "celebrity_endorsements": null,
+        "media_features": [
+          "上海市非物质文化遗产：南翔小笼馒头制作技艺"
+        ],
+        "master_chef": null,
+        "founded_year": 1900
+      },
+      "sources": [
+        "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/nanxiang-steamed-bun-city-god-temple",
+        "http://m.dianping.com/shop/75199513",
+        "https://zh.wikipedia.org/zh-cn/%E5%8D%97%E7%BF%94%E9%A6%92%E5%A4%B4%E5%BA%97"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Nanxiang Steamed Bun",
+      "branch": "黄浦区豫园老街87号",
+      "index": "73089",
+      "index_detail": {
+        "overall": 7,
+        "celebrity": 3,
+        "popularity": 0,
+        "online": 8,
+        "age": 9
+      },
+      "notes": "1900年（清光绪二十六年）创立，百年小笼名店；评分取 Trip.com 旅客评分 4.6/5（2026-08 检索）；米其林指南收录；点评数未获公开数值。"
+    },
+    {
+      "id": "xinrongji-xinyuanlu",
+      "name": "新荣记（新源南路店）",
+      "city": "北京",
+      "cuisine": "台州菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": [
+          "michelin_3_star@2026"
+        ],
+        "celebrity_endorsements": null,
+        "media_features": [
+          "经济观察网等媒体'中餐米其林收割机'专题报道"
+        ],
+        "master_chef": null,
+        "founded_year": 1995
+      },
+      "sources": [
+        "https://www.eeo.com.cn/2024/0201/633872.shtml"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Xin Rong Ji",
+      "branch": "新源南路",
+      "index": "79004",
+      "index_detail": {
+        "overall": 7,
+        "celebrity": 9,
+        "popularity": 0,
+        "online": 0,
+        "age": 4
+      },
+      "notes": "品牌1995年由张勇创于浙江台州临海；北京新源南路店为米其林三星（2026版北京指南）；大众点评评分数值未获公开数值（高端店样本量相对小）；综合分按可得维度计算。"
+    },
+    {
+      "id": "guangzhou-jiujia-wenchang",
+      "name": "广州酒家（文昌南路总店）",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": 1935
+      },
+      "sources": [
+        "https://k.sina.cn/article_7879776513_1d5abd90106801tnmq.html",
+        "https://www.dianping.com/discovery/698482838"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Guangzhou Restaurant",
+      "branch": "文昌南路（总店）",
+      "index": "00008",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 8
+      },
+      "notes": "1935年创立，素有'食在广州第一家'美誉的中华老字号；本轮检索未获评分/点评数/奖项的公开数值（综合分暂记0，待补充数据）。"
+    },
+    {
+      "id": "taotaoju-shishifu",
+      "name": "陶陶居酒家（第十甫路总店）",
+      "city": "广州",
+      "cuisine": "粤菜茶点",
+      "metrics": {
+        "online_rating": 4.2,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": [
+          "michelin_plate"
+        ],
+        "celebrity_endorsements": [
+          "康有为：亲笔题写'陶陶居'字号"
+        ],
+        "media_features": [
+          "金梧桐中国餐厅指南奖项（人民网系榜单）"
+        ],
+        "master_chef": null,
+        "founded_year": 1880
+      },
+      "sources": [
+        "https://www.taotaoju1880.com/",
+        "https://www.taotaoju1880.com/news/241.html",
+        "https://zh.wikipedia.org/zh-cn/%E9%99%B6%E9%99%B6%E5%B1%85"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Tao Tao Ju",
+      "branch": "荔湾区第十甫路20号",
+      "index": "64069",
+      "index_detail": {
+        "overall": 6,
+        "celebrity": 4,
+        "popularity": 0,
+        "online": 6,
+        "age": 9
+      },
+      "notes": "1880年（清光绪六年）创立，广州百年茶楼代表；评分取 Trip.com 4.2/5（2026-08 检索）；门店入选米其林指南并连获金梧桐等奖项；大众点评菜品实拍超11万张（人气佐证，未计入点评数）。"
+    },
+    {
+      "id": "diandude-dachalou",
+      "name": "点都德（大茶楼店）",
+      "city": "广州",
+      "cuisine": "粤式茶点",
+      "metrics": {
+        "online_rating": 4.7,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": 1933
+      },
+      "sources": [
+        "https://www.huadu.gov.cn/hdzx/hdxw/content/post_10505581.html",
+        "https://www.kkday.com/zh-my/blog/17679/guangzhou-food-guide-local-eats"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Dian Dou De",
+      "branch": "大茶楼店",
+      "index": "80088",
+      "index_detail": {
+        "overall": 8,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 8,
+        "age": 8
+      },
+      "notes": "字号源于1933年（品牌2013年恢复运营），连锁粤式茶楼；评分取携程/大众点评综合约4.7（2026-08 检索）；连续多年大众点评必吃榜，2025年'食在广州'评选十店上榜；点评数未获公开数值。"
+    },
+    {
+      "id": "chen-mapo-qinghualu",
+      "name": "陈麻婆豆腐（青华路店）",
+      "city": "成都",
+      "cuisine": "川菜",
+      "metrics": {
+        "online_rating": 4.0,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": [
+          "michelin_plate"
+        ],
+        "celebrity_endorsements": null,
+        "media_features": [
+          "四川省非物质文化遗产：陈麻婆豆腐制作技艺"
+        ],
+        "master_chef": null,
+        "founded_year": 1862
+      },
+      "sources": [
+        "https://baike.baidu.com/item/%E9%99%88%E9%BA%BB%E5%A9%86/14305066",
+        "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/chen-mapo-tofu-qinghua-road",
+        "https://www.chengdu.gov.cn/cdsrmzf/c181932/2026-06/15/content_1e6ef4742a6346ab8247def58a5cfcb5.shtml"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": "Chen Mapo Tofu",
+      "branch": "青华路",
+      "index": "63059",
+      "index_detail": {
+        "overall": 6,
+        "celebrity": 3,
+        "popularity": 0,
+        "online": 5,
+        "age": 9
+      },
+      "notes": "1862年（清同治元年）创立于成都万福桥，麻婆豆腐原创老店、中华老字号；评分取 TripAdvisor 4.0/5（骡马市店，299条点评，2026-08 检索）；米其林指南收录青华路店。"
+    }
+  ]
+}

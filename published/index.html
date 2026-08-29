@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HHRating · 美食点评指数榜</title>
+<style>
+  :root { --accent:#b02a30; }
+  * { box-sizing:border-box; }
+  body { font-family:"Microsoft YaHei","PingFang SC",sans-serif; margin:0; background:#faf7f2; color:#2b2320; }
+  header { background:var(--accent); color:#fff; padding:28px 32px; }
+  header h1 { margin:0 0 6px; font-size:26px; }
+  header p { margin:0; opacity:.85; font-size:13px; }
+  main { max-width:1080px; margin:24px auto 48px; padding:0 16px; }
+  .legend { background:#fff; border:1px solid #e8ded2; border-radius:8px; padding:12px 16px; font-size:13px; line-height:1.7; margin-bottom:18px; }
+  table { width:100%; border-collapse:collapse; background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+  th, td { padding:10px 12px; text-align:left; border-bottom:1px solid #f0e8dd; font-size:14px; }
+  th { background:#f3ece1; cursor:pointer; user-select:none; white-space:nowrap; }
+  th:hover { color:var(--accent); }
+  td.idx { font-family:Consolas,Menlo,monospace; font-size:18px; font-weight:700; color:var(--accent); letter-spacing:2px; }
+  tr:hover td { background:#fdf9f3; }
+  .digits span { display:inline-block; min-width:20px; text-align:center; margin-right:2px; padding:1px 4px; border-radius:4px; background:#f3ece1; font-size:12px; }
+  footer { text-align:center; font-size:12px; color:#8a7f73; padding:20px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>HHRating · 美食点评指数榜</h1>
+  <p>生成时间 2026-08-29T16:12:40+08:00 · 评分标准 v1.1 · 共 12 家</p>
+</header>
+<main>
+<div class="legend">指数共 5 位，每位 1–9 由差到好：第 1 位综合得分、第 2 位名人推荐值、第 3 位人气度、第 4 位网上得分、第 5 位出现时间（老店分高）。0 表示该维度暂无数据。评分标准见 docs/index-spec.md v1.1。</div>
+<table id="board">
+<thead><tr>
+  <th data-key="rank">#</th><th data-key="index">指数</th><th data-key="name">名称</th>
+  <th data-key="city">城市</th><th data-key="cuisine">菜系</th><th>逐位明细</th>
+</tr></thead>
+<tbody>
+<tr data-rank="1" data-index="90890" data-name="四季民福烤鸭店（故宫店）" data-city="北京" data-cuisine="烤鸭"><td>1</td><td class="idx">90890</td><td>四季民福烤鸭店（故宫店）</td><td>北京</td><td>烤鸭</td><td class="digits"><span title="综合">9</span><span title="名人">0</span><span title="人气">8</span><span title="网上">9</span><span title="年代">0</span></td></tr>
+<tr data-rank="2" data-index="80088" data-name="点都德（大茶楼店）" data-city="广州" data-cuisine="粤式茶点"><td>2</td><td class="idx">80088</td><td>点都德（大茶楼店）</td><td>广州</td><td>粤式茶点</td><td class="digits"><span title="综合">8</span><span title="名人">0</span><span title="人气">0</span><span title="网上">8</span><span title="年代">8</span></td></tr>
+<tr data-rank="3" data-index="79004" data-name="新荣记（新源南路店）" data-city="北京" data-cuisine="台州菜"><td>3</td><td class="idx">79004</td><td>新荣记（新源南路店）</td><td>北京</td><td>台州菜</td><td class="digits"><span title="综合">7</span><span title="名人">9</span><span title="人气">0</span><span title="网上">0</span><span title="年代">4</span></td></tr>
+<tr data-rank="4" data-index="73089" data-name="南翔馒头店（豫园店）" data-city="上海" data-cuisine="小笼包/点心"><td>4</td><td class="idx">73089</td><td>南翔馒头店（豫园店）</td><td>上海</td><td>小笼包/点心</td><td class="digits"><span title="综合">7</span><span title="名人">3</span><span title="人气">0</span><span title="网上">8</span><span title="年代">9</span></td></tr>
+<tr data-rank="5" data-index="66059" data-name="老正兴菜馆（福州路店）" data-city="上海" data-cuisine="本帮菜"><td>5</td><td class="idx">66059</td><td>老正兴菜馆（福州路店）</td><td>上海</td><td>本帮菜</td><td class="digits"><span title="综合">6</span><span title="名人">6</span><span title="人气">0</span><span title="网上">5</span><span title="年代">9</span></td></tr>
+<tr data-rank="6" data-index="65085" data-name="绿波廊（豫园店）" data-city="上海" data-cuisine="本帮菜/海派点心"><td>6</td><td class="idx">65085</td><td>绿波廊（豫园店）</td><td>上海</td><td>本帮菜/海派点心</td><td class="digits"><span title="综合">6</span><span title="名人">5</span><span title="人气">0</span><span title="网上">8</span><span title="年代">5</span></td></tr>
+<tr data-rank="7" data-index="64069" data-name="陶陶居酒家（第十甫路总店）" data-city="广州" data-cuisine="粤菜茶点"><td>7</td><td class="idx">64069</td><td>陶陶居酒家（第十甫路总店）</td><td>广州</td><td>粤菜茶点</td><td class="digits"><span title="综合">6</span><span title="名人">4</span><span title="人气">0</span><span title="网上">6</span><span title="年代">9</span></td></tr>
+<tr data-rank="8" data-index="63079" data-name="便宜坊烤鸭店（三元桥店）" data-city="北京" data-cuisine="焖炉烤鸭"><td>8</td><td class="idx">63079</td><td>便宜坊烤鸭店（三元桥店）</td><td>北京</td><td>焖炉烤鸭</td><td class="digits"><span title="综合">6</span><span title="名人">3</span><span title="人气">0</span><span title="网上">7</span><span title="年代">9</span></td></tr>
+<tr data-rank="9" data-index="63059" data-name="陈麻婆豆腐（青华路店）" data-city="成都" data-cuisine="川菜"><td>9</td><td class="idx">63059</td><td>陈麻婆豆腐（青华路店）</td><td>成都</td><td>川菜</td><td class="digits"><span title="综合">6</span><span title="名人">3</span><span title="人气">0</span><span title="网上">5</span><span title="年代">9</span></td></tr>
+<tr data-rank="10" data-index="62069" data-name="全聚德（前门店）" data-city="北京" data-cuisine="烤鸭"><td>10</td><td class="idx">62069</td><td>全聚德（前门店）</td><td>北京</td><td>烤鸭</td><td class="digits"><span title="综合">6</span><span title="名人">2</span><span title="人气">0</span><span title="网上">6</span><span title="年代">9</span></td></tr>
+<tr data-rank="11" data-index="52549" data-name="东来顺饭庄（王府井步行街店）" data-city="北京" data-cuisine="涮羊肉（清真火锅）"><td>11</td><td class="idx">52549</td><td>东来顺饭庄（王府井步行街店）</td><td>北京</td><td>涮羊肉（清真火锅）</td><td class="digits"><span title="综合">5</span><span title="名人">2</span><span title="人气">5</span><span title="网上">4</span><span title="年代">9</span></td></tr>
+<tr data-rank="12" data-index="00008" data-name="广州酒家（文昌南路总店）" data-city="广州" data-cuisine="粤菜"><td>12</td><td class="idx">00008</td><td>广州酒家（文昌南路总店）</td><td>广州</td><td>粤菜</td><td class="digits"><span title="综合">0</span><span title="名人">0</span><span title="人气">0</span><span title="网上">0</span><span title="年代">8</span></td></tr>
+</tbody>
+</table>
+</main>
+<footer>数据来自公开网络资料的近似统计（快照日期见各条目），仅供研究参考。</footer>
+<script>
+document.querySelectorAll('#board th[data-key]').forEach(function(th){
+  th.addEventListener('click', function(){
+    var tbody=document.querySelector('#board tbody');
+    var rows=[].slice.call(tbody.rows);
+    var key=th.dataset.key, dir=th.dataset.dir==='asc'?1:-1;
+    th.dataset.dir=dir===1?'desc':'asc';
+    rows.sort(function(a,b){
+      var x=a.dataset[key], y=b.dataset[key];
+      if(key==='rank'||key==='index'){ return dir*(parseInt(x,10)-parseInt(y,10)); }
+      return dir*x.localeCompare(y,'zh');
+    });
+    rows.forEach(function(r){ tbody.appendChild(r); });
+  });
+});
+</script>
+</body>
+</html>

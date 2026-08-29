@@ -227,9 +227,9 @@ def _cmd_show(db: Database, target: str) -> int:
 
 # --------------------------------------------------------------------- collect
 def _cmd_collect(args) -> int:
-    from .collectors.websearch import DuckDuckGoCollector
+    from .collectors import create_collector
 
-    collector = DuckDuckGoCollector(proxy=args.proxy)
+    collector = create_collector(proxy=args.proxy)
     signals = collector.collect_signals(args.query)
     print(f"查询：{args.query}")
     print(f"评分候选：{signals['rating_candidates'] or '无'}")
