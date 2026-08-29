@@ -15,7 +15,7 @@ import time
 from collections import Counter
 from datetime import date
 
-from .models import Restaurant
+from .models import Metrics, Restaurant
 from .storage import Database
 
 CITY_PREFIXES = {
@@ -185,8 +185,49 @@ def batch_import(
     return summary
 
 
+def import_list_records(entries: list[dict], db: Database) -> dict:
+    """从权威名录（榜单页/文章）批量建记录：不联网搜索单店，指标留空待补采。
+
+    entry 字段：name（必填）、city（必填）、address/cuisine/district/branch（可选）、
+    source（名录 URL）、list_name（名录名称）。
+    """
+    summary = {"imported": 0, "skipped_existing": 0, "failed": 0, "total": len(entries)}
+    existing = {name_key(r.name) for r in db.restaurants}
+    today = date.today().isoformat()
+    for entry in entries:
+        name = (entry.get("name") or "").strip()
+        city = (entry.get("city") or "").strip()
+        if not name or not city:
+            summary["failed"] += 1
+            continue
+        if name_key(name) in existing:
+            summary["skipped_existing"] += 1
+            continue
+        list_name = entry.get("list_name") or "网络名录"
+        cuisine = entry.get("cuisine")
+        notes = f"来自名录「{list_name}」自动录入（快照 {today}），指标待补采"
+        if entry.get("district"):
+            notes += f"；区域：{entry['district']}"
+        record = Restaurant(
+            id=make_record_id(city, name),
+            name=name,
+            city=city,
+            cuisine=cuisine or "待分类",
+            metrics=Metrics(),
+            sources=[entry["source"]] if entry.get("source") else [],
+            data_date=today,
+            address=entry.get("address"),
+            branch=entry.get("branch"),
+            notes=notes,
+        )
+        db.upsert(record)
+        existing.add(name_key(name))
+        summary["imported"] += 1
+    return summary
+
+
 def fill_missing(db: Database, city: str, collector, delay: float = 2.5, progress=None) -> dict:
-    """对在库记录做定向补采：只更新缺失的 评分/点评数/创立年份，绝不覆盖已有值。"""
+    """对在库记录做定向补采：只更新缺失的 评分/点评数/创立年份/地址，绝不覆盖已有值。"""
     from .collectors.websearch import (
         extract_address,
         extract_founded_year,

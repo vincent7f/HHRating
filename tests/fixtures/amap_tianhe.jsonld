@@ -1,0 +1,113 @@
+
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "广州市2025高德状元榜·美食",
+        "description": "广州必吃美食精选推荐",
+        "url": "https://www.amap.com/ranking/guangzhou/food/440106",
+        "numberOfItems": 10,
+        "itemListElement": [
+            
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "Place",
+                    "name": "SKY NO.1空中一号",
+                    "address": ""
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "Place",
+                    "name": "炳胜品味(珠江新城旗舰店)",
+                    "address": ""
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@type": "Place",
+                    "name": "侨美食家(珠江新城店)",
+                    "address": ""
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@type": "Place",
+                    "name": "太艮堡毋米粥·粥水火锅(猎德店)",
+                    "address": ""
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@type": "Place",
+                    "name": "珍姐龙虾(员村1店)",
+                    "address": ""
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                    "@type": "Place",
+                    "name": "阿强家川菜(石牌店)",
+                    "address": ""
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 7,
+                "item": {
+                    "@type": "Place",
+                    "name": "秘密旅行vintage(体育西店)",
+                    "address": ""
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 8,
+                "item": {
+                    "@type": "Place",
+                    "name": "铭门盛宴艺术海鲜姿造(珠江新城店)",
+                    "address": ""
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 9,
+                "item": {
+                    "@type": "Place",
+                    "name": "禄运茶居·手工点心(体育西店)",
+                    "address": ""
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 10,
+                "item": {
+                    "@type": "Place",
+                    "name": "博多天妇罗泰(正佳广场店)",
+                    "address": ""
+                }
+            }
+            
+        ]
+    }
+    
