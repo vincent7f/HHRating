@@ -169,3 +169,58 @@ def batch_import(
         if delay:
             time.sleep(delay)
     return summary
+
+
+def fill_missing(db: Database, city: str, collector, delay: float = 2.5, progress=None) -> dict:
+    """对在库记录做定向补采：只更新缺失的 评分/点评数/创立年份，绝不覆盖已有值。"""
+    from .collectors.websearch import extract_founded_year, extract_rating, extract_review_count
+
+    summary = {"updated": 0, "skipped": 0, "failed": 0}
+    targets = [r for r in db.restaurants if r.city == city]
+    for i, r in enumerate(targets, 1):
+        need_rating = r.metrics.online_rating is None
+        need_count = r.metrics.review_count is None
+        need_year = r.metrics.founded_year is None
+        if not (need_rating or need_count or need_year):
+            summary["skipped"] += 1
+            continue
+        updated = []
+        results = collector.search(f"{r.name} 大众点评 评分")
+        for res in results:
+            text = f'{res["title"]} {res["snippet"]}'
+            if need_rating:
+                v = extract_rating(text)
+                if v is not None:
+                    r.metrics.online_rating = v
+                    need_rating = False
+                    updated.append(f"评分{v}")
+            if need_count:
+                v = extract_review_count(text)
+                if v is not None:
+                    r.metrics.review_count = v
+                    need_count = False
+                    updated.append(f"点评{v}")
+        if need_year:
+            if delay:
+                time.sleep(delay)
+            for res in collector.search(f"{r.name} 创立 哪一年"):
+                v = extract_founded_year(f'{res["title"]} {res["snippet"]}')
+                if v is not None:
+                    r.metrics.founded_year = v
+                    need_year = False
+                    updated.append(f"{v}年创立")
+                    break
+        if updated:
+            for res in results[:1]:
+                if res["url"] and res["url"] not in r.sources and len(r.sources) < 6:
+                    r.sources.append(res["url"])
+            r.notes = f"{r.notes or ''}；{date.today().isoformat()} 补采：{'、'.join(updated)}"
+            db.upsert(r)
+            summary["updated"] += 1
+        else:
+            summary["failed"] += 1
+        if progress:
+            progress(f"[{i}/{len(targets)}] {r.name}: {'、'.join(updated) or '无补充'}")
+        if delay:
+            time.sleep(delay)
+    return summary

@@ -158,3 +158,31 @@ class TestCliCommands:
         out = capsys.readouterr().out
         assert "收录" in out
         assert "网上得分" in out
+
+    def test_fill_updates_only_missing(self, tmp_path, monkeypatch):
+        from hhrating import cli
+
+        class FakeCollector:
+            def search(self, query):
+                if "评分" in query:
+                    return [{"title": "乙店-点评", "url": "https://dp.example.com/b",
+                             "snippet": "评分4.3，共9000条点评"}]
+                if "创立" in query:
+                    return [{"title": "乙店历史", "url": "https://n.example.com/h",
+                             "snippet": "乙店创立于1950年"}]
+                return []
+
+        monkeypatch.setattr(cli, "create_collector", lambda proxy=None: FakeCollector())
+        db_path = tmp_path / "db.json"
+        db = Database(db_path).load()
+        db.upsert(make_record("gz-a", "甲店", "广州", {"online_rating": 4.8}))  # 完整 → 跳过
+        db.upsert(make_record("gz-b", "乙店", "广州", {}))  # 全缺 → 补齐
+        db.save()
+        assert main(["--db", str(db_path), "fill", "--city", "广州", "--delay", "0"]) == 0
+        reloaded = Database(db_path).load()
+        assert reloaded.get("gz-a").metrics.online_rating == 4.8  # 未被覆盖
+        filled = reloaded.get("gz-b")
+        assert filled.metrics.online_rating == 4.3
+        assert filled.metrics.review_count == 9000
+        assert filled.metrics.founded_year == 1950
+        assert "补采" in (filled.notes or "")

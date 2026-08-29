@@ -83,6 +83,11 @@ def build_parser() -> argparse.ArgumentParser:
     p = sub.add_parser("apply-awards", help="把奖项名单（JSON）匹配到库内记录")
     p.add_argument("file")
 
+    p = sub.add_parser("fill", help="对在库记录定向补采缺失指标（不覆盖已有值）")
+    p.add_argument("--city", required=True)
+    p.add_argument("--proxy", default=None)
+    p.add_argument("--delay", type=float, default=2.5, help="每次检索间隔秒数")
+
     p = sub.add_parser("stats", help="数据库统计分析（覆盖率/分布/TOP榜）")
 
     p = sub.add_parser("publish", help="发布 JSON/Markdown/HTML")
@@ -112,6 +117,8 @@ def main(argv: list[str] | None = None) -> int:
             return _cmd_batch(db, args)
         if args.command == "apply-awards":
             return _cmd_apply_awards(db, args.file)
+        if args.command == "fill":
+            return _cmd_fill(db, args)
         if args.command == "stats":
             return _cmd_stats(db)
         if args.command == "publish":
@@ -300,6 +307,17 @@ def _cmd_apply_awards(db: Database, file_path: str) -> int:
         f"奖项匹配：成功 {summary['matched']} 条（其中已存在 {summary['already']} 条），"
         f"歧义跳过 {summary['ambiguous']} 条，未匹配 {summary['unmatched']} 条"
     )
+    return 0
+
+
+def _cmd_fill(db: Database, args) -> int:
+    from .batch import fill_missing
+
+    collector = create_collector(proxy=args.proxy)
+    summary = fill_missing(
+        db, args.city, collector, delay=args.delay, progress=lambda msg: print(msg, flush=True)
+    )
+    print(f"补采完成：更新 {summary['updated']} 家，无补充 {summary['failed']} 家，完整跳过 {summary['skipped']} 家")
     return 0
 
 
