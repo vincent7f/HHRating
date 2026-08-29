@@ -4,7 +4,7 @@
 """
 from __future__ import annotations
 
-from dataclasses import dataclass, field, fields, is_dataclass
+from dataclasses import dataclass, fields, is_dataclass
 from typing import Any
 
 VALID_AWARDS = {
@@ -26,15 +26,18 @@ def _clean_award(award: str) -> str:
 
 @dataclass
 class Metrics:
-    """原始指标（全部来自公开网络资料，可缺失）。"""
+    """原始指标（全部来自公开网络资料，可缺失）。
+
+    列表字段为 None 表示"未调研"；显式空列表表示"已调研、无信号"。
+    """
 
     online_rating: float | None = None
     review_count: int | None = None
     social_mentions: int | None = None
-    awards: list[str] = field(default_factory=list)
-    celebrity_endorsements: list[str] = field(default_factory=list)
-    media_features: list[str] = field(default_factory=list)
-    master_chef: bool = False
+    awards: list[str] | None = None
+    celebrity_endorsements: list[str] | None = None
+    media_features: list[str] | None = None
+    master_chef: bool | None = None  # None = 未调研；True/False = 已调研结果
     founded_year: int | None = None
 
     def __post_init__(self) -> None:
@@ -46,7 +49,7 @@ class Metrics:
             raise ValueError(f"social_mentions 不能为负数，得到 {self.social_mentions!r}")
         if self.founded_year is not None and not (1000 <= self.founded_year <= 2100):
             raise ValueError(f"founded_year 应为 1000-2100 的年份，得到 {self.founded_year!r}")
-        for award in self.awards:
+        for award in self.awards or []:
             if _clean_award(award) not in VALID_AWARDS:
                 raise ValueError(f"未知奖项枚举：{award!r}，合法值见 docs/data-dictionary.md")
 

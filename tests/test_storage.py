@@ -44,8 +44,8 @@ class TestModels:
         m = Metrics()
         assert m.online_rating is None
         assert m.review_count is None
-        assert m.awards == []
-        assert m.master_chef is False
+        assert m.awards is None  # None = 未调研；[] = 已调研无信号
+        assert m.master_chef is None
 
     def test_invalid_online_rating_rejected(self):
         with pytest.raises(ValueError, match="online_rating"):
