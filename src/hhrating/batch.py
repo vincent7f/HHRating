@@ -71,7 +71,8 @@ def _mode(values: list, tie: str = "median_high"):
     return tied[len(tied) // 2]
 
 
-def collect_restaurant(name: str, city: str, collector, second_query: bool = True) -> dict | None:
+def collect_restaurant(name: str, city: str, collector, second_query: bool = True,
+                       pause: float = 0.0) -> dict | None:
     """检索单店公开摘要并聚合为一条待入库记录；无任何结果返回 None。"""
     ratings: list[float] = []
     years: list[int] = []
@@ -98,6 +99,8 @@ def collect_restaurant(name: str, city: str, collector, second_query: bool = Tru
 
     _consume(collector.search(f"{name} {city} 大众点评 评分 点评"))
     if second_query and not years:
+        if pause:
+            time.sleep(pause)  # 搜索引擎对连续查询限流，查询间留间隔
         _consume(collector.search(f"{name} 创立 历史介绍"))
 
     if not sources:
@@ -145,7 +148,8 @@ def batch_import(
                 progress(f"[{i}/{len(names)}] 跳过（已收录）：{name}")
             continue
         try:
-            record = collect_restaurant(name, city, collector, second_query=second_query)
+            record = collect_restaurant(name, city, collector,
+                                        second_query=second_query, pause=delay)
         except Exception as exc:
             record = None
             if progress:

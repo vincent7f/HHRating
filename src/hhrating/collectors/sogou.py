@@ -100,7 +100,7 @@ def parse_sogou_html(html: str) -> list[dict[str, str]]:
 
 class SogouCollector:
     def __init__(self, opener=None, proxy: str | None = None, timeout: float = 20,
-                 resolve_links: int = 3) -> None:
+                 resolve_links: int = 1) -> None:
         if opener is not None:
             self._opener = opener
         elif proxy:
