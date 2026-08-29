@@ -39,7 +39,11 @@ HHRating（Huì Huǒ Rating）是一个美食点评资料库：收集、整理�
 
 发布产物：[`published/index.md`](published/index.md)、
 [`published/index.html`](published/index.html)（可排序静态页）、
+[`published/explorer.html`](published/explorer.html)（**数据查询页**：全部字段搜索/城市·菜系·综合分筛选/排序/详情面板，纯静态零依赖）、
 [`published/hhrating-index.json`](published/hhrating-index.json)（机器可读，含逐位明细与来源）。
+
+> 提示：`explorer.html` 为单文件应用，可直接双击打开，也可将 `published/` 目录托管到
+> GitHub Pages 等静态服务后在线访问。
 
 ## 数据来源与免责声明
 
@@ -101,7 +105,7 @@ python -m hhrating collect --query "XX店 大众点评 评分 创立" --proxy ht
 │   └── cli.py           #   命令行接口
 ├── tests/               # pytest 测试（140 个）
 ├── data/                # 种子数据（seed/）与数据库文件（restaurants.json）
-└── published/           # 发布产物（JSON / Markdown / HTML）
+└── published/           # 发布产物（JSON / Markdown / 指数榜 HTML / 数据查询页 HTML）
 ```
 
 ## 开发约定
