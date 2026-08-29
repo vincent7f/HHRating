@@ -74,6 +74,16 @@ python -m hhrating add --id xx-dian --name XX店 --city 杭州 --cuisine 浙菜 
     --rating 4.5 --reviews 8000 --founded-year 1985 \
     --award blackpearl_1_diamond --source https://... 
 
+# 批量自动采集（店名清单文件，每行一个；走本地代理；同名分店自动跳过）
+python -m hhrating batch --names-file data/seed/guangzhou-names.txt \
+    --city 广州 --proxy http://127.0.0.1:8009 --delay 2.5
+
+# 应用奖项名单（米其林/黑珍珠榜单 → 匹配库内记录）
+python -m hhrating apply-awards data/seed/guangzhou-awards.json
+
+# 统计分析（维度覆盖率/得分分布/各维 TOP5）
+python -m hhrating stats
+
 # 联网检索辅助信号（走本地代理；DuckDuckGo 失败自动切换必应）
 python -m hhrating collect --query "XX店 大众点评 评分 创立" --proxy http://127.0.0.1:8009
 ```

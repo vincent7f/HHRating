@@ -424,6 +424,586 @@
         "age": 9
       },
       "notes": "1862年（清同治元年）创立于成都万福桥，麻婆豆腐原创老店、中华老字号；评分取 TripAdvisor 4.0/5（骡马市店，299条点评，2026-08 检索）；米其林指南收录青华路店。"
+    },
+    {
+      "id": "gz-41d6797b",
+      "name": "御宝轩",
+      "city": "广州",
+      "cuisine": "早茶",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=bKlJFL%2BfyERSbQVApstMtOTGI0%2FAN3NA1Bg1rLuARzFFmI3sP1eaLalLlqev1qijfcbwJREYYqWJMF%2Bg0yRO8vM4x%2FP6Yq%2F7XrwF20AeFPtqAakT28zN9UwerTPoSbUwOOs7bLqlxQijpz4v0xyNT0lMis9h8rH6139fLotsx1nDBlLnqClABSzBeu1lZBfz0yGacHo7zzALL%2FsEmCfhdVmVBx57EYyQiQQjDUKX0qGST1TVsyd7v2PF53iy%2BiO3Kn4BwQ%2BVccHvPou8LZwxzsDh3MEZNOiDsvP6AUdXIXWf%2FGIEvGLwaa5XI2vI1%2BrcM",
+        "https://www.so.com/link?m=wl9cd0ccG5pFlbyvZ1j1L%2B6lFewVlvcRaeAktKTfYtlppuD%2FmMGrF5gXAtfoa3XBQ9GW1fFTfA1b1NU1edIYpJtniq3b%2BjroTJyMPtWdzpusK6THg%2FD9wNnqJFhqXtAXXmioPM3TkbIsWE0qglEZh8LP7EKw3QbdhAnlj1rtdGTw4AbRYiirIrOuKuVQ6Y0uD4JFKpLZESkHgYpHpFUBJQCx7Oe%2Ba9IotyXtKVoQPu875Bo9UM3no85XL9xYldgHpZ8kxg7sBdU8z1F1J1w6mAK5HiPN%2BanYnqqUrmv0sNEfNnHVj%2FTyD%2FGUqbB0%3D",
+        "https://www.so.com/link?m=wN8iFEDBUn4f8HldGk56JAEpoNzkjN21ZzYU7AcpKLQmdvImZE0TbpgyWcN4A219zIntZhXio5BCPTSY%2Bq1m8URKgcDspjStFnZe3lumSu2fA3rP1mYq4mxEdyq0sncyQwUwO1bGc%2Fojk8YjBzMrTGiO%2BL7VtjBePSdlaec0QMDKHsDZI2YjptPV9wJ3xIyspcU3ZNqXHczpWmrgNdKSswPmYOQWfktB3ZNl2xABZzBFPVRW5VOmEulssC2AAD8KM7CgkSnDaR6haHtWREZo6er0EtkQ%3D",
+        "https://www.so.com/link?m=bfXh%2BRuXTfwIE77K1FrTofXLO9k%2FapRxe6j6kYFWYGiWlPeZHy1cq%2B7ry%2FoidqeynSzfXtnhD0ZswbFgCM766EmKiPI7aQtAScAN9Ryv%2F5nFw89Cd6xBUZCt5uhgX1bY1E7X0DBxbum8tzAYtnn8a%2B5tv1OFxMDqOdYL6Y0YK8rgSPkH4sM5l1156rbXlRG8kGsaUevUPBJszlX%2BHmQhWWUr1lDDtKk2EQO45%2F3hkNwhUf5AfVwg8C6Soqvo6uuq9R60qEXQMVlG%2FSzSvJm0CUvOyqhASH9AItD9HhM3WnnfQ2l18",
+        "https://www.so.com/link?m=ecgtEJL23851B1O%2Blacz1WYJkccloi3kol%2BaP3kT1t9j5tBqVgs3iLHcs1EtFp3joSMbYKau2M48%2BQEygbxcACglOWLPpButJqYEYfe4rUFVmaO8Tc8uzO3LfVww7lJaPKlkNuhUOYcWqSxPQD8StzxNaLqcPeDwplSMI8PJYYVVLdZHezEmMCLxgkgVeK6mJlIB1SHPDCmPAEESBcJLoU1VSCYjipKtDy8MIhZjqsZoqKwCBgI4oM1zypVOBhJXZksOGqFjJTJpeS3NljVvt1fRVznoSCicKPmoZdw%3D%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-4e285c9f",
+      "name": "江（文华东方酒店）",
+      "city": "广州",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": 5.0,
+        "review_count": 183,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=uMfhV59CsWTSNZscH%2BNd8IbuUhRdVuJ9VWtO8rxOQT%2FQTbXlwAUNa6CCkna3uRUGVToBkPvHFBEX5w%2Bqyr2BFFx%2BCT85THQfcaJCbdVrC%2FM6RCsY3z1VPX06uqEJeCU0fiHjwcOe7EV8flBqEnclb6hGcZzkz9rIC2E%2B6DGj9HVuijB2lD%2Brc50nlZlUAe1eNmwI0DHFZdgPYicguG%2BiGg76ChmfPQ0EW8mpWgPS7ot1l6heqYHzSh2TzgnxxyWsP2VKzY96X%2BL62AT%2BU0xs7eppArhULnj8pNo5fdF%2FkaRdqc7BCHrxuAqyjmv1kGVRGAYAABENcuY5Xv6T%2BBkF9Rd0Cq2BcbMxzwxg9y1ZVoLHNHNwoJyFtADeTdjWHZm%2BCByOONg%3D%3D",
+        "https://www.so.com/link?m=eRpB3p4JSwK8TPOcuHXkPjyjFEyy8uJpCqD9yNdDTl9vnwnjjrZ6PvqdI8ZfoG5GTefihWznPvHYuyCu9YFj7TvJHGqkVyBUBSvx2Wcu2omr7Tj5pW7adGVB2W0Yw67iVXnwXxnJjNyLFqsju60F36Eojtkha%2BTkE1as%2Ba3xZ2CrGWugjWFSfnaC7v5SublW4cqH6A7xyHIvDrFdYHNC5GIfAUIigwXCpLT131a7yGI%2FtW%2BEWJ%2F%2FaRTdEUzpGDW9wZDhnOgH9118bAY%2FSTrWiMKRc6kuHqs%2B1XKE%2FV86SJ%2BUnHYr%2BEq7XUSDhOh1ooEMuFsqsWItIZ3dUVVMWXLDOK6KQqM%2FA96nEh5Nqaw%3D%3D",
+        "https://www.so.com/link?m=uEUiUir4Bel876TugL%2BabfVOQ8DtS0%2Bm6eGzB2yXvAuy%2FGCQtC9MM48uzNhFtgE03HB4l7thm2%2FDUX1WWeXwYG2n7Oh3wItJUl628s0XTGsx4H2t3g1OjHEW%2FEK5%2BKyHYmZeTVEkfUHPEoR3828pgiKs9cppGGB3lb6kAR3iTsHxU9mHkveiV2SXP2xiVJmGyJHqrZk8CRLUpqL9f2zkZovzFLrsQ6gSm6sHaWdeNR3m0DXtXbDV04wR8xZq2yQLwMoe6gLJjfh2Lsds0FlxF9RjVD3fiW7e1Tu%2B%2FoIC5drVaCMWGOa1B5IPnAi4cyAvTCdx9ebUWsoeYvbVw7HoQx%2BI9j5H9pbSF84SNYQ%3D%3D",
+        "https://www.so.com/link?m=bgwzP7AkMRHJMkzsPfQWP6FR7Qjf9jsR5OQo0NtAJ14PzLg264jfJDq%2BdfJoXnRhwVo9pITNdae9zJ0xeJJYGIi69Wt9%2BlgbgH1wHIOOuxy%2BhUSufn0C1iCRJfM80Orvq0UrV4JgpTCjR%2ButmMSWHlwiM7d7nGVO1FqmqNziRR6h1s41CyTwzBbUH6m4iaqdFtUoEuNBWc%2BGqiA1IBrDrqZzvbeogFyBl0xDfyawfnLBTtI9VPS%2Fv0C2uvDBxvd5wpUkgMNRrWK2Skqj7enaGSUr6EAxBeIDwy5LKfzreD2F4GTIEE7c7LuEOoFCa8FdspVlffqUR7T%2FqzkndU2%2B4QFPvn7Aig2vHY7VfaVua1gQ%3D",
+        "https://www.so.com/link?m=udQFj9RYH0UseZTwxX1rl4jSI3rTMMsJVUdqHfq6bvogxNi%2FLwxOekZTTeAo%2FK9cj4V04abDga9sUzlkeowHA7h9SxE1luZuASi2lpAz1sotcnzTtPXoQnKZnF4wR2J9ZhbdohnKgGfSASZyhl2TJLnyTDWDasd5rj%2BVq392PjIDIarFS1wrUHHgPLHdXlXGkCh4RxUgSJ53HFWChacVxPSerMT2eDV2PwYi0wFVSZ%2FUbkK4k0xrIiD86hPz5%2BPif86G30qCCIBIX5fyVbHIanEFAQrVJSFmRlKzE8g7H13vDIJeeXllaIZC2iVVKxbR0ygzwLIGJL714Oyt%2BDCeW4cYBSBNeQm7M"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [5.0]，年份候选 无，点评数候选 [183]"
+    },
+    {
+      "id": "gz-962b0aea",
+      "name": "泰安门",
+      "city": "广州",
+      "cuisine": "西餐",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=ewwELIm68ecdcpoQPSi%2FuLhUK7qojBWWtiG0TzZ6sFfTR9%2Fgo3S%2BR9UM4rLtqqPPqVi25Ha2E%2BqMawE9OAXFZPHZ8fFIoYS2aosw1A32Ri3%2BBV7j0HcofQGaBbD2eB9vmkbhDGDIXMxgOTFhzTrjaVz7fuSwvprBbSExSeTKjJ4VGxi4Ibk0b3HKIEtdYERHzx2vFmjENnRXpSsavDbg%2FWd3BqgogA19U5hujgcCDpyavn1QXyuPsV%2FjEvpa21bpnGTiGGxA8E9PFpkO%2B53RxGliSU1Ckl9hMnqa%2FzN2m5dZrz7koYaOZCvYA8G0%3D",
+        "https://www.so.com/link?m=bYbbC1%2BF%2F%2FluwWcHmJKUhyl2QTvUCAxZPvoIqkEXNE7YzFmUJZvAvkYI3hjiss%2B%2FSysoz3i4D0O%2BQwBK914xFp0MI1Lx9AygDc07AN7qmeLKdmK5ya1p8Y2d6IWFRXD50q2ls5aaFjCKJr%2FEPIn4r9hZ5v00gRWHMeZfVmNddAt58%2BUHIF9GIZ2g3o8ZI9QlZnl2QeMf3AB%2FsoFhKDJkOrcRU%2F02Np0MoQofyiHi9Rlz5Qit9%2BP80xj9y03OrqlaQuyintyXThuWVjDFs9oJb22kNj9960hx3",
+        "https://www.so.com/link?m=wFQxd0kR2834WZd0vrASUNQFpf%2BbmCO%2Bt%2FPqBWZgSBcCEXRuTccuqglyT2zgPRJug99xVJ4d6THB%2BMt1DKYj2mP25puEE0H0x%2BiZrd1S5qQhfkD8DB%2Ba2%2BpDphTraL%2FOXsPO%2Bsm7cuYBTK0ZGGbSr50zT6xBEYKJBpuzwkyZXroruwgpG630LJ3grQQeNlv1ZazZGgI2P2yy6%2BeGr%2BNFmbJzKIgEeJrnJ%2Fe4CyUUpIJThhNtaU498xxjBEHxFiJcBa75STK9UreOxrVMJCee%2Bi%2BFect8nSb9VhfSa7Q%3D%3D",
+        "https://www.so.com/link?m=wkwvLUvL%2BXODqnh4bvsLwgqA24AhyBFLL5qlSE%2B%2Bdr8aNQ0497Y6tg%2FzVxQLrkrQ8V29D1bs3NSU7j0IuRcA5%2BOspHoASNSneN4XQmbih0hN6a7F5mtPzz0tIwX9tPP1FjEMt5d1TkA1fiafX9sDAGNZSSv%2BH%2Fb%2FZjoDnUvdcKIgasCygHIKO1sz50Ldof5pFJWczz1GOF5pKsG9jupu5K2EHdWajx%2BUImpfhHFrf%2B3HFlInsscKS%2F2WUHCsCpGLzAMYY3ULktRb8aV%2BXcny4OlheQaY%3D",
+        "https://www.so.com/link?m=bURiDN0F8VzkIx%2F4Jep%2Beg8mghBhkqeIHcYXEnmrch4zUWFd16glR3k7LMN7CFMSTe0jRF%2BAwqc7SxzIBXbd6nAIbrsT1XHPNgyafhcUX7VbqfclWfkxSGSZMqt%2F6OkvedMSv7u4oKXP394J8CCNjsBHgo57UFBrZrd7zprOc3D8QDT815I2gFa0AjR%2FrZ9I%2Fn4289qBRauIwRZEusPMvmyFLeLGL00qBUrdNZNKCqew0U8SyoM%2F0E8JrKqgI437BwpjtwHPmJfLrnM3l9Ak88rcYtJ2OsIV8"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-9de7691e",
+      "name": "炳胜公馆（冼村路）",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=wWNMcS0kRStsgrl%2F7G7d99q0uJLrw4BHvSqdfglwPYoMsRal%2Fn%2FtIrj8c9VV9yb6VDKEuoVKBq%2FixRAEjdaqQQ25ysOwb%2F2zMLL1LX9sWMd5QDsJLmqRJ8AjpxLtBmSr9Ytq81QM6NZTvJgPEKxZgguyP3sCQsvpFCfkCFiIvwdys3a%2F5zgnuSB7Kmvt%2BH2ZhyiqVmKqfRAj5DN26tufAr7WKu6h4HnXceBCY6RlhfvTIqAiJy1OdhnAn%2F7OzKbtwIioUY6K6WtZi9LOoyEhhOUUvaSS%2BDkpeO7hHRLIklFpDgtSCF1ja9VITl6I0XCuE%2FxynHi02k%2F8o4pKWBxnwWKqeZoq5B1oUG3%2Fa5Q%3D%3D",
+        "https://www.so.com/link?m=ea9VRw9r%2FJW9UHfz3xYJwdifu38Sne3Etr76SuYZFUGJRJ8wDPA1zVnBw%2FcOmOBYQykLo7dGdDdfMaHEsx86XCcBlU3wAglYppo8uY4I0eZdU7iX8lrPzMpgytj1AvsOr2BIw9LrVS3LBeBeQsKmRxRM2ZZAc1NJQZJP%2F4JrhUwm5F9JgcZEv7Xoto46FfkqWzM2Bh0Ahr7P2bch1XX%2BptKXO4owF347%2FIpw7mgdM27ku%2BoFnkln0PS%2FE08JhWLP%2F8i6QPQg%2BetuIPK4wRvxIlvrnt6S3DsVAdFZLad9EbjRmnDickPtv%2Bz87XAuL3Ps%2FwqAwnVXUenN6sa6slXBVDgLGIucvvoWOwh8NgQ%3D%3D",
+        "https://www.so.com/link?m=eakiiyMuaRG4BcmbZMJsGAu0sdESCPskbtwt3%2BcNtr37faNoII9KeJV9u8GsWGDGDBS1oFA6Gybh8UJdNr7CbuebGJkEMFkraSv4qS4US9HDzVN2h%2BEzjPSHGpnv5SkACI5xpRjLEbpgpRjKrd5nFMr8sZbMWhLZ7VFiLHaxAyAnAGE2gB3KnMFy4Kq6I9DgbGAOa2xCATkPCuAYBl5SA5LfK4HFKgAjE7ZaEKGFJUSR29QxoqKJaUinDKAQj2O6dWlkQZVCwnvXkFeFDfI%2FXb%2BZWmBwrhwb4XxBHTypDcUELm1CQEJhtYf1z8hzZ1RDzJuf5Igx%2BEmkAs9SZzSrhQ5TikiCHZ2y0TkWFm9LhZ%2B4%3D",
+        "https://www.so.com/link?m=bDeOgubDNGlkKDpCnnrs54DxzHI8FeRlPF3Y4hFBCd9uetD6G0hUkKYIlHCK4EUAXDBHFoh6rDVq3gf5DY5ApVWwzreqNA4Hz7b0tVKYN1Z%2BLhqVhscSoESgdejdO%2F99ji6dA8CNE6kl3A7hiJxMJvt2mHpOxYutEdVY3VlRpT50%2FOA0YVRWNsQmdhM9Nt2ox8IavjR%2BxtRpIbhPseD%2FDiV%2BbCW%2BzAilGdbq06YXEswnCtGDz1e4wUdOuOs1vOPuqIFZU%2F7HEvzSS0Wd%2BNUF13XUn5N0%2FZvAVW15IGZZhhaC7ifedskdBWhP%2BKa81ER6CxYkATqd5P48ohs56lr6KTGsAHoo3rq%2FluNT3mDkWFteKsYgJLkL7P6FBeVHNDcjP72O4OQ%3D%3D",
+        "https://www.so.com/link?m=uGWYalzbGEVFN7iFDzwhNmeYU4oEZp97iugBes6fG5bjAfRsqUhA901Tv6D5jmI6YOoEyy52v2G9szGAEwjoUQk5X1amKf8BTECsmEnoMIHTV8DZgEOFdDWFVlGJ8ciuaQqKHynnfqjoSGlUQuGkYapy3bqcEPbO47fy6a20qmwnm%2FJW99myfrapSAoNtj65DepMrrtxjobPRLfmN2IGYSWMAIwJ5bTKPUaLFwq%2FVhIu3ukKFOfqCmId3R6t9iJpg2sFqpE%2Beziq%2Fzd29fmSnMDBR0KMSJdTvEykgrlsaYlDNuqz5u1MjttV6V%2BpGdqg03he1W2nT22ed%2FSWc5l5O5VrEs1jxoUAJr5YzIYSdpVk%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-a8aabfb7",
+      "name": "炳胜私厨（天河东路）",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": 0.0,
+        "review_count": 209,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=b1V2%2Br5xp0iKT33sTiKeKNl7LS%2FgKJPR%2BSLx8TuQCQ2Cx63vSP60GXtevrKcnWUxMYeeLscQ9RuBf0RFvwpHyDH7q0Axnzh2lF5k6ryhhlMWsGJ8SzWb10lRhzMwA2aM%2Fn2tHgueG%2FZkM2p1X8jGfeIVhlL79lzSeSJ3HN946t0Gip%2FTDqwdMRCdj1mlIoM3rlNpqGQOgorJZRyM2FXy1mH%2FxVKDGn%2BQ4xqdc44vNJ8wSo6MRhO6gE7GW4MqlmdjxT%2B81OMAf0R10t77D%2Bud3Zc5p6srGYVIo05RPwkOAAubohzkBeUxqXXeykIW0i3y8R%2FjaLrwIDCvvO%2BcFqcEaynWRpLtBQrT583c6SMgXqoOn6p3TGA7MA%2BGi1sAH8AH5yg3Y4fBSayGhJmZR",
+        "https://www.so.com/link?m=bYFeE5Zte8xymLghYqrh56nUW4yXSFfa3AjuwetrX5%2FZktG81PX6bAt7%2FAMLp0vnC%2FCkJna6OJ9Z9dvlt8bgBDgV5%2FRodeFy27d0SeUqE%2FD1QDMd3khhsjtrbE%2FBCJdQ0pTzCqHRScLdtR1Tqb9xh2qHr802fDiNDM7Iu%2F6qZAOiO7etfnMizHDdhPFuoRyQTkGkWFd2%2BT1G0RiOE8%2F9DxQXCyzYC0cV8GYtbGfOltNZhlL7Q2h%2FfkUi9pXSV%2Bv5XmIGGjrdEcA%2Fj%2BDFy%2FmOuIHKOPd0paK7vBamkC8ec4%2FBG4hoiabJFguONuMTGsK%2BKGjiLtrC%2BY2rnLBNLHAXRMc%2F0uHPBGOtoOhNAJbIxP6e6A2uXWphBcg%3D%3D",
+        "https://www.so.com/link?m=eeEaOPGqT2M%2B9iRYL1l1RBn1zknYht4F6gi7dRLW%2BFsGJ95RrsWbKUffu8MDLwQREJb4Z%2BvXHYh1trRu7EM9OyKOshzzGfThcL1hOwZcTRG17WcO3PuTUWsC6r75ZcdXznN69WPW8xzmS8YZlipVtnKDTLBjJDk17lS7siCYAQBePcQl1O7uVp6q8EuRwvmfdfHemYiYibzMX8cNO%2BpOyx4KWFwMJZo1l0EXL%2FxtPRQiuzXkmzm4B83XBqIBmMJYYtjIFqhBEBCMRuIwih9T2WfdNf8ln%2FOgpzMb0v6aP2ycGs2kLaa3vUfsQcTnzs%2FkEtZhdVO8xj7O9%2F0RRoaX4hgXA%2BOVmgrK%2BDOvSpj0Kt77LInsoi2nyEcLZvs%2F8W7t67deNKKm3BlLxyMx4etuo%2Fw%3D%3D",
+        "https://www.so.com/link?m=bimGkswyYyBv7EIp5bIwz0UqePdUfiUG6gP7YzFOP87qSw%2F8L7IqcFd9bqnG5p3Md7L91W6doEZoYUtmHzD8Chijnc%2FwUFew%2F39BjsvzQKfAUta6q45X1eiabs5lbiLFrnvURT88OVLxfOdS3eBBPWA5ylmNbGcfWYWnRqNgvsIfUsw9UjgmaWGKwsr3H%2Fbp%2FZ2Ib49n%2BWKSStIRAUnYX1SSf7byXLbj%2Bhs3WKW5S%2FP%2FDI6b0hJLjJOUfSPNBU156VrUFH%2FVZFmZ7ZPrE%2F%2FrDJYqfjvt6q41xevIKG0i50OUAmWFBMlHZO3zvBI%2FAGAVvgW8UmQ7F%2FbiBnZNbLZ7OvsAwYRRAIagezCyxPo9%2FzCdTefZo0kRlxjS9e8n%2FQf1BSU9OVWXCz3T1NIzeHNM1nEU6CwI%3D",
+        "https://www.so.com/link?m=wF1gX6su8eYmXhC%2FIwtczaR0blZU%2FvZkQDHFBeA23hlZgdK1Uaa7WwEI31vHWIlYh8MC7Z2Rs%2FikylFa9PH1kjKeXgv3Cx52L2hCP1GPMeeM7XdPJY3ltxVPuFxaw4%2BRkL4KmXs2knBAGCq0IBVtfz0jt7klkLVBGgEq5%2Fc3Ool8yotqGs9bg5VwaA26%2BzV5Y3s0pFKtkUb5IOI55lXh6xRQKQZDYY65oH12azt5qi6cbUrKa%2BsEcZareEjh2cx%2B36M6vxDHxbVtJI32TZN1hUAGB6Xl29vQEfB0K4CE9mOXcDFpnj3jG%2B6XVjD0%2FiGNqMled3%2BQfweZvkCfhl0VhBbhMm1hiO%2BwcfSBw7mP%2FUzPH8eDC"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [0.0]，年份候选 无，点评数候选 [209]"
+    },
+    {
+      "id": "gz-c8f1de51",
+      "name": "宏图府",
+      "city": "广州",
+      "cuisine": "早茶",
+      "metrics": {
+        "online_rating": null,
+        "review_count": 102,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": 1880
+      },
+      "sources": [
+        "https://www.so.com/link?m=bm6Ho%2BSbIEEKBpw72xNgJEeoVNpyJnfA29ItfqmETZkGKjUs3l8ofC8pm3JPLQk7jg6HY8m2rLZC23OkQGlKYdctft7XH29HCVk2QxzZSYtgmifet3mw3ceroga0uMNOxcnYsYk0GUFsrUgU57UF7TswnByzSKXMoiT%2F5So3TgOYZJwq571ptaJ%2BfXjDbSNIw6ZcbG4lOzOlKP%2Bok%2BrkH4t3UALaJp8Cxe424zEcKKbAf2gtRJq%2BK79lPnwO0swrhOQo8eS0cp1ilp613Bz1NUGyfHaLrohXmq%2Fcj6a12cr1Zc0sVvG57t5id%2B6c%3D",
+        "https://www.so.com/link?m=wsvupQ04f6MspYSJ%2FKf0VddmFRUywVusZxmd%2BCFc%2BPv5onPnVzX5ghOODsMnBU4YCenNQCUK%2B6vNtkiAxSAPkKRqM8NQggKtSSUz%2FToH%2FuLkrJPYzGT2qEecyHI%2F1wqXZMyVu6WuUXw5swQORLfJMs1rAT6Vd%2FdK5C%2FmLkwBQlhVBI5gsNWB2TKu4%2FscTug%2B%2FtpmKVQ%2FCQXNUUThS039WzfPku6bnmNdJSA5vRAWpFqTmMua2oId6WzBDGOe4qiWtwN7IhJf4xg4ABP%2BlQrkYDeZPjY68I5WUa2AYJNtrkWM10FOyBZ0lALfRoJrbK3YCz9S0PVsSsqk%3D",
+        "https://www.so.com/link?m=wdDIaRPdCFiBoUSMgxkPNT7EQ8Ft0VbavnRpceL%2BavaXf2KzGEggzIhPT7sUhOPuc1MhJLzYIyjqVVbdnaQKbvWtRc4Dvbh7f0mAcco1fpkOdoU704nOProhv1kRWj3XJWe0uPqXn8%2FZVja46bnvG%2BxCwm3pHV0Vz3uAzgRpMnbLxuIi%2F11gdjxXs5oUM37LEjooHiL4IJ%2BE4H1Boj7sIWW905y4PjY3WgTdtu833deZkp31ykLmBrpD1fd5KUvNXvC3zvHyB7qjHnIwdECjqp4xqKrp7ZJfjypCd5YnhWRqxlmzHGih38g%3D%3D",
+        "https://www.so.com/link?m=zichw%2BdKjLPUf5%2BNMjDLLmcGy621W7Mx4yKFFaLQ4%2FqXz5UAR%2FfRWZAq65VoxuSalXtwD%2BarR1jYRciCRrVOmBFZATyij6FwU%2F%2Fv5yTfacqGyayELLIcqL4UctCpxCZx61K1OUEnmvVdsUa%2Bn1eqNyvk89pd98JEEmbMmW8DJbZF3ASoOyBkm4pnu7NC1%2BfEqP0Qsh4rmoL6bCdrbbAg4Awd62iyJGyp8uuSaa0EoQRvU0KWwzIOkACETAQBe3cp11ma6YOc5%2F4KfhqYTN1qFrME5gYE%3D",
+        "https://www.so.com/link?m=udele2zWmg7R9ULf9dj5BwDlOELmwR0%2BeRyIOlsjt4KHuJAw9%2B0HZ5LHIuA7c3lleQoxdBtXWf5390zjxf3yQDrXZQvJsk1%2BJmpMuotSlm5ti9l%2FRD2iSqX0q66Nwsz29kAYnkpOmvMCtXNJFifzAvTzqXkOCLxAeUg1%2B1bZfEoxA16KPB64POm8ONl7UdzB35TL4i925TPSf2cp39jTbGe8EbPUFiToH8jVq6FmwaH2NaLqSIqtOYv658ZnOdh1u2C3wGtM0PGTj4cnsX%2BEmnZLY3Ro%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1880]，点评数候选 [102]"
+    },
+    {
+      "id": "gz-e9f39e1c",
+      "name": "御宝阁",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": 3.5,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=bGYJynAxJ4FPOWxYThju3R5T3ldUVSmK9z%2BCw%2B4DL2XbSNc9mrCr3LCzOahb2UwTS5Ty15IGNpd%2FxdTixez7s1u5U9OmuNZQTY5iEYf03Wb6qoMwmKITAghtFBz1ebbQGu7Y03bbWSv6%2Bv3U6zSenCctjBdftV82DRgAs64vbVmBPc5u1BqXFKyNFyRg4M9N%2BFnyEJM3elEI%2Fy6sYkC%2BkRy94VQPOwUC89BT5nl6%2BKRkyoVprRTT782TPjseW923JfgESS%2FdSAJXkvF3C33vW0ZoxIVM%3D",
+        "https://www.so.com/link?m=bPsfZZz5wZRAId2Fo03%2BuBkD6ubNQ4on%2BIBDEIoPiIC8N97bTfCsI9bT%2ByJl2GiELxmmHxlEcRpY%2BPxsA7fqmtYIlVPMK7PILRxG7zhnz8BN0S20hk141ZItjnc7xRL4eOUP3dKXZPI8l79WIgRJFszqXJNGgPfasPPE%2Bxrgi60u6CdeRxZO9Ttmicef0CJ3TcC0ZVisv5qg5MDKQ21Q8nYs3AuGTjmUCOP7AETM%2B6caEFMgVuxBjyEHvDkzO21Df6uSMj1sU5xj%2FjvVwk%2BlcW6P3GCw%3D",
+        "https://www.so.com/link?m=eqGUPIraYOlgHQx0VDe9NgJSOC%2BGX5oFLJ0G%2FGZJUyrsiyJYpdm%2BJExMZoan%2F3%2BkvxHmiLrJ6bstpw5YN30n4m%2BTm%2BRW0jjAKa%2BA2ZV7Hbe8vVkhPim4TawNgoX5MlM6HREtblCJugG%2BA7WI96lbh5390YkT1ab9uBj3e3wDpKIycFh%2BOzB56Lp%2FEV1XECUDUOhbqkcFybLIT%2BAZDJTiTSWzjLmsDx5RgIHv%2FVW6AfRRGKA%2BnUE8dsrByzcERKztIdmSSE12%2BHqr8nciliGhPc%2BiFid4%3D",
+        "https://www.so.com/link?m=utjU0AFqAYAHKFueNugb1nR70MiVdVAT%2FOk%2BeA1G5lCky1Aih3cYlQRRC8OTn5NTyzwQM2wxrxYPcZHk4TcCH%2FVSFsAsbpzhQ8dCDoLllvEN9IOBORwVfEvR%2FA%2BHVZS7l1BgFzn%2FvB22ygYVKsJRXzHPqsQ6GPcijZSEqGcyEoObaswbFlT57ZS7B3sVdCQnnGT%2BjxeBZO7zc2A6YzaOwIdd5%2FdshDgt29SZ13RcT%2FLqiFOj2oVe6q%2BnAziBUuh5WH40MDnRu8i5IIwJo1t7djPrAyn8gtjs%2F",
+        "https://www.so.com/link?m=ul0iUPf2rGWMlhnoX64ySthvNYDZRNKd0Qq2kZDl3z8XHj3FLrJuUbnOJ0ZWg8gwSZ90s6Zf2fh3g1REqKGlZShxz%2BWDPCRLtGyLmQIgezoI8HGGxR1E793o4CN4KO01crrVPNVf7e2kYfPuS9qF9%2BuyNDt%2BNCUlGus%2FTZwM8m1ZuDB7XFzafGeHckj0sXgSwJthiFZ1QeFBhqTd6W6ZyUIVndeiW4qHVPMdyVddDtB047muJS1kDdMjBQ%2F56LzRT6aGXQik1VqlK6ACD4GnveueI%2Fn1A8wPCJ%2Bshiw%3D%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [3.5]，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-57dc59b9",
+      "name": "玉堂春暖",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=ukcAlJUTqr6ZlFXQWbbGxfoSC%2BtPGVCqIxf2PleofxqgAcSHcX%2FOUYswozxcFU9aV%2BjqR7rkO3t4nbvs22qEn78RKhJcrvsVZUEJEYMPlso1jks3%2FcIPwMJSziABaG3Ocm3efcVfppiz0lxz31DX548608PSm7s%2FOGez3n3rfJwlh2Pak9fYi6DbooHefMGZsSm6y5bN289NVBhCCRyroWZcNhTgr8rNwVlzjO64TQcokMK2hrZgnJ3zc9H4Eu1XKHoQvOl0iyBuflV8E4uCfZC8bjE0oo355MY3mnqMAVzEEG2%2FrNDMNjBDKGdRyBnv2Y8kFHg%3D%3D",
+        "https://www.so.com/link?m=wVFWBJgNQ9qAf3E1lLgI7wFZmxqbL6HwYnRjEqaEUD3OJjLXe5m1sdpPXaiidF6CMXoYuLnR7AksJgubgE8lAwOF%2BOGPueprp44PiWi1ioCqWwdeYlijICYMIzy4mLH80SC46Sj9uNHzFPOwobg5fRcbwoZWwizBBnAlERegxatFhH6uZR4ZkFIrQmVTQVIZvx54jd76XdXFuczBdMoUBukcN1LqlLqNSymORowF8etPRU0vBR%2FF7T0ZI4UIWzrjWOqI5QN5Ug4DcJSrmITdjh7J2BgbcbFMKpGikRBNhaVlFP7F6",
+        "https://www.so.com/link?m=bBemYLEpsmFtWeBluBviIX%2B%2BduAHvEFohnVoYmb1Ligt%2Bq2y5uf01jnpKtGzZ4OD91XX1rX9VRseDy9Yxea7t58BBieL%2FexP7yrHFWB9jUI2t43vznP8ateRI%2FNgzuACkrlwA%2Fs3PGVTUNbPPjK09CUwPmrPxAZAgFZheRth7TKQQNBhIBuJnplQ5moTHcgMkUdUwA74lIaCp0OsGWskfxT7iVI42oFOv%2FtfNDySVggQLiKGHqYlISBF2NxQuLac9bbuwuqy1sVPqnTqNpwoKmf3stbfereE0psCv3AWubf8%3D",
+        "https://www.so.com/link?m=bUpiUVQuMQK1vFgrUocZpJ43Bd6AggDVtBV0nmdcPuzWMaaEuwFWD9grXaEMQGHi1Fkf2eR1JAVlvx03YGrmgn6HSoKoWGWDuixSss4dyafevW6uI0xLitqlATcs16Owx%2F1xVnj0sNJlJfDfWfkQzCaAVT0ErQlYeKVhwszDeU5FuhlYqqQ0DdB%2FO80Ss3nroCZR1AShKbwe06Obr6qoe1iHubU2Bwm4ir5tiHt039Otpnb7U0WQd9gLzizqnMAzcVg%2FqclFycy5HL5jPuM8ir%2FXu%2BiO%2Bsm1gYuUW7KyX6%2Fe6QkHH%2FzgB%2F72hzFgOXo01smFUjQ%3D%3D",
+        "https://www.so.com/link?m=w%2F7eZAj9hyALyIXCOYgL0Nfa0h9GrsQDcmNzpzD%2BMoOXutXQ5ETmfJn%2BSkk2v5Hps3ieqXPlLxw4Mn%2B1hPYwoxvTBwnDvEpJdbFtAoCPTiJQl6OZlYpVB6v4c8nWB%2F9v%2FlYnk5YqUWv3xuruxZJ0Mf8M8%2BiWKLkRLmwtPwk5Rq2WgSSbO1ksnxRmTNtpOM2Qg4IqZBV9q7k3mkckIuFNd3qEipAOVEMNT7X9qfC0dYWp23qyK0ADA2IoXcG5PK1JGAunhkSkHkKiFkmsQEdnaH5MW4pdt0z1CPrZ7cQp1IcAWuMBeOnSYIwei7x3gjD95"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-bafddf0e",
+      "name": "丽轩",
+      "city": "广州",
+      "cuisine": "茶点",
+      "metrics": {
+        "online_rating": null,
+        "review_count": 118,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=b346PKoyUnjl2anBMK6rrLrY2RcdyLysYscadskfadNN3TvyXddA7hMPL2KyXF130M%2BY28xVN2DCaKdYxEk1NsEWESqVGw3YbkDDTKztq1UUekgcScqgodR8yYczOEs1Q2JIAqrmjHTXsh%2FZgCvMdYSu4f%2BoqI7tuQxzPiGL%2FIlKZjcG5TU2W2ZXmhQWAYpAnj5tJuhXZss9gMjkkx6K11aRZ%2BXRrmZxN%2FAq6lm1csv5f7j5x8Kkmp%2Fs7c4FBHCPR7KWJ1E5iFBYr6Rje",
+        "https://www.so.com/link?m=eo8MGkZcGjqGcE3b%2Bae68CpsaQrKDbRpHWtBK469k17SN%2BHfqoQFjoSqVFksYs0WIM9hgSW6QoGHc7Jq9MK90otCwK%2BURKwT6LERyGCrxeCruNs87p1vZF9JKQ79skaAW%2FMwXrMDGwo3uN3zaOWaep3pLtvK6Ej1LV7HzkSPLFF8Lvkxd6%2FNw1NXfS%2FQPM4KR2T8709D1uQmIs6J3a79rMEOVv1XS5lZxdSuxJQVjkwgFr%2B9kcwX4Of9nPMxmbu9GKR1ii0XhWOC1jHhv",
+        "https://www.so.com/link?m=eh5i34ydqdn8xX8ZHyi2tDGqLcqZT5mnTKpa2zW6ZPE%2BNh%2BqJXp7XGlKPh7oENu0atx%2FrFMF0R8Due%2F4pC3y2DpVM80oYNBkf6BZ4pAmlJNeAOfU8epGLqn0qLz%2BHL1TTQnpyv%2Fs4m3TLeaRPIm69PZ0aH%2B3ufR4GsfpZAxUBZvqAmLVanN270V6mxnkUUURcPt6pX6%2BDw0Zm7lILkTKFEYly27KsiEi4LWMansu2tx%2FrVobO3Hr117s1t7T9l66qlVat1%2F7qUcNLPa1F1iAKvpG%2FBRFu2Foo",
+        "https://www.so.com/link?m=uS2BObQgZEdf9YiL5nNaM4qJ173OzpdgFCKXb1YAjpEhRIpp8ld9GvwHGeI3YB%2BH%2Bit5m8YwPVSCffwOHRWlAvMAJuKtHZp1IOZsC%2FmgUDRdv%2FdtgUybEzmyR1eerRTL8fS9MPRNbwE%2FOChGp7qctvCQx6ksVfMrmD%2B33WvaiVGc4MOZagFIVp7%2BfNrDm8BauD%2BXBNSHSj%2FKXSj843A5Nf%2FcrTCqIgBu%2FxPLrmuXe9zhqbQ%2F8QpPgoX54W58A%2FYi3Qhq088gcc74M%2BEshtJ%2Bf53TNxPs%3D",
+        "https://www.so.com/link?m=b901GM9q9FxlUmklxp%2BhFjrIS%2Fow9NA1bxn8tRW0F%2Fo0NJHT%2BVKq3mj2doox61GxX%2F9NGcGCy3kHaeP8yrklUf6XBx2eqpQNp18n1Gz24B%2BxXu6if9v9W1%2BksubkOd8D68uQYY0ehQ%2Fkw8%2F9SaNorbvPfAWjhiaetD0ehPZChvF0LMszl5uvgZnlAM57CdeZ%2F5hk487mLHAxcnUNkE3NbBAcXaBcjpYNm4ry7GAhJeo%2BOvGqVeSqmj%2FnNzDtKyNdPA5i8FbyCGiKH2Wwr"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 [118]"
+    },
+    {
+      "id": "gz-33d8950a",
+      "name": "利苑（越秀）",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=eLFkR0MAfiJgWclDyQnIiheAO7bvGMvg%2FqIh3CfNlADgvKZKnTaKIyWkO%2BIS9yEyjgKl59mAIUHWcmoi%2Fju8NnxtGJjBkEVCj3b%2BBy16%2BZzh27LctM9wEPoYQQJ%2FSrQX9vWKzwxhmOqKQJqM3A9BhUEpprQHl9r5SSjNNTHH1hV1AVX1g%2FwQnUYYFVSK8tfvKoBnSRT2Um8K3rAqtBNqJT90O7iMOWmdAvLOkg3J0E0viUpG2fbxRGMuD%2FEpQq%2F0JDHonirZOy8tgpyeXzRYCyoTZVcYCYl1ASLcpRbJmQMuUI%2Fgre9xjmgkENfUqT87R",
+        "https://www.so.com/link?m=wC8nIXn9OEwiSO5Fy6C4ycR91MEa0pKOxYl2eEr7c5GvFLB1ELen8Os61EDNyw6DgPQKALY2Avq4z3UU3CCgrww1nQT8sWIExd6r1LWJq0gF8ga6D%2BBMih9bQirWSIq9BT0gyW5PQhu%2FvsNI6fgN2PA3yuGw%2Fd0SA4P2yc3NlHU51LQRdy7trIm3A0hX9b1weOSJ8lYXaU7d%2FeI4TJH6GG8RkDHBL8R6yrJ7eUCDj%2FmTzHOIzhVooRehef7oyxqiwk021fNjqle3RD8%2F%2BjJBLwC63SBebZj6mO1%2BTw4vLEjkWemBNn4t5wKq6kOmOBrkE",
+        "https://www.so.com/link?m=utM%2F5GpI3N92a6nHk4rHbxpiqMx4AuG4k%2FsQzxSuWo2QQANOjEe571ZjEoWS72osQTpCdHa3tXCXjpWbzu9wMc6qaectKt3RSbeZMO%2F2JMPq%2FujaBc%2BGm%2FBNDog1lRRMP%2Fuu8tD4D%2F8QXhbbluS9iuD%2FYLYu1SL%2FXK%2Bmy%2FIbnWpulMGd1OKi6KYf9lKwh5AHZAXmJR0pOzFzBLLU8NHUYx01plyqTWNmG3N7h0vantQfKq7VID9OECXDc6A0O4VqMZpZPqdSXVycjgoWPaUbUOPZLhMOQZUIYuxIDqe7RqYT5qGknYb9Vt6KTYJA%3D",
+        "https://www.so.com/link?m=euxZU2aZ%2FyD9LrDvl2Olw27BJUlQhmib0Qq1QMCiYhAd3GhHbjOV6BZfH7SdgbXf%2BUykGaL%2B6aEVVzFmzPFlxr%2BcUQWYw7peTUpVUwAd3kI%2BjiMqjHuvpgmyKKjvfvfWYsvXi2%2FV4RXoC6FK99Hz9sUGHUk%2F3%2BFMzLH3A4ZqpTBDSgbwF%2BwDiKJ0Bpgc4%2F3W130NsBzQRmu1fkY%2BBPfcMu9ZO8c%2F2ebxtaCQ0didiNO5aRlKzcEQSkkPWXnZENxBCS10zhkEXO%2BSm2B%2BiRzDsv0VfG3SLG953YQrTyw2osfA0DCixh19Y4q8fBJ2%2B%2BPh8nsPhkVLGVpg%3D",
+        "https://www.so.com/link?m=elE1K9gtnUaBjpRiXL%2BvbVJxcsHfE0rYPj5kfMusigNNphPKgX0YfHVl%2B4ZH%2Bhbv00Bdtz5E%2BwTKabLpFdhK2FF3v4yLzhLmxonF4%2B6L7W%2B2R5zuuwMtWSLNIpoOIol%2BBB6gwwjx61O%2Bu277OSWMuJwi46A2IU5d%2FTH198lKpdbuPSK9kSNFI7%2FGkJaFyT4neT%2BBfByBZ2zSx5VZlCNpuxuMhNeRz3u9xyxf5d7B09LEfSjkQD4BtWV%2F9IcWYAVE7zr72Qw2vX%2FK86JCQ%2BBIYUw7hdBWaUTak2UEVXa2b7GqUmo7frSRNlz7trEXO1Lnw"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-e95ca1a9",
+      "name": "广御轩",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": 1148,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=wIwNxPP7aMhHS%2Bfy2aY%2FXHaOWCqdGQlQDLetwnWjK39qxiLfypPJBhMIaz1xixMJkXq7HLX9qtuGcMwCISEC009dQ8RD2ppiM9icMZ0wOvkKS4Y1%2BEdWIKTEJMFB1%2F72W7Lj4TElfI3EJIE6ueMqjp4GUotwK9aFUqXSDYey74yvbeY09oSAQ4BuVUMt382wZ5LMjuJnpiGPNzAtCUHK9yW6dxTr2PE2bQivtFqEp6z%2B0sKDyfdUuljZR7Dq8fks6bTZnuSdlCslmVszVXHYbZQ%3D%3D",
+        "https://www.so.com/link?m=wYxdMacysf%2FfxiBwQRV8j6kXgqJklg9dwgzv%2F3aSl1gP8lZSXfnF6KI7IKWi3fx6zEqvPdFKhBT0ysyyUHB1yUZTYwoGq2zSQw5DOm1w3zp4yrfQnHb8U9kOzo7KOrAhobNWaSaK0eeEDo6%2BmGcy%2FRaG9QKhNUQHI2rHInd5MU0RvEgZXvFrdObtdQ03QovJIOldgFe2xyQarBvbSK7xV%2F4wYcWYixTXe5L4beF3udsPLicjaE8y0D3KtPtk5NYLy0PYJuyQjEDXoGmb0cG8KXs2bOgGS%2FOadwRW5H3y%2F7FPyjsKoOXFWitiZyuc%3D",
+        "https://www.so.com/link?m=zaQB3%2FQzELPppO8wfS1hKY1GYNOQl690yvLb88l5K1irFPTm4Db%2FYokv1Re8p3OlT2EGyuydCQ6KVbZ7NuLMMDVwYLEMCmI2LpSpYdG6XdZGZLZdwr%2B4I9laRICCdgXpUrR6kvV%2FJBXRAHwaDzXodI9fZMN4iktp5guM5TT5vccfYi5MkuwaSY34itGLopZ43m8FNnqxzveyce6J9U%2BbTvJz%2FhbBnyCSDmCSPcl7AHmlr%2BwKSCNnMPiKIOHTwOWqpp%2Fq8YCrpxftjNsKFYoEPHMzjl6yqwuG1Jg9v3w%3D%3D",
+        "https://www.so.com/link?m=zIslxptQeQgXf4rRrIz%2BT4urLW%2F25qZuwsIGgzS2OgASVHNr6QA37hO0o4YAls8gwgywVaX2CLooFv7gYJCOE2OtzUixnc1bWZt%2FRZpj4%2Falomx3h9%2BoFB%2F%2BayrB3ZjVRgUBoM2vl39l9WnPQjEePnrJZKl2jQ%2Fli97q8wfw1dVKl5JS7nGca0J%2FTUXc8kMGm8FD4dLfGZsEn7kJeZujK0VIq8XmYjZMKGts3QDyxTzCBv4GdnPHkXTtNkBD0BmvV1rJlRS7DTerZ278tOHmzryBkIVnmc4w2",
+        "https://www.so.com/link?m=bSzDBk6QEQRo1yC9ZGsDs7qSTPXDQ%2Fn7b2aOOAALpAWxyQr4yAI0J9O2nTG0hkJS66%2B9vm%2FiA3tfkpUmhuACP%2B%2BXRn9YLERR8Rw9DRNcuVf18E0qvl2l7mPbxWHaV8RIJydUnxnuTUHXtkqptufVYges4ru3K2%2BnF%2F9fjfd7XPPmt7OVFGvov6UokhvPb3EMkErAYPvKTVO5qK6%2F%2Bw%2Bhh6v%2FyTU3Y5s%2FApIMuKk3X%2BUuLBhmL0fw4axqtzhKTHTU7s%2FDOTjBl3LNUF6WPLfAZZpBghojucP8BaiQ8wDVknM4%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 [284, 2013]"
+    },
+    {
+      "id": "gz-6e30b089",
+      "name": "玥（Rêver）",
+      "city": "广州",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=zDMOFBVTtDynFL5aR1MkRGnbtXs4Q%2F%2BEl0GJtjdbpr2ysj%2F7ym4f44VEEv0P3WpB6zzZt0OY5CLUvsgPEiiKjsapkt18jWTrUQJx1U1W4480fvcBQvbGRg%2BbYvuI0Sd8kBfDZETS6Cxawy1dZSgXXX3ugDE9rfe7Tb9JP4XsUyMyc35TYC1m9DFi%2B8hPuNCTGelVDXSqleKiNjeBqKzzmzTmDn7XHcpydFjzzc5Lqs%2Bp15sCHwsgdQicPkI8coflA2QxydqjT5lQVCK%2BwJYt7UFgrz0smuBabSTeRig%3D%3D",
+        "https://www.so.com/link?m=eR6WDSpNhGBJfgdbKfSB79%2BB7ipN%2Br4MAaWpO%2BZAnCAwvVWToXTNk5s%2FRuJLqdtvtxWQ8Kk15jbwPP0F0LX1iEvTpcjvfYVRCj0WVfRW6gX8FrdkKtHSAGfZVZya4GyV%2B12T6bVA2FqkDKFdaA6qWmym5sudDDhokN3faD0vduqpUeUjSqGr%2Bp7u4ysu7t9qCeBAFitrwj3fJWHjpOlfG35ZqjWDbnC0JpqvBP5JR%2BAv%2B4YalTrJWpQ3AgoQIonmmfi2BcfAEvPnWE98VngMViTVk4%2FrJHXQnVLOs9PSgH2m%2FbFyKwbHkiE3bEmoGNYsSKL1UN4mhJ4U%3D",
+        "https://www.so.com/link?m=uPTI0SrWlGQ7uAF%2F3jyLOsiwvXRZZ1o7eJlD1BtzhPsAapNLICaqnb1%2FFkWgguzPf3k5CWk%2Fn3ejZf%2Fi4QrJfUGNagZZ81vtf1ODgUCXqAcK7PyNPr08wTHOPDWzdHYjBSmXGu4Bh75Wr273P92%2B4NORMwyaA2gYR0Lv0JbiaDCXvtBT%2FtK1ceeD2V%2B8RmHPD9S3YiY6bBslNBqRq7EP2iZSlC%2BoeVbU27Mn2qN%2FBVGvpd%2B5zE7la9%2FkuFIoENhIBLkoKdwSOiBFUqusCosFRdoDSVP4OschBHGEdsQ%3D%3D",
+        "https://www.so.com/link?m=wQZgHspvpoS%2F%2B1AvQjqNYDM2CthzCXzxIIAAjo21WrliP0881HZmWMFG4oobz0TmWBoCH7JbUP8hlO0IJz0oHvplYLDnIzrv4Rb2%2B9aJINidoP2Pc3hcbHURH3MhSRpkVhA%2B9Q6nVPaF2ukPT6ZFez%2F%2Fas9Y6%2FcK3F0qNOpcURVqvptgJN5JOL5KUyOUziehRjfoc3aQTaSOTQOE4MkDBTj5owfi776J5ZdeRvL7jhF31LB0QYW%2BMi26vsldfyo38JCXXqCb56FvxIaFR8XX%2BeY1NsjTaYPDTyyu%2Ft%2BNg51c%3D",
+        "https://www.so.com/link?m=bgYaxPAchmSMLFzNctwTc1Tz08IpCiOGmma4NQ2pzmPzsWN5MqmtHetgj9KNUwct68iiMwQ6h%2B6WTDW%2FAwTQc5o3Wr7p9UYfYdAMv%2FOKL9%2BCSqOrfv113KlQBOhwy9jqIJfE5On0XvQSp%2FQfnmELCUV3Vdpg%2BVwNRdN49K7%2FmGpIsD3wB%2BfpdWKjhMaaxGCC6Bbw%2BXKG%2B0GF9RBYH%2F1aR9BeXYyL%2F%2BKF9yH3cy5cpLbD3obqjOf1fNlPgEXQrAOXLjhXzW9jLkfaSq1RX2iwc2ful36fi6QAjB0jsGA%3D%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-2e89e420",
+      "name": "宋",
+      "city": "广州",
+      "cuisine": "川菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": 8366,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=bRDtyWmCGNJIaM0QkMU8Z%2B6AWTBhbtun2Eu4VXuddzz3GkWSSOnyMZoFhXQChAMeIT2lbKl44jdj45cZkeM6FjFaBU%2FBpSrXw0T0%2FV1xOunoH3ZsqkcwcCvbRmT04jtLkClqQ9qhfCLazQwzyHLhMsjZsyPosRc%2FLagAwP3noXUBglROmku8GCi1mtnR%2BeiSkZUfM3HP7VHHvIKBV1es5Zd44iwulQr0hefLW9Isroxrj9MTXsRjqbnjp4KOyFaKANS880BskQlxDL%2FPA",
+        "https://www.so.com/link?m=us0A%2Fl0k6EQvrS1CWTYtE%2BOo180OINwxpfDOIq7dCMeUs%2FJrOLwi%2FCx2ACPsCE98R%2BoN%2BwrgC702p3jb9AZXSk6ozTCqnL6mnisIn67B%2F%2F4U2pTUuSqANrVySEyrcP7jwlCpeTk1%2FaTK3sOCa2HvEbkTre%2FC2DqFF%2BEFeVHAuQ4TSPa9wic%2FBr%2Bj4RKHmo8GZRXEL6QS4HgLUxscYjF4WJgD5evyI9Qj9D5Eq2JuP%2FXmahShfCW62VccrSDwKWtTZDCH5i%2BNUcdBBDwEC",
+        "https://www.so.com/link?m=ettgSPtYu7vwQoAdOAhlatZDi%2FKiUzjFKTPKcIHGJkmgQy7%2F4fDNfDaP%2BWEsM7YBXPQnAlGrRhI6IY8voQziXNtQft2jr8sDpSxuqjrMdpgCs404LCv%2Frz5m1%2BLGc2wcRrDk0ogL6ypRolJCKtJx5%2Bvpqvk37FECz8wkVJ28a8xTmSLTRdRTi8xObUukLNz6NxhaY6EAdP1RsVpvsrURRVKnoUZsciarpb%2BymXGemzzXyrM4c6OYNYUZ43Hdl%2Fw0mKp3lE%2Fcj0cw%3D",
+        "https://www.so.com/link?m=eFbKbq2BHcYKfHUb7Jl6U6Ngh2BFkM9tMlNy4u%2B7P9Zlr5NR%2F71eUA%2FCtjUa6uWdFnj%2BFZytohmd%2Bg8INCugnU1Io5xzYAd1MjvF0ZrHQMc3%2FTH2HPSv59e2ggA5nJMUZcuQOmvgwBu50Lu1Mix55SS2eMbjbMXLk6pwPGOTm3UmHE%2B90hdXbPYTyOkFLo4EwakJH5l3hx4yLw5qGqTISbF7sRlMK9o713CoYjy4UhjHGW1zeREH0ERlGR8g1Shw0QCmwDqE8dpY%3D",
+        "https://www.so.com/link?m=wa8xjFlVG1QqNGXUKxjjSlIhYclQFJq1CK%2FZmRaWwi9ZWhH%2Fgf6FyZb8UEGC1x3MjaYofRtQ7YitQ1rLx3Uu4Bf9nyqmy5FDRltH%2BDkpCpkKptxZNZKp5d6JArZx4yiVHywWfZepA7K5IqwuXzraNzPTyiTaIT0SXDfBWmJ5KzTqgB%2FardiYtUxcJThKfJc2DdfYTI98ruHVgvJC1aGCx3%2Fr3lTaCVT9h%2BA6ZkM6b7Rdosy9frYJ83e1t3wb6P3obG9EU%2BA%3D%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 [8366]"
+    },
+    {
+      "id": "gz-d3707b7f",
+      "name": "斯蒂勒 Stiller",
+      "city": "广州",
+      "cuisine": "西餐",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=b2IUPKN4GTA5rCtwzfjO%2B6xLZN%2BDg4aWbpyR0%2FFYPZ1Z4qVHbje09U7F71aMf31a7JEwkMfXui7gYMGC2d1CQPIJ9ulxHIbCNWK7eULLIPMj1geLDjf7ShzQFlJSbT5zPBHTIGb3UJnAHAi8nDUhdWe9NacOLIuGm2LRD5RP91Q%2BnPPl2XuvefbZHnAa4k2mhDcj8m3xZM2pE4ELsUjtgw4cL70d%2F8oRw54uqP6Iynud6yjaT9KF9%2FBJUUgKbq7I9QNvNsmI4p3JjF8ZIrJEeWrf7oxF4JfkXob8%2BddRMrOIGbBP7%2Fm2DLp3dbAM%3D",
+        "https://www.so.com/link?m=ucehQYDrzPSySJqKUuA6%2FZZozP%2FgMOZQe%2Fh4VMyNFpq5RXUXBzoP2nOOWKG%2BjHBiiOgcO0PLOlUu46DKUQjC9qTIE%2FyglDenFcaGHgrvBIOgmJwrJ2jqW%2FPIn1thT0LqMSWRbYlW8OgNKQebJxzr%2F5fUBVzFqPh20I9Wvj5z%2F8AmXuVNzk5q5%2B1eHPW5L4n6%2B56Wk2wzBqgLyc4gSU5cLiJZMeAlztBSUZbE6kY1X6UClvJGibQ09gHBMx%2FKi3lNvrRxoutkmgQMJqGo1kkdW%2FNtmSDveRiuvFFPH8XOl1EEKnNTulQzJbMgS0tj1pP4N%2FkFcqo92sEk%3D",
+        "https://www.so.com/link?m=eA71kDHdo1fbRYTj%2BOhhJvrfQadF1Ie6fMR1frbUyUW2PzLJWe%2BMcjGWhp1EIe1YnQj8ILMhLa8H9sdRB7rVIe4iAsmMSvsNotl9BwBAdpDFl0ILXTpK45m3611CUo2djQQ9goEynCblf4BpEdxzQ1er8Sid8Uh8uJ8USIBikhKasd2yGPlAHX4Gk4XyszERaoY4fHj27%2BJ0cfDoBueKlSR3ioOG5%2BBBnOL%2BZPYEAuiWlhMVSNYb5HNl1HbUn7PTzRepYp95Fl6s5%2FQkom0bBRIX5%2B9Y2nAdQL%2BJJnWyTkUIbVcW1HVx%2B0w%3D%3D",
+        "https://www.so.com/link?m=e53jt4QH6%2Fv7gDMUWQnvjetj3%2F3TfnrfKN5AFR%2BBmiKKySRkp1l65Os8%2B%2F0GvANq4SRJuqVnUvoCqvpv9YzXJpg2FWpZ9pczdLIOzAHvm4QJH8RcKZZ0fL%2BTngQjzx%2FZb%2BcarUZM6Y6SP8wwo9XfKtBy5kgY22X2Sb15BoflYYsYrv0f4q0lDtWev1CYowSB0pPcKBzPIYZ6PuVC%2FdmaVA08bV2IDH5gFSOHbgtdNECB0ExSvq47quL3JzKQ5cVdu1%2BPmRmy7pc7WWaT%2B23GS8hnFuzwIm%2BhJ7ofvhz65X3Hij0qenKLdUw%3D%3D",
+        "https://www.so.com/link?m=bG2UyyukbyNOB1yNBQ1ucTBgFtJzDKMct%2B74wEB2GETwitsQhLrRTkgo%2FpMtLzTx9gj0Kln1%2BdpSSeJ3ExD5UhZ%2B9n0mq9kdSDISPnUy50vEkrjF6s4vxmZPQfkRvKLYISNJaqwF8mtMuelwv%2FsWUS%2Bm8vQu%2FqLJVXEglkf0Vvou8Ih2EgxJE4e3BPbjv%2BqoW78PKSJudgFH45yGQB7v0BB2G5HWVG8q%2F3sjBgpQtXNtftJt8t8FOLvxRgffdhlPshuK%2B2g8VKIHMioN9Y%2BNuuDbv%2FyxKiTYy%2FVL2ZybhC%2BlAWNRY7ZdhtwK8FwyOc5nA0N447kA38w32Q2XdoJzdJw%3D%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-2daeb992",
+      "name": "岁集院子·拾月",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=uQqan6AvaHFw7eZagXE4sbOm25TjLPH31ynOsUR91bZqsU1kwMdOxchdTqE4Z3qLVNEByFGYQwPph1GHkWGGYYaoHVsqWkF8%2BlzWL5YAi1uRHQBNX4cPIdDTgvIpc%2BhjFLCsR2IQBtvrAv7DdzgTKJ0qlk3jUynJbDX0v6D4wFAL%2BR%2FiD8NJBYg4AUkfseERj7ba%2BBT200gTceVgVnrcJS2xfFUp6vd7%2B0BAHbBRUidT9WmFZxPm1OFmIVHOpoSfftW%2BCFqJ3fBFgrGUcD1eFwHdhy76GJKWxy%2F9YV1dWxyVSGicJnuRsFx%2FZqy0mEcENTJ1scfdh0HjttbEifnKi%2FJ%2BYUH399iwB28lgcOiqyHs%3D",
+        "https://www.so.com/link?m=wzZw%2B8wjuDBFIo8XKFOCLcYr2dR7mtx7U6%2FmpPnoiJPCV2jGqF2jOc1FkXwebGFv5mtC7Se2oWxBfOwvNrsMCQqKJlUAvOewpq0UWtTvLjJwg3NvpZCESCDKKSNrHbCHiFHI48VDyL8BMT25bUzNywnHZSxydd7mkikw459oQsWN%2BgNFA4Eb6PD25wjKg0BwAtLooc2hWlhhu3tx02gNcf0q9L0uvoj2%2Feg4hwBf9AOHjosfdkdS7dpR2g92qNOHxeYp5WAEKS3PycLgWR9UyJ%2F4kWOFjId9IBguR2ks6lvN5mzIl4wwkB%2FJqVk2Y8iFBWv4jDA%3D%3D",
+        "https://www.so.com/link?m=eixj4K9PivuGPXTM0yXAaYkEFv0iBSRaND1DuKE%2FYNI9Qze%2FcfV5ikWwoYJHuxFMzy0TvhcSh7AmrJyvzWfXSp%2F%2FpmrklEQTVqu7YJfHc9k7iRs%2FpA2L8QhTnJWrbKRe75UFqM6LQvVOdKAuDfqF3JntRLN7zDMkgCtWKmQF6AhE0KAUV3s9NTD8r6I8BVZnDGylQZInQVIl%2FIYruKkTiWeGT6Tt45pq%2B%2Bj6j%2BRZ%2B5DUgB4Rr4C3EJ8SIKh7XVetRQ1LtwwevJd6bUNLoAwR%2FPnDylF9CUnCkIHvdQbO6z9eIUip0lgXnnZtrlw1cST5k4kvinA%3D%3D",
+        "https://www.so.com/link?m=w%2FGqAQhBCMLV8jGfL0hpCX4zejsRM%2FmmnYy7SQZ87awoEjyVlOoQf7yGERnQvgI1u0H40c0V565mqoUwR4FpMm%2FQ0WlZUZ1fmcm6rgv58I7ZodOM4lDQ%2BD0Y3YdoPPMepVq9KUoLeSZpDoKGOj49YAaL7chS0BLOD5%2FcHExdVBw7Sr%2BebUUeeWb%2FcFrxPdlJ6VuSPk68WS6a%2BDqLiyha20G6FF12xuhHRVl4R271jQakMEGTOQryMC3Bn07v8q54sAIc1WeJW%2FjxSxWjdSJFZIWoVZypbhxcrKAV2piKFAimV4aAzaGhiTyJH7%2FAqcg30tjFbQJRa%2Bl8%3D",
+        "https://www.so.com/link?m=uR0egsJSUYc%2FEXN4PgAG26XLdGUkhuIq1fen%2FuTFHc4l9N%2FpYLI4sBE%2FwY9qKX9KRlVEYad5OJYqpQhsISSfFQPvO2f901RA1%2FR91GYt9%2FLoKEZ1vreKkgoxUPZQ2dXFLd4aEChd8egWE75lvbMiGtVpMAJLksgBQgsKOhnP7vPu2sH4m9HfHsIb4WmoNXXY6SA0E1y6e%2BLfkFW7upaLxrjhkBPGsy9S2mGZkE%2Be6DletwhRgg2XL7KGjieFQAMEjrVg3PfiUIdCan0A7w0ZmPPuOFeK8YbQM4M7%2FVX6cZaLeLcWuhPrzsehqnFTLqAdC9ZMAZiP1Z3MUuW3ygQWylwp4czbpyPTCbnH4rA%3D%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-4cda3d61",
+      "name": "惠食佳（海珠）",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": 1922
+      },
+      "sources": [
+        "https://www.so.com/link?m=b7YnbjtK9EhbkqqWA%2F8kaGt3ZSB0w017MJSgXdO15vPyxnTcC55egnCucYGue3zn6HCqteb9x94RfMhHDQ%2F6fGEGItvNhR%2Bqvbynb6rXxJBF%2Bw0VK2MAyVh4lEs31F%2B0D%2BWyHoYwQ1Od5Ojmm7SW6p3SIbN1LjL%2FPacQFI2zXlbZwaRRqjOSUZHkw5H18ik7j9d14a3G8Hu7E8N5g7%2BVXX9EtoPzHYnKmEw18OsN3A%2BpEs71Rqi8yDk02ZmcA4RJQFzOw7WShs5Gvahi8Q2uJb2C047CLe7pkz%2FnFJFCURvVA6%2Fl95bR45EUeyRVxQIn5GH6Gdne9xFs%3D",
+        "https://www.so.com/link?m=eBXewlE%2BJiSPi0wnrJhppSkEpl05X3TePMbZKhK5CDAVzK1Ul2ixruzMHIXVRhHqQ3CtQCfcVJg%2BmNBOxbIoOG5wd4bUfHG2NMICA7aRJeSch5JOpVcoH48WBDjNba9vZcyDpifmLRDsCy74lviU%2BVGB0eKbpHyZIELVfC1ilmot6KXLVP3kbr9MHTIhDRzoQMrNUuOkMwApylU6ukh1HiXV5z4jWjwylp24VPHsP3RL3JaWXoQ4rJegglSRIhrXeV%2B3D9UNnlUUZ84Cq6EKMOB%2F71j2IloGigTW7E0r3yYNEIV0Lc8sqyELe096TCU7BmDgIXCwgYarjarUY",
+        "https://www.so.com/link?m=zUCmqjOKtApbNNnTdgyTAGh3D8zkZHSBOIyeoRox1BSj6%2BBVtpcGtyjIFbP9pk%2Fwz3%2FziuJE%2FbQLQCXzYzXXpp1l1tc3Ri2Dzf%2BbTkiJvoOpWdqtONR9XtyDI3kLj9r%2B3YD3UopLnDZbps9nxP1oycPUN0zMOGSM3LEPP4ggljFhZOBm40tv5GLcgASS5mmGfexMQZgEJqt8jRlOqISYqqLwn2pgGSYamANSv0sN%2BtetoT9iI%2B8u%2BCVdkKoJRknOhRWY4QBcgCxtSqTLzS0%2BW91lswnMIXVBBBnKeKG%2FPuC4d16StCDtUbS0ydM4Le2pvLKSCTFUjXZA%3D",
+        "https://www.so.com/link?m=zPJ%2BeraO60dyiEnrwbynfieAIX2QKCi%2BQkcQS7%2ByRk%2B6juddMHODIwqztn4UlajojLahVAEs97%2Bg50Nw%2BsHJC78Qrxe8MTTLgm63vud2f%2FS0Fz3UC%2BlTV0vArAodik54JYFfzot1Rv74JfZG%2BWkx78ADypG6KwHFf99HHdGfdH9GGj1Q58nUAWj4dyqem1ym%2Bw9SQSBHmsUPSxGZw61pzXUqlUgPVWeM%2FHyEazHxgibwPQqGDH9mOdJ5xOGPvh1FZgbEQbs2Ovbyah9dlk3AlAij4Yu24OAH2TeH2fHi6DqLaAnxLLGVW8Pof%2BFSHuYdzSHCRDZ6iCROHFzAT",
+        "https://www.so.com/link?m=uLgEK7MjGEm%2F0QcRKPewJ3iAZDJTf%2FczJ%2Fv6alTrdf0UsPcGDolvSUL2r1WelsmZyTTtEvh%2FPWOIZ66br2WzUl41VOptfywirPiMW58AfHpMUcdYE6iABP%2Fp1YHapfJR0HmHH2kL3iKoHkfmpjZQMINAhV8%2BBCdNkPO1zI6UQogE%2BmveqJnGDqZgFUzowTpp8PT5pvGcbTobtYNQqf%2BbofvbC4opI7rMDK1kisE55cweHqsgm7wqkkfGbC9XOzBDaenvpfcWNyfrTqDQ4srQHnR6FiPIl9pbFfQ3E6C%2F2T6%2B2DNquzsBfzvqWQqjis4iBE9jNmkW%2BnTA%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1922]，点评数候选 无"
+    },
+    {
+      "id": "gz-5a4cb05b",
+      "name": "信记海鲜饭店",
+      "city": "广州",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=zd%2FHhbnE8XJ1N0UW8BM37dwJ79%2F5sVScnjC3TXr1iARoKzV2SzPXmjfHLAQ18tv5YtRRZLsxDjU1583jH0pt47r3PqM7cqjIdViFjCbLC%2B4fGR%2BuOHwyGkTpHEukNjEa%2F41q35qwawfvmOnhLcoSczJS9lHE8eH5k%2FLC2FuhHVIJAd9DGEfI%2Ba96LpJt5qXG5QcuxlxrHBh9KVNi34mikCRVhBC1g05c46wB%2F58Hh0DBaGD4i2CVE9VvkCViHzyfeYCjVsD%2BQlfsDSomNhlAx6Lp1xLR8nZ1TOT3MF6VQUQl13UGlwPQqe%2FmSm8v7YWGPMUiLcOYtpWwKqPIZQLDOEuLRQN2Om3xc",
+        "https://www.so.com/link?m=ec4Xb0JwNGkpZaWUpqyYq3gBAfIb5R6Uj1rZO%2Bl4c1wsR%2FyKP3zbNERV5ZxuS5NoYtA%2Fd3BHk%2BAHdm2%2B%2BzbcH0IK%2F31Uz6XUdLEc5sxo01OuT1iyUkz95mkp6Ex9j%2BIBxxgZkZK2veI2HLaBxasDGg2cKzo6TScPwsYFMZOqz0tNsAo1rBCC%2B1s1UTHAC0KLEnd%2BRPftgQX1Sr1C0vUdjG3jkYjVG3Rn7U071R0plHcSWsYaNhH2cpBhQO6EGTYkU2A7wljINyVdqTHzW6JJBJ1lAmQFYjHuRogrOjun6O8HtHR%2BQiucX%2F5ZDL6FAIp5hYO%2Bf%2FHHPSG5I%2FcGwJFaQF5zpjcpSICkY71BKqD198S0%3D",
+        "https://www.so.com/link?m=e989OCoY6skGRDZNqhh5BHahoCWvULyIeutkpeb6Rmjr4mjr%2F2ZkK2qVB9RGVSkqLtToR%2B%2BdJOIVP8CW2aimuvZAqziWe7Asra3JLzf6R18u%2FCXqjd1eedPPHef0Q17sPmpXsUXj6B%2Fxo5vtXJ7G29S2zZzhNN8IaPLh07J69Wms8w1zGvgkvGHJuQ%2BHZ7P4DdjF1ol6fQ47BaP%2B5gjrU9lHrjArfbOExJHs3RK%2B0NT25PDC6tVqkiDm2C2xn61D3cdqil7a27xF%2BsPEwkFvZUnVVWst%2FHcJ3ggZ54UXd0AgRaTAqoJvW5eIJ%2Bh%2FL2en2BRMCUw%3D%3D",
+        "https://www.so.com/link?m=bDth6ATLakXvKY7HyruNLCeo59AlFTM67q4RFTBkmoCPYJaO51wkpGgMJbBDxwqAWlG8%2Flm%2BCv55%2Be5hVYV7k76wt4CDVrbdL1wgQWGB8JLSrmisALBitxo0dX4LtJUkdMyBC%2ByyfZNawWHavQa1HepIvg7TDyyEdCvM96ATY4wUBowMlvfWjja39BiX9Fj%2BykJQYMxXJ6sMG7odpOorYWGQn%2FC0tBx7gyzahtFCXQYinkAftHdl8fKeDk2L3O5tdUJKfyfc4qRSBS6ANrQatt4kNG0Bi1Ydpmx7bydfl%2BT5svIhW636NtCJTfNiGGliDwOGVe3gGIKw%3D",
+        "https://www.so.com/link?m=beay%2FzC2mT9QPliwn2FJDjCdDzsfmpN4Bbb%2BUhArafueKHfmIP8AOyhbPYRT3EeRPm2oA4mD1kkgAMD4FCDky3g9tpi00n6IGpRzJL2bMguy2hokCPxpgiNEtDangjU%2Bhm4Zh0FFKI0%2BIdFxsslLCDFPYDkKITx%2BKO80o7st5OFkNSDAIVeFeTvywmjybK5M%2FV2gL7GPeY%2BOtnusIgx2flZcBc8CxRj%2FKQQo%2FQmWShjwRYuZHh7lNtfBZqVHdB1IQgWKwO9vgeQjnaJjzs8l1Ctdac0b7WEjxOgol6U%2Btlkad38syWioLvClHDKyDXoXe"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-1209ca41",
+      "name": "兰亭永",
+      "city": "广州",
+      "cuisine": "川菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://ai.so.com/search/sofcdaadfbd3dc0c25b3f53a9b69df7436?search=%E5%85%B0%E4%BA%AD%E6%B0%B8%2C%E5%B9%BF%E5%B7%9E%E6%9C%80%E5%A5%BD%E7%9A%84%E4%B8%AD%E5%BC%8F%E7%AD%B5%E5%B8%AD%E4%BD%93%E9%AA%8C%E5%B1%85%E7%84%B6%E6%98%AF%E5%B7%9D%E8%8F%9C%20&src=so_result_natural_ask&srcg=so_result_natural_ask",
+        "https://www.so.com/link?m=bFpML109wKJJxhWgPdscCCMq2rTKdBVOt448QAXAhVv%2B4t%2BaXEQHETDovxTExHBrfso657GoTHTJPjVCroR4P1cJQOl2HT%2FBro8dItMM%2FhSaA4Ejg0PgASVlS1TyqJPyUSMeqcjwsJBpDn0XKl4k2jwUbV5XkkA2PSuEYHHgbLUulL4rwa6EpMl5TWBd9IU0gesH5jDAVYjIRjjx2Iihn859oNAz4qJXvN%2B5RPcBpmJwIt8%2FAkNyVwYoTy3e2BKKUqfUlPlbHO730k2ZggikWEWRh5f8n2C914Xmz7wwm%2FyKdHUP%2B",
+        "https://www.so.com/link?m=bPCE0cE0NnVqqhb2qvbBHDcSmbjUYepXUkjwlnRfPPMwsDWhAlpvdxivCtxrAs9My1sQwEOrUNYMPY6e0QPddHu6GfnKWAURRmjgi5fOHQiQjOqczt6qIjJDZf4XPU6qaGpW7kB%2FSlyMevlcCJMun7Y35RoURyS37Dkgs%2FMQkSNgREgzjo8R248UjZdJiZ4xVBP5C0lH1YAva1mASQR7wP2pzb6hJFpFOV%2FakTDct8HF6HUBcQ7SdE1QOsLfA9U3jZCL%2BcRQ1VW9Vy7GBmLBKLbpgfulwlfb6",
+        "https://www.so.com/link?m=ubKqPYklLrFWaVOy%2B9PS9R7ZalYNxQ7%2Fk59l99XT2Td3funjpxQ%2BtvTb%2B54f52ewXu38nEZCyG8JlAMpUR2I9fwOlMvZqITtCwUUYdU0yEuPNCetF32t6aIsEj3jAg9R3JJetfTdUO72bTRAYyAnsuA9c%2BMmnyk3p45GF3lsHqxFx%2Bbic00a9oHQMr1WafgAF38Q6oMf67YcfUrBoZjOTAmpLxpZLv1a%2Bz9KmYwKXY6J6m5t5n8WjemOWj1nhPb9nigZzfqP%2BQQAQ4GCnLnTPC81ggkkYCRXG99kyAg%3D%3D",
+        "https://www.so.com/link?m=eg6lljMKNHjFEUf0v0VROlDFoKYZrR5a06i8IT%2BFFYqFpyY3lK1sc6u1NuvnkKqMGm%2FPyGNT85LQLZcccMpACmbuT%2BrKNu85D1ra6bl2ualmEy%2BfShMRlYfli7hhukyBX7TCB7iV%2BzMsaB8J6sGLDsm3x%2Fwlp%2FSjESzpwWUf%2B3whfV1JeNfZdyRgdXFyp7ZoVfAHFdpF59U%2BD775lXtJajjMxVETKxqEcb0mDNAWlSCshYzVy5qPDjYpQhT3j1E5jTcSxEs3aCs6lL0cmw%2BMcXm9WJQ5%2BHRvU%2BMWtY0YQEelBfrWw"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-031fd719",
+      "name": "愉粤轩",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=b6lDI63iSlfNIoxG1C4b7k%2Flj0t3fq3Uk61amEgcDYLq7JLUiun%2B6JPYJNOMoH9xcCZiBMLmpWYMpGij7roDBsMuvu0Mg2clA0rfAqUcuXGtttJZet2AxEv%2Bo5zgaMNM%2BwFxt9EXhavH3MXsKWgeaA%2FhedhEw%2B%2B43J8TYQlu0nQx26zGTt5gXRhEd7XHPYmAfUxdzA8iGcZvFTW%2FVLOIm%2FVUOZr0B%2FAFlHQePFxPzBI2urv9JQdjNw5bM7lewmQj7yowyoYouEjm2Ga9rr1HgcKYtyfE4dnBDNU6YJMmHe%2FU%3D",
+        "https://www.so.com/link?m=bKOk02Nm1wyQnx5AZa4U4t0ZTCxhUdkBO0Cw0xCKa%2FGpk%2BFj%2BX5MWs7r0gLErR67YhjJpIaxVTjQcj6m1wMHKVUy2sfp%2FFRvfu%2BwlNmgS8il20ygtqhvv8il6gMX9yiqAKJZURO0NeKF8cuKiUbcj8DMiXaR7Qi7kVS%2FCHpVrQHTkE2jslFKmSkKnFqKcbqBpt0SWHudZhowTSttLt%2BHDVpBKDvEVhdUFaUKeUrHa5qto%2BbbhhyERxDCvBkNh78tfGMTBJZmSfFCwH9%2FZIe1nlSVzVHA%3D",
+        "https://www.so.com/link?m=eCucruafppDnW6lao%2FhqAu46zL%2BdECaZZ4FvGW56gWQkJyqI4h9pRkCzpzxW3ROtdYfBfkuKS7HEaJKjVHn87gZIiNYD0ddXhGEhTOV%2BrxGZ9R040Csk6URC9D%2FwgKFLaOZtkL5hf1ow04sw7Ngb5kJXfT7WSPuIIXt9V8GBjx4e8VELTmHZE5ykmIKFccd1%2BYhtjY9dW9BpksJvmS4WdtCtWS%2BZq%2BXWnRkGt0sog2a4br0N3QTFP1dSpExqkdfjJE3eW3jEAWAYC06sMOmB%2B49ajJ4w%3D",
+        "https://www.so.com/link?m=bpciXV92x01gdywVyJOB%2FqoqO9A4rkJxJwmcCUEVNCChKvEspYheH6EFOHYPEFZSkuKtC7ixVx%2F6j18WYbEAdnaRuSGl%2FJ2rBbzDGknGS7dsZYrWD5AOfDQQcTFcxJAS2Bb35uUb2sZgfsrVEcS7UriSQfoTA4zsNG3LMmtWXlbOt%2BbvPznj5dMlrHkU8Vd59V6mz7LudmWuJVursL590qHPW39jpZizoZnbpGsmYUFlaYdAvmQ7ymRlOX%2FN1e5GL3DT%2FnyDW6RFmEtLhW5YsfEhmw0o%3D",
+        "https://www.so.com/link?m=uoDtXpAsNIJbA0WQYYAzMiOZe1lzYKDYo7%2BX1AGKWSZE0uyIegSQ2PXMfmb0%2BJp%2Be%2FtKuUii9TKnJYFditpbi%2BAHZJA2S5rrP8O%2FDlzjEMlXhqFt0nBHPYDoG93oK6kMfy32dEyBljwigCy3fSnUv4UbHUYdCdgJQ0pl1VC0tSWdw9IbhkyLLI%2FBBS3jj9oa%2FoltWjuVf0uXLufeinTV6JNyNfnO2T4%2F6T9d4MV6GhyQloQ%2FqL1ITabeD5Gsd4DbC6tgeZwikNAU9zh59r689W4hZkNw%3D"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+    },
+    {
+      "id": "gz-0dbbd506",
+      "name": "屿",
+      "city": "广州",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=bk3N0fwHofV8D33Dwx7NSE1AMWpkF1bhucvbkCGWw1NyPfOmZfYI5iYLZCX8Ga3oXcnmoiVg%2F%2FdG3XPCCP4RlPcRkjpLAHwhM1knLcOoydKdOlEfHH8xJgRgVJWzFyvMne88K2jq091kRMwvAaoafU%2B4x5IM7jVWSs6VV0o8SDF99lhCQP4qTDmGgk7bPdsfQ81R5mAPiGc3LSxWqd%2FDLYmDbC8yqiyDMHbBr88Wuyb%2B7NlgE8I73C1vJW4PIrYH49KexP9yLXEU%3D",
+        "https://www.so.com/link?m=woRzkBOiAwiNABGLOiTJVqQWh6cJNPrHsJrnQvE2CMFgLbixhfaADwlAs6N1uTM0SdKmeLl7nbI8X0lJP43ZFtHN5%2FPiBmigqQXZBzB6kDYagqdjXIn5GJj%2BKsqNmWAu3OQnzJLsItv904%2FZKvAf6Uc0gQL9Iqp6G3ZAWzsOESuqzb%2Flj6Sz2xW%2FYDwpOy7rl%2FF%2BBfAwTNR8CNgg66Y6uiZOGzHCdPG9nGzC96dsafRc8eg58EKxPqyOzVsXA6rtnrs4if6pjUg9Pujk0n3XVxn4PYpQNUwtgj3IFAA%3D%3D",
+        "https://www.so.com/link?m=eQJf7bKsnfFs5jhbwKNfo3oQRd2VJyUzI%2B4EXuCDaSgvB4fy47JGu%2FKWEkf%2Fl%2Bdj5nKkUDkoxRUBbIAcJQpyYkizdAEObFZnHE8A8%2FW62aAwXjDcXaM8yQXpqaOcZm7FomKbEryM9D%2FAMu5v1yignVC2GDKR9v954T8KCoFzG2hq8Sxi8rsQ9Bks0%2F%2BgSz8ULBrjDLVxMAvbqZO%2FK3mYo64bkY6RocUggxprGh%2Bl82CMF8NBw5w8LdrHT7NFs7Ewh3tae%2BpkE93Y%3D",
+        "https://www.so.com/link?m=bYOPrpSdHOGWJJwJNUNOa%2BZKpPm09OYg1xXXhM%2FVTTpOx4M9cxBtYjKboAMIB45o24Kk0Nfzktj1UnYHsko0bi%2BqLQjOts9Yp4AZ1PrwI5WX7nO1j5DfxejECWzTx04rwStRr%2BFdjFVXuAGKpcKav5%2BpgKyvqbjMzpSajpHHwbtiOamjg0EbtVw7wNYC9%2Blp%2BvVgETekAiWNt7XzSFJsO%2FBbnx02sNFXtib5Y8KLoNL0ow49goFvKK9Q7%2B3LARUkrAb0%2BS0x%2F9Wk%3D",
+        "https://www.so.com/link?m=zqKWuSPiOMHHMfB8lDea8kR5Iv9SXhRoAl8Cmh8Ebap47z7fFJ6d11gqsMRnAvN9ChlIsFoZjqwxLnVVzibzwDcVGkx9Cwh4gTzCi8VamhLRh6VEQo%2Bx1Ia8bqZrBWX82nvJ1OUm5WdJTnP1Jv0uy5TXw3eClwzd0gTLcWfM0bgoLlJi1JYgAxoVIjgCo3mpRKIzlhtS8YYOtwPuhYt9fFrGUgNSUvqpSr2bPKenWJS6cFM%2B0pK4rD447Z08%2BTQro"
+      ],
+      "data_date": "2026-08-29",
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
     }
   ]
 }
