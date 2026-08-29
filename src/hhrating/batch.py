@@ -38,9 +38,14 @@ def make_record_id(city: str, name: str) -> str:
 
 
 def normalize_name(name: str) -> str:
-    """店名归一化：去空白与括号注记（分店信息），便于查重与奖项匹配。"""
+    """店名归一化：去空白与括号注记（分店信息），便于奖项匹配。"""
     cleaned = re.sub(r"[（(][^（）()]*[)）]", "", name)
     return re.sub(r"\s+", "", cleaned)
+
+
+def name_key(name: str) -> str:
+    """查重键：分店级全名（保留括号注记，仅去空白）。"""
+    return re.sub(r"\s+", "", name)
 
 
 def guess_cuisine(texts: list[str]) -> str:
@@ -130,11 +135,11 @@ def batch_import(
     delay: float = 0.0,
     progress=None,
 ) -> dict:
-    """批量采集并入库。同名（归一化）记录跳过；返回摘要统计。"""
-    existing = {normalize_name(r.name) for r in db.restaurants}
+    """批量采集并入库。同名（分店级全名）记录跳过；返回摘要统计。"""
+    existing = {name_key(r.name) for r in db.restaurants}
     summary = {"imported": 0, "skipped_existing": 0, "failed": 0, "total": len(names)}
     for i, name in enumerate(names[:limit] if limit else names, 1):
-        if normalize_name(name) in existing:
+        if name_key(name) in existing:
             summary["skipped_existing"] += 1
             if progress:
                 progress(f"[{i}/{len(names)}] 跳过（已收录）：{name}")
@@ -151,7 +156,7 @@ def batch_import(
                 progress(f"[{i}/{len(names)}] 失败（无结果）：{name}")
         else:
             db.upsert(Restaurant.from_dict(record))
-            existing.add(normalize_name(name))
+            existing.add(name_key(name))
             summary["imported"] += 1
             if progress:
                 progress(
