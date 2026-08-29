@@ -32,24 +32,28 @@ class FallbackCollector:
         return []
 
     def collect_signals(self, query: str) -> dict:
-        """检索并聚合信号：结果列表 + 评分候选 + 创立年份候选。"""
-        from .websearch import extract_founded_year, extract_rating
+        """检索并聚合信号：结果列表 + 评分/创立年份/点评数候选。"""
+        from .websearch import extract_founded_year, extract_rating, extract_review_count
 
         results = self.search(query)
         ratings: list[float] = []
         years: list[int] = []
+        counts: list[int] = []
         for r in results:
             text = f'{r["title"]} {r["snippet"]}'
-            rating = extract_rating(text)
-            if rating is not None and rating not in ratings:
-                ratings.append(rating)
-            year = extract_founded_year(text)
-            if year is not None and year not in years:
-                years.append(year)
+            for extract, sink in (
+                (extract_rating, ratings),
+                (extract_founded_year, years),
+                (extract_review_count, counts),
+            ):
+                value = extract(text)
+                if value is not None and value not in sink:
+                    sink.append(value)
         return {
             "results": results,
             "rating_candidates": ratings,
             "founded_year_candidates": years,
+            "review_count_candidates": counts,
         }
 
 

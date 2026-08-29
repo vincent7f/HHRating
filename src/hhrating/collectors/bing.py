@@ -2,9 +2,10 @@
 from __future__ import annotations
 
 import base64
+from functools import partial
 from html.parser import HTMLParser
 from urllib.parse import parse_qs, quote_plus, unquote
-from urllib.request import Request, urlopen
+from urllib.request import ProxyHandler, Request, build_opener, urlopen
 
 SEARCH_ENDPOINT = "https://www.bing.com/search/"
 USER_AGENT = "Mozilla/5.0 (compatible; HHRating/0.1; +local research tool)"
@@ -83,11 +84,15 @@ def parse_bing_html(html: str) -> list[dict[str, str]]:
 
 
 class BingCollector:
-    def __init__(self, opener=None, proxy: str | None = None) -> None:
+    def __init__(self, opener=None, proxy: str | None = None, timeout: float = 20) -> None:
         if opener is not None:
             self._opener = opener
+        elif proxy:
+            self._opener = partial(
+                build_opener(ProxyHandler({"http": proxy, "https": proxy})).open, timeout=timeout
+            )
         else:
-            self._opener = urlopen  # type: ignore[assignment]
+            self._opener = partial(urlopen, timeout=timeout)
 
     def search(self, query: str) -> list[dict[str, str]]:
         url = SEARCH_ENDPOINT + "?q=" + quote_plus(query) + "&setmkt=zh-CN"

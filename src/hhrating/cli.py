@@ -16,6 +16,7 @@ import sys
 from datetime import date
 
 from . import __version__
+from .collectors import create_collector
 from .models import Metrics, Restaurant
 from .scoring import compute_index
 from .storage import Database
@@ -71,6 +72,19 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--query", required=True)
     p.add_argument("--proxy", default=None, help="HTTP 代理，如 http://127.0.0.1:8009")
 
+    p = sub.add_parser("batch", help="按店名清单自动批量采集并入库")
+    p.add_argument("--names-file", required=True, help="店名清单（每行一个，# 为注释）")
+    p.add_argument("--city", required=True)
+    p.add_argument("--proxy", default=None, help="HTTP 代理，如 http://127.0.0.1:8009")
+    p.add_argument("--limit", type=int, default=None)
+    p.add_argument("--delay", type=float, default=0.8, help="每次检索间隔秒数")
+    p.add_argument("--no-second-query", action="store_true", help="不追加创立年份补充检索")
+
+    p = sub.add_parser("apply-awards", help="把奖项名单（JSON）匹配到库内记录")
+    p.add_argument("file")
+
+    p = sub.add_parser("stats", help="数据库统计分析（覆盖率/分布/TOP榜）")
+
     p = sub.add_parser("publish", help="发布 JSON/Markdown/HTML")
     p.add_argument("--out", default="published", help="输出目录（默认 published/）")
 
@@ -94,6 +108,12 @@ def main(argv: list[str] | None = None) -> int:
             return _cmd_show(db, args.target)
         if args.command == "collect":
             return _cmd_collect(args)
+        if args.command == "batch":
+            return _cmd_batch(db, args)
+        if args.command == "apply-awards":
+            return _cmd_apply_awards(db, args.file)
+        if args.command == "stats":
+            return _cmd_stats(db)
         if args.command == "publish":
             return _cmd_publish(db, args.out)
     except (ValueError, RuntimeError) as exc:
@@ -227,13 +247,12 @@ def _cmd_show(db: Database, target: str) -> int:
 
 # --------------------------------------------------------------------- collect
 def _cmd_collect(args) -> int:
-    from .collectors import create_collector
-
     collector = create_collector(proxy=args.proxy)
     signals = collector.collect_signals(args.query)
     print(f"查询：{args.query}")
     print(f"评分候选：{signals['rating_candidates'] or '无'}")
     print(f"创立年份候选：{signals['founded_year_candidates'] or '无'}")
+    print(f"点评数候选：{signals.get('review_count_candidates') or '无'}")
     print()
     for r in signals["results"]:
         print(f"· {r['title']}")
@@ -241,6 +260,53 @@ def _cmd_collect(args) -> int:
         print(f"  {r['snippet']}")
     print()
     print("（以上为公开摘要信号，录入前请人工核对来源）")
+    return 0
+
+
+# ----------------------------------------------------------------------- batch
+def _cmd_batch(db: Database, args) -> int:
+    from pathlib import Path
+
+    from .batch import batch_import
+
+    names = []
+    for line in Path(args.names_file).read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            names.append(line)
+    collector = create_collector(proxy=args.proxy)
+    summary = batch_import(
+        names,
+        args.city,
+        collector,
+        db,
+        limit=args.limit,
+        second_query=not args.no_second_query,
+        delay=args.delay,
+        progress=lambda msg: print(msg, flush=True),
+    )
+    print(
+        f"完成：新收录 {summary['imported']} 家，"
+        f"已存在跳过 {summary['skipped_existing']} 家，失败 {summary['failed']} 家"
+    )
+    return 0
+
+
+def _cmd_apply_awards(db: Database, file_path: str) -> int:
+    from .awards import apply_awards
+
+    summary = apply_awards(db, file_path)
+    print(
+        f"奖项匹配：成功 {summary['matched']} 条（其中已存在 {summary['already']} 条），"
+        f"歧义跳过 {summary['ambiguous']} 条，未匹配 {summary['unmatched']} 条"
+    )
+    return 0
+
+
+def _cmd_stats(db: Database) -> int:
+    from .analysis import format_summary, summarize
+
+    print(format_summary(summarize(db)))
     return 0
 
 

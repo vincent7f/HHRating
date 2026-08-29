@@ -10,6 +10,7 @@
 from __future__ import annotations
 
 import re
+from functools import partial
 from html.parser import HTMLParser
 from urllib.parse import parse_qs, quote_plus, unquote, urljoin
 from urllib.request import ProxyHandler, Request, build_opener, urlopen
@@ -104,7 +105,7 @@ def extract_rating(text: str) -> float | None:
 
 def extract_founded_year(text: str, reference_year: int = 2026) -> int | None:
     """提取"创立年份"。近 30 年的年份多为翻新/开业新闻，予以排除。"""
-    m = re.search(r"(?:创立|创建|创办|始建|建于)于?\s*(\d{4})\s*年?", text)
+    m = re.search(r"(?:始创|创立|创建|创办|始建|建于|创)于?\s*(\d{4})\s*年?", text)
     if not m:
         return None
     year = int(m.group(1))
@@ -113,16 +114,29 @@ def extract_founded_year(text: str, reference_year: int = 2026) -> int | None:
     return year
 
 
+def extract_review_count(text: str) -> int | None:
+    """从文本中提取点评/评价条数（"12万+条评价"→120000）；收藏数不算。"""
+    m = re.search(r"(\d+(?:\.\d+)?)\s*万\+?\s*条?\s*(?:用户)?(?:评价|点评|评论)", text)
+    if m:
+        return int(float(m.group(1)) * 10000)
+    m = re.search(r"(\d{3,7})\s*条\s*(?:用户)?(?:评价|点评|评论)", text)
+    if m:
+        return int(m.group(1))
+    return None
+
+
 class DuckDuckGoCollector:
     """检索公开网页摘要，产出待人工确认的信号（评分/年份候选等）。"""
 
-    def __init__(self, opener=None, proxy: str | None = None) -> None:
+    def __init__(self, opener=None, proxy: str | None = None, timeout: float = 20) -> None:
         if opener is not None:
             self._opener = opener
         elif proxy:
-            self._opener = build_opener(ProxyHandler({"http": proxy, "https": proxy})).open
+            self._opener = partial(
+                build_opener(ProxyHandler({"http": proxy, "https": proxy})).open, timeout=timeout
+            )
         else:
-            self._opener = urlopen  # type: ignore[assignment]
+            self._opener = partial(urlopen, timeout=timeout)
 
     def search(self, query: str) -> list[dict[str, str]]:
         url = SEARCH_ENDPOINT + "?q=" + quote_plus(query)
@@ -159,6 +173,7 @@ __all__ = [
     "DuckDuckGoCollector",
     "extract_founded_year",
     "extract_rating",
+    "extract_review_count",
     "parse_ddg_html",
     "urljoin",
 ]
