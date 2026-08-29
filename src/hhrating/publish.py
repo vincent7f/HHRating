@@ -343,6 +343,7 @@ document.getElementById('q').addEventListener('input', applyFilters);
 document.getElementById('reset').addEventListener('click', function() {
   document.getElementById('q').value = '';
   ['city','cuisine','min'].forEach(function(id) { document.getElementById(id).value = ''; });
+  sortKey = null; sortDir = -1;
   document.getElementById('detail').style.display = 'none';
   applyFilters();
 });
