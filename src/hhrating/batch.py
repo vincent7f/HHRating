@@ -18,7 +18,11 @@ from datetime import date
 from .models import Restaurant
 from .storage import Database
 
-CITY_PREFIXES = {"广州": "gz", "深圳": "sz", "北京": "bj", "上海": "sh", "成都": "cd"}
+CITY_PREFIXES = {
+    "广州": "gz", "深圳": "sz", "北京": "bj", "上海": "sh", "成都": "cd",
+    "佛山": "fs", "东莞": "dg", "珠海": "zh", "中山": "zs", "惠州": "hz",
+    "江门": "jm", "肇庆": "zq", "顺德": "sd",
+}
 
 CUISINE_KEYWORDS = (
     "潮汕菜", "客家菜", "粤菜", "顺德菜", "本帮菜", "湘菜", "川菜", "淮扬菜",
@@ -74,15 +78,21 @@ def _mode(values: list, tie: str = "median_high"):
 def collect_restaurant(name: str, city: str, collector, second_query: bool = True,
                        pause: float = 0.0) -> dict | None:
     """检索单店公开摘要并聚合为一条待入库记录；无任何结果返回 None。"""
+    from .collectors.websearch import (
+        extract_address,
+        extract_founded_year,
+        extract_rating,
+        extract_review_count,
+    )
+
     ratings: list[float] = []
     years: list[int] = []
     counts: list[int] = []
+    addresses: list[str] = []
     sources: list[str] = []
     titles: list[str] = []
 
     def _consume(results):
-        from .collectors.websearch import extract_founded_year, extract_rating, extract_review_count
-
         for r in results:
             if r["url"] and r["url"] not in sources:
                 sources.append(r["url"])
@@ -92,6 +102,7 @@ def collect_restaurant(name: str, city: str, collector, second_query: bool = Tru
                 (extract_rating, ratings),
                 (extract_founded_year, years),
                 (extract_review_count, counts),
+                (extract_address, addresses),
             ):
                 value = extract(text)
                 if value is not None and value not in sink:
@@ -115,7 +126,7 @@ def collect_restaurant(name: str, city: str, collector, second_query: bool = Tru
         metrics["founded_year"] = int(year)  # 并列时取最早主张
     if counts:
         metrics["review_count"] = int(statistics.median(counts))
-    return {
+    record = {
         "id": make_record_id(city, name),
         "name": name,
         "city": city,
@@ -126,6 +137,9 @@ def collect_restaurant(name: str, city: str, collector, second_query: bool = Tru
         "notes": f"自动采集（DuckDuckGo/必应公开摘要，快照 {today}），未经人工核实；"
         f"信号：评分候选 {ratings or '无'}，年份候选 {years or '无'}，点评数候选 {counts or '无'}",
     }
+    if addresses:
+        record["address"] = max(addresses, key=len)  # 最长者信息最全
+    return record
 
 
 def batch_import(
@@ -173,7 +187,12 @@ def batch_import(
 
 def fill_missing(db: Database, city: str, collector, delay: float = 2.5, progress=None) -> dict:
     """对在库记录做定向补采：只更新缺失的 评分/点评数/创立年份，绝不覆盖已有值。"""
-    from .collectors.websearch import extract_founded_year, extract_rating, extract_review_count
+    from .collectors.websearch import (
+        extract_address,
+        extract_founded_year,
+        extract_rating,
+        extract_review_count,
+    )
 
     summary = {"updated": 0, "skipped": 0, "failed": 0}
     targets = [r for r in db.restaurants if r.city == city]
@@ -181,7 +200,8 @@ def fill_missing(db: Database, city: str, collector, delay: float = 2.5, progres
         need_rating = r.metrics.online_rating is None
         need_count = r.metrics.review_count is None
         need_year = r.metrics.founded_year is None
-        if not (need_rating or need_count or need_year):
+        need_address = r.address is None
+        if not (need_rating or need_count or need_year or need_address):
             summary["skipped"] += 1
             continue
         updated = []
@@ -200,6 +220,12 @@ def fill_missing(db: Database, city: str, collector, delay: float = 2.5, progres
                     r.metrics.review_count = v
                     need_count = False
                     updated.append(f"点评{v}")
+            if need_address:
+                v = extract_address(text)
+                if v is not None:
+                    r.address = v
+                    need_address = False
+                    updated.append("地址")
         if need_year:
             if delay:
                 time.sleep(delay)

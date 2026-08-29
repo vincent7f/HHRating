@@ -73,6 +73,7 @@ class Restaurant:
     metrics: Metrics
     sources: list[str]
     data_date: str
+    address: str | None = None
     name_en: str | None = None
     branch: str | None = None
     index: str | None = None

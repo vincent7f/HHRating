@@ -128,6 +128,21 @@ def extract_review_count(text: str) -> int | None:
     return None
 
 
+def extract_address(text: str) -> str | None:
+    """提取"市+区/县+路/街/巷"形态的详细地址；匹配不到返回 None。"""
+    m = re.search(
+        r"[\u4e00-\u9fa5]{1,8}市[\u4e00-\u9fa5]{1,10}[区县]"
+        r"[\u4e00-\u9fa5A-Za-z0-9]{1,20}?(?:路|大街|街道|街|巷|村|大道)"
+        r"[\u4e00-\u9fa5A-Za-z0-9]{0,12}\d{0,5}号?",
+        text,
+    )
+    if not m:
+        return None
+    address = m.group(0).strip("，。；,; ")
+    address = re.sub(r"^(?:位于|地址[:：]?|在|近)", "", address)
+    return address or None
+
+
 class DuckDuckGoCollector:
     """检索公开网页摘要，产出待人工确认的信号（评分/年份候选等）。"""
 
@@ -174,6 +189,7 @@ class DuckDuckGoCollector:
 __all__ = [
     "CollectError",
     "DuckDuckGoCollector",
+    "extract_address",
     "extract_founded_year",
     "extract_rating",
     "extract_review_count",

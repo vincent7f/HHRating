@@ -129,6 +129,7 @@ def _entry_public_dict(entry: dict) -> dict:
         "city": entry["city"],
         "cuisine": entry["cuisine"],
         "branch": entry.get("branch"),
+        "address": entry.get("address"),
         "index": entry["index"],
         "index_detail": entry["index_detail"],
         "metrics": entry["metrics"],
@@ -225,7 +226,7 @@ function esc(s) {
 function norm(s) { return String(s == null ? "" : s).toLowerCase(); }
 function haystack(r) {
   var m = r.metrics || {};
-  return [r.name, r.name_en, r.city, r.cuisine, r.branch, r.notes,
+  return [r.name, r.name_en, r.city, r.cuisine, r.branch, r.address, r.notes,
     (m.awards||[]).join(" "), (m.celebrity_endorsements||[]).join(" "),
     (m.media_features||[]).join(" "), r.id].join(" ");
 }
@@ -300,6 +301,7 @@ function renderDetail(id) {
   var html = '<h2>' + esc(r.name) + ' <span style="font-size:13px;color:#8a7f73">' + esc(r.id) + '</span></h2>' +
     '<div class="sub">' + esc(r.city) + ' · ' + esc(r.cuisine || "—") +
     (r.branch ? ' · ' + esc(r.branch) : '') + ' · 数据快照 ' + esc(r.data_date) + '</div>' +
+    (r.address ? '<div>📍 ' + esc(r.address) + '</div>' : '') +
     '<div class="big">' + esc(r.index) + '</div>' +
     '<div>' + DIGITS.map(function(p) { return p[1] + ' ' + d[p[0]]; }).join('　') + '</div>' +
     '<h3>指标</h3><ul>' +

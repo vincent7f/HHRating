@@ -20,6 +20,7 @@
 | `city` | str | 是 | 所在城市 |
 | `cuisine` | str | 是 | 菜系/品类，如 `烤鸭`、`本帮菜` |
 | `branch` | str | 否 | 分店名/地址描述 |
+| `address` | str | 否 | 详细地址（如"广州市荔湾区第十甫路20号"） |
 | `metrics` | object | 是 | 原始指标，见下表 |
 | `sources` | list[str] | 是 | 数据来源 URL 列表（至少 1 条） |
 | `data_date` | str | 是 | 数据快照日期 |

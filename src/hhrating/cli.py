@@ -47,6 +47,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--cuisine", required=True)
     p.add_argument("--name-en", dest="name_en")
     p.add_argument("--branch")
+    p.add_argument("--address", help="详细地址")
     p.add_argument("--rating", type=float, help="网上评分（0-5）")
     p.add_argument("--reviews", type=int, help="全网点评总数")
     p.add_argument("--social", type=int, help="社交媒体热度条目数")
@@ -154,6 +155,7 @@ def _cmd_add(db: Database, args) -> int:
         city=args.city,
         cuisine=args.cuisine,
         branch=args.branch,
+        address=args.address,
         metrics=Metrics(
             online_rating=args.rating,
             review_count=args.reviews,
@@ -224,6 +226,8 @@ def _cmd_show(db: Database, target: str) -> int:
     if record.branch:
         subtitle += f" · {record.branch}"
     print(subtitle)
+    if record.address:
+        print(f"地址：{record.address}")
     print()
     print(f"指数：{record.index}")
     for key, label in DIGIT_LABELS:
