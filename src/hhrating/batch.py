@@ -190,7 +190,7 @@ def fill_missing(db: Database, city: str, collector, delay: float = 2.5, progres
             text = f'{res["title"]} {res["snippet"]}'
             if need_rating:
                 v = extract_rating(text)
-                if v is not None:
+                if v is not None and v >= 1.0:  # 低于 1 分的"评分"是页面噪声
                     r.metrics.online_rating = v
                     need_rating = False
                     updated.append(f"评分{v}")

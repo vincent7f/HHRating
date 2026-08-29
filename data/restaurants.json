@@ -292,7 +292,7 @@
       "cuisine": "粤菜",
       "metrics": {
         "online_rating": null,
-        "review_count": null,
+        "review_count": 1741,
         "social_mentions": null,
         "awards": null,
         "celebrity_endorsements": null,
@@ -302,20 +302,21 @@
       },
       "sources": [
         "https://k.sina.cn/article_7879776513_1d5abd90106801tnmq.html",
-        "https://www.dianping.com/discovery/698482838"
+        "https://www.dianping.com/discovery/698482838",
+        "https://www.so.com/link?m=uQsEY71tcYL0RKlNcO%2BnKqcMtMHNpZ%2BLlR19cQW8dwaDM7mCcEsCwa2zhamjSwVVllyMqSLFjEfFAbnPPx57LCZPibo6x%2FHNqHOtGNdaKIIWtpkp3mv1YENUvdt50eOZOhlN73pKwYVdb17ecO8jSC4MmFycUh8nEtQX2SxRyxVg9K7o%2BANq61cpo5228yfH7DBKij36KQIH8bzH3spW4kXUWWT8g6aS7U4w2J0KtAeNaNznolNE4fkIHzJg0n3%2FBex7IL782cjubKkZiay0yx79h3nzoPoXBFo7Ml3XcoTU7MdC5a8wMB%2BZ1XWUZA1cw1McGRIR80D0fHWBiN9P8RCuaf67FWqbhMW%2Fp4bLJdNDNbdHrliGoTg%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": "Guangzhou Restaurant",
       "branch": "文昌南路（总店）",
-      "index": "00008",
+      "index": "50208",
       "index_detail": {
-        "overall": 0,
+        "overall": 5,
         "celebrity": 0,
-        "popularity": 0,
+        "popularity": 2,
         "online": 0,
         "age": 8
       },
-      "notes": "1935年创立，素有'食在广州第一家'美誉的中华老字号；本轮检索未获评分/点评数/奖项的公开数值（综合分暂记0，待补充数据）。"
+      "notes": "1935年创立，素有'食在广州第一家'美誉的中华老字号；本轮检索未获评分/点评数/奖项的公开数值（综合分暂记0，待补充数据）。；2026-08-29 补采：点评1741"
     },
     {
       "id": "taotaoju-shishifu",
@@ -324,7 +325,7 @@
       "cuisine": "粤菜茶点",
       "metrics": {
         "online_rating": 4.2,
-        "review_count": null,
+        "review_count": 622,
         "social_mentions": null,
         "awards": [
           "michelin_plate"
@@ -341,20 +342,21 @@
       "sources": [
         "https://www.taotaoju1880.com/",
         "https://www.taotaoju1880.com/news/241.html",
-        "https://zh.wikipedia.org/zh-cn/%E9%99%B6%E9%99%B6%E5%B1%85"
+        "https://zh.wikipedia.org/zh-cn/%E9%99%B6%E9%99%B6%E5%B1%85",
+        "https://www.so.com/link?m=eH7xc2e%2FBtUdPFdWZ6%2B9PcMZt6Z7KCOnYmaiwjx8WfvqErvphG%2B6JHGNPE38XKjL7LpzeDYil%2BEnwxO3O3WEoKgFUnOH3OUqM1lYcnZI4AfWVpPEMmnz%2BWV5p7AcYsXgm3WLyZ0ZiPsLtk3XKhPLv3sN5H073VWbrkp1KK%2FalU%2FuTWaDz1bJTFhE4BX5dLjAeFZT6o1qCNBhCp6f4V1XxXsPQax8IWWibxvel3t8%2Fl2vxKow3nNnsI13Vtbi1welBNe9jf1eWZGjJRgOCFtxtThmmPZQ4tsnpHyyq%2FjESUC%2B4rSi2Gd8Ld5H4GuSkuKbwHFngYhCiZI1Si%2BQnP6OAh0OMElQH5AgH0xmsvFIBW%2FBD4YWrmVEL%2B5CQa7t3uMQh%2FKy5Q7By5QvskJEEzSgS1w%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": "Tao Tao Ju",
       "branch": "荔湾区第十甫路20号",
-      "index": "64069",
+      "index": "54269",
       "index_detail": {
-        "overall": 6,
+        "overall": 5,
         "celebrity": 4,
-        "popularity": 0,
+        "popularity": 2,
         "online": 6,
         "age": 9
       },
-      "notes": "1880年（清光绪六年）创立，广州百年茶楼代表；评分取 Trip.com 4.2/5（2026-08 检索）；门店入选米其林指南并连获金梧桐等奖项；大众点评菜品实拍超11万张（人气佐证，未计入点评数）。"
+      "notes": "1880年（清光绪六年）创立，广州百年茶楼代表；评分取 Trip.com 4.2/5（2026-08 检索）；门店入选米其林指南并连获金梧桐等奖项；大众点评菜品实拍超11万张（人气佐证，未计入点评数）。；2026-08-29 补采：点评622"
     },
     {
       "id": "diandude-dachalou",
@@ -363,7 +365,7 @@
       "cuisine": "粤式茶点",
       "metrics": {
         "online_rating": 4.7,
-        "review_count": null,
+        "review_count": 805,
         "social_mentions": null,
         "awards": null,
         "celebrity_endorsements": null,
@@ -373,20 +375,21 @@
       },
       "sources": [
         "https://www.huadu.gov.cn/hdzx/hdxw/content/post_10505581.html",
-        "https://www.kkday.com/zh-my/blog/17679/guangzhou-food-guide-local-eats"
+        "https://www.kkday.com/zh-my/blog/17679/guangzhou-food-guide-local-eats",
+        "https://www.so.com/link?m=wwb09Xr51%2FzTAGGy7dr3u5qmNkPyeJRslsyBXp6sxBmpCiwoz1Ckc0SxsIzHS6UwpIxblhuX6HRsxT08xOLH3N9pmCdXSXcS4m88cXxdeT5RJLi%2BRX2mgGXf9JwJb%2Fx2gFo01KgFPsefdxTlcRouvYqGWzVTj4c634dZE74jpL6qfI13nBI%2BjJA2fhoAO8WO4di2cwCKD%2BGSX8VBqX4SI4C6HjkFNmEc6BO3YOTW%2FcSlg01IyXN9hGwhNtWL0lPssYjFXzKGbAZcjDF6JFolL7V03lTgOsJF%2FfLxaPVf7IgUM9WahiPnPNGQiXVabRGQzbqkuNqSKjDGDxXPUZQIXKQ%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": "Dian Dou De",
       "branch": "大茶楼店",
-      "index": "80088",
+      "index": "60288",
       "index_detail": {
-        "overall": 8,
+        "overall": 6,
         "celebrity": 0,
-        "popularity": 0,
+        "popularity": 2,
         "online": 8,
         "age": 8
       },
-      "notes": "字号源于1933年（品牌2013年恢复运营），连锁粤式茶楼；评分取携程/大众点评综合约4.7（2026-08 检索）；连续多年大众点评必吃榜，2025年'食在广州'评选十店上榜；点评数未获公开数值。"
+      "notes": "字号源于1933年（品牌2013年恢复运营），连锁粤式茶楼；评分取携程/大众点评综合约4.7（2026-08 检索）；连续多年大众点评必吃榜，2025年'食在广州'评选十店上榜；点评数未获公开数值。；2026-08-29 补采：点评805"
     },
     {
       "id": "chen-mapo-qinghualu",
@@ -468,7 +471,7 @@
       "city": "广州",
       "cuisine": "待分类",
       "metrics": {
-        "online_rating": 5.0,
+        "online_rating": null,
         "review_count": 183,
         "social_mentions": null,
         "awards": [
@@ -489,15 +492,15 @@
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "67190",
+      "index": "47100",
       "index_detail": {
-        "overall": 6,
+        "overall": 4,
         "celebrity": 7,
         "popularity": 1,
-        "online": 9,
+        "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [5.0]，年份候选 无，点评数候选 [183]"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [5.0]，年份候选 无，点评数候选 [183]；人工复核：剔除噪声评分(0/1/5平分)"
     },
     {
       "id": "gz-962b0aea",
@@ -506,7 +509,7 @@
       "cuisine": "西餐",
       "metrics": {
         "online_rating": null,
-        "review_count": null,
+        "review_count": 1704,
         "social_mentions": null,
         "awards": [
           "michelin_2_star@2025"
@@ -521,20 +524,21 @@
         "https://www.so.com/link?m=bYbbC1%2BF%2F%2FluwWcHmJKUhyl2QTvUCAxZPvoIqkEXNE7YzFmUJZvAvkYI3hjiss%2B%2FSysoz3i4D0O%2BQwBK914xFp0MI1Lx9AygDc07AN7qmeLKdmK5ya1p8Y2d6IWFRXD50q2ls5aaFjCKJr%2FEPIn4r9hZ5v00gRWHMeZfVmNddAt58%2BUHIF9GIZ2g3o8ZI9QlZnl2QeMf3AB%2FsoFhKDJkOrcRU%2F02Np0MoQofyiHi9Rlz5Qit9%2BP80xj9y03OrqlaQuyintyXThuWVjDFs9oJb22kNj9960hx3",
         "https://www.so.com/link?m=wFQxd0kR2834WZd0vrASUNQFpf%2BbmCO%2Bt%2FPqBWZgSBcCEXRuTccuqglyT2zgPRJug99xVJ4d6THB%2BMt1DKYj2mP25puEE0H0x%2BiZrd1S5qQhfkD8DB%2Ba2%2BpDphTraL%2FOXsPO%2Bsm7cuYBTK0ZGGbSr50zT6xBEYKJBpuzwkyZXroruwgpG630LJ3grQQeNlv1ZazZGgI2P2yy6%2BeGr%2BNFmbJzKIgEeJrnJ%2Fe4CyUUpIJThhNtaU498xxjBEHxFiJcBa75STK9UreOxrVMJCee%2Bi%2BFect8nSb9VhfSa7Q%3D%3D",
         "https://www.so.com/link?m=wkwvLUvL%2BXODqnh4bvsLwgqA24AhyBFLL5qlSE%2B%2Bdr8aNQ0497Y6tg%2FzVxQLrkrQ8V29D1bs3NSU7j0IuRcA5%2BOspHoASNSneN4XQmbih0hN6a7F5mtPzz0tIwX9tPP1FjEMt5d1TkA1fiafX9sDAGNZSSv%2BH%2Fb%2FZjoDnUvdcKIgasCygHIKO1sz50Ldof5pFJWczz1GOF5pKsG9jupu5K2EHdWajx%2BUImpfhHFrf%2B3HFlInsscKS%2F2WUHCsCpGLzAMYY3ULktRb8aV%2BXcny4OlheQaY%3D",
-        "https://www.so.com/link?m=bURiDN0F8VzkIx%2F4Jep%2Beg8mghBhkqeIHcYXEnmrch4zUWFd16glR3k7LMN7CFMSTe0jRF%2BAwqc7SxzIBXbd6nAIbrsT1XHPNgyafhcUX7VbqfclWfkxSGSZMqt%2F6OkvedMSv7u4oKXP394J8CCNjsBHgo57UFBrZrd7zprOc3D8QDT815I2gFa0AjR%2FrZ9I%2Fn4289qBRauIwRZEusPMvmyFLeLGL00qBUrdNZNKCqew0U8SyoM%2F0E8JrKqgI437BwpjtwHPmJfLrnM3l9Ak88rcYtJ2OsIV8"
+        "https://www.so.com/link?m=bURiDN0F8VzkIx%2F4Jep%2Beg8mghBhkqeIHcYXEnmrch4zUWFd16glR3k7LMN7CFMSTe0jRF%2BAwqc7SxzIBXbd6nAIbrsT1XHPNgyafhcUX7VbqfclWfkxSGSZMqt%2F6OkvedMSv7u4oKXP394J8CCNjsBHgo57UFBrZrd7zprOc3D8QDT815I2gFa0AjR%2FrZ9I%2Fn4289qBRauIwRZEusPMvmyFLeLGL00qBUrdNZNKCqew0U8SyoM%2F0E8JrKqgI437BwpjtwHPmJfLrnM3l9Ak88rcYtJ2OsIV8",
+        "https://www.so.com/link?m=zGJRLE6GjvnytJMuirEhGFn%2BfGV9YPJPnzFd7%2FI5RIToJs3%2BtRIO8eBXzsLImFoPQEOd6%2BSkAo9rDrqwtiW229ErOK9cI8sD5R47rCZscc0mTXZ8MLObRw429DbXkXk7kXosgO2vmlTAWBhkmBmiuFI%2B03AFeEsoYpF6JFOPN6DMSkMTi5MAqsbB5fgC7Z4LSUq3nYqZt98iOND7of6vFgh9DsGmaRXhCDlUuXEoUtVQjoYAjPJy2e9c2ApftG0V1fjfzzNjag6c%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "07000",
+      "index": "47200",
       "index_detail": {
-        "overall": 0,
+        "overall": 4,
         "celebrity": 7,
-        "popularity": 0,
+        "popularity": 2,
         "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：点评1704"
     },
     {
       "id": "gz-9de7691e",
@@ -542,7 +546,7 @@
       "city": "广州",
       "cuisine": "粤菜",
       "metrics": {
-        "online_rating": null,
+        "online_rating": 4.7,
         "review_count": null,
         "social_mentions": null,
         "awards": [
@@ -559,20 +563,21 @@
         "https://www.so.com/link?m=ea9VRw9r%2FJW9UHfz3xYJwdifu38Sne3Etr76SuYZFUGJRJ8wDPA1zVnBw%2FcOmOBYQykLo7dGdDdfMaHEsx86XCcBlU3wAglYppo8uY4I0eZdU7iX8lrPzMpgytj1AvsOr2BIw9LrVS3LBeBeQsKmRxRM2ZZAc1NJQZJP%2F4JrhUwm5F9JgcZEv7Xoto46FfkqWzM2Bh0Ahr7P2bch1XX%2BptKXO4owF347%2FIpw7mgdM27ku%2BoFnkln0PS%2FE08JhWLP%2F8i6QPQg%2BetuIPK4wRvxIlvrnt6S3DsVAdFZLad9EbjRmnDickPtv%2Bz87XAuL3Ps%2FwqAwnVXUenN6sa6slXBVDgLGIucvvoWOwh8NgQ%3D%3D",
         "https://www.so.com/link?m=eakiiyMuaRG4BcmbZMJsGAu0sdESCPskbtwt3%2BcNtr37faNoII9KeJV9u8GsWGDGDBS1oFA6Gybh8UJdNr7CbuebGJkEMFkraSv4qS4US9HDzVN2h%2BEzjPSHGpnv5SkACI5xpRjLEbpgpRjKrd5nFMr8sZbMWhLZ7VFiLHaxAyAnAGE2gB3KnMFy4Kq6I9DgbGAOa2xCATkPCuAYBl5SA5LfK4HFKgAjE7ZaEKGFJUSR29QxoqKJaUinDKAQj2O6dWlkQZVCwnvXkFeFDfI%2FXb%2BZWmBwrhwb4XxBHTypDcUELm1CQEJhtYf1z8hzZ1RDzJuf5Igx%2BEmkAs9SZzSrhQ5TikiCHZ2y0TkWFm9LhZ%2B4%3D",
         "https://www.so.com/link?m=bDeOgubDNGlkKDpCnnrs54DxzHI8FeRlPF3Y4hFBCd9uetD6G0hUkKYIlHCK4EUAXDBHFoh6rDVq3gf5DY5ApVWwzreqNA4Hz7b0tVKYN1Z%2BLhqVhscSoESgdejdO%2F99ji6dA8CNE6kl3A7hiJxMJvt2mHpOxYutEdVY3VlRpT50%2FOA0YVRWNsQmdhM9Nt2ox8IavjR%2BxtRpIbhPseD%2FDiV%2BbCW%2BzAilGdbq06YXEswnCtGDz1e4wUdOuOs1vOPuqIFZU%2F7HEvzSS0Wd%2BNUF13XUn5N0%2FZvAVW15IGZZhhaC7ifedskdBWhP%2BKa81ER6CxYkATqd5P48ohs56lr6KTGsAHoo3rq%2FluNT3mDkWFteKsYgJLkL7P6FBeVHNDcjP72O4OQ%3D%3D",
-        "https://www.so.com/link?m=uGWYalzbGEVFN7iFDzwhNmeYU4oEZp97iugBes6fG5bjAfRsqUhA901Tv6D5jmI6YOoEyy52v2G9szGAEwjoUQk5X1amKf8BTECsmEnoMIHTV8DZgEOFdDWFVlGJ8ciuaQqKHynnfqjoSGlUQuGkYapy3bqcEPbO47fy6a20qmwnm%2FJW99myfrapSAoNtj65DepMrrtxjobPRLfmN2IGYSWMAIwJ5bTKPUaLFwq%2FVhIu3ukKFOfqCmId3R6t9iJpg2sFqpE%2Beziq%2Fzd29fmSnMDBR0KMSJdTvEykgrlsaYlDNuqz5u1MjttV6V%2BpGdqg03he1W2nT22ed%2FSWc5l5O5VrEs1jxoUAJr5YzIYSdpVk%3D"
+        "https://www.so.com/link?m=uGWYalzbGEVFN7iFDzwhNmeYU4oEZp97iugBes6fG5bjAfRsqUhA901Tv6D5jmI6YOoEyy52v2G9szGAEwjoUQk5X1amKf8BTECsmEnoMIHTV8DZgEOFdDWFVlGJ8ciuaQqKHynnfqjoSGlUQuGkYapy3bqcEPbO47fy6a20qmwnm%2FJW99myfrapSAoNtj65DepMrrtxjobPRLfmN2IGYSWMAIwJ5bTKPUaLFwq%2FVhIu3ukKFOfqCmId3R6t9iJpg2sFqpE%2Beziq%2Fzd29fmSnMDBR0KMSJdTvEykgrlsaYlDNuqz5u1MjttV6V%2BpGdqg03he1W2nT22ed%2FSWc5l5O5VrEs1jxoUAJr5YzIYSdpVk%3D",
+        "https://www.so.com/link?m=uyo2158iiJ2N5to3skPK794A2UNFFlkgNavKPl5ZOgihjAIqIDG13wPe5w4X74uJIp56z3P4%2Ftc0nG%2FEIr771%2Bf82Mk%2FmQiG%2BkCJ3CLPlpbF3T4XQdllvIG%2BYZ9Y5nUeBQAPpRqqiVtPzXOioqSJX6qxrXDujugLn2NEsiunF7mGsAtUWZdG0QW%2F%2F%2BPO3qg976zWTGn%2BdoC7Ci%2BWBdAqF1JsDyef9zAvUGpI2nJLSXK0v9XiasArCQpyV%2BtSBuQLOsBAMgkhYuLNaHyydUVHXd9hPMwdttst5qpikFkBh5vvS97fA"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "05000",
+      "index": "75080",
       "index_detail": {
-        "overall": 0,
+        "overall": 7,
         "celebrity": 5,
         "popularity": 0,
-        "online": 0,
+        "online": 8,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：评分4.7"
     },
     {
       "id": "gz-a8aabfb7",
@@ -580,7 +585,7 @@
       "city": "广州",
       "cuisine": "粤菜",
       "metrics": {
-        "online_rating": 0.0,
+        "online_rating": null,
         "review_count": 209,
         "social_mentions": null,
         "awards": [
@@ -602,15 +607,15 @@
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "25110",
+      "index": "35100",
       "index_detail": {
-        "overall": 2,
+        "overall": 3,
         "celebrity": 5,
         "popularity": 1,
-        "online": 1,
+        "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [0.0]，年份候选 无，点评数候选 [209]"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [0.0]，年份候选 无，点评数候选 [209]；人工复核：剔除噪声评分(0/1/5平分)"
     },
     {
       "id": "gz-c8f1de51",
@@ -627,27 +632,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": 1880
+        "founded_year": null
       },
       "sources": [
         "https://www.so.com/link?m=bm6Ho%2BSbIEEKBpw72xNgJEeoVNpyJnfA29ItfqmETZkGKjUs3l8ofC8pm3JPLQk7jg6HY8m2rLZC23OkQGlKYdctft7XH29HCVk2QxzZSYtgmifet3mw3ceroga0uMNOxcnYsYk0GUFsrUgU57UF7TswnByzSKXMoiT%2F5So3TgOYZJwq571ptaJ%2BfXjDbSNIw6ZcbG4lOzOlKP%2Bok%2BrkH4t3UALaJp8Cxe424zEcKKbAf2gtRJq%2BK79lPnwO0swrhOQo8eS0cp1ilp613Bz1NUGyfHaLrohXmq%2Fcj6a12cr1Zc0sVvG57t5id%2B6c%3D",
         "https://www.so.com/link?m=wsvupQ04f6MspYSJ%2FKf0VddmFRUywVusZxmd%2BCFc%2BPv5onPnVzX5ghOODsMnBU4YCenNQCUK%2B6vNtkiAxSAPkKRqM8NQggKtSSUz%2FToH%2FuLkrJPYzGT2qEecyHI%2F1wqXZMyVu6WuUXw5swQORLfJMs1rAT6Vd%2FdK5C%2FmLkwBQlhVBI5gsNWB2TKu4%2FscTug%2B%2FtpmKVQ%2FCQXNUUThS039WzfPku6bnmNdJSA5vRAWpFqTmMua2oId6WzBDGOe4qiWtwN7IhJf4xg4ABP%2BlQrkYDeZPjY68I5WUa2AYJNtrkWM10FOyBZ0lALfRoJrbK3YCz9S0PVsSsqk%3D",
         "https://www.so.com/link?m=wdDIaRPdCFiBoUSMgxkPNT7EQ8Ft0VbavnRpceL%2BavaXf2KzGEggzIhPT7sUhOPuc1MhJLzYIyjqVVbdnaQKbvWtRc4Dvbh7f0mAcco1fpkOdoU704nOProhv1kRWj3XJWe0uPqXn8%2FZVja46bnvG%2BxCwm3pHV0Vz3uAzgRpMnbLxuIi%2F11gdjxXs5oUM37LEjooHiL4IJ%2BE4H1Boj7sIWW905y4PjY3WgTdtu833deZkp31ykLmBrpD1fd5KUvNXvC3zvHyB7qjHnIwdECjqp4xqKrp7ZJfjypCd5YnhWRqxlmzHGih38g%3D%3D",
         "https://www.so.com/link?m=zichw%2BdKjLPUf5%2BNMjDLLmcGy621W7Mx4yKFFaLQ4%2FqXz5UAR%2FfRWZAq65VoxuSalXtwD%2BarR1jYRciCRrVOmBFZATyij6FwU%2F%2Fv5yTfacqGyayELLIcqL4UctCpxCZx61K1OUEnmvVdsUa%2Bn1eqNyvk89pd98JEEmbMmW8DJbZF3ASoOyBkm4pnu7NC1%2BfEqP0Qsh4rmoL6bCdrbbAg4Awd62iyJGyp8uuSaa0EoQRvU0KWwzIOkACETAQBe3cp11ma6YOc5%2F4KfhqYTN1qFrME5gYE%3D",
-        "https://www.so.com/link?m=udele2zWmg7R9ULf9dj5BwDlOELmwR0%2BeRyIOlsjt4KHuJAw9%2B0HZ5LHIuA7c3lleQoxdBtXWf5390zjxf3yQDrXZQvJsk1%2BJmpMuotSlm5ti9l%2FRD2iSqX0q66Nwsz29kAYnkpOmvMCtXNJFifzAvTzqXkOCLxAeUg1%2B1bZfEoxA16KPB64POm8ONl7UdzB35TL4i925TPSf2cp39jTbGe8EbPUFiToH8jVq6FmwaH2NaLqSIqtOYv658ZnOdh1u2C3wGtM0PGTj4cnsX%2BEmnZLY3Ro%3D"
+        "https://www.so.com/link?m=udele2zWmg7R9ULf9dj5BwDlOELmwR0%2BeRyIOlsjt4KHuJAw9%2B0HZ5LHIuA7c3lleQoxdBtXWf5390zjxf3yQDrXZQvJsk1%2BJmpMuotSlm5ti9l%2FRD2iSqX0q66Nwsz29kAYnkpOmvMCtXNJFifzAvTzqXkOCLxAeUg1%2B1bZfEoxA16KPB64POm8ONl7UdzB35TL4i925TPSf2cp39jTbGe8EbPUFiToH8jVq6FmwaH2NaLqSIqtOYv658ZnOdh1u2C3wGtM0PGTj4cnsX%2BEmnZLY3Ro%3D",
+        "https://www.so.com/link?m=u2C3xaQKJ5BTMX0YM2lUh2TE7zHsRPMJlsD3aKthoOb1dprmHXzcOBLHXS844UWKJEkHAHHmgFUVtft3KQCbiCoGPPZVsVcBDayT7hqp1zGk2vup%2B06CdK7IF%2B%2BsRZmAV3kijXOy0q7zRCrU4VSqsinIHkBRYiCE%2BjlF2w7dmNU6yrfFI4VSJAkUlHb%2BP%2BpGnIaOgjy8U1AAgcwiNNZya6pj0edILKaC4a87Hrg%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "55109",
+      "index": "35100",
       "index_detail": {
-        "overall": 5,
+        "overall": 3,
         "celebrity": 5,
         "popularity": 1,
         "online": 0,
-        "age": 9
+        "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1880]，点评数候选 [102]"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1880]，点评数候选 [102]；2026-08-29 补采：评分0.0；人工复核：剔除噪声评分(0/1/5平分)；人工复核：剔除不可能的创立年份(现代餐厅)"
     },
     {
       "id": "gz-e9f39e1c",
@@ -775,27 +781,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": null
+        "founded_year": 1973
       },
       "sources": [
         "https://www.so.com/link?m=eLFkR0MAfiJgWclDyQnIiheAO7bvGMvg%2FqIh3CfNlADgvKZKnTaKIyWkO%2BIS9yEyjgKl59mAIUHWcmoi%2Fju8NnxtGJjBkEVCj3b%2BBy16%2BZzh27LctM9wEPoYQQJ%2FSrQX9vWKzwxhmOqKQJqM3A9BhUEpprQHl9r5SSjNNTHH1hV1AVX1g%2FwQnUYYFVSK8tfvKoBnSRT2Um8K3rAqtBNqJT90O7iMOWmdAvLOkg3J0E0viUpG2fbxRGMuD%2FEpQq%2F0JDHonirZOy8tgpyeXzRYCyoTZVcYCYl1ASLcpRbJmQMuUI%2Fgre9xjmgkENfUqT87R",
         "https://www.so.com/link?m=wC8nIXn9OEwiSO5Fy6C4ycR91MEa0pKOxYl2eEr7c5GvFLB1ELen8Os61EDNyw6DgPQKALY2Avq4z3UU3CCgrww1nQT8sWIExd6r1LWJq0gF8ga6D%2BBMih9bQirWSIq9BT0gyW5PQhu%2FvsNI6fgN2PA3yuGw%2Fd0SA4P2yc3NlHU51LQRdy7trIm3A0hX9b1weOSJ8lYXaU7d%2FeI4TJH6GG8RkDHBL8R6yrJ7eUCDj%2FmTzHOIzhVooRehef7oyxqiwk021fNjqle3RD8%2F%2BjJBLwC63SBebZj6mO1%2BTw4vLEjkWemBNn4t5wKq6kOmOBrkE",
         "https://www.so.com/link?m=utM%2F5GpI3N92a6nHk4rHbxpiqMx4AuG4k%2FsQzxSuWo2QQANOjEe571ZjEoWS72osQTpCdHa3tXCXjpWbzu9wMc6qaectKt3RSbeZMO%2F2JMPq%2FujaBc%2BGm%2FBNDog1lRRMP%2Fuu8tD4D%2F8QXhbbluS9iuD%2FYLYu1SL%2FXK%2Bmy%2FIbnWpulMGd1OKi6KYf9lKwh5AHZAXmJR0pOzFzBLLU8NHUYx01plyqTWNmG3N7h0vantQfKq7VID9OECXDc6A0O4VqMZpZPqdSXVycjgoWPaUbUOPZLhMOQZUIYuxIDqe7RqYT5qGknYb9Vt6KTYJA%3D",
         "https://www.so.com/link?m=euxZU2aZ%2FyD9LrDvl2Olw27BJUlQhmib0Qq1QMCiYhAd3GhHbjOV6BZfH7SdgbXf%2BUykGaL%2B6aEVVzFmzPFlxr%2BcUQWYw7peTUpVUwAd3kI%2BjiMqjHuvpgmyKKjvfvfWYsvXi2%2FV4RXoC6FK99Hz9sUGHUk%2F3%2BFMzLH3A4ZqpTBDSgbwF%2BwDiKJ0Bpgc4%2F3W130NsBzQRmu1fkY%2BBPfcMu9ZO8c%2F2ebxtaCQ0didiNO5aRlKzcEQSkkPWXnZENxBCS10zhkEXO%2BSm2B%2BiRzDsv0VfG3SLG953YQrTyw2osfA0DCixh19Y4q8fBJ2%2B%2BPh8nsPhkVLGVpg%3D",
-        "https://www.so.com/link?m=elE1K9gtnUaBjpRiXL%2BvbVJxcsHfE0rYPj5kfMusigNNphPKgX0YfHVl%2B4ZH%2Bhbv00Bdtz5E%2BwTKabLpFdhK2FF3v4yLzhLmxonF4%2B6L7W%2B2R5zuuwMtWSLNIpoOIol%2BBB6gwwjx61O%2Bu277OSWMuJwi46A2IU5d%2FTH198lKpdbuPSK9kSNFI7%2FGkJaFyT4neT%2BBfByBZ2zSx5VZlCNpuxuMhNeRz3u9xyxf5d7B09LEfSjkQD4BtWV%2F9IcWYAVE7zr72Qw2vX%2FK86JCQ%2BBIYUw7hdBWaUTak2UEVXa2b7GqUmo7frSRNlz7trEXO1Lnw"
+        "https://www.so.com/link?m=elE1K9gtnUaBjpRiXL%2BvbVJxcsHfE0rYPj5kfMusigNNphPKgX0YfHVl%2B4ZH%2Bhbv00Bdtz5E%2BwTKabLpFdhK2FF3v4yLzhLmxonF4%2B6L7W%2B2R5zuuwMtWSLNIpoOIol%2BBB6gwwjx61O%2Bu277OSWMuJwi46A2IU5d%2FTH198lKpdbuPSK9kSNFI7%2FGkJaFyT4neT%2BBfByBZ2zSx5VZlCNpuxuMhNeRz3u9xyxf5d7B09LEfSjkQD4BtWV%2F9IcWYAVE7zr72Qw2vX%2FK86JCQ%2BBIYUw7hdBWaUTak2UEVXa2b7GqUmo7frSRNlz7trEXO1Lnw",
+        "https://www.so.com/link?m=ujNDUpQY1pcRw6oLuTXI5P3wahRIP50I3ThmtvbEjExYcobQlQ6OYJEjylm6wRDGIXHBU7W%2BnHj5weTS%2B5fzbvl82vn5Wfc2RScsQMK4uT4MJdFyo9lR36g8JchszfmQmcejkumJZxh1GfcCO9MIY0dA8UzV%2Bn7VmQwT%2BmlweydxaKU0mSjgZjfWTdDF%2BmB%2Fz%2Fy5hzxQeJtKdD6BhliFDM31fSmgv7JCyA3JdlF1Nkb2Y55e0WOXXe3A7Qk52dfG1I8VVYbdX%2FsU%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "05000",
+      "index": "65006",
       "index_detail": {
-        "overall": 0,
+        "overall": 6,
         "celebrity": 5,
         "popularity": 0,
         "online": 0,
-        "age": 0
+        "age": 6
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1973年创立"
     },
     {
       "id": "gz-e95ca1a9",
@@ -877,7 +884,7 @@
       "city": "广州",
       "cuisine": "川菜",
       "metrics": {
-        "online_rating": null,
+        "online_rating": 3.0,
         "review_count": 8366,
         "social_mentions": null,
         "awards": [
@@ -893,20 +900,21 @@
         "https://www.so.com/link?m=us0A%2Fl0k6EQvrS1CWTYtE%2BOo180OINwxpfDOIq7dCMeUs%2FJrOLwi%2FCx2ACPsCE98R%2BoN%2BwrgC702p3jb9AZXSk6ozTCqnL6mnisIn67B%2F%2F4U2pTUuSqANrVySEyrcP7jwlCpeTk1%2FaTK3sOCa2HvEbkTre%2FC2DqFF%2BEFeVHAuQ4TSPa9wic%2FBr%2Bj4RKHmo8GZRXEL6QS4HgLUxscYjF4WJgD5evyI9Qj9D5Eq2JuP%2FXmahShfCW62VccrSDwKWtTZDCH5i%2BNUcdBBDwEC",
         "https://www.so.com/link?m=ettgSPtYu7vwQoAdOAhlatZDi%2FKiUzjFKTPKcIHGJkmgQy7%2F4fDNfDaP%2BWEsM7YBXPQnAlGrRhI6IY8voQziXNtQft2jr8sDpSxuqjrMdpgCs404LCv%2Frz5m1%2BLGc2wcRrDk0ogL6ypRolJCKtJx5%2Bvpqvk37FECz8wkVJ28a8xTmSLTRdRTi8xObUukLNz6NxhaY6EAdP1RsVpvsrURRVKnoUZsciarpb%2BymXGemzzXyrM4c6OYNYUZ43Hdl%2Fw0mKp3lE%2Fcj0cw%3D",
         "https://www.so.com/link?m=eFbKbq2BHcYKfHUb7Jl6U6Ngh2BFkM9tMlNy4u%2B7P9Zlr5NR%2F71eUA%2FCtjUa6uWdFnj%2BFZytohmd%2Bg8INCugnU1Io5xzYAd1MjvF0ZrHQMc3%2FTH2HPSv59e2ggA5nJMUZcuQOmvgwBu50Lu1Mix55SS2eMbjbMXLk6pwPGOTm3UmHE%2B90hdXbPYTyOkFLo4EwakJH5l3hx4yLw5qGqTISbF7sRlMK9o713CoYjy4UhjHGW1zeREH0ERlGR8g1Shw0QCmwDqE8dpY%3D",
-        "https://www.so.com/link?m=wa8xjFlVG1QqNGXUKxjjSlIhYclQFJq1CK%2FZmRaWwi9ZWhH%2Fgf6FyZb8UEGC1x3MjaYofRtQ7YitQ1rLx3Uu4Bf9nyqmy5FDRltH%2BDkpCpkKptxZNZKp5d6JArZx4yiVHywWfZepA7K5IqwuXzraNzPTyiTaIT0SXDfBWmJ5KzTqgB%2FardiYtUxcJThKfJc2DdfYTI98ruHVgvJC1aGCx3%2Fr3lTaCVT9h%2BA6ZkM6b7Rdosy9frYJ83e1t3wb6P3obG9EU%2BA%3D%3D"
+        "https://www.so.com/link?m=wa8xjFlVG1QqNGXUKxjjSlIhYclQFJq1CK%2FZmRaWwi9ZWhH%2Fgf6FyZb8UEGC1x3MjaYofRtQ7YitQ1rLx3Uu4Bf9nyqmy5FDRltH%2BDkpCpkKptxZNZKp5d6JArZx4yiVHywWfZepA7K5IqwuXzraNzPTyiTaIT0SXDfBWmJ5KzTqgB%2FardiYtUxcJThKfJc2DdfYTI98ruHVgvJC1aGCx3%2Fr3lTaCVT9h%2BA6ZkM6b7Rdosy9frYJ83e1t3wb6P3obG9EU%2BA%3D%3D",
+        "https://www.so.com/link?m=wJ8EuW%2BLWM2wlpkpxph8GILguqOHPRxKEw0H5gt3X%2FHs%2FaKvOeldsPm2ho1dGC1ZaWAf30TuF%2Btei5o5oT2TmE7tfeD2vQTi6FKOe1fZLEpZPYj2JW75jBqVX4dmzNQ6KmlvJ%2BhWVoNwJDuHzP5jFXQYGrc0sgBkKCcTsEmIGQ%2BQQ2bLmQdCoGvSuCaOudGp574M5zUUzHPaAwqRo"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "45400",
+      "index": "35420",
       "index_detail": {
-        "overall": 4,
+        "overall": 3,
         "celebrity": 5,
         "popularity": 4,
-        "online": 0,
+        "online": 2,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 [8366]"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 [8366]；2026-08-29 补采：评分3.0"
     },
     {
       "id": "gz-d3707b7f",
@@ -930,7 +938,8 @@
         "https://www.so.com/link?m=ucehQYDrzPSySJqKUuA6%2FZZozP%2FgMOZQe%2Fh4VMyNFpq5RXUXBzoP2nOOWKG%2BjHBiiOgcO0PLOlUu46DKUQjC9qTIE%2FyglDenFcaGHgrvBIOgmJwrJ2jqW%2FPIn1thT0LqMSWRbYlW8OgNKQebJxzr%2F5fUBVzFqPh20I9Wvj5z%2F8AmXuVNzk5q5%2B1eHPW5L4n6%2B56Wk2wzBqgLyc4gSU5cLiJZMeAlztBSUZbE6kY1X6UClvJGibQ09gHBMx%2FKi3lNvrRxoutkmgQMJqGo1kkdW%2FNtmSDveRiuvFFPH8XOl1EEKnNTulQzJbMgS0tj1pP4N%2FkFcqo92sEk%3D",
         "https://www.so.com/link?m=eA71kDHdo1fbRYTj%2BOhhJvrfQadF1Ie6fMR1frbUyUW2PzLJWe%2BMcjGWhp1EIe1YnQj8ILMhLa8H9sdRB7rVIe4iAsmMSvsNotl9BwBAdpDFl0ILXTpK45m3611CUo2djQQ9goEynCblf4BpEdxzQ1er8Sid8Uh8uJ8USIBikhKasd2yGPlAHX4Gk4XyszERaoY4fHj27%2BJ0cfDoBueKlSR3ioOG5%2BBBnOL%2BZPYEAuiWlhMVSNYb5HNl1HbUn7PTzRepYp95Fl6s5%2FQkom0bBRIX5%2B9Y2nAdQL%2BJJnWyTkUIbVcW1HVx%2B0w%3D%3D",
         "https://www.so.com/link?m=e53jt4QH6%2Fv7gDMUWQnvjetj3%2F3TfnrfKN5AFR%2BBmiKKySRkp1l65Os8%2B%2F0GvANq4SRJuqVnUvoCqvpv9YzXJpg2FWpZ9pczdLIOzAHvm4QJH8RcKZZ0fL%2BTngQjzx%2FZb%2BcarUZM6Y6SP8wwo9XfKtBy5kgY22X2Sb15BoflYYsYrv0f4q0lDtWev1CYowSB0pPcKBzPIYZ6PuVC%2FdmaVA08bV2IDH5gFSOHbgtdNECB0ExSvq47quL3JzKQ5cVdu1%2BPmRmy7pc7WWaT%2B23GS8hnFuzwIm%2BhJ7ofvhz65X3Hij0qenKLdUw%3D%3D",
-        "https://www.so.com/link?m=bG2UyyukbyNOB1yNBQ1ucTBgFtJzDKMct%2B74wEB2GETwitsQhLrRTkgo%2FpMtLzTx9gj0Kln1%2BdpSSeJ3ExD5UhZ%2B9n0mq9kdSDISPnUy50vEkrjF6s4vxmZPQfkRvKLYISNJaqwF8mtMuelwv%2FsWUS%2Bm8vQu%2FqLJVXEglkf0Vvou8Ih2EgxJE4e3BPbjv%2BqoW78PKSJudgFH45yGQB7v0BB2G5HWVG8q%2F3sjBgpQtXNtftJt8t8FOLvxRgffdhlPshuK%2B2g8VKIHMioN9Y%2BNuuDbv%2FyxKiTYy%2FVL2ZybhC%2BlAWNRY7ZdhtwK8FwyOc5nA0N447kA38w32Q2XdoJzdJw%3D%3D"
+        "https://www.so.com/link?m=bG2UyyukbyNOB1yNBQ1ucTBgFtJzDKMct%2B74wEB2GETwitsQhLrRTkgo%2FpMtLzTx9gj0Kln1%2BdpSSeJ3ExD5UhZ%2B9n0mq9kdSDISPnUy50vEkrjF6s4vxmZPQfkRvKLYISNJaqwF8mtMuelwv%2FsWUS%2Bm8vQu%2FqLJVXEglkf0Vvou8Ih2EgxJE4e3BPbjv%2BqoW78PKSJudgFH45yGQB7v0BB2G5HWVG8q%2F3sjBgpQtXNtftJt8t8FOLvxRgffdhlPshuK%2B2g8VKIHMioN9Y%2BNuuDbv%2FyxKiTYy%2FVL2ZybhC%2BlAWNRY7ZdhtwK8FwyOc5nA0N447kA38w32Q2XdoJzdJw%3D%3D",
+        "https://www.so.com/link?m=w%2BLQVCqR5Xm4DeykTUz5BLCQGiOuZb%2FNrpqW0PXjcT4JceB9E6%2BU2jbLbsJF9KhRMHc27wC7BjwRMMV04%2BO3syXZhmxcACfjWuhGELhORkQMQAprw1EKqU6rDcuBk5MDW96GCfRrxj6kDfQQMfdN9bzWQTPLtcWy3aFQ6VURrfdpZRNw0kwXO6R7vGcDHOIurSWf0Ykr%2FZw1EIljRt4nJIwx8IKvq1z9YL%2FJDpz4BEbvFzIt5kMni49Vz7lUSwaYGbiljpw%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
@@ -943,7 +952,7 @@
         "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1926年创立；人工复核：剔除不可能的创立年份(现代餐厅)"
     },
     {
       "id": "gz-2daeb992",
@@ -1219,27 +1228,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": null
+        "founded_year": 1931
       },
       "sources": [
         "https://ai.so.com/search/soc9b0853c6e31767b55f11f5a54852682?search=%E8%81%9A%E4%BC%9A%E9%A4%90%E9%A5%AE%E6%80%8E%E4%B9%88%E6%A0%B7%20%E5%B9%BF%E5%B7%9E%E6%8E%A2%E5%BA%97100%E5%AE%B6%7CNo.82%20%E6%9D%BE%E8%8B%91%C2%B7%E6%B5%93%E6%B1%A4%E5%B9%BF%E5%BA%9C%E8%8F%9C_%E4%BB%80%E4%B9%88%E5%80%BC%E5%BE%97...&src=so_result_natural_ask&srcg=so_result_natural_ask",
         "https://www.so.com/link?m=e1Vd6cdp5cXiUOqGFE0RizmGxXvfxmyD68EHroLyWaaAgQhwrg2QE3OvZidZChY6NBSWUDMT0pJlIFGdZvB%2FlTDhWSL6U%2BR%2BwMM9h5tLDk9a%2Firo08ZnUXLvBeNmRhgUqonHXo%2B1hixAwr8J1oYMnfBBJhAmwZ0Z4SD%2BtzHWjcEhaDhvE0HBHo56%2FtHmo3aOHSOAIvT7%2BHy97Rs07obbOnxLE29TIUYScZt20SO%2FHUohvscy%2FS6i%2B%2FJPoe%2FzQciGDxGyUUUQVufFgUNi6EexxuywBzTCD6JUlYDGVhm8BPNkMYREo",
         "https://www.so.com/link?m=bJYVl6c9WrdmiCXwjvc4HdDbFpaBN2VP8Jh8Jm20A%2Fy70ERRSnyM5S93ceowV6tcoZs%2BqyV465FkkXQWSYiODe1Ops6ryQbo2fSqRmYDiYssjRiy9gxPZYHtY3Gq6ReJjGc3svauYf4oztYeNJQtmXuafOZS2HO2OOANX6w3v5yN86epiuXH5a5JqzBVGC9wvV8MwQ%2BU5mUA%2FZeGZSubLq2LnMuOHT%2FID%2B6eUn5aD3CFN8evyyTf0AlAKxvz4ZEjwYAPNqBn5ZXT7pLpeOVvgsw%3D%3D",
         "https://www.so.com/link?m=uXaTB3HavLZI3p%2F5zGUPdwKIb8Rz1KxztiXpz6NgmEqaODsEca58AefhhcXIda%2Fl%2B8Nl%2BaxzhtEc8I4K1sJciktWxjw1ij%2FmS3do6u51uq3Tmo4YhTeDHBH9Ik56DoRa4xsCP25Lb5274Px4Q2FhIShEQp2NafIFuJ%2B1JObLQJ%2FKLS8AIrcFvXJMEbDq00DAbeK8BfDOq8os0YH84nZ1%2B2sD0nlFU2cassQe8tDSb1LjumNfG5ObxGa5FJW7Uff6dlt0F0HSEL%2BpRdI6vV6%2FFJg%3D%3D",
-        "https://www.so.com/link?m=begG%2BoeXlKsQCHNjj4auu5DtMKCPofsu8DX4TUkQs7JC%2Bnb2bAZ5gXMl3boyM3HkklMVINeoUVJwfUllncpgc4He4R5htiLCKHEUXO4Ib2Zv1pN8QSD2FjH9%2Fv%2FHgSZ43sVwiG7SMnid%2BE%2BjFxlZvNAYLPlhqlAX%2BO%2FoYaqXoeoyWQJ3JfGcyOd6XS2J%2FYuJidwZU%2BTdmTfSlKNBQz7otcNIDiS4tMU9sP1dqH1ain31Q%2FThB3TXlX5Leg7KUj87rB9jEjw6%2BC4IWEjR0CuJQJg0MnWZ0qv3qdg9GErIdArw%3D"
+        "https://www.so.com/link?m=begG%2BoeXlKsQCHNjj4auu5DtMKCPofsu8DX4TUkQs7JC%2Bnb2bAZ5gXMl3boyM3HkklMVINeoUVJwfUllncpgc4He4R5htiLCKHEUXO4Ib2Zv1pN8QSD2FjH9%2Fv%2FHgSZ43sVwiG7SMnid%2BE%2BjFxlZvNAYLPlhqlAX%2BO%2FoYaqXoeoyWQJ3JfGcyOd6XS2J%2FYuJidwZU%2BTdmTfSlKNBQz7otcNIDiS4tMU9sP1dqH1ain31Q%2FThB3TXlX5Leg7KUj87rB9jEjw6%2BC4IWEjR0CuJQJg0MnWZ0qv3qdg9GErIdArw%3D",
+        "https://www.so.com/link?m=b4Hd1k47I1QBChQN%2F%2B0BlM8opj4zICA2t3Nph1Z67BZtInfskTG96QUs6yP7u37H60rC1DYpJXzjyjRBzZYalvtg4eBKIS3jtnLRFT9hejQXUuDyzcDZrN3Qm0WbfqsvPrLXnDfB5Kdqfv9Gm%2Fuf%2BofqS5dXs9tFr4HFjF%2BK7P%2FjsdEeAv5%2BbjrSBYcEB7GML4GFpFbW4zAEYWCm95JWuAy0egT2IWEzJuq6ZahBSnQokwLKyrBje6TBMyXHw%2BX9c"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "03000",
+      "index": "63008",
       "index_detail": {
-        "overall": 0,
+        "overall": 6,
         "celebrity": 3,
         "popularity": 0,
         "online": 0,
-        "age": 0
+        "age": 8
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1931年创立"
     },
     {
       "id": "gz-f7dbdb55",
@@ -1263,7 +1273,8 @@
         "https://www.so.com/link?m=enw%2FT%2Byc7fsvOxirtVyTeEUYHWWhD7xj%2FssGXLghI%2FnFAXUVKJwC1B%2BumTo3j8AQsIzVokL54eqRB5qER7Ab7jwDu7j9M4XjksNV%2BGwNXvoKvUnKcjPX1AIjOqnQrbgy0mHTllXOhNBMQDK5fW%2Fc9oEKcbilAw%2Bv8WwDbBS4KcIFPom5GTSHkDOv8BRHg0lL6brMALwVGjbEymEVT2tl4J4xGSLumqFeFS%2BIc6uv%2Bmb6rW8wysEfozr0oamlpUu8w%2BhJSc%2BufIfbB8mVJuuH9E8p2w0CIXeOy%2Bo5Sk4RevTIOcH%2FKmIK4Miwn4S66s0UC6tS9q%2FyU0f4%3D",
         "https://www.so.com/link?m=uANhwGQbuBx3YNlBT9Geegdc9YjpVjLu%2FhP%2Bsmhkc%2FwZqRWSnLJOu6HXHMkzIxmM6rmguBPm6EMJvgBV7xkKa2j93%2FTvyM0YVO3i5sOa%2BBTYpKKPqHTEqN9UDI13gClwxKHPyjbZlkLCOyL3Mx%2BpvCAQ7EHTD%2FyOzbD1tFe8vANAzvstzvonX4ZTq0fUZQmxcAlExzgF%2FIkO4kcVB6pOrFxyj5P5lXPD%2FYzEQnF7DkdgyUnFC5Rnivn3jUqwSZPUT9SKu7fwKDRFbtylxg9H63S%2BLZ%2B779ZQQK7VcfJX2Gq%2FMwUlIBxKMBu7mjruP%2B%2BAcHaIkNxrBD5db38NRZdgRlhLgSYagt2V6PzZC7pTOLBE%3D",
         "https://www.so.com/link?m=bIb7CkXXuw9uY9%2Bq%2BRxtEJ95paAY9XvHQ4Ua%2FxZncNAhOUirXJ14IhS9Qo4ktBJdL4%2B5w%2F9nw%2F7LGhbdl9S0GF3quBtofH9Wvfo%2F2qXdOB6VXg8TJWCZgOaK1ViK%2Bf9OZTS8DtUoNYMQ3hQkWeIoehksiW8SpXSjS3%2FeCqI4eRkCWM5WQWLEnHdK2tLcNYYkf7TSs4p5fugqV5F3WSiobe20sYn%2FZs%2FxSMCkSN9rVwj979Hlz%2FEaD8Vp0dxbHx1n4R5IFAaIRBgJbyDNe%2FjSmv5mggIqC%2ByjjcsZEYMsty%2BfhNKmq6MvsnSsj6cSPd%2Bp85GWBJAKECa7ZdH2v",
-        "https://www.so.com/link?m=znGHBLDzmvfcUs9aaGCmCpWx%2Bp8vAWxOe3IgHeIDAmdrbc2P55gqfEVb7VtaYMvucPAjKBikC05AmU4NdQpT3OtU3tjtEmMGiNlJpjkJTrdonTIQqG%2BwWubxcBRbAU0UevNJrc9LYoVYic%2BfBetSXLjvhGhMBzoaSRnSXZEeD9xW7PibYV8360%2FdJ196khPWfyPMvkh6FI6QhJn%2BcTp82D7BBaWiHlGG3a0vw6eaTPycYPlckr%2F6AONCFTVvg%2Fc%2FHi6O2%2BZfnfANym%2BiqwaDPjvdHmeXvnCYz4ICwgXg5JZI5fFI483TuyswN5bFf0wQoj55FUKAD9hi%2Ftc2nc%2BYsgw%3D%3D"
+        "https://www.so.com/link?m=znGHBLDzmvfcUs9aaGCmCpWx%2Bp8vAWxOe3IgHeIDAmdrbc2P55gqfEVb7VtaYMvucPAjKBikC05AmU4NdQpT3OtU3tjtEmMGiNlJpjkJTrdonTIQqG%2BwWubxcBRbAU0UevNJrc9LYoVYic%2BfBetSXLjvhGhMBzoaSRnSXZEeD9xW7PibYV8360%2FdJ196khPWfyPMvkh6FI6QhJn%2BcTp82D7BBaWiHlGG3a0vw6eaTPycYPlckr%2F6AONCFTVvg%2Fc%2FHi6O2%2BZfnfANym%2BiqwaDPjvdHmeXvnCYz4ICwgXg5JZI5fFI483TuyswN5bFf0wQoj55FUKAD9hi%2Ftc2nc%2BYsgw%3D%3D",
+        "https://www.so.com/link?m=wy42agYd9RSZ5Urx2ZjdQhMKXobRYVzHmWPqW78c43OZhgrHwG9yNBJ8gzwzysiRNIV1eVVJPdIQoU8%2BIZH8P55j0em%2FCluR5Tu6MttAMrBui1zAIqUjLslawuo9JmMF4qTEkh0vHAEF2QuL4Q3i1Ub8%2B6FrN2XZm8xVBQtKGgAckJouTEwCYnTjRqQMKXlfXqCdRVXv31WHGxqOZZGX0yHl6DQ8ePE67dWGNqr1Snt%2Bkym6gHU4SMg9Gyok2moBUjTN90Q7aS%2BQRkDWgmKkvRA%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
@@ -1276,7 +1287,7 @@
         "online": 8,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [4.6]，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [4.6]，年份候选 无，点评数候选 无；2026-08-29 补采：1904年创立；人工复核：剔除不可能的创立年份(现代餐厅)"
     },
     {
       "id": "gz-dc8dea64",
@@ -1321,7 +1332,7 @@
       "city": "广州",
       "cuisine": "粥",
       "metrics": {
-        "online_rating": null,
+        "online_rating": 3.5,
         "review_count": null,
         "social_mentions": null,
         "awards": [
@@ -1337,20 +1348,21 @@
         "https://www.so.com/link?m=zx4Ytbxu3YZ4RpD%2FmQBC8aackoqcQBzl39CthuvHnjSTp%2BIzYUy%2BRfivIQVC%2FDlDH%2FIMuTtlg%2BtHVhMP3Whu40VXzh%2FCxzzuufNxRzRjlLUdefCNIi0Eor4thSlxsmVsaPCD3moOHPbePujWz4SRAVT2ZKbTjlcbxx43Neah9Df8gUnisSMRh5eHQfLDsDPoGYAzm%2Fcf1NzDIESCMV%2Bd4eTfAQj1mdn%2F1X8cxlenZkjG%2FiV%2FpNOJUJpXBiFdRsne1VHVMItwXgCUmttkNgS1sqzYAJE68SsFS%2BF1MyUTrkwl2BlH2",
         "https://www.so.com/link?m=bco6%2Bh9BSRnZocIlV8FAGNuf0ILiBrJnntYzJvcOcbb%2B8wZgurWLUA11nkXv4cYjbernVFgo8rq3GZB2TYVMEaKtx1IFORA3iV9abO7ev7JGIQ0khZXGrQJMYqHQznBX6DKCDT8tGikK9ZQizDQ9lt%2FXJAb94AmYv9WUtTT1EKtHyVGrlTnUKGjwlFJhbcTB8Oy8yvy%2By8EWo9mwY4vC3k8pnSQt1dPyxqF%2Bd8Vt8%2FnAbxeZFLSHV9CP%2F%2FB1CxClz38hSMOgbNyUKd%2FrRl4ZRjWfnP34ll1L3z1LekaKz4kED1pac",
         "https://www.so.com/link?m=wV71PEQzzvz%2FM3qXNVr38HUCHcvH1yoPlaXAx9frIUs62EBHRYrv6p08JEnSH58j9FzeiY9n6iYH8gTc7u7P5u0oZYfxTBfoSSUm6KPZ9OkSFMrMmecPmVYd5AQ6Sl8X7jcE5ygehSYiyowCxTXMOIc6B2Jkwlzmbr%2Fkmgs4naZ5dV6i%2FfOqwD31X244RkQ0SUD%2FUQHJlMPiyIghluGr55tQIxKt%2FOvyTtaxUStRCaZ9HUJ5dhsjcpnNI7vmgsAeQm6%2BJBScPWhEdL%2FSj7N0i5W6n00JTa0JmO90Ebt%2Bp5KDduGMB1xhZMXsR2AUT%2FDRgx4J6gRrL4svleWoA",
-        "https://www.so.com/link?m=zdFXvGnNGkOR1WDo7fJO7EJjSJ5LpGwxbj2a03ARVDk8zRas2p15k6ZFGCCZM%2FKG5OiRJrbCNgexBtCAjkBc21S4chQv5L0K5w8m1DFDFRNnRnRG%2Fhe5z1v%2B3BPdqg13WkS0aH75jG25BlQQF7GshiD5YVY05sE56LWDhVLPbN99bgmbA%2FqsbEfVo1ixrXP7JXYEhUl5KLaIFb8MaPxAnM0BOuu6YQEFiBVfb4L0pSbYiYM%2FrxnVComGmuy5t3zub%2B1x7Cqe73elFu9fyxHk2zqVAyz3v8R%2F50TjUNBrXufs%3D"
+        "https://www.so.com/link?m=zdFXvGnNGkOR1WDo7fJO7EJjSJ5LpGwxbj2a03ARVDk8zRas2p15k6ZFGCCZM%2FKG5OiRJrbCNgexBtCAjkBc21S4chQv5L0K5w8m1DFDFRNnRnRG%2Fhe5z1v%2B3BPdqg13WkS0aH75jG25BlQQF7GshiD5YVY05sE56LWDhVLPbN99bgmbA%2FqsbEfVo1ixrXP7JXYEhUl5KLaIFb8MaPxAnM0BOuu6YQEFiBVfb4L0pSbYiYM%2FrxnVComGmuy5t3zub%2B1x7Cqe73elFu9fyxHk2zqVAyz3v8R%2F50TjUNBrXufs%3D",
+        "https://www.so.com/link?m=uhZvZqC59R3vzEmQlRwB7%2BnC0kh38MG3L0LptAHfylYp054lwNqkcOL%2F7nUby%2FPI05ZCkqIZWi3E%2FWTtR%2BXXg9hCmTIjA045PP6fx0yFOIHXjnsrrNjCDsQG3qDyJiFmecI%2Br%2BO3k%2BMgGLILtyH11IpXe6cDc5P2YEkSzxCT17C6gftwzZtNnfE7gu%2BV0ZBUE9BGZ4ACAUewx2oFLLiDViXcFBcfkbLFprCWYC9QmjNS91jUpZPnQgIkyfUXizwo6C6u4Rns2CPe91aZAe2uM9A%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "03000",
+      "index": "33030",
       "index_detail": {
-        "overall": 0,
+        "overall": 3,
         "celebrity": 3,
         "popularity": 0,
-        "online": 0,
+        "online": 3,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：评分3.5"
     },
     {
       "id": "gz-b331ef7e",
@@ -1729,7 +1741,7 @@
       "cuisine": "湘菜",
       "metrics": {
         "online_rating": null,
-        "review_count": null,
+        "review_count": 1140,
         "social_mentions": null,
         "awards": [
           "bib_gourmand@2025"
@@ -1744,20 +1756,21 @@
         "https://www.so.com/link?m=u4Alb42qRcX9UscuwIt6Q9le9hfSDI%2B3swZbvm7ZJrMg8ZCY2mYySRAHm%2B7KGhSJ93cxPNF3gRA3A7FasezNl%2FuC9yWCkJsqlR7BCIT7VK%2B6t5JhF3MTMuhFEm0rj1ngpn2aQMbNgmeZ%2BWGXygz%2Fiulycbc5lgq%2Fw%2FP4qA8zAUsrPbnimktnc02C9b7LKU0jW28FD%2FmM5mvazxO7Shiu%2FqYJ7DPUcPKhI9IN7PxXP9esGsKl1kw%2BgSvizuIS%2Fo%2FsDXtCIha%2BUnQXYtO5AYuomf%2F7EBK2ORllIfpqE0VSMwGPPGM90",
         "https://www.so.com/link?m=ulHhNvEmSq4mfIPhqFq8uy%2BA1iGGY4Dm70s7Q1FEk0qC83e%2BavFdukUrKYYisitAPYguUlAWNU5ieX7483j4fM3oYeM%2Bmm6B6BmB%2Fykd9ubwBbYDqI%2FhlPCxNQ3GWx9bG05VwBUSO2edMZ%2FUamoYwngZTi%2FuTX5zgE5PwpXnqQpmZMbCrriwDj7MBN6Cuo34Z98JXmQLMJSqNg8%2Fh2MHHb91n6JtYJta4MPaje1q7zz7S8a1TMOEDNc1r8K5KHqPsT0L5udTqlT5W0nYzzdTA789xZhqENtic%2Bzpuw%2B%2FQa9o%3D",
         "https://www.so.com/link?m=wVcBocJ%2BIUWmr3qw21cXLWHbGrd9ryWGB6XyovbRZ7PuxIZJfcxp%2BXS%2Fm1GeSIrM6H9vY%2BHlwgaTLh%2FUjEpDyu4rfiMkmVj6ADtpDnqcgbd4jnPAtLOMidiZIDA7L%2Fl4rd4v0PF7uiJM%2Fy1T%2B6QjukkEVNyg1Dv2DRUXCPDgPVNiGWWSahY3H%2BMmWzoLp%2BQw2MIGSjA3v%2Fpba93nWyegv0JZkKt6FBGtGo3ax6zNj9fd2FQNIN1mfaj60%2F6031V1%2FpLbBFUhplPXqc5Wv6l1NuBNzI3VVi%2FqWkL87rarnN9E%3D",
-        "https://www.so.com/link?m=bFP92%2FcoKF3uvqs5eXFbl5tlkKYomBCk6J4BaIOjMiWPmqQRCQfOCa%2BjxcC%2BiR%2F7E2iDytBNkZLxPekXO8kudKLoMaPNBeIBat7of%2FKmNDfS7JXV%2ByruzC7iShiqEEDw0w8eF93Hpm5RS9DKB9dCoyjaTo%2FU68rvDiMYdwefHLlwDCUPyRmaGmwkVhPNRhU3A3F8LkRXGm37PlChE%2BOELgSS4P6Qf4c%2F2e5vVb8w8kSdTfQBlJj6vc4pLbNPVdxcM0r8VzYmpFil9EpogAXAMtYM2le0fccAz3WiVe6AWiaM%3D"
+        "https://www.so.com/link?m=bFP92%2FcoKF3uvqs5eXFbl5tlkKYomBCk6J4BaIOjMiWPmqQRCQfOCa%2BjxcC%2BiR%2F7E2iDytBNkZLxPekXO8kudKLoMaPNBeIBat7of%2FKmNDfS7JXV%2ByruzC7iShiqEEDw0w8eF93Hpm5RS9DKB9dCoyjaTo%2FU68rvDiMYdwefHLlwDCUPyRmaGmwkVhPNRhU3A3F8LkRXGm37PlChE%2BOELgSS4P6Qf4c%2F2e5vVb8w8kSdTfQBlJj6vc4pLbNPVdxcM0r8VzYmpFil9EpogAXAMtYM2le0fccAz3WiVe6AWiaM%3D",
+        "https://www.so.com/link?m=zFm6Cufdy9TyzKAbTyCT9Rfh%2B8a8Ii4LHvOAsoAxfbGtpoeVbesInzks2MjC1KprWpICv9dgnrpqWtrOiFunv0Pi8nVDXyFtY7STbZNEtuXGYdoGIeP1zlqW2srnZ4MUjF%2Bi8v7NfMy%2FDl2%2BgpE%2FKtVVDUnZmh9Zfv%2FFQZsV4u5Xt%2FWDXWqGsHvRCqfsr38Toa2xf7whLVe4VZD3uh2dBLK8RcudmsXuVi5ShVrqpkJy8wf6FWM6OTkLvnNYSswMlmZx2KGBw8W8%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "03000",
+      "index": "23200",
       "index_detail": {
-        "overall": 0,
+        "overall": 2,
         "celebrity": 3,
-        "popularity": 0,
+        "popularity": 2,
         "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：点评1140"
     },
     {
       "id": "gz-2897bbec",
@@ -1839,7 +1852,7 @@
       "city": "广州",
       "cuisine": "粤菜",
       "metrics": {
-        "online_rating": null,
+        "online_rating": 4.7,
         "review_count": null,
         "social_mentions": null,
         "awards": [
@@ -1855,20 +1868,21 @@
         "https://www.so.com/link?m=zWG3x4FkWoAiVTKFseCuXrB2HFuISDPp4zMZ8llnezRUL%2BPlkKrGgmdYADo9hxOvDnbPIzv1x86p221Py74IKXdXpouCVG34hmFOlqYOT7IC925buTh4hhbrEKb0w3QuDYAjOan1bphbzpZfXPOvFa8M1z8Ud3twTYA3zzUgu2NWV9J%2BU7sbkXPsVhIO2gjhzZE6oXL3UVzuAafe6q09AiAukMCRuHxxjGOTHEvEy%2F72AlnOmwrA3bJDa9TMDdFMaFSrz9euWE9Nnlp%2FFujSxS4qtrdAIFII4Pr8VZFhN2NQIqMqZRqhxA92ygU1BPNEIvfJDGevw8LAVApE9QdqVHkGvvyRzd43BS5vhX6FeIpDPWq3sOhJy3unCQ98%3D",
         "https://www.so.com/link?m=bqJRNNGCBoCc7whnBqWSQ7ZPrs8BlPIHLj0hV1poiKaDym8rqM8xhrcvVtiDjRcoVIlcmS3DKaYuuNQrcn5R765fomQWosi9wSFA%2FHeJNoT%2F1%2BI6xN%2BQlMDSXCDD7zkvTywBqmy%2FoTWkLdQCibP52L49Yb%2F2F4gmMx7TPyKGhhobet26fnK%2F64J11uYkbMgCoVAsKn%2B5JZegwkNEjmh9S6CrnlLFDhoQB2QDQk6S60fWT08aRkCWH%2BAwkVQjbFfdm2AFzMCOzsSDllBp25tA2pMOLa3LhXkHrb9mG0boO8pbp7sWbcGICnb0TUReJHs9fM0HP5m%2F1CbdxZRgxMvtXSOrY19NhKRqQuRTwgo7uBJQhfY%2FtKIgQxaK76R6NNoZM4ee%2Baz7xltXQZH8yPcjy4qEnlI4%3D",
         "https://www.so.com/link?m=zV6gVwLZzJrrxJrYvZi3iO7mTp3Iv%2FpgtXxbUUz%2Fxc6aTgzMdSosDWVXKSdycWvITEwoKN6UkJdLSYABXHAJIab%2Fl6HTk7r2qM6gp1bL3LylUT1OmwH2JYJvZLA9USlZVdo%2F9v1Qk88ASJ0WtfDWmzeyV%2F6YoXAxRrUTBEguJXR8ryxXdhw7IYNV1ZrrzsCnEfHd53xj0wR9DRE4piKAdYfVg4LrXuBzd4msaS076y%2B8YTLg1xQ0zY9vJDx3obnybvzomgeFjfWDyRS4Axm5xLMHWwSXnABwfh8Gkz2idRoibdzoGNNL9grL%2FsswrnDptaZVE5%2BnN0QlnBvFSnGhWyVFPnm03wYX77OyskLRSXCIk%2FOZWVU%2BLww%3D%3D",
-        "https://www.so.com/link?m=z%2FI4yrr7hdUD8UeQLWmk87R8DixUqH8CDZWtX%2FVyh2tqFTID771Ozc2OZE9IZnWri8xfyLPHQlo0p3SnhiIqWvBPLkAM2Umsk2v%2BCdW5JPJ%2F4KkJOOpXmm%2BIrY3d6U8iyzxUpiESo5h%2BIelj%2BFdKRFZiZJcEXkRqWBn4%2B6W%2FKbuXmj3mGjNuN3dCy5pfSfXnnctODwnkOquNE3dKnETpnE%2FDOSW9qc21a3r5C4kvCyWgetwPUdYNBvIDvgdKk%2FbHE4yjZbpL6JeOqYxdT5DkUr1LCt90wTDv6iRstJIUBoS382vg3Nf2VKIcP2KrUCkVc0UpT7FsxBSR449CcofVls4c3v0%2Fw6%2FTznG2dEXWqtFyZDr4tmCnuJr%2BWmYqWKinPS%2BMGeTVIc4YkLGMcrq5JHtixshIb32Ld"
+        "https://www.so.com/link?m=z%2FI4yrr7hdUD8UeQLWmk87R8DixUqH8CDZWtX%2FVyh2tqFTID771Ozc2OZE9IZnWri8xfyLPHQlo0p3SnhiIqWvBPLkAM2Umsk2v%2BCdW5JPJ%2F4KkJOOpXmm%2BIrY3d6U8iyzxUpiESo5h%2BIelj%2BFdKRFZiZJcEXkRqWBn4%2B6W%2FKbuXmj3mGjNuN3dCy5pfSfXnnctODwnkOquNE3dKnETpnE%2FDOSW9qc21a3r5C4kvCyWgetwPUdYNBvIDvgdKk%2FbHE4yjZbpL6JeOqYxdT5DkUr1LCt90wTDv6iRstJIUBoS382vg3Nf2VKIcP2KrUCkVc0UpT7FsxBSR449CcofVls4c3v0%2Fw6%2FTznG2dEXWqtFyZDr4tmCnuJr%2BWmYqWKinPS%2BMGeTVIc4YkLGMcrq5JHtixshIb32Ld",
+        "https://www.so.com/link?m=uPZ2dlHARCYQBfhwSqibQdIoqjWb%2FfA0d6CMjLLy3kQ6VtcnDk4w1crYI1JKXAH3iI5oOFhu5RngOTXY0Ru%2B181%2Bqa0S%2FsHjBvXJO54lhs%2F0X6Lt3PR8XI4caim856cbIY2Sw%2FpuwnCSZxJaLMZT0PH%2BKAd3c4Nb8tbat16AWWC%2Bmd%2Fms1%2BO4kAljTNbgZBPr7TGtJ3fCHKtWH9d2EV0pRbi0PnwTN%2FfTIQ%2FEmVRNguBLBf8lLB9PGJy24C0fjyYpyjnk1UdVpEmkKoRo2sswjaiefhGaocHUsreo%2FXf6RgUw7UtFUtPPKSs0zhqMhdJBJbjG1c8ZAYQ%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "03000",
+      "index": "63080",
       "index_detail": {
-        "overall": 0,
+        "overall": 6,
         "celebrity": 3,
         "popularity": 0,
-        "online": 0,
+        "online": 8,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：评分4.7"
     },
     {
       "id": "gz-402c35ae",
@@ -2098,7 +2112,7 @@
       "city": "广州",
       "cuisine": "待分类",
       "metrics": {
-        "online_rating": null,
+        "online_rating": 3.0,
         "review_count": null,
         "social_mentions": null,
         "awards": [
@@ -2114,20 +2128,21 @@
         "https://www.so.com/link?m=uzFCRWIqMW%2FJBoHPOibx8214TytgZqqmIyyKPgcnkgpe7AJ3DN%2B4AOh5WCJQ5M1jrMBqHjWrb%2BvmrFRt5JmieMoNlG9yNir4EIZm3t5tzwoW0lp%2F%2BB5KBaFOO2QlMBryEzF%2FhPhbGS%2Bqp1TVr0lfjPiSPbOBxbWZKLjc6ZtRbnZKNTye%2Fbb8t3yl6CnVSBOhCIpC3nbsjVeL7aTFhKy%2FQbmGOQfmuUeEMmk1IRDs%2BzWrVlDQ3rG0NGLLVPF9t0yQNCUOVVMqOMeXzIRwv4DRguNFu5%2F1yf8Bgm37QCf%2BbshrWehXJnrkNElUjRMpx1ofVljyjecCj8jUJBZgapcPyvzCYna%2B76C8u",
         "https://www.so.com/link?m=wkj51SbvKN4%2FCwY5dlSHfRHcu5pvRgBMmvEohT18jUH%2Fi7XwmkoUsqVdIW%2B3i7RNs6WTdjOs5ah96eIp2TB0NB0%2FJA3mfKk5s32Nna2lJZIgXntN2vNtvuI2Fb3AIZGvj3doA7WgTT2yxeCDgSlLV3gXU3UsiI9QEBSfjMML%2BrCfRAlpjg5pY1xUi0EqmMDEfo3pEyjW2NslBtBzr0YTf0CQlgHcLecixFSwM7Wff0lxJSZsLzqkrCcvri1ABWn%2F9u1gA7rpfiQ8ApEDtzfItmSYUbZE8KE5TpOntrsYAal2drq3N5KIRRqz069hhV75bQJJHfjZNbWJXta%2FyO987lTHk3YA%2BoYKy",
         "https://www.so.com/link?m=zBekMmEuVYE0ItpaDME4QuEm3Mtv%2BPPHxpLVfV29E3Bu99ab3rGzFgzPwYjnm9aNGjMeomalYI8XM9hRQkDbxZiEqZjH6kayyr7%2BPdJ4eT%2BvbDcPos%2FmBr3cuzqAaHfzm5o7BfzUclMsjHE2Zz01gfYquYoc6q2PROmfMNJ88oFTMcXlaUX9tJ3yNTw4Zk%2FVfcJ5rE4diiimn4yu5yBH5mVmNZSTqwpgXspBOHXAQDeSMJ%2FM2F45JFWBR04iP2zYIwFJVOvBmvHN9XcqetYK%2FCLEkL4gD0WWMFlaVqGkvSACAY4zS%2Brc7Btj95pLMupmqqOodhtaN4Ip0PyyFSSJitz0MDnw2X3A6lDOIpVlquc4%3D",
-        "https://www.so.com/link?m=wLqaHa54qjWRnq10G4356srIQ11IwN6%2BFXRrJhjVRnH3eMDNx0r4%2FSgfjg3NRgp4AvJUxiND4Rs5HbjOSK7RCStGR8xgnPaLPzcIwBs3gZbhh5Ydmxyb7SuFMV%2BZGHFyBhyF5CeDH85akzanhI1UDzXx6JvL7lMLg6vhtkZrdax5jg7nICFqQzJSqRMr3vzz7eg3v%2BtVO90EvzmP%2B9WX8SWU1gYkUknEaWrf%2Bgpspse7EB3VmWcNyv%2FUN%2Bi9bxe0QtFVr0STMA2RxiNHI4dh7jYaTntFvpbol%2FNwJPFOz0sREJzH0dpzV6Dr0IwCihXQWdP3%2FtCrlTGztiBGuBrs9MeatL1ib%2FBxMl1Ix%2FA%3D%3D"
+        "https://www.so.com/link?m=wLqaHa54qjWRnq10G4356srIQ11IwN6%2BFXRrJhjVRnH3eMDNx0r4%2FSgfjg3NRgp4AvJUxiND4Rs5HbjOSK7RCStGR8xgnPaLPzcIwBs3gZbhh5Ydmxyb7SuFMV%2BZGHFyBhyF5CeDH85akzanhI1UDzXx6JvL7lMLg6vhtkZrdax5jg7nICFqQzJSqRMr3vzz7eg3v%2BtVO90EvzmP%2B9WX8SWU1gYkUknEaWrf%2Bgpspse7EB3VmWcNyv%2FUN%2Bi9bxe0QtFVr0STMA2RxiNHI4dh7jYaTntFvpbol%2FNwJPFOz0sREJzH0dpzV6Dr0IwCihXQWdP3%2FtCrlTGztiBGuBrs9MeatL1ib%2FBxMl1Ix%2FA%3D%3D",
+        "https://www.so.com/link?m=zXhf0D%2B4gh3ipv%2Fhz2dmgh6t2%2FhwDEIbCZl7lX0uj%2FrLVk841AMTPUJoXCZe8F6TluE6vcnQT49zN8Fo93nUN8x9EZ%2FznM0sQjgbSgqa5nK%2Fyv0DkuG81fywZY2F5Vv4SIg7OrZNL764tF0r0YuTPCLFfhFqUkiDzoEqG1FBxoOl857EJALrU6NbplVbcPnKsub5v%2BLFnwhUnt1Xbg0CZIb8REhxeKaAzQCtdTXR4gioDPPVX6NzvT19T%2BG4xC1IdLC9MjXW%2BNxPufh6VwiAjtOhrNrbmIti8uO90keBmClVUx42F"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "03000",
+      "index": "23020",
       "index_detail": {
-        "overall": 0,
+        "overall": 2,
         "celebrity": 3,
         "popularity": 0,
-        "online": 0,
+        "online": 2,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：评分3.0"
     },
     {
       "id": "gz-88d183e8",
@@ -2173,7 +2188,7 @@
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
-        "review_count": null,
+        "review_count": 144,
         "social_mentions": null,
         "awards": [
           "bib_gourmand@2025"
@@ -2188,20 +2203,21 @@
         "https://www.so.com/link?m=ePiPjiZYNcAEL4RHhl92XtK2q3J3SciaUNoxSZp7nO2bIDSNM%2Bh7z1q3PBVFtHoHs5Nlhh918CRaPizfsT6La69w%2F75DkedrnxXjpKT0%2F5C4QoUvIYVl6zV6g0mM4aH4f%2FxBTgqNWzXkTbFApdoyKd7aLiJKq%2FlWFa4y9egcavT5FXAaDK3K3DD7tlTQlkwlzow4KcG483OujDdNiXBJosiN8hRq5uf9TU%2BExaMOnpBrhsHOWzfhXy%2BiJ72MX6dSbr23lO%2BdiM84YNSkrz8f%2Bbg3Eb%2FKo5cPuXxe7C%2FI%2FORw%3D",
         "https://www.so.com/link?m=u1%2Bkx4ZqQEHmyKoLnIL7%2Bg63z2C7J6kzIRl1VMbL3JWmJOscrT51TSe1ViX9eba3gaeWoMrpf52AVOHy0m2vYkK04nqyOLk5cD0XSSOc4kdF5HXXPlOGz1ivPAmGIpuvLkCytlojhgcqjSezq%2FfwmBvQsnOaPfIZVvFCLCuDWdMyc1%2BFhJgpBiYOGIjBZxIMxVT5JsCZsAZVZv5ebd%2BASYkylKUmu0qReTS7GuCkmKfbds%2Be%2Bo0eqA3IbEMLZ7yCizn2ZUgyAO5JDE2tmjh3Kd4y05VWb02RpFKXnNoD%2BbWv7Y5yarU13sQIJGps%3D",
         "https://www.so.com/link?m=eRGTLctmZArMgkq6EkDr6vC9AqGOdJRkPBAZLeqOzkCINqFMSaHCZeg4qDYyzoa6N%2Fc55NLmPDwnoci6rWz%2Bi4CCjt0FtgZfthj2i%2Fq95wZxivwcd%2BvO%2F%2BLgguVwe8l2meVfh%2BUNndpKYEIXL9ShzHzoi0zL%2BrPcAS4I5A6BrJYY9GSscy7II3Bomy6CyjuUWvF8srnJiaaCoufJKjAYp7djxRx9Y5AVBLp3zVXGy0B5EvmtSsZD44fFXpOvEkidUnjQpalSB6QJylK3hJY08wg%3D%3D",
-        "https://www.so.com/link?m=e%2FA%2FSQB1wKqaMgxlGmVzUf4YCeAOogfl6zu%2BsI6x7NzpoM4g5P8jsp%2BUsxWXXsdmNUPK5OUOQ2uj6NgY075xKAapptdNqQolAX1cMPhEBpkkzsXMX4Es%2BBG86XSFSyK035tRD6hPN8%2FRM5aBCAojy%2Fz0Zas1N0bdwOOvq718FePu0wnXink9UXiwg4wGPfurSRXCIQEgyD0O%2F%2BA3B4jLb26FxPzdwdR2fO%2FLcCLYdLPg%2FUPx2eg03cBnjB8S0LhG4Nd4VmDGLRFpuHED5MqLGSnLo9TLupMGg5WzMoRLpKlhrNB7vvv4RhN4w3WY%3D"
+        "https://www.so.com/link?m=e%2FA%2FSQB1wKqaMgxlGmVzUf4YCeAOogfl6zu%2BsI6x7NzpoM4g5P8jsp%2BUsxWXXsdmNUPK5OUOQ2uj6NgY075xKAapptdNqQolAX1cMPhEBpkkzsXMX4Es%2BBG86XSFSyK035tRD6hPN8%2FRM5aBCAojy%2Fz0Zas1N0bdwOOvq718FePu0wnXink9UXiwg4wGPfurSRXCIQEgyD0O%2F%2BA3B4jLb26FxPzdwdR2fO%2FLcCLYdLPg%2FUPx2eg03cBnjB8S0LhG4Nd4VmDGLRFpuHED5MqLGSnLo9TLupMGg5WzMoRLpKlhrNB7vvv4RhN4w3WY%3D",
+        "https://www.so.com/link?m=up%2BIpTuF%2FfVQ2E7O2BLX8MXIpBn%2FgpN%2Ba0Rf9BQepDzlQRN62qcTFcUmQBBKqtpcpeMUzSFGrrnTUxLEH%2FXQqV%2FxWgBamUP3Dti%2BwNVhucQ16M9CsKZlqRY2SPCHDKZjsvLleN9CBV8iaz3vUwogaOzEmZeYZfPO158MSNxyLsNCWcZiP80%2F3MkQ6p3H%2BXo0astohXaXmWASOsmedGDYXwZYAhiE6GLiEb9AQN5LLSGpiyBBQgHhBkwZ75mVKl0l3"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "03000",
+      "index": "23100",
       "index_detail": {
-        "overall": 0,
+        "overall": 2,
         "celebrity": 3,
-        "popularity": 0,
+        "popularity": 1,
         "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：点评144"
     },
     {
       "id": "gz-ec9a584f",
@@ -2262,7 +2278,8 @@
         "https://www.so.com/link?m=wCHyDIe1dnAenLbWT61fEF9UHfWbtXshbKfdzX4ud9nQNVc8wEb2uVSo%2FK7EIyLMSAFIM1l7JcN29cvwmB6Jd1qsNFdsuos4jMs1ygmea1Jm59j2H1tQlBOAjrjmEFCB6Mpju0jcyerK8MHzHI1FxeR3w5GyMkpgUAZ1MKLJftaTHcYerXLJ6%2FEpF5xszrbjQ7%2FQtC4tWGKf9iENuOso5rMEpYF%2BEj2NUmHo2IbygdcrM6AyDQeYCGhgTcZ7S0Hyoz5dJAUZeo7eMeObSnphj6Z9k70aHmBHM",
         "https://www.so.com/link?m=zarxvIGfiP4NpSoNeMqpUlnXzwFcFZWrvTKIxRPDQ2otCrrZwKdjqx2PC2hFbMKIo643cqIhwNW9GeHmhW5LCPwViFRt2UymOgd%2Fy2WNFFuEwRTcUWRnk2LUTCw26J%2FghEDUkGnVR%2B5QuirhcR8wPRJfNVc0oIoFcfbnaonq%2BbMWKHzHTQLm5kLzClSh7FY%2Blsor6f%2BgCRf%2FINHqmk15EoBRdR46yxlH%2F%2FYpBXYgYirQD%2BWT71gNXm1fjDuz%2F4bhPEl0AFb750eeyfnZFbIJe19tTlayu2cUYBplfcPI9OkiB1MFAKV%2BoIOKrG3Kcl2dhyfjdJi5pMFc%3D",
         "https://www.so.com/link?m=uIRPC%2FRzBsS9Sw31oxYLdYXLJSC2OrMPEG3xb1PWSoaNPcJBEN27MCcvSEeIk9I%2B4i90Chiuso3gi%2BTICITuSTJJR9PXJahomGKwbaggVZkSeM7xpRauyMjcXrvpVLXQYa8BKf6wtEfO%2BND5L0vJq4g7N%2FS5KVmbrUdZRDaqyXGuI%2FhVpiRy7t7L9iw52dIRsN3CMFi3101ONpwtinj4jjY%2FkzOWUjmCHeltQsMsz1%2FVoFqVopMRK%2FaA5fBICsXjMLKhPR5oTydHEY0oNlQgRBijK1YA%3D",
-        "https://www.so.com/link?m=wiqCSJJF4QM2x%2F3TqLLULir5ikHeeiyRHwodvtqD7r6zZFC0Q8fQ5xgeOb2iyIt5GWolgp%2FVAWESWXCOySpk6Fs9RYi1BJQmN1nEYde7vQ70bDLkrgyjWYlVCa0TWRsGHoqa%2BK45oH%2BToZRZVA6Zlr3TP3GAd6qUNZTs3WikplzorupW6hnMk9khFIDxlEh4BDyBt31fpF7yPlW4%2FP%2B%2Bt5o547a8YGyqPi9rGq2HY4b44LNaitFcweFXuAydM04E2RnMUwqKOk9ga6K5%2Fhx3j9GYDX1aSJt5qTRWyHV%2BEqdyV20U5BS1eLHjmx1c%3D"
+        "https://www.so.com/link?m=wiqCSJJF4QM2x%2F3TqLLULir5ikHeeiyRHwodvtqD7r6zZFC0Q8fQ5xgeOb2iyIt5GWolgp%2FVAWESWXCOySpk6Fs9RYi1BJQmN1nEYde7vQ70bDLkrgyjWYlVCa0TWRsGHoqa%2BK45oH%2BToZRZVA6Zlr3TP3GAd6qUNZTs3WikplzorupW6hnMk9khFIDxlEh4BDyBt31fpF7yPlW4%2FP%2B%2Bt5o547a8YGyqPi9rGq2HY4b44LNaitFcweFXuAydM04E2RnMUwqKOk9ga6K5%2Fhx3j9GYDX1aSJt5qTRWyHV%2BEqdyV20U5BS1eLHjmx1c%3D",
+        "https://www.so.com/link?m=eZTWB5klicWTK3%2B0mdvd6i5CjVor94P4T5Uy%2B6XgYD2u%2BbMGSIz3wA6vsHR1V6mJIpwtSE%2B9yu2VRQA28AbR8uqkJoUDYjZ1vZO4mjbIq%2B1cwiD3w2Ouh9idPQslQv0QJ16dQZyogCvCg1YNRjqpUtFElOVm%2FZLUbZCObGwYCmUHRsbEt2bIp5psvJYhhIkKgwOMMj8TvtRqjNLcOhIL3CkiM%2FQXbdw6b%2FcTfRELyt5Y%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
@@ -2275,7 +2292,7 @@
         "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1888年创立；人工复核：剔除不可能的创立年份(现代餐厅)"
     },
     {
       "id": "gz-b04183f4",
@@ -2292,27 +2309,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": null
+        "founded_year": 1991
       },
       "sources": [
         "https://www.so.com/link?m=eH2Q%2BXwpWBkQydSQKX1KRizU2wJwUpfTWVCIrFiPsPhtZ3fLu7x0zCuOTDJrp0DVOGdj82p4fpfOWB1wJvF3Z8y%2FHtY11kZHqQNqF4m7f2TfErr026IQuXzEliklmfc%2FXSm07P5r8Oka7aNmLttr5d0IUHGvPPVTIj%2Bo3g69ohHJd9U%2F7XLfIkSU1q6hdjKv%2FYkhWs0Fq2dkHhvSsa79a8x0h%2BlLslJ3Jim%2B%2BToHdHnMhE%2BO4zUkcnoAa4vEv7N8DKpYaQzc29XjJWDT1U%2F3aYtOxxPCX8ijg",
         "https://www.so.com/link?m=wqbeWRtffi1L%2F6aF4JXTsrDcT7FbkZRgyfEGujv0wsADDsX8eK9%2Bsdw4WuW5oKCuAfY1oQ4g0ASy1hH6k56O34IVGf3Rh7HPZ573RcnNRs6uBNmtV%2FI3ntaC3TTOjoD75ppObe17IaqzkuJvDGY50KeJ%2BxmifSFmJYs10XM5gQoS5uhgbuVrvAmb822wCg%2FGUeKzhoEomeZOWhMdUGSMBfUcvP8SYkcWvsl3xrdA%2BtByi37H%2FEYe9HQ0BUI8p6zVP%2FjkgukyskFeAbcmQBAsjcQ88NZEQSb%2BCSfFD%2B7zQIYWcVDQu9CxF1Bk5zBE%3D",
         "https://www.so.com/link?m=bONzV2Bj1cWBTz1YbSsylFtGxnGj6J2GIq5Aa17hjjfY%2BhqCs5oHQJvawXIM6bM4fbPK04l2G%2B%2BBD0g3QM%2BHgCXl7H%2F%2FVh0Pj3JXPNGXPcBZQgKz8neg0RR24UtdRddqloHuPHkAffmoFN1huCOHvpd14LvCw%2F%2FiNDXQEN7K5a6TaqtwigTKx3iJVwym6vXyimdArFREvE1kHgAhHVe6gMSsljLxtzDhdW3wzCf9%2BkNNbfU2TYKAiBO5AJMtD%2B6VyTL3NnmfURwmYQhTuVbrCpg87X4qr7M1MNmDKTxbeiH1YMsh1ugkdSAmKpYGGD8Q3fk%2FWqw%3D%3D",
         "https://www.so.com/link?m=z7t%2Bc%2BRSHlPjoGCCz9Vzxbnj3zm%2FKCZt943L6G5kE0kYHjeeEDfbrfAiKVP7XFTzAMKrNIBsqoFVpKlQqL8Op7snLh%2Fx3KNeZNZjKa%2FiFYxxEuTquqnAN6Bt%2BAONw9EY1%2FDht%2BzYVqJOdcHteDeF9VmLAS6ogsTWYi6s8LiPHQAb3WMfV8xT%2FLh8lD2u0QwDGHFzgmw%2BvmZVOSBdUV3Re02%2FJDSdYPh76l6NgI45E9%2BJIO6Ticfen7B7qPL3KEWs7ef%2BRbFF%2BN8QZTH46UrwIAZn8IrQcp55z6MgJeq0Rni9Vq8gP",
-        "https://ai.so.com/search/so9566eda9c8d2e9df9733c4188d179351?search=%E2%80%9C%E5%85%8B%E8%80%8C%E7%91%9E%E5%A5%BD%E6%88%BF%E7%82%B9%E8%AF%84%E7%BD%91%E2%80%9D%E5%B9%B3%E5%8F%B0%E5%8A%9F%E8%83%BD%E5%8F%8A%E6%9C%8D%E5%8A%A1%E5%86%85%E5%AE%B9%E4%BB%8B%E7%BB%8D&src=so_result_natural_news&srcg=so_result_natural_news"
+        "https://ai.so.com/search/so9566eda9c8d2e9df9733c4188d179351?search=%E2%80%9C%E5%85%8B%E8%80%8C%E7%91%9E%E5%A5%BD%E6%88%BF%E7%82%B9%E8%AF%84%E7%BD%91%E2%80%9D%E5%B9%B3%E5%8F%B0%E5%8A%9F%E8%83%BD%E5%8F%8A%E6%9C%8D%E5%8A%A1%E5%86%85%E5%AE%B9%E4%BB%8B%E7%BB%8D&src=so_result_natural_news&srcg=so_result_natural_news",
+        "https://www.so.com/link?m=wbg%2Fj8Gny8zDQo905oNcyKAw4nIoqo8wHTQWniHLGKiTpa3bKWV%2FtoixEGn7zToTGYlvg%2BD%2BtRooRbyx9xmFvayETe4fNkSO5mx68so2RkE4t11lS6DYpUDv4%2B8al7Iut4s23EdKC1b7UbO19n%2F8h9ff%2BpDBcUZorHuNkhUtZ1j0XL7WdOsUsbDxvKEJp4q0GiFvN2mM6nwpFAVS7QyXF3Jsc6nPEUrvBnQh7fEgP64o8d1GY"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "42050",
+      "index": "42055",
       "index_detail": {
         "overall": 4,
         "celebrity": 2,
         "popularity": 0,
         "online": 5,
-        "age": 0
+        "age": 5
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [4.0]，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [4.0]，年份候选 无，点评数候选 无；2026-08-29 补采：1991年创立"
     },
     {
       "id": "gz-969748d7",
@@ -2468,7 +2486,7 @@
       "city": "广州",
       "cuisine": "粤菜",
       "metrics": {
-        "online_rating": 1.0,
+        "online_rating": null,
         "review_count": null,
         "social_mentions": null,
         "awards": [
@@ -2489,15 +2507,15 @@
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "12010",
+      "index": "02000",
       "index_detail": {
-        "overall": 1,
+        "overall": 0,
         "celebrity": 2,
         "popularity": 0,
-        "online": 1,
+        "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [1.0]，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [1.0]，年份候选 无，点评数候选 无；人工复核：剔除噪声评分(0/1/5平分)"
     },
     {
       "id": "gz-56eb241c",
@@ -2558,7 +2576,8 @@
         "https://www.so.com/link?m=zDWzNaK1Lv%2BNFPIuwrEDbwrAdjknj%2BnURlHhEbZnJn85pvxDwVyuL%2F9M9IKw0QuhRsfj0BkmM%2F3yd8ExTiw8kKxpGCgwyoZ8q46nf97v0mY6qbGXtjHl%2Fx%2BNb634yT7tMbSv50x%2BWi6VeuQ2OTtm2D4wYNx%2Fw%2BouhUtrdfyR0%2B0icja%2Fo8Y46TZXI25zMkekmni02LN%2BJBPLE%2BhddOqD%2BXvHI12idSgtzW9%2FQBUHjUpRt9byVGr3ewUmHbWTEdQUflgkFKScQ3SU2Um1MK459%2Fynm0PmcfkO%2FpCmYJqPmOk2orQ8%2FUJYlOg33V4aQBabyGh9%2BXxYXh3S%2BLhsfIhnvkC2Dwf%2FejM%2By%2BWQKHXCda7E%3D",
         "https://www.so.com/link?m=u%2FNgxB1qkRO0Drbcp9Rl7XoIAsSY9bAfYGQppxicrre2iW5QhyaOdBsV3Y3JWWG7OA%2Fsf4OoxWE%2F4MnSK%2Bzrvf3RRc7ZmC295lG4PzFI9jSr%2BPkVECepzbpzuoU%2FQGDMZmmOIYBu0i4SI9UbadLsserj4hQiohlM6ofTsmHgm4jdCz0Jemkzrjrp8JmCf%2B%2FKT1INsyEXzzTfRMk29b12LD%2F1FbsqZcVLzHt3xYSAgfWS%2BYtGLO73pwh4BKubzqkME42K8WWvEgnfc8ySX",
         "https://www.so.com/link?m=bKF7FK9Cqvfx%2Br1NRpPJ5HVqUS01SEgfHnyKgy7HGG6DPqFHBi%2BbLAOHTImKeYQnTBdPo%2BKeVtcL%2FyvjmHtTYkOubwY7SceiYbWfS%2BM9UhWqxvUkl3%2B1fH1oTVDrjAVkBkglBvH3MjrigRWZg9lrFSP3FzADEZ13iNoE5NmRyrFlTzxS8yZmRL2VcyPHCxP4%2FXr8YRRNatqtJT%2BMEnbiejoWYwkdyHEq5WoulUG8B6kaChgoycZryDSx9NRic2DwsHxJ5fp8Tlj3EHumv2BCVyzpelu8%2FjHQO3O6PqxlaN44xVVmo3QcqkgwXIHNDliFm9QqU%2FqOr4eQxC1m9wGDyZ%2BobwOdqRN5pm8S7snfgAGc%3D",
-        "https://www.so.com/link?m=wJJ7TwmnYS9gCcJd1jkjHMjGGhOPFXV9B53gnX%2BiZAXmNssSYxt%2BpiXJ833wTnWalwu6qHVhLufxKGb%2BslX223eyuCEyHPOpPq5HnhMNh27wEkHp8XnqbSfsgTDU3aLDELOP72dxLRR95t%2FsYgA4PrQ1iZvN8hFB3SoVFzgcEc8dC3yfQgD%2FjP6VaxBCTVOjFORxcEsqXS5ZIyg97Ct8VgsZmKVKgfTuwpTaogANQ1Gvhc49vz98yayRp5Mpl0hosSsu9T8OtRvV0xqZK"
+        "https://www.so.com/link?m=wJJ7TwmnYS9gCcJd1jkjHMjGGhOPFXV9B53gnX%2BiZAXmNssSYxt%2BpiXJ833wTnWalwu6qHVhLufxKGb%2BslX223eyuCEyHPOpPq5HnhMNh27wEkHp8XnqbSfsgTDU3aLDELOP72dxLRR95t%2FsYgA4PrQ1iZvN8hFB3SoVFzgcEc8dC3yfQgD%2FjP6VaxBCTVOjFORxcEsqXS5ZIyg97Ct8VgsZmKVKgfTuwpTaogANQ1Gvhc49vz98yayRp5Mpl0hosSsu9T8OtRvV0xqZK",
+        "https://www.so.com/link?m=uTC7f1MrJ5HpCuFkU26xKZgQxnaTOsk0l9losXKeA1NPFA%2BvL8w%2BAcQxiXypGjXpQ65R0DmEOHJTK3KCKeui%2BfggkjZiqZxy20io9HkZhcl6YJLWNOhvfSlkU9rcmhEgqQ6gV%2F3%2Fg336ZZMc7%2FNQVyh4x7YYUgkKBSU%2FA9ftKjuoTprB%2FQHe8XQ%2Fz%2BVGiBxWWuQcnu7mcSKsclWtkii9Gfbrgr899Q%2F1HGAFYvQFtp%2Fli7rDkn0S8WyP7kgU%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
@@ -2571,7 +2590,7 @@
         "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1704年创立；人工复核：剔除不可能的创立年份(现代餐厅)"
     },
     {
       "id": "gz-4607c724",
@@ -2632,7 +2651,8 @@
         "https://www.so.com/link?m=whpbzD3Z4v1zF4A6r7KKrga0eP1SrOh0oTWE3tZYRbavQEZdPw1WOg8KNPbo2uL2l8bv%2BCF8gvMWgnfp%2FxBF9snK6b62BWDTinGgTWhIuVhStb0L4z68rtiqrEuglRskFIcTozvVgPaOnorx0o2ufpb3e%2BbzfpMA2CG4UZUSnwogH6iteHzui4JxDYCv1nAR9OYtcg51SQNx9ocOCMSJSoWsIapNECCUVevzumRj9oNCDrDtXli0UxxKGXlYalk06wUU6NIRru8UurdGCMTzfyv1Vl%2BCsXFp5T7YGYg%3D%3D",
         "https://www.so.com/link?m=eq4GV9hGcXcspMj8k8z1Vdtuy4CRCt%2Fu%2FjTAkNgRRMjli91YpKAUXRjUKJbHzWeRx1YLlXBg539JiDY7AG6YRnquYl5yVJmFMVy0holoxApqYABg7mHOcMhg2S%2BpHhKeunDLmaI8cqQIIYz%2B8MrEtWCMTbR0aRyMvIQebAxpPvudt7XoWpYEczsIcF7HngTU5uAF76OgAMacy014FLFZ9AvQ5Xr6rTq5yc9j6Y23MF6GTMo1GOtSwdAjHv7yxCtAuE%2B3mq4ahQy9XpYvQU03i1vbg64Cz0rbfrCpIQQGD0rs6wFoZ",
         "https://www.so.com/link?m=bb4%2FSdkQ5jr6tCxj8B7D7br0gtkdC73dLU%2BDqf4i%2FyyHlqTlkPIkwlRw%2B7nkCsmoKS7EaYvSQlac0A1o3cotq1QbhkHS%2BU7DC2AaSgaMB8izrJ9vL0DVHRhwvc5SXZ1l3rVGIn83g0oUvB%2F%2BllGX5etMPvMhxzXv%2B491j5vZpgpwCWmGLNGfSp%2BZFlJ2kelZeDgjEyR4O%2B1uPnikryITJGOHJyixUeJL1I6mvjVRHAS9q%2FZ%2B7%2B056hWjKWGSNqggYhKGK2M2lt%2B5mxHzqgDsN9XkDn3xcJxr8P4byrg%3D%3D",
-        "https://www.so.com/link?m=zxl1WV7QtASHe9px8WjoCeN6DWOhSvascAZoQCwN8L0BWEZlWp7DeP4jMzyfeoXlIA4GYVgndMgrGUB1kWq%2F0XheEtPQo78Z97%2FnQdY7Cq98valPHH5u0Auuvelz8Tv0j3gigvlkyBQaQODcXNE8OOsXISZTPshZJlxJ5REECdm0MqkGAmP%2F90BllE%2FS7DwdNLWk09EAwTI6nEkUigc2z5oGHe0qzRyFxZ1s2ofVsYnz1IX%2BQ1qWqcIHXR0btxeW8gcYpu5Mid%2BJ3o5g0EWMTa7izIuOZH7m46rgx5Q%3D%3D"
+        "https://www.so.com/link?m=zxl1WV7QtASHe9px8WjoCeN6DWOhSvascAZoQCwN8L0BWEZlWp7DeP4jMzyfeoXlIA4GYVgndMgrGUB1kWq%2F0XheEtPQo78Z97%2FnQdY7Cq98valPHH5u0Auuvelz8Tv0j3gigvlkyBQaQODcXNE8OOsXISZTPshZJlxJ5REECdm0MqkGAmP%2F90BllE%2FS7DwdNLWk09EAwTI6nEkUigc2z5oGHe0qzRyFxZ1s2ofVsYnz1IX%2BQ1qWqcIHXR0btxeW8gcYpu5Mid%2BJ3o5g0EWMTa7izIuOZH7m46rgx5Q%3D%3D",
+        "https://www.so.com/link?m=u9ABXFVUED55JCekKMDaHOdfSRNmxFW%2BCkvWjsn8DWZ6Hj%2BEpP4Ih0tg2z840l%2Fblk%2F22egVbIEzl1s7PVI2AKdJ9G1jnIl8YdF4TvnkG29sVIUz7%2FNrpklxozxRArCv5X3L7XC%2FhC503ZjCiCbKrKB00femTacprzOsJURMYOZgXiDtg8b3RZBDR3%2BmFjVrJ3TX1v5dcuo6t9In22QUXSEfeGHxhjmMDsu0EAQyPTCN0XS6jbN%2B1eNSg5w1U5n3ZY1kT2r%2B3FwvTGq7zE9I4Lw%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
@@ -2645,7 +2665,7 @@
         "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：评分0.0；人工复核：剔除噪声评分(0/1/5平分)"
     },
     {
       "id": "gz-ed3905cc",
@@ -2699,27 +2719,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": null
+        "founded_year": 1927
       },
       "sources": [
         "https://www.so.com/link?m=u2cCvFrOtGiSiErdrB7O1QexME9lymQi01TRnE38yLNpvDMMLE1%2FRgBVILZQbc3yzimp6nWI4zQBXykoPtyMy8H95qFVnFLHbeVyf9TXixqFO5tZ%2Bk0YACE%2B76N1wdFlQVNHt1bVHlmXy9a%2B%2BkSDJqe6crDQkefxdGAI5UU7JGGT8uvExHrPS7yB83aBQcaXSXbB5U%2Bym%2F7X2YfI1P9ha2SOIMXCK702FKtcUOPiTwa2juxPvDtyWFgd8d8QfMSTw%2BeaVxwDp6qs91fcYwYXuXYhmj9DnF3Q5M2cwpzP1WUyTRa8%2FgMT%2FDE6lJ94KaFgGNdn5GXL6CO7H%2FtP0Fq8V%2FA%3D%3D",
         "https://www.so.com/link?m=brzI3PgfHq0cHRk3GCtfXfNu1XVSyMNL9wnHk3YzBfXmcGAQji%2FSMVrXfbcdTgXgmEzerMGLk%2F41saCrMTlEGPRmbsUo1eoCnNehiILYm91nfj5iTRBfgCv8sqI60mzkqUyE71bWvlpUb%2BKYJNK1iJYogl%2BrizEKlqJiggoI6UORpVsKuDBvX2dKBKb5YD3XSnBXyFWjxRLqsRy5%2B3zDniI4Y%2FoVxBEP6iqPFd%2FFOjkKVrcKBZw61yeeegExQSQB%2FAETq%2FWwh%2BYZYRc7pFDfnvtMAi3GJRNfFpaLDvOewqbSLjpRPSNmrCGEFAo5pBsRY38Egmw%3D%3D",
         "https://www.so.com/link?m=weE%2F1nmKtLY%2FPCoYXLRQ7JPmLFgeFaD1iNJpuAM93rgy639dD82Stg9txfLR9OcJxDbNmQ%2FFSv%2BfZqMGVJDpPaB1Zzb%2F9ONj1d9SZ4%2FVDHwjO7neuaspIVdbaeFvgdAr4TUN16Mf8FReUdhHuNfQf9SeRK7a79xKw5f6BXqWJKLO8GknCrrT%2FRv5TCWW1Q%2FsXyN3AFpi86hkkCT4p4nP6bD%2BFSuVnxp6mojfUKk6oNfb1Qk3k1TOa%2BBy21k7FeGzxvXT93b%2FJc3UpZ0yEaMyCyoN8ZO9dZwMLzsfEG%2Bl1Z6EGyc4RmkbodVGxfmZFDOF9vq752dhg02PvzD75",
         "https://www.so.com/link?m=wIzhp5GTwSXQ%2F1FS2Jucx%2FIDnbEV3d7e%2BJUYeKKiYZVBJzocF67gFCy7xgbn7%2FOhC0qf%2FTyOwy8kE%2BF9qddswWZqJG3nlhcPA0hVy3SHIoJX0sURDIF0mWRvRs405zlTfX5yIFmsJLpDOOhvZO7qxgNN18S3s8OFV5uDbANC7%2FK8OREEFbJnk%2Batb0oiPddDx2AzF8hx1BH5dSPfnkjEweyxBNXlxTQdsDEK6qnEq%2FRvXkePQ5SrNZpOshPg47z2Hg4li8cnJnVDxV%2Fl%2BA0Ap%2BxLofYAoXtzKokJpTI49U%2Bq5zJGWxvEhk687I3yOuXVnXJFuPvhBK4l10ujq",
-        "https://www.so.com/link?m=erPsxCNZW3t6EjH%2Bi18ousq9BfO0OT5fPEPaJ66swXv0JFVoZFkBixktptsQy4pXgIqvWkOR4x4q7GZWEoKDUwC6E7CmQlCcHB3V15o4oH8JyI%2BfwABoLbrCEj4pf9SXIyHMl8%2F7xuTo9JFQqdh2HznMHnXtthHU7GmDa4Z8MXwnHLHFaesMgqWJFo52Pa%2FbYF8XnbmjCr7AkM7vUBGXObzLIyLgIOxYHkWetn9Y8llr6MUqULGmRDDrRbm3V19EHjDdoSO3cL%2Fw%2FzCqLeZ1MvQTwRo3d5MkefHYHA8BlzWfq5%2BB0FxTQ07bwWBr3ecJ16onIBX7eNDLJEMcG"
+        "https://www.so.com/link?m=erPsxCNZW3t6EjH%2Bi18ousq9BfO0OT5fPEPaJ66swXv0JFVoZFkBixktptsQy4pXgIqvWkOR4x4q7GZWEoKDUwC6E7CmQlCcHB3V15o4oH8JyI%2BfwABoLbrCEj4pf9SXIyHMl8%2F7xuTo9JFQqdh2HznMHnXtthHU7GmDa4Z8MXwnHLHFaesMgqWJFo52Pa%2FbYF8XnbmjCr7AkM7vUBGXObzLIyLgIOxYHkWetn9Y8llr6MUqULGmRDDrRbm3V19EHjDdoSO3cL%2Fw%2FzCqLeZ1MvQTwRo3d5MkefHYHA8BlzWfq5%2BB0FxTQ07bwWBr3ecJ16onIBX7eNDLJEMcG",
+        "https://www.so.com/link?m=zxhT%2B%2Fbg%2FS8jXa6Me6KvCj0r5tmxZLfB0Pk6ieGLlCKWUgQos8c8HQLc4KEn71H4kHk6WUuz5oebGVoJp%2BIU5kpAfiM%2FYxQL9AQmLOjdVoCJo%2Bl2o0m5YJcFdivW4kqAba7MFmnlqeMXlMriVJy%2FVia2091t3UN7dN36W%2BkM4tQbbLb0OBrZIdrWFugbJ2kvE5B9cUEdv4rLDRq3eFh6zllTfMJ5R0QmAzRXg6nyOdmqLipOXKSP%2FpZnZYsam4i7apcb%2BFqts8%2FsGoeVrrtazZn4UpyF29jnJ4F4Vcy0yKkB1lIkQydsPjg%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "02000",
+      "index": "52008",
       "index_detail": {
-        "overall": 0,
+        "overall": 5,
         "celebrity": 2,
         "popularity": 0,
         "online": 0,
-        "age": 0
+        "age": 8
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1927年创立"
     },
     {
       "id": "gz-178fde7c",
@@ -2736,27 +2757,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": null
+        "founded_year": 1901
       },
       "sources": [
         "https://www.so.com/link?m=e9XxmDm2%2B5D67YrxEDR%2F2c%2FCpoAeGltheYrEdPH1vj1wlH%2B0nE19%2FkRksOdx%2F27Nyr4cq7S%2F7grN10rmk65UVItciRqYM7CHc8V4MgsIBckHelmdOLshmxZJhutm4eDfilcyBtVf9vSPrNI923P4AvkWmyFJaDSFxd8Lhh2SrwJc1fUq9mFFZwBAdxBgcCxkql4Ad4xp2T0hZqjfRKP7hbvheaV8pkdTBHaJma7%2FXMrZZwVn9JNBjAuyNWsf03kul",
         "https://www.so.com/link?m=wjkPPw%2FpR5NGzdwfsUur9vU5aWzNnLk5xzrRPHz%2FWwzk3K25%2FIrru43DZGgYpr%2BgJhjcUxt%2B71yfk3SsiGgzoenXHGxq2Ipj80rO9YMQTXpyLhQmvlnjoo6yoPC3SSWg2h7WqyKaCQaCvyN8KEBq%2FVrYjihpJudGx0S%2FwV3oBqI8ZmTt2ZmMHquP%2BRxembRGfN42zDZF0O9J9YV7c%2BRcusMhNQOHKvejD6lacbEAVhCrklggRxbDJ58GvnEYH6rdA",
         "https://www.so.com/link?m=w%2BDKSYeuRFq3J7%2BNytPZ4QevrxDg1oWgP1T5hb7ayyoanizS46KbPU%2F9HovjW4Y9Tn8Jmusd2%2FN0wCa2pilaZ4RPeU4gG%2FdANnRe9MyD3%2FF%2FHXZlVOh%2BaFvKgdO0vLhpPyl6tQ1Doou3pPXwiHdDNR3Ha8TL0bJdYY%2BIOMKiOojrb4L0SdZaM4mc0gSP3dnXy9Kr7q69RnTYc6ippva7VQhcT1a0kkwPrSC%2BEfHSH3eIQpuAb5gxC4UGfnONa7PYGvlE066IBGy9YrLEunk5xMr1Dtsw%3D",
         "https://www.so.com/link?m=ew%2FdH54ePp4%2FeJN1zxjXWIJME5TfV3PuCM8zCEUR9lBKSu9KDwIjs%2BQTp4N6W%2BeT%2FACy8HrMo2CW8%2FCPEo2E92qvVypFaHHY0gv28DGw7cS7BTFxIHB6LbMqFrVBxiKD3adNJczk9fhbXDGNKrYHNZTowLybZSBspMuk%2FmGuLRVTZ3YS0kUzvArumVA7jaVN8ExFCI2YZzexxURD1XnOdKWD24mhn1PvOMsolRn9B5RZy0I0u7X431GVwThP2QZM8j1LDWlkVmN4%3D",
-        "https://www.so.com/link?m=zzwXJt0AG17zOqWwRfuilOjWe6cwX25ryN3VYLRFbIzTkknOzrUCgv%2FIe7Q%2FivMXiAHDWWHMLY5H47GtzJcsFF8pFk6nLw3mRqlud0fZyzaVBFbc%2FSQBkTNsmJ6Y9Ol1pH5UMhcrHwpk7sUHVuZhZoSq9FXh7xOqnvwfdraBjEi5tJpyV2XKMNX4OmWrCgRicCb8Egf1ACH5mrs%2FSDlRxRFQcP%2B%2Fym9xmv20V7Dn9%2FDumZdXNpnl%2FuUjF4uXIMQ2hUj%2FRxksxr5x%2FfCGmBFSYPlx%2Fe8I%3D"
+        "https://www.so.com/link?m=zzwXJt0AG17zOqWwRfuilOjWe6cwX25ryN3VYLRFbIzTkknOzrUCgv%2FIe7Q%2FivMXiAHDWWHMLY5H47GtzJcsFF8pFk6nLw3mRqlud0fZyzaVBFbc%2FSQBkTNsmJ6Y9Ol1pH5UMhcrHwpk7sUHVuZhZoSq9FXh7xOqnvwfdraBjEi5tJpyV2XKMNX4OmWrCgRicCb8Egf1ACH5mrs%2FSDlRxRFQcP%2B%2Fym9xmv20V7Dn9%2FDumZdXNpnl%2FuUjF4uXIMQ2hUj%2FRxksxr5x%2FfCGmBFSYPlx%2Fe8I%3D",
+        "https://www.so.com/link?m=zgWDDWcbDMiuR6xBGnqwuDB1wk4wjS4WlO%2BfIdS7TaDkMeZpG8mWyHh7rLL1S4oNxfxKkzM%2FP0fZqbrsDFsTdMd%2BuU4su%2BcH831ejJG9Ph4vzupHtfY%2Fehelw8U5p1i%2Fq%2BrqjWIGXEskjHiiqkQXGgA%2B7KV4ER4jSDKgY0CPq%2B0r96Mc%2FIG3ornn%2FZPFKbomdqVInGgjMe3tehJFCP6DRBTz47hljEiOCfPoC7A%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "02000",
+      "index": "62009",
       "index_detail": {
-        "overall": 0,
+        "overall": 6,
         "celebrity": 2,
         "popularity": 0,
         "online": 0,
-        "age": 0
+        "age": 9
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1901年创立"
     },
     {
       "id": "gz-a5807b64",
@@ -2765,7 +2787,7 @@
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
-        "review_count": null,
+        "review_count": 462,
         "social_mentions": null,
         "awards": [
           "michelin_plate@2025"
@@ -2780,20 +2802,21 @@
         "https://www.so.com/link?m=eT6K8dVyBWd4ivSFjRLdC4qWrEcahHuCh1bdML2pL0lwpydxW3dmKMEkpiqCqHE98F5AxHykm9MFNvFMKtZdXRZzEx99Uy9xsg%2B5ILPUZTDDR75o151PpFSJN4mZCdHgO5vzYvSsc25eajadA%2Bweaklom0zu7oJAqHU0B6EPWlqYB2v%2F3LBftJ45xoeMWvOXPUnkakWIwYdwPnM5oGvNQONF077B%2F0HVGCI1iHmlySfh7GpU44%2BPYtonF6sC1meczUwJCRYDAkfzQ9G3fYqBM1w%3D%3D",
         "https://www.so.com/link?m=w1LJdgdKGdHF%2B9vt7vMHPckTS%2Fb9pWots%2Ffkwzyi%2Fzc4Y08eMkHkn9QZj5%2F9u0Y4kW1dcK9IOilwHkatb0AIXx7QupEeF4O4xw83ipeMlSt5pnJyr8KkzQIFLU900Rw2eiewHQVxsmW6zGJx01QnUi1UlulQrMigrSf0EGMLwCvdbV7nHxDPJHNYQa3JoSslL4lMrUF4b31DI2fJtcOugr2d261To%2Fepj9RcRCBgHEV0v3PSoNE%2Fv1iMrXPFVpZnqVsgwtT0fCz01y6dm79DerCMVga8%3D",
         "https://www.so.com/link?m=wX7l7g%2FTtSy9GJjKEwkzvp0Ogk%2BX29Tknp7nw4zylTuQNGFWcsSIf%2F7Xt%2BGwX4ocSWmG98QbuQbO9JosbqlPW4sDLuxzP6Q5LP22WRV7bqmxLGJfWFIXH%2B1%2F6MOocdLl5zi8830D1UbkwX4zkRYkh1l3ZnCwKlGtbaVyRRSQMUbwZEtcBT8TxlbRWUj9zTN8DId9VFP1Kk0EEedbKyEbvzTsQHP3tDMHEyYkKdg43DzqgXwAjp%2BM3NCTRZD1cmedz",
-        "https://www.so.com/link?m=zObqy06gA7iau%2F5K8IGmgQIuuL9rAtMYNvA%2B%2FMhqPqR7vRN6YeNqv%2Fue9teNcUVOrtV3kbdI0AguchitslLO%2BnMx2pdfhqWuHF1Y4ST5hdLcX7QzPUSqrSodEMu5tdb5I3z3DVbzqYWkc6cNoS%2FiUcl9Tr38iiFZTREtOEp3Rd%2FLzGhB21X5DV%2BUPzEZ1YcNCC8EQV3fdzHHYFrv6zlbE3U84DpyffNC%2BkNvPjWRsoEbgijZRE06pttSH3U6x%2F13hSpcHjufckVTj8IimS%2F4jdPHsNDus%2FhFt"
+        "https://www.so.com/link?m=zObqy06gA7iau%2F5K8IGmgQIuuL9rAtMYNvA%2B%2FMhqPqR7vRN6YeNqv%2Fue9teNcUVOrtV3kbdI0AguchitslLO%2BnMx2pdfhqWuHF1Y4ST5hdLcX7QzPUSqrSodEMu5tdb5I3z3DVbzqYWkc6cNoS%2FiUcl9Tr38iiFZTREtOEp3Rd%2FLzGhB21X5DV%2BUPzEZ1YcNCC8EQV3fdzHHYFrv6zlbE3U84DpyffNC%2BkNvPjWRsoEbgijZRE06pttSH3U6x%2F13hSpcHjufckVTj8IimS%2F4jdPHsNDus%2FhFt",
+        "https://www.so.com/link?m=byuRqrUtXg6484yw6eyw8SeDJrkR%2FrZgq0p8HovQbf7tcf%2FDimdd9bbCsDxwSgpFeZMs9mMsEDvHzCcbaZ1rhK1XPatir8aqi2Stc2VKSUJKqmrUvahAAqvtxkbGgmM5SzjRex8XDrKHlij7LBwb8S2%2FMw2VsdilwnGHFM9fGnmYneGhVqou6mSRhHJ405rD1Wxm8CjIJ7zpJpQtmCHcci8j4KFVXdFsGD9UOHA%3D%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "02000",
+      "index": "12100",
       "index_detail": {
-        "overall": 0,
+        "overall": 1,
         "celebrity": 2,
-        "popularity": 0,
+        "popularity": 1,
         "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：点评462"
     },
     {
       "id": "gz-03a5a40c",
@@ -2847,7 +2870,7 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": 1830
+        "founded_year": null
       },
       "sources": [
         "https://www.so.com/link?m=uZUe63edatcFsdz1KEh9Yu4dj%2B8BihHcggcQIJlV4gO059ox%2FEAQPX1PFYSvcovKVmEVq6HSSPvyWNkXmGfZUU%2BvIKO352oPZchFzMFcBd7zdyDRAR4qy9mS45uiPDaNzD0qTop8MJ6UZjGgLtuKUcwH3DDKhzpgFYAYTTxGt1uLsZOGI3HJ2Rd3DOfrD6Y2LXY4vgu0a2dVEbaqZEHwx3Zl%2B4GTJ039H%2FnVj2502VsCHz%2FudqJnSaKdoR6U0sw88h%2B85nbhwUSw%3D",
@@ -2859,15 +2882,15 @@
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "62009",
+      "index": "02000",
       "index_detail": {
-        "overall": 6,
+        "overall": 0,
         "celebrity": 2,
         "popularity": 0,
         "online": 0,
-        "age": 9
+        "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1830]，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1830]，点评数候选 无；人工复核：剔除不可能的创立年份(现代餐厅)"
     },
     {
       "id": "gz-3ac6f393",
@@ -2882,27 +2905,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": null
+        "founded_year": 1996
       },
       "sources": [
         "https://www.so.com/link?m=uov0Aln6JdpOUKfhWLJxCoNnQUTdjFuxyMCnWiD0DiApDyGulSUT1VSoeM%2BPpG6t5bCcxM98zLJzfoOV26dJbHx%2Bqlr4ZYL1oa3k331qL6TBm2%2FruoUEYo1vYU2LksAswUpmWOq9AoyAdLG7XACWwtk5aG8Xpg9Xi04fQ%2B1s8dp1%2FAEYnx2D5rql%2Bm%2FDVrq4zh2%2FW%2FY8lbd61spxMB8Wlgj94Z3SQ7eGUk9I%2Blf3HSl1no%2FP7J6C50tt3HohDLmmVMRIlz9%2FdfXMYiDgTZipwbimVUhpiXls6%2FapP3kXHLwPyQGVh8jd87PElAIhzHAtc8xrHGPOWGmKvHIEFIS5Zn0a0L9jfnWeLCl%2BuKbsq5wjyhB6iT%2FUkpCYGC5w%3D",
         "https://www.so.com/link?m=zDGiK2dDlU4MZghS8JxxUXu%2FcYcyjnklJ%2Bk3o9YAOdJ0QeAuclX6zcsRYOIdjDsloQd4ERw9AJzVEp04sUSdd4kF5kFNWsW3kZIXzeD9Hi6dTDUsqgzFuNTD3zAIigdmld5HPrOrf54H3qzamaE2cFgsCNgoa7UHxjMLytccN9BWV2s0lYjfv2UWLGXvNFGGXbkqyN7PVCJTi5pseZvZ4D%2FVW0YyZATa%2FWBHGMVvfi8lNSDNCECeDU0dLv3nV2tA3DBMrLRjXvpCim191%2Bp%2BEzm2gOIdQvLHkmY0yn7mc9iiUoNYYqYussV1Q%2FZs0ST9RPH4MgM2oHvGn%2BCp0wND4e8aTh2mHFBP40sZ2Nx7Ox9raAVmYtWtrprI0nEH3rdhWHMNXkmKK8TO3Mu9L",
         "https://www.so.com/link?m=e1lxPgG3Z5tQwggAWsMBUnocOYDWQYQWlrTAbhKomO0QCXWggPQWUzOORjkby5ywbo7bZrlfZ4YkGGyMYFCAdB%2BKb3nTrGxHJzgyqPkG0Bes0y%2FfJIcNzNmjunvXz84cs9ZvnrqKaYvZPNEb7hEFsWSAWM1J5ucObRBSPwV6MyL3F2stdSUgAOkigbdawVTNp5l4Dhm9YOtG2zL59U3lMQNT1YVH0Xqw67VwvWjx9AFV7RXeHL1VB0Q1MftRhDTZ55RWHdaeFP5NJ%2F0tSI2V8cquoOhYNUXLYg9c80P%2F3n7Qtzd2vJoLbYo%2F1Jd2p5YXjiceUlbwlHagrjKsQzUwhTDyoFnQ2Y7DChCvF0EshXgbUJLBRwYhTcym4BDPaV%2BHzgZx4PuP1mvUT2m79tOC9j0%2BBYyU%3D",
         "https://www.so.com/link?m=uFtADRl8i1QpvHEIQ%2FI8URqLGe9daU4iOFet9ExjyGJN6V5SDTwWKm4%2BYbD0px3ZmEAlmFwroNSQGXsjaBdBV3rCaI1yqOi%2FWmg0ce%2BK%2B3TZbymmLNQCfvmeg3siR%2BzcUXWfk3nyNIxQ0ZlbIyBzlkcJmCzuZVFwlG6euh2oM65BabGjp2rWX2kIKkpjMwZd4ym5mxhK%2FdFqHkWRhu1VdD7%2FznUtMwqpjGXMZ2b9DmVw2PMaQ0mMEU2ZjNNpWIayzhhRBJTH09XzgVJ06ISLDWR6EvMMHOpfw5R8dvCkSkA6YUJyCg2%2FVJ5d7QXKlpJJHFYHB9QMnCiGD8JvD7%2BtIxoGXOuIXHDvQ92eRG47bx6ma69PgC%2BJ%2B3oK0%2B8y6rjvrD8H4OAeH5U%2FzolUcudkd4GP2D9M%3D",
-        "https://www.so.com/link?m=b5Vk0ePZni1TlypmTOtb8UnyRXNVBdKqiEaTdBkYKihvt363P7OlJk4YN5F9sDQdtIpUS9KN6jeVH6G59hZ%2FbG3kif0YxX6TvFxq2GoCiYIduwduDJTBueRWQ%2BIcy9Qyymt6KnWswN2BvPr3LtS3aWNGtxjeAk1HFNipI7WFD0T18bsVB6ARHrW7m7N5TXgNJB1gxeATYDimiMoqaZISAbpF6FNlwbrVYnVRP47Q94Q4Tbbhz8u4SA9TydC6Gvq4vqftIwptDio2pg6AMJgen9LtvAyM5OT59kIQaqSIDC5y5bHHoB6FVlK2KhHMzdrHg0UzqMHLs6Ul6bYeaDb8ik%2BuTf8hQCFv5zm555NnAvdccWlExtmApccmAOnJlIq6g0dtjYoiQMN0%2BW75zXCCtFw%3D%3D"
+        "https://www.so.com/link?m=b5Vk0ePZni1TlypmTOtb8UnyRXNVBdKqiEaTdBkYKihvt363P7OlJk4YN5F9sDQdtIpUS9KN6jeVH6G59hZ%2FbG3kif0YxX6TvFxq2GoCiYIduwduDJTBueRWQ%2BIcy9Qyymt6KnWswN2BvPr3LtS3aWNGtxjeAk1HFNipI7WFD0T18bsVB6ARHrW7m7N5TXgNJB1gxeATYDimiMoqaZISAbpF6FNlwbrVYnVRP47Q94Q4Tbbhz8u4SA9TydC6Gvq4vqftIwptDio2pg6AMJgen9LtvAyM5OT59kIQaqSIDC5y5bHHoB6FVlK2KhHMzdrHg0UzqMHLs6Ul6bYeaDb8ik%2BuTf8hQCFv5zm555NnAvdccWlExtmApccmAOnJlIq6g0dtjYoiQMN0%2BW75zXCCtFw%3D%3D",
+        "https://www.so.com/link?m=bubjcdfeXJYvbutQyzyqNPzyMx%2FvHPLV%2BoKiS0veN6e3%2B3hkMc3nEHyHXiaK7AMIhIR3l7CKs6C9LM%2FqRMDqZ%2Bvs649GrMGdUQ90iLDuLl7w%2FD%2F0oppgcsoA4E1x0iT%2FQMasakJQUze4S16M29BczlfliIGIkf4V8zHJTvhoyhxgd0EWeUmGL0ymKWjxj8yO3Big%2Bp1pasFauE1hB%2BlqTVqNDqmwL6474m40YQtbhDltc5x0MNiDg54UErjNAi1tEgwLC5aT%2FaAZYajWFceBabVo8To48r%2F4ldJ7sunp8220tPk0tEZmwudUvE8P1TsN83q1R5XLgKbhHMG0J2Dms597ZQGj4LpdZ"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "00400",
+      "index": "40404",
       "index_detail": {
-        "overall": 0,
+        "overall": 4,
         "celebrity": 0,
         "popularity": 4,
         "online": 0,
-        "age": 0
+        "age": 4
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 [17105, 490]"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 [17105, 490]；2026-08-29 补采：1996年创立"
     },
     {
       "id": "gz-a539b695",
@@ -2917,7 +2941,7 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": 1845
+        "founded_year": null
       },
       "sources": [
         "https://www.so.com/link?m=bcs2qYzEkPuZxJNCqFlvEers1XOoeSeokDCaYAkWd5wuOAIiOO9G8kmcnWQMD3maEJTl1fDitLAqMKjuujdeDMJo0RhLfFdgvoSuiGqEC27lum40wEerkhJbpHB9ha7WLLFZM%2FpVJJSvGYXn1BgtQrBytrtnH5xKFVdfiyY97XR%2FaK1IvTyamvIG5%2Fdi6pMGVYSgR65Djk22gy6V%2BfCCtqTD0zwf4hJdPY1rx93GYzLV3GD3uavnHjYCXDX9l1ELjOArC1Pz%2B%2BHiTmkoqTuZzGtOiWuOngFlioIqGAbxtAeOFPMSkKEkEGg%3D%3D",
@@ -2929,15 +2953,15 @@
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "00009",
+      "index": "00000",
       "index_detail": {
         "overall": 0,
         "celebrity": 0,
         "popularity": 0,
         "online": 0,
-        "age": 9
+        "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1845]，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1845]，点评数候选 无；人工复核：剔除不可能的创立年份(现代餐厅)"
     },
     {
       "id": "gz-4557f191",
@@ -3015,7 +3039,7 @@
       "city": "广州",
       "cuisine": "茶点",
       "metrics": {
-        "online_rating": 5.0,
+        "online_rating": null,
         "review_count": 111,
         "social_mentions": null,
         "awards": null,
@@ -3034,15 +3058,15 @@
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "60198",
+      "index": "40108",
       "index_detail": {
-        "overall": 6,
+        "overall": 4,
         "celebrity": 0,
         "popularity": 1,
-        "online": 9,
+        "online": 0,
         "age": 8
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [5.0]，年份候选 [1935]，点评数候选 [106, 116]"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [5.0]，年份候选 [1935]，点评数候选 [106, 116]；人工复核：剔除噪声评分(0/1/5平分)"
     },
     {
       "id": "gz-e6b076b0",
@@ -3092,27 +3116,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": null
+        "founded_year": 1947
       },
       "sources": [
         "https://www.so.com/link?m=uFjTG7n%2F6KSF6AS7LMz7LqG%2FeSDfJpgwMLyPAcsvFB8%2Ft97WZMTfbcWeRW%2FEnzPTLMbRDuEasT7N9fuVlTQRmWS6rl0xhPZZvL8VpVMOfwjx99%2Bhe6%2FvTqzN4CEE7g%2F3fbbTvhIbFiJg639UABQZAauLVE0I%2BoSo67Isjp4EC9gbumh7MDPlRvBs5TdZxUVl9Vai2%2BlsKhVvj5tzwADLv5lScggaI0q370csevYk6GvGy%2FcTkHUt85mGHPmwBOLraVu70ncp7PpsVXaLFjltPtpxBWoUGr7P1FPZ5ve9hpZjRTmbqCqS9SD%2BYGUGzsfS4Jn9FTLaYJdM%3D",
         "https://www.so.com/link?m=zZySxThxIhZ3cdrYnaXoIM8rcS0HkovFf2815fdtVaX6dKfN6t2Rnjm1ZswGUoQmjcw%2FBin37qn8KTbDxHw4DdAHFZfe4iP7s55wiPmqWqbskMmT2cv6NrlcJUNUX58Ic8y%2FgOO8T9vnlfZpxSZoOkJA8PrBhGvHRLUbU01bpwJFLN4R%2BHW4vHg1P%2FWXFMjllO6JMXl4RGTEpQFcYcdPmU3QIm2gClL2bCBoz6bRaOSGONDno32LVUrbBa1FpTDxTpKMGF4DObVe3wDxE07d0TD1fphADEZyCoe%2B%2FMGq2QpWWmi%2Bw",
         "https://www.so.com/link?m=eKZtuUjKAbDe0RRS3YGF2PLYn7BVNeCz6ZsKndSpEB77zkmg1azy3XoDPFYUgOjvnOAkkzmA%2B5%2FLHOUOJb5Crav3CUh6R4W7QYABcxq2dXJ3Z15mZ%2Fkf%2BekuEAvgGO0fdvtGeNpF7WN3f1aPK7DXhZdOhogOdzLaTXwBI37ymsBoPps183JrfVA%2FejkIvTbBVleXY3oSq1mMkBmPfs4PTMwJqhLPB6E9k4cYL6DWLhtLdTGogvj3HKZ7vrDdRpqAS8aZlzuUBuGH3g8704uM5Lj%2F7GAZMYgvLUUd8kYMW1i0%3D",
         "https://www.so.com/link?m=wL6pFhs1LUfPC8wwZ14zwZhRloBrrKT9LTGxl8h7QK%2FltopEAybF3yCnptT6UVds7bb%2F5NXtmlShEanssO0V03HYxky%2FE7ade%2BD2OiFRvFozjw%2FnMYyL8wGQ0OSAvpoI%2F3q%2FE58bhrKd9nDplYF9TBfqYBW8HVvDo7zNWizgH5u8fv4TmEym8DdKKg74r4L4SCgeBSdzoM%2FDYqUkejwDqf7sq8oWsUavMzHsxuVjFUhSQwNyOTUYcSwCPlCAVb5cVJBGo6qkgU6mOkrHWKFvUKiqbtlVVaSj8cLAuLQ%3D%3D",
-        "https://www.so.com/link?m=znM8BM%2FuG%2FlLhBXTPCcOEtT9enJbjYDkCOn9EPNHFNxelh%2BkiRtsjosuXdiBITqMa65RYD9sboWL6Ow9v2XnzsORitS%2B%2FC9JSnUPLuiECEVmnm77R%2BpOmZSAzb1VSQiRQ1Dd5FYVlmft20dXgR9MXVEYUk8ICGFKY3XjO5dmOfxfA%2FeMx7POoCWp8M8Dclu7OeNr6ePo1rk7lV207FhLRipOfHlkspho6I0yr6nDg14oM8WYeFW6MeB7ltycaNUzsbeYtA2J0aDbdxj53EYWJYoIF4Ld1HDxown%2B4gFGQffyMY%2ByxIiOdV%2B5GH2EcPLnKoGATYexvK2A%3D"
+        "https://www.so.com/link?m=znM8BM%2FuG%2FlLhBXTPCcOEtT9enJbjYDkCOn9EPNHFNxelh%2BkiRtsjosuXdiBITqMa65RYD9sboWL6Ow9v2XnzsORitS%2B%2FC9JSnUPLuiECEVmnm77R%2BpOmZSAzb1VSQiRQ1Dd5FYVlmft20dXgR9MXVEYUk8ICGFKY3XjO5dmOfxfA%2FeMx7POoCWp8M8Dclu7OeNr6ePo1rk7lV207FhLRipOfHlkspho6I0yr6nDg14oM8WYeFW6MeB7ltycaNUzsbeYtA2J0aDbdxj53EYWJYoIF4Ld1HDxown%2B4gFGQffyMY%2ByxIiOdV%2B5GH2EcPLnKoGATYexvK2A%3D",
+        "https://www.so.com/link?m=ecy1FWg9kNqV4PANIzlLoX%2B0IIBpkdSNlgGX86EiXHrubz3F8oNidSBX65X6UH%2BvFP5EI7SK2sIjSkTGhs3o5AM5ULRzko%2F4aahKnpiEzxqUHd4%2BTivPtlhFZdooRUt0friOGOdHCLYavyKZ8pi8W5EhBkxJy8mOfv1w9IzOgXiCMHQJ69RItULlL9oBMNZqN8mZSf%2Fad7qETmS5wbHa%2Fmfn%2FtDyOFn9LqGKYg8PdWcQyMjogRhqJGljsbv8%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "00000",
+      "index": "00007",
       "index_detail": {
         "overall": 0,
         "celebrity": 0,
         "popularity": 0,
         "online": 0,
-        "age": 0
+        "age": 7
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1947年创立"
     },
     {
       "id": "gz-f59e5036",
@@ -3337,27 +3362,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": null
+        "founded_year": 1932
       },
       "sources": [
         "https://www.so.com/link?m=eHNBzEi0vh7Yedg%2B9BhuF1Z%2Bk0caw%2BIpNbDNiRbfW2Cug7fD%2BjLcooy6h74Y5fZjHJqack%2B%2BRd4vWR6st1rkjH3LtlLkfeq2NcQ2x5cuOfrRdGoN%2FLe5%2BModijWPA4mTqnven14v923Xw8uu30Yz%2Fc3qzeOrcTUywfQTLFGMGn%2B8Rq4dmS3JA4fj403%2Fv87kdVJYgdPUDMDbWaakYGbY5lNp3rGfexcflporXT8A42m%2BZqA%2FQHT4tQh%2F5nxnIlvJCezRx8fl2ueJwqF1itRGQsmxW1ZWMy6pfs99sTVCE%2B%2FQR4jGrtpnx9VEJadjs3GQrrBqG%2Bdy8tbyIgPMWIh7PjRjYx%2B7z6LGDoN1w%2FBrdZ0LCofEOeFOducEr5Tp9%2BAzzFad%2BZg%3D%3D",
         "https://www.so.com/link?m=z%2B%2BUwekgF0WbKuljESUeOMUjFSH%2B2zmrkFg3I%2Fk%2BVKELg4TdGcplPbtFNezFU2qREWXjJlQcnVsIRTCUhdFiEVAPwJvu4f82klmhNWTTONnK9%2BvczRf7tMTVN%2FYCTmmrg2UW7HVDrNRcfhPwWNrxAsgZ8y8T5W6ZdM8p5AfZZYzGOiMJgtV%2FxFgqfDwrRUYLapvUOBkGBUi8U%2Fc9sWIBMpBE9PgXCibZWLHXrCi47rCpNyLPIfwqlg25rCajEIEKSPcpUNYoEfkShZO2UT8DRQVtP5MjrI32A7ySNuDw4N4wlmVcQVd3hKk%2F1BgTMJ1TvRzl6wXMv3e%2FLs3XmEFzYvklbYmlmt6ghjP1jxw%3D%3D",
         "https://www.so.com/link?m=et1i%2B%2BPTRiDMfTgT%2F61anIZ0wTAR32GnlGUHAOmdw377z4bmNFce7FZ11mRh%2Fp5uQoLW8F%2BoMm9IumpO7m3KAJkYGiLzCu1tr98uOJJd%2FMaTHmjgX0y719D6NiCYPQvpC94dbL7h7loR%2FRrZ1rbzqN79b%2FsepngPAaCx2nLBqQPjXYKioItlT%2F4GyUp2IpEvapLX%2FCYhFBpm2le1VgG46Qykr4Pn0DsHySkrv%2BDmGEAFk3vVUWUyzUNx5G9uk%2B0IKnNJGh6EzXUsg8WL3o5aJEG9dbOvS0ptIehW5Lbz0%2Frif1HFNdDpMtJCLSQ1ZdgQTizyisIOkr6ZUd44FeoaSHmuGtklJNKeBTuQD2A%3D%3D",
         "https://www.so.com/link?m=uoYHeexctvlDWwmorRtW9hAwWmTKA6itSRhbhDFt4qA1uMSvBFDzHXsg51HNC0ERYHQ8nA4YRy%2Bb4Ty8JLaS7PJ%2F1a4BFh%2FtSKhtpSX%2BxwjJ3tf9HgAlmeEG1ff7LHsfSSEkXcAjNxTzI3rPphuz0b46b%2Bw7u8o0dfnbz8P7mmhwAM9E0PqhPAsLirN9dF%2FAANWKfonKhRo3aGSR69%2Fiod9J5%2BZaHGfDLs9NA%2B3gyJh6rEYt6cWJe%2BUoyaLdIX7uGrxRS0m9QphxSdUGEMF3urTYBJa4xdIq%2Fj4ONZ007NJx8dx8LdRW%2BYhRguqhUM0w%2FMoxpbzWpc7FChsIgZYcG3segjV804Bdg7gORkM8UYa8%3D",
-        "https://www.so.com/link?m=uVRF8UcdVsGr9LC%2FypLbrzG8njYpocpmPGzXwTshbKvqD2FkKMt92k1hR1c3m8p%2BzzhWWYvG2JNIgxW%2FsJPtxntKmWaYGUyGJzgFoPa0vK0t6AQecyi8B02w4TQJHYqcbBA6IOicIF%2BKllO0rmLFi9AworG%2Fj5WV9NMPRjypoprfAxdJtgo4sgczDfF1aK%2B%2Fdm5ykedCQS5%2BC0oPAaexfKyW3Hkq8n3oM4avSs6C0U0QH8ESv0nKa1kzOT42Ym6uv592PT8LMlg4n1C48%2BeiZg2wge1u7i%2BuecegSROWjNtSU14OISOzL9TtTJ4cfHdUQLjDbMZ6wdLNIJBAxWUkGgt57RWktMCOfmERUuu6N51M%3D"
+        "https://www.so.com/link?m=uVRF8UcdVsGr9LC%2FypLbrzG8njYpocpmPGzXwTshbKvqD2FkKMt92k1hR1c3m8p%2BzzhWWYvG2JNIgxW%2FsJPtxntKmWaYGUyGJzgFoPa0vK0t6AQecyi8B02w4TQJHYqcbBA6IOicIF%2BKllO0rmLFi9AworG%2Fj5WV9NMPRjypoprfAxdJtgo4sgczDfF1aK%2B%2Fdm5ykedCQS5%2BC0oPAaexfKyW3Hkq8n3oM4avSs6C0U0QH8ESv0nKa1kzOT42Ym6uv592PT8LMlg4n1C48%2BeiZg2wge1u7i%2BuecegSROWjNtSU14OISOzL9TtTJ4cfHdUQLjDbMZ6wdLNIJBAxWUkGgt57RWktMCOfmERUuu6N51M%3D",
+        "https://www.so.com/link?m=wac6gOTnYRqv1FnJVldQ3nM8pEy9wEQFtOZ2pYLhX0UBPCCjB4o7hnJy6O7eCszGFUry0VrQHPB9o4S5JM0tiwXaR4ccnQtXNheHLZ80xan0ENY1UPLOJm2lUPPu5Fp%2FVfwDhX6n9qzTCoJ2cwSGrA2%2FV7ow6iAR9I36%2Bz3vnxPxf%2Bt5NNVjXyGjTBYi63mYJc1TlJWbvHIwnz6SnjIPvz8%2F%2BB0Y9b2%2FRZ4zqUel%2BvbWxGEOJIKEwnkNjn174q88RzdVZpt62CYTJmZ0VXQ7wTFgVVPehfuFgb69adFPrRrmGnCZaqeLDG021uuBbpJAjIkwwdUCl3r9cPWKR"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "00000",
+      "index": "00008",
       "index_detail": {
         "overall": 0,
         "celebrity": 0,
         "popularity": 0,
         "online": 0,
-        "age": 0
+        "age": 8
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1932年创立"
     },
     {
       "id": "gz-f0d4837b",
@@ -3379,7 +3405,8 @@
         "https://www.so.com/link?m=u7ak3AscaUwiub%2F0KO7DLMXMo%2F83j1HtlWNYfV%2Fd3Cng3QhM%2F%2BlffgWjyClKcp5HcX%2BFNz8OsdSrQZ7Cmq1azIGi6rdTshM6ww0PBTZul89b5nfOm%2F1wM9Skp5dP44K%2BX4EqWsYJNX%2BZM3j0pGJLb7gIa%2BfgKve%2BVmLKWe3rkyxyj%2FfepTQVgguQFY%2BCkHY6lZtqEZx5lH3GEeP25H4QEHIKPlXLrX6go5tfInDxQ3%2BpCAODV8uioK2HZ97erqThqTuFKFnM%2FSyrP2ckbPM4WhVXj%2FEsrzDr4l31P3PgoPzjyeK86gZbBDqh1oNq1VOeDkjYwekQVlkAPxV0Qn%2BjkpQ%3D%3D",
         "https://www.so.com/link?m=w2DRk21O%2By8nEL5CxZpJvI636Cvpp4y2g0wzMU8npgX90Pf66yL0bUyZPzMaN5PnwEJIrOmO6ORNjpa3JbbfqhJGypTwJNh5E5g%2BYxVnjG2axgzFCrPOjEzXAt%2FHz8mGVpgHKM7fdFJ2xL7kCrgOISffaWhu4Rs0qwAtJV7LuqiKCaQteIStHXwOzL4cKz3sznmYQIGioidANl19A6w5Utk7saon87ZT8PH9KumilR5WMtPopqnczqPRq212MERIO8n47Ypf%2FEZONkTbVJgs4lpQO%2BcRtLMiehO%2ByP9qUvXAbnDS%2B",
         "https://www.so.com/link?m=wEO3yzd%2FTnD3VwIKz9pIDPgkL%2BMvBsJwkOwSVFUY5kT3r24pLmahWcYYp513nWSg6RfDyEnCR%2BAUpWfwApwIT6aLx0THB1A64zUlbLYDf8TXz7GoMwHTLQidLMaOMd9ojvTE9ekGSeEnjKxOyoHtGrCwyilbtDcp3If5xt2xWztD1TWqyh2nK62HuuQa4ixJejm4QW%2Bto6DSN4o0Hl5yOKRJIAuG7Hj0zBkzrXNG4Bvv91h4T2iohd3sSYuFnEIbn2i4FKDR0osY6BfZUP%2BSEjMUfXNP1tIueoSKuWVO2Xkz4i5u9K%2B8icg%3D%3D",
-        "https://www.so.com/link?m=bTbY3KRcdj1THjEbgZ3KUZqrywtiICkqbLT3Xt%2FjiLn%2BUIEUrBw2A67Mq%2B7ahZyK69sKLj2bLIqyGxQLvpZuizXqw5ABgTuI0jOMNVGilAHL7JbD8tItWvnCck5GgfddFtaIVmXNqbMcvb4%2FyFue662%2FqFffSbeTQZ2UAIlocF%2FVENS7%2BtS0FYdjw%2B9Fe%2BV4JD18fP2MnC6LJ%2B0VPGt1cHK%2FFysAWMZ8hRlsnL1pP9KsWcPMKia%2BjVdGy%2F%2FVp3mGSHiSBOXGmnRNYGjAXjGS2HSim5I7OEEyCffE91T8PMS7U2ZlR0CAywszBNBR9X53L"
+        "https://www.so.com/link?m=bTbY3KRcdj1THjEbgZ3KUZqrywtiICkqbLT3Xt%2FjiLn%2BUIEUrBw2A67Mq%2B7ahZyK69sKLj2bLIqyGxQLvpZuizXqw5ABgTuI0jOMNVGilAHL7JbD8tItWvnCck5GgfddFtaIVmXNqbMcvb4%2FyFue662%2FqFffSbeTQZ2UAIlocF%2FVENS7%2BtS0FYdjw%2B9Fe%2BV4JD18fP2MnC6LJ%2B0VPGt1cHK%2FFysAWMZ8hRlsnL1pP9KsWcPMKia%2BjVdGy%2F%2FVp3mGSHiSBOXGmnRNYGjAXjGS2HSim5I7OEEyCffE91T8PMS7U2ZlR0CAywszBNBR9X53L",
+        "https://www.so.com/link?m=uMCIxyYwZV6vDoJJeyu1mSlpnHg04cKrDSBh2HeDAC38EctKStto9A%2BA6vm7gDewBlTa52WjFzg4apgHH3RQ%2Fjv%2Fp7L9addYufVyO8edcSZC1BvVRSXgQubZ%2BklZwD9l1ifIcKqKL5D9Z4IgpxoBXRX0bIxnlsbhjSQd6Gx59QzaBdm2Nl2TqWQOIowtPZz2%2FLFjVaTc6%2Bt92zVjqlqcveDxKLmomJ5MlUl0S5loKV7HBCS%2BrzQhAmpNe3U4gsgwD"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
@@ -3392,7 +3419,7 @@
         "online": 0,
         "age": 7
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1953]，点评数候选 [267]"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1953]，点评数候选 [267]；2026-08-29 补采：评分5.0；人工复核：剔除噪声评分(0/1/5平分)"
     },
     {
       "id": "gz-81a16a47",
@@ -3477,27 +3504,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": null
+        "founded_year": 1956
       },
       "sources": [
         "https://www.so.com/link?m=ekPdr6nF4DKxEOTYRLeF4ZiqruFUY2odTaDME7vrQrCfJ5Pk8c4b954n2fg30N1DAQRTaaRmyHya91PSeYk5zh2SzvcvIfUl9UpwNyJrolO1cpMvmksvXYoAMk1jxr194H8xu6Y5HuYMMwrEp2Bkxu%2F%2F1qfZ5rFrvbvrCMLGcBw3Ihx3QjaF0fkCt1nqkfknWMtWS0P41HrOQkk5DR%2FejAAaIibZMRormtDBAsCRwl0r9UmpdPOJDNLQJzD55VQfjxPBk9olsI%2FvtUOQHRgdnJ3H0qdeoMeFb78FZFki0GehTmzHt9ZwnmpK2WccOrU8GxpiYeeV7E7UiKfDEnGZieKZd5wg3wg%2BS846u5hKexBe7MRNfmzbyuIOVj%2FAUrJuqTKq63rhqsKe%2BjzKq1Bxfss0b7lg%3D",
         "https://www.so.com/link?m=eYPBwvHP7YhQQfS%2F1FoASuaStSQu8RR54mUeRq5Vo2AH%2BdfqryZo8g3UWHCqm3dHZuXwn6HKzGv%2FWi0eYasJKQrQslfOudbc1zxpVWUYlxqyCNfWJ5bagbnTqqq2gVJl1qMwdZac0IWnY0WcenDTuofiRtL%2BJwvvwmNMJ%2FPnOf1s%2Bk3N1BS66E1oT4%2FTmPOykGkIKTZoNCq0OV30xn9A%2FODJm0o3BB63utTqMNPt8WJ%2BLt2zmYqxeKZRwpfhT8FzejGDqRDYj0MpMdGvcGaiFnId%2F1Xcax0OjlpOiPyK7iG4vaA1M13N%2BSn97Z8QeSsByJCuXImXxp3oUq4GwjlJRTDIbgyvTKQmyWH1mxyM1D4MXQ4vhFFt9hj5jFSw%3D",
         "https://www.so.com/link?m=zpHYvkJ592500pWcqhwdcBZJhWWRE7Wyq7sTKc2mb0bXjiqNSd6k%2BeGWIjJreWFvPBBRTfkf6UByTTM%2F%2FiDu9XXZuTLggzhyfuHiJTsP0hABBImslfXuW2gpO5gR2a3QYjTb4jr2yzX5CujNzDvkq%2Faeq7pBaSwZnbxqFgOmUiTICuODlpmLMU3KDMze%2FaMNLUJAegBJbw%2F370SfCGlCE%2FCtP88hew3r0W03xTpEFFIg7cQY6BE9JNADwhi7xbhEWbjShEdK6BwEdPxdOacwcPG9ichJ8LRqK85SDawQHKyy%2FOilWjeMioAvYBA9GD7zuEgiwlW78csQSBEHx3%2FqMjDKSmf7EiOVfBcFixpmMcJjWeheLDRgr7TyA%2F0sn%2Bij%2FZ1lRoOTtTp%2BEdhoey0SWJQYFI2af00wlgipFmw%3D%3D",
         "https://www.so.com/link?m=eAoxrgzK7NQKKicKfyftJqRjYS%2Bj3KCnKLwLy%2FDqALuJvGIPb1TxZ5JhzF29IVgWwQ5t0Ucs1Zjt0JEupm3b9nrzcGXFEzK3TqE%2FAqJ23Fya45N30Mr%2FYFvz5YX0zcew1VK2a3C%2Ba%2FncoxOT8GP7zhQIqDpY1R8i%2BkWapeMGK8lJHxtPSDafyVF96puRDRf0WqD8hIUCiYp2khT88ys%2F6%2BXvxHo8F8IxmTXDdRgtXTJ5%2BOZokWH13q7%2BRkjDHgw1sv9yde%2FnV38uQdaziYj8nvQvTOLCifquN1DPLigdyZyH6EcIH6x75Dv1%2B3xr0dthXieEux3mK9PdUGOMXn1OYhO7kJ%2F5a9kUFH%2B3%2FO1f23UIBKoldLY05NyDm5UM%3D",
-        "https://www.so.com/link?m=eW%2B4DuIHp8Nh1rTpahjvzdpx4rJjzMBtLQZ8HmvbKFmpivRoI6VyxADreAZlEF2uUv3qyE4HDLT8rimtj8fJe4ED2BV8Ww%2FzP3LhoHASCPVbPmWWUXY3y%2FhE579n7892Z5yyqilgAQcOAgNGgIu%2Bp3fCiudZMiUCn7aXDcI5xiZGn5IswmK%2BT69070vIxNRFpaRnS2v2l%2BsX7cixCsiHFBBsrZ4FPuAeaQIPGwpU5k5JmVkmv%2Bdo%2B%2Fpyid2w66cwbHWPP2oci2aj8aHm0llLpBEVX%2BJrfJfXw89Njj4M%2BvpzmMN3c4TVVOwX6BHy0H0Ru8DhxrzK1SkJsO95a7L0uST2E8%2FvIQb8yucoZ4SPh57MSDvpR8n8TNPmAiaM%3D"
+        "https://www.so.com/link?m=eW%2B4DuIHp8Nh1rTpahjvzdpx4rJjzMBtLQZ8HmvbKFmpivRoI6VyxADreAZlEF2uUv3qyE4HDLT8rimtj8fJe4ED2BV8Ww%2FzP3LhoHASCPVbPmWWUXY3y%2FhE579n7892Z5yyqilgAQcOAgNGgIu%2Bp3fCiudZMiUCn7aXDcI5xiZGn5IswmK%2BT69070vIxNRFpaRnS2v2l%2BsX7cixCsiHFBBsrZ4FPuAeaQIPGwpU5k5JmVkmv%2Bdo%2B%2Fpyid2w66cwbHWPP2oci2aj8aHm0llLpBEVX%2BJrfJfXw89Njj4M%2BvpzmMN3c4TVVOwX6BHy0H0Ru8DhxrzK1SkJsO95a7L0uST2E8%2FvIQb8yucoZ4SPh57MSDvpR8n8TNPmAiaM%3D",
+        "https://www.so.com/link?m=uEnMb9jsvtc95Tk8RQldatWmwHOaO3nyQCZw36QW%2BCA6fGwzydrFZqPUutdlIvZvA6pM5J2N140qQAREoKiYg9wL372gBKR8BkL0PjZQvT%2BoyOlfIFEzaCXYBmZ%2Bf%2FCjWzZ2BNVc14E31iSY105SM1851MpLCx1tLFhHVCFEOo%2FoQd7k1cesZEzITL64gBtOIhj0nQm2OFyAXTyCO7FZe2FDKuhDib78ACMM4oiREjQm2GzXSHXI2KGLVbr1DDgUVN6LxWoFIEWLZpLoRGMRXx6bFSlliFTjq9VWYC7EcU93TqiiXE7Vh8gnew%2FJ%2Bc2egY%2Fod1NVu1yGs0FAJ2ZGLrFlf6MXMrjuPSReC4WlCSqI%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "00000",
+      "index": "00007",
       "index_detail": {
         "overall": 0,
         "celebrity": 0,
         "popularity": 0,
         "online": 0,
-        "age": 0
+        "age": 7
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1956年创立"
     },
     {
       "id": "gz-a0dbcef3",
@@ -3617,27 +3645,28 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": null
+        "founded_year": 1981
       },
       "sources": [
         "https://www.so.com/link?m=ucyNlUAjh46cEDrSWO8ihhIrTyL0DgGKzLNg51NOj77uSkgZpxm077%2FINp4%2BSVqebXtHQ8wTwhd6Jlf8Rb15WZymET9Xd0BQOfVKVG6AleoR%2Fketn0trDiv7QTNiOO9FOgS9JxOly1cOUbU4xAftl%2BQ%2BcHBN%2Fr5YkMw5bxB4lu7HWWqWbx2EK38Eiw%2Fsqj7yiUogNlbtrqIRXKoWXjqklouj9fnvasMg5I2IsEtX8kbayPie%2BLrpC0ZCq%2BeSA%2FclX%2BIB%2BIbHBsljj%2BXssoUEu2fJz9ywOiGdOs%2FN6meS6058LmGB95agEE9zYEfNHGyrsNvG7358U9%2FxopQUg1757KMjM%2FB3Y6mDeX71vBgGm2Pxl28DMIcUoe3o5gisFnmKYFNi5fg%3D%3D",
         "https://www.so.com/link?m=u5polFM0zbpgB6ih85tUnUHS0%2F6%2Fk%2Bs9xdlAdN8JmSbFCpjuE73CJx%2F38qiaJ3N%2BoT49LQhXQ0URMLhvbSiitZiMnGYG0emCo3rjGXbGD8GlmgOjwfaIvP5Ntdyi1gh2soHL6n0%2F3ordpDKHUP%2FlarzL3Q%2BPdX5lE5yDiZf6ZjqlHziCBA3XgBsywksEeYxvUdXBwbM3luG%2FM16oIn9oP%2F2aj38stswwigCgvLmcny8VZUyZfz0ndclyGrVUqaGg5n3UyWsDzbh7SPJTj%2BTeDIFPMuuDNdQAdvZzdL6GXA9ciPz1PpNowy9ETofswgOPlYMUFBsRcS6JEbFNJWQyGDGE9Gbkss2d2BW9ozAK6PTD4SnPBklbyZrsNko07jlbcWvm6DpyZfDLDyGC9vQSrD8srzyVldzo%2F",
         "https://www.so.com/link?m=w4kZ1uS8QR6qdov6ZqYYWk8JTbgMLwgP64ajRgJ21GR10Y04o2ZK06rIDbVjZz%2BkoOjn0kQqRFMUvthr2uD4DzlZ6QCIfT2TjGKoHtSexepZgaQTD77LOaQ8%2F%2BTpMD%2B2U7%2FijhMIZU7G2YqkeMk%2BXPDpEmShFjJDp8zSWFSJ5vXkFJ9jRmh4N%2BYen0Mc1jIb6WrVZPdIrYB%2FU8A%2FkGlg4g5%2BZzdvyBzf7pcjyxFESV%2F0RK75vBVbSG9ou1O616nqMfc7F%2FXyB5tpUP1yaaezcjUkAGF62S9y1w5FLmI%2FkTsS6X0%2FcVDcBxr3vaNeFK%2F8BE4Xnc1WFImUMmH%2BDlkcbrKuTPdlMGY1JEblrhMA40B3AK0kMmwQMNno2sMTqTpXlHvbtgxjOD5UxTS%2B2",
         "https://www.so.com/link?m=epCeYx6gBLRgl5klrKiU6NIKRiKXu9vw9XF1oSENrJCYJzkIdAspNnoVwuPGlAijkw8FbN2%2FShQ84ayo2WIjYAyBpwQAXNOsfKttO6rm%2BkG97uMkujg1iZt%2BdnJq8NXfteLm6FQru6wvpcQHZfNUZwTDRArPUsImuYk9s%2BX1XKqL4HUPRL6XsTrDgh8qb6dW07K80URMu0WnPErGwUpicHaGspqm3EoKNujV1H%2BDJZD8A9zBEzIDa39KlaAMnlb%2BCPijzqlEnEYoH11EOl6O82Z%2BgDcLHbvVFnkMlUZ%2FEmImTc2gIk6iS%2Fo%2B%2Fd2DfjoVjZR3KbtsPKxky%2Fk3j5ssvRFFwR2HvHc8WWHfcNArUY9634QL6f4qHPhQE0WHoXUGOeC69kuLEl5o%3D",
-        "https://www.so.com/link?m=egidVRsDr2FVMoYBhblc8jld6Ca8gCRRM84pbaX38TZ6KPaSHq6MIYoCc8rQuhb4ujXIRN4cHhFmKDAyBZLPEh08zx4qV9uB%2BnO7oSqer8xUx31tAkELjU%2FWe5nQmkw3C5Fq76BqCVvQ46UQTwfJWCkntHuuW63F%2BMkhp98eUGvJEW3sgv8EYHjg3R11g4kNjkx9lXGnZwboARX%2BnGbr%2BIP7Sy1ETEHxZtsWeeFDlZQzLOTiRZqBlovlRw6fVNumpNWXK1MbFqXYfJvCw8Sb7Wsct0n330iiq4rCb6uytsAKhmZfmmoRM3HEutH7dL8eZds2i8gMEdEghjWBvztCAJAuAuVcFSMN6MjG82aAKY6C2rKll2Fp%2FJROiT%2Bx9R1DdoBCEz%2Fm0eJg%3D"
+        "https://www.so.com/link?m=egidVRsDr2FVMoYBhblc8jld6Ca8gCRRM84pbaX38TZ6KPaSHq6MIYoCc8rQuhb4ujXIRN4cHhFmKDAyBZLPEh08zx4qV9uB%2BnO7oSqer8xUx31tAkELjU%2FWe5nQmkw3C5Fq76BqCVvQ46UQTwfJWCkntHuuW63F%2BMkhp98eUGvJEW3sgv8EYHjg3R11g4kNjkx9lXGnZwboARX%2BnGbr%2BIP7Sy1ETEHxZtsWeeFDlZQzLOTiRZqBlovlRw6fVNumpNWXK1MbFqXYfJvCw8Sb7Wsct0n330iiq4rCb6uytsAKhmZfmmoRM3HEutH7dL8eZds2i8gMEdEghjWBvztCAJAuAuVcFSMN6MjG82aAKY6C2rKll2Fp%2FJROiT%2Bx9R1DdoBCEz%2Fm0eJg%3D",
+        "https://www.so.com/link?m=zkWQchfmag%2Fv%2BqvIEGqFRh3nnv9SFKdSqBGy3T2gyIZgCKtHA%2F1Zt%2FilqsgJULjD%2B0DSXv5pMjzvdx0%2Fvj0s9rsp0mi3s0gxFtZ6URLEEdhmY4H2jzac%2FtO1WrufLCaPsFOVGTsC5sqIJLmeF6ln558pIps%2FRtMHMq8qsvixT%2B3EfuzYqiNDPDxHliGefEO%2BOVwj7VlQvwNHPpJ1YuQDqTtPX%2Bd2ffxWkdyXh%2FayqCurGWSzoFU3c%2BB3wZ78GTR63U0nkYXU%2FHOdXgiVZ8KX40%2B4za8NqbDbhbE5004tuAIo%2FPuAanCbts1ExJPeWGfxeNbZ4SZcNj3tA7et4"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "00000",
+      "index": "00005",
       "index_detail": {
         "overall": 0,
         "celebrity": 0,
         "popularity": 0,
         "online": 0,
-        "age": 0
+        "age": 5
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 无；2026-08-29 补采：1981年创立"
     },
     {
       "id": "gz-51d4de1c",
@@ -3645,7 +3674,7 @@
       "city": "广州",
       "cuisine": "待分类",
       "metrics": {
-        "online_rating": 5.0,
+        "online_rating": null,
         "review_count": null,
         "social_mentions": null,
         "awards": null,
@@ -3664,15 +3693,15 @@
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "00090",
+      "index": "00000",
       "index_detail": {
         "overall": 0,
         "celebrity": 0,
         "popularity": 0,
-        "online": 9,
+        "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [5.0]，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [5.0]，年份候选 无，点评数候选 无；人工复核：剔除噪声评分(0/1/5平分)"
     },
     {
       "id": "gz-7d0d8c33",
@@ -3680,7 +3709,7 @@
       "city": "广州",
       "cuisine": "待分类",
       "metrics": {
-        "online_rating": 0.0,
+        "online_rating": null,
         "review_count": null,
         "social_mentions": null,
         "awards": null,
@@ -3699,15 +3728,15 @@
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "00010",
+      "index": "00000",
       "index_detail": {
         "overall": 0,
         "celebrity": 0,
         "popularity": 0,
-        "online": 1,
+        "online": 0,
         "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [0.0]，年份候选 无，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [0.0]，年份候选 无，点评数候选 无；人工复核：剔除噪声评分(0/1/5平分)"
     },
     {
       "id": "gz-93f64257",
@@ -3891,7 +3920,7 @@
       "cuisine": "粤菜",
       "metrics": {
         "online_rating": null,
-        "review_count": null,
+        "review_count": 4256,
         "social_mentions": null,
         "awards": null,
         "celebrity_endorsements": null,
@@ -3904,20 +3933,21 @@
         "https://www.so.com/link?m=uCadfLDBiDQg60AiCmaDXe7nBysbS57cYQF6sMgOKiZvv9YItJVTMU3oSqghEIAM1W%2FmfgVxzwLrAMz8R0b4nELhGBOqREmesVyt9AnimmPIm4fixakeSjKoO0hELxQjduq1kIF2LupImkZlbsxyEE%2FCrxsl%2B%2BvsLcYRvc7AkEGYWtncuIr55farg3o0FDW%2BAfG977QGGLg11EQyz8vbBC6hx153VXFGzFQbohrfNBO7P6ThhxXz2XGpk5qt2fT0q%2Fhgo8Vz2Lx9fL3VFYF50QzIdLqnxxZZCqXiHtA%3D%3D",
         "https://www.so.com/link?m=b2Xwycgh9cEVHVjDn1RreE5ztVsE%2BEN8cr2nnfHBPqKRpiYnA5Ne9TnET3ZFKssRPcKSoaOI9aYonhRe7E3dRxsBvHE05MdPW1BqwJ7dWt92vmXNk9GIIQy52KUSARVgMTwABO5pz%2F5uLsBX94phjRZJ9oDH%2FdEQotaffJGmjWJdfZv2iisYzmg0aHoKdC9mFpCXcEWbo02AINkbApYJ6tZ4O526o7P4ZT1SSYe9io8dEYAUhJDoIxnjFxUXF3n7mZ259v1RFFq9sBcvEQG%2BMcoUnRj%2Br3qFoVvGrTGroJEacHwvfHy7H0Q%3D%3D",
         "https://www.so.com/link?m=zkGwB%2FSc50mbGEEAwRH7akC5%2F6bwk1DPp6GuHN65U2A8VirIubvM4JCnTq4oTOZ95g8Zd6KPxKJzLzfU3SIHE4qaHIWK%2BM8UZW336SgMNPez6GaXCuVebSE4itF2ehwULqNe8pZSzPqzeTcrtMYqrZEbuuZeyaHtUL7yuwsyaMtfO6%2F1vHHxQZgI2YaDevOC0gGMEjsJbwfueT5OoR%2FRoHNByQpsbdmD%2F9chXIhj6CmvNWnipSnFxhxOhLkAfWezIYGMjYB9EvTWkEk6WvKaLKIOpTkBD7ZOW06sxK7JTljTi4lKG0lgrEPFZ4tdM2BUZYdWAnQ%3D%3D",
-        "https://www.so.com/link?m=e2Ko7pdV7qnydknSBW7r%2BCikFvCvBGMc3lbHse5WCuGn4r7cbIE2TA72JQ0KGBlbYf1bgr0iKgDa16D1k3YxrFmBZn4X7RtspIM9vakzFA7DM3Lyg4nw%2Bjw89qSWdPFEHK5LnjT1jFLeXn%2BJiQd%2F1tpnEPmNm2zG7ZCiGhpTU2fYRxyKuKE2SFVNT11lim8%2BzwilkWrzSdWtBZksLwj0uBFj9tYD%2BGth32379ntxiblqHzqy50PBAr9MWne59UzmGQVt9FAKjjzLnjLMG3BfSlcxob0A8esavZ8yHcCQlJBXd9VbndPV4muGJ%2Bmj%2FWq4I6yA7kg%3D%3D"
+        "https://www.so.com/link?m=e2Ko7pdV7qnydknSBW7r%2BCikFvCvBGMc3lbHse5WCuGn4r7cbIE2TA72JQ0KGBlbYf1bgr0iKgDa16D1k3YxrFmBZn4X7RtspIM9vakzFA7DM3Lyg4nw%2Bjw89qSWdPFEHK5LnjT1jFLeXn%2BJiQd%2F1tpnEPmNm2zG7ZCiGhpTU2fYRxyKuKE2SFVNT11lim8%2BzwilkWrzSdWtBZksLwj0uBFj9tYD%2BGth32379ntxiblqHzqy50PBAr9MWne59UzmGQVt9FAKjjzLnjLMG3BfSlcxob0A8esavZ8yHcCQlJBXd9VbndPV4muGJ%2Bmj%2FWq4I6yA7kg%3D%3D",
+        "https://www.so.com/link?m=eYC49kP%2ByDcjTkHaSsmHHhG3u0aaBYTSRgyWMJGB0eJsl9OI850nRxgPY8hrr9zxBd%2BHRgCNXjJX6%2F5VEdHuHJ4rHz7g%2Buu2Sp9qPMOLDu0%2BhgLAIfMiKGp%2BH2tbmei1NpVBLL0Mgq2hx7ByBQFxTCkSPa7w3X26WUsqPnk2%2B6oIBMxuYZWVM9f6uhaD6KnaEWhkLRIx3F8NsWtt6Xld%2FvVfUNhE7YdO6zlEd7NklD%2Fcd2FKn0nQiXzgBUC0%3D"
       ],
       "data_date": "2026-08-29",
       "name_en": null,
       "branch": null,
-      "index": "00007",
+      "index": "50307",
       "index_detail": {
-        "overall": 0,
+        "overall": 5,
         "celebrity": 0,
-        "popularity": 0,
+        "popularity": 3,
         "online": 0,
         "age": 7
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1938]，点评数候选 无"
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1938]，点评数候选 无；2026-08-29 补采：点评4256"
     },
     {
       "id": "gz-2eb214ab",

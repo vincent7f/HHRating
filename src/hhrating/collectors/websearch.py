@@ -104,8 +104,11 @@ def extract_rating(text: str) -> float | None:
 
 
 def extract_founded_year(text: str, reference_year: int = 2026) -> int | None:
-    """提取"创立年份"。近 30 年的年份多为翻新/开业新闻，予以排除。"""
-    m = re.search(r"(?:始创|创立|创建|创办|始建|建于|创)于?\s*(\d{4})\s*年?", text)
+    """提取"创立年份"。近 30 年的年份多为翻新/开业新闻，予以排除。
+
+    不含裸"建于"：该表述多指建筑物年份，对餐厅是常见误报。
+    """
+    m = re.search(r"(?:始创|创立|创建|创办|始建|创)于?\s*(\d{4})\s*年?", text)
     if not m:
         return None
     year = int(m.group(1))
