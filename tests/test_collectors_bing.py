@@ -81,8 +81,9 @@ class TestFallback:
         collector = create_collector(engines=[Broken(), Ok()])
         assert collector.search("x") == [{"title": "t", "url": "u", "snippet": "s"}]
 
-    def test_default_creates_two_engines(self):
+    def test_default_creates_three_engines(self):
         collector = create_collector()
-        assert len(collector.engines) == 2
-        assert collector.engines[0].__class__.__name__ == "DuckDuckGoCollector"
-        assert collector.engines[1].__class__.__name__ == "BingCollector"
+        assert len(collector.engines) == 3
+        assert collector.engines[0].__class__.__name__ == "SogouCollector"
+        assert collector.engines[1].__class__.__name__ == "DuckDuckGoCollector"
+        assert collector.engines[2].__class__.__name__ == "BingCollector"

@@ -15,14 +15,16 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from .batch import normalize_name
+from .batch import name_key, normalize_name
 from .storage import Database
 
 
 def _name_matches(record_norm: str, award_norm: str) -> bool:
+    if record_norm == award_norm:
+        return True  # 单字店名（江/宋/屿）也允许精确相等
     if len(record_norm) < 2 or len(award_norm) < 2:
         return False
-    return record_norm == award_norm or record_norm in award_norm or award_norm in record_norm
+    return record_norm in award_norm or award_norm in record_norm
 
 
 def apply_awards(db: Database, awards_file: str | Path) -> dict:
@@ -32,22 +34,29 @@ def apply_awards(db: Database, awards_file: str | Path) -> dict:
     records = db.restaurants
     for entry in entries:
         award = entry.get("award")
-        name_norm = normalize_name(entry.get("name", ""))
+        name = entry.get("name", "")
+        name_norm = normalize_name(name)
         if not award or not name_norm:
             summary["unmatched"] += 1
             continue
-        candidates = [
-            r for r in records
-            if (not entry.get("city") or r.city == entry["city"])
-            and _name_matches(normalize_name(r.name), name_norm)
+        # 两段匹配：先按分店级全名（保留括号）精确匹配，避免同名分店歧义；
+        # 再按归一化名包含匹配。两个阶段都受城市过滤约束。
+        city_records = [
+            r for r in records if not entry.get("city") or r.city == entry["city"]
         ]
-        exact = [r for r in candidates if normalize_name(r.name) == name_norm]
-        pool = exact or candidates
+        exact_branch = [r for r in city_records if name_key(r.name) == name_key(name)]
+        candidates = [
+            r for r in city_records
+            if _name_matches(normalize_name(r.name), name_norm)
+        ]
+        if exact_branch:
+            pool = exact_branch if len(exact_branch) == 1 else []
+        elif len(candidates) == 1:
+            pool = candidates
+        else:
+            pool = []
         if not pool:
-            summary["unmatched"] += 1
-            continue
-        if len(pool) > 1:
-            summary["ambiguous"] += 1
+            summary["ambiguous" if candidates else "unmatched"] += 1
             continue
         record = pool[0]
         awards = list(record.metrics.awards or [])

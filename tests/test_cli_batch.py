@@ -61,6 +61,26 @@ class TestApplyAwards:
         assert summary["ambiguous"] == 1
         assert db.get("gz-3").metrics.awards is None
 
+    def test_branch_level_exact_match_wins(self, tmp_path):
+        db = self._db(tmp_path)
+        db.upsert(make_record("gz-5", "大鸽饭（棠下涌西路）", "广州", {}))
+        db.upsert(make_record("gz-6", "大鸽饭（北京路店）", "广州", {}))
+        path = self._awards_file(tmp_path, [
+            {"name": "大鸽饭（棠下涌西路）", "award": "bib_gourmand@2025", "city": "广州"},
+        ])
+        summary = apply_awards(db, path)
+        assert summary["matched"] == 1
+        assert db.get("gz-5").metrics.awards == ["bib_gourmand@2025"]
+        assert db.get("gz-6").metrics.awards is None
+
+    def test_single_char_name_exact_match(self, tmp_path):
+        db = self._db(tmp_path)
+        db.upsert(make_record("gz-7", "江（文华东方酒店）", "广州", {}))
+        path = self._awards_file(tmp_path, [{"name": "江", "award": "michelin_2_star@2025", "city": "广州"}])
+        summary = apply_awards(db, path)
+        assert summary["matched"] == 1
+        assert db.get("gz-7").metrics.awards == ["michelin_2_star@2025"]
+
 
 class TestSummarize:
     def test_coverage_and_top_lists(self, tmp_path):

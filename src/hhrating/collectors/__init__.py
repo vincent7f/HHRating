@@ -8,6 +8,7 @@ from __future__ import annotations
 from typing import Protocol
 
 from .bing import BingCollector
+from .sogou import SogouCollector
 from .websearch import DuckDuckGoCollector
 
 
@@ -60,8 +61,9 @@ class FallbackCollector:
 def create_collector(proxy: str | None = None, engines: list[Engine] | None = None):
     if engines is not None:
         return FallbackCollector(engines)
+    # 搜狗对中文多词查询最可靠（必应/DDG 在部分代理环境下会丢弃中文词项）
     return FallbackCollector(
-        [DuckDuckGoCollector(proxy=proxy), BingCollector(proxy=proxy)]
+        [SogouCollector(proxy=proxy), DuckDuckGoCollector(proxy=proxy), BingCollector(proxy=proxy)]
     )
 
 
@@ -69,5 +71,6 @@ __all__ = [
     "BingCollector",
     "DuckDuckGoCollector",
     "FallbackCollector",
+    "SogouCollector",
     "create_collector",
 ]

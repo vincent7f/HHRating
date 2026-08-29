@@ -119,24 +119,13 @@ def test_publish_writes_files(tmp_path, db_path):
 
 
 def test_seed_command_shows_collector_signals(tmp_path, db_path, capsys, monkeypatch):
-    from hhrating.collectors import websearch as ws
+    from hhrating.collectors import sogou as sg
 
     fixture = (
-        '<a class="result__a" href="//e.com/1">测试店 - 点评</a>'
-        '<a class="result__snippet">评分4.6，创立于1900年</a>'
+        '<div class="vrwrap"><h3 class="vr-title"><a href="https://e.com/1">测试店 - 点评</a></h3>'
+        '<div class="str_info">评分4.6，创立于1900年</div></div>'
     )
-
-    class FakeResponse:
-        def read(self):
-            return fixture.encode("utf-8")
-
-        def __enter__(self):
-            return self
-
-        def __exit__(self, *a):
-            return False
-
-    monkeypatch.setattr(ws.DuckDuckGoCollector, "search", lambda self, q: ws.parse_ddg_html(fixture))
+    monkeypatch.setattr(sg.SogouCollector, "search", lambda self, q: sg.parse_sogou_html(fixture))
     assert main(["--db", str(db_path), "collect", "--query", "测试店 点评"]) == 0
     out = capsys.readouterr().out
     assert "4.6" in out
