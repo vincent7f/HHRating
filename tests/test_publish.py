@@ -56,7 +56,7 @@ def test_json_structure_and_ordering(tmp_path):
     db = seed_db(tmp_path)
     out = publish(db, tmp_path / "published")
     data = json.loads((out / "hhrating-index.json").read_text(encoding="utf-8"))
-    assert data["spec_version"] == "1.0"
+    assert data["spec_version"] == "1.1"
     assert data["generated_at"].startswith("20")
     entries = data["restaurants"]
     assert [e["id"] for e in entries] == ["xirongji", "quanjude-qianmen"]  # 综合分降序

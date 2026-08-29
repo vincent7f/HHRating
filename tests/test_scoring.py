@@ -170,6 +170,11 @@ class TestOverallDigit:
     def test_all_missing_is_zero(self):
         assert overall_digit({"online": 0, "popularity": 0, "celebrity": 0, "age": 0}) == 0
 
+    def test_single_dimension_insufficient_is_zero(self):
+        # 规范 v1.1：可得维度不足两个 → 综合 0（防止单维度被归一化放大）
+        assert overall_digit({"online": 0, "popularity": 0, "celebrity": 0, "age": 8}) == 0
+        assert overall_digit({"online": 9, "popularity": 0, "celebrity": 0, "age": 0}) == 0
+
     def test_clamped_to_nine(self):
         assert overall_digit({"online": 9, "popularity": 9, "celebrity": 9, "age": 8}) == 9
 
@@ -203,10 +208,10 @@ class TestComputeIndex:
     def test_missing_dimensions_encoded_as_zero(self):
         metrics = Metrics(online_rating=4.5)  # 仅网上得分已调研 → 7
         index, detail = compute_index(metrics, data_date="2026-08-29")
-        # 位序：综合7(仅网上可得，权重归一化) 名人0 人气0 网上7 年代0
-        assert index == "70070"
+        # 综合位仅一个维度可得 → 0（规范 v1.1）；位序：综合0 名人0 人气0 网上7 年代0
+        assert index == "00070"
         assert index[3] == "7"
-        assert detail == {"overall": 7, "celebrity": 0, "popularity": 0, "online": 7, "age": 0}
+        assert detail == {"overall": 0, "celebrity": 0, "popularity": 0, "online": 7, "age": 0}
 
     def test_detail_uses_spec_key_order(self):
         _, detail = compute_index(

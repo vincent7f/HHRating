@@ -134,9 +134,12 @@ def age_digit(founded_year: int | None, reference_year: int) -> int:
 
 
 def overall_digit(digits: dict[str, int | None]) -> int:
-    """第 1 位：综合得分，缺失维度权重归一化（规范 §6）。数字 0 视为缺失。"""
+    """第 1 位：综合得分，缺失维度权重归一化（规范 §6）。数字 0 视为缺失。
+
+    可得维度不足两个时记 0（规范 v1.1：防止单一维度被归一化放大）。
+    """
     available = [(d, WEIGHTS[name]) for name, d in digits.items() if d]
-    if not available:
+    if len(available) < 2:
         return 0
     weighted = sum(d * w for d, w in available)
     weight_sum = sum(w for _, w in available)
