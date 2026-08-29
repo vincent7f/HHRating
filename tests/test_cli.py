@@ -119,13 +119,13 @@ def test_publish_writes_files(tmp_path, db_path):
 
 
 def test_seed_command_shows_collector_signals(tmp_path, db_path, capsys, monkeypatch):
-    from hhrating.collectors import sogou as sg
+    from hhrating.collectors import so360 as so
 
     fixture = (
-        '<div class="vrwrap"><h3 class="vr-title"><a href="https://e.com/1">测试店 - 点评</a></h3>'
-        '<div class="str_info">评分4.6，创立于1900年</div></div>'
+        '<li class="res-list"><h3 class="res-title"><a href="https://e.com/1">测试店 - 点评</a></h3>'
+        '<p class="res-desc">评分4.6，创立于1900年</p></li>'
     )
-    monkeypatch.setattr(sg.SogouCollector, "search", lambda self, q: sg.parse_sogou_html(fixture))
+    monkeypatch.setattr(so.So360Collector, "search", lambda self, q: so.parse_so360_html(fixture))
     assert main(["--db", str(db_path), "collect", "--query", "测试店 点评"]) == 0
     out = capsys.readouterr().out
     assert "4.6" in out
