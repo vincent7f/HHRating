@@ -6,6 +6,8 @@ p/div.res-desc；部分链接为 /link?m=... 相对跳转。
 """
 from __future__ import annotations
 
+import http.cookiejar
+import re
 from functools import partial
 from html.parser import HTMLParser
 from urllib.parse import quote_plus, urljoin
@@ -14,6 +16,32 @@ from urllib.request import ProxyHandler, Request, build_opener, urlopen
 SEARCH_ENDPOINT = "https://www.so.com/s?q="
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 _BASE = "https://www.so.com"
+
+_JS_REDIRECT_RE = re.compile(r'window\.location\.replace\("([^"]+)"\)')
+
+
+def resolve_so360_link(url: str, opener=None, timeout: float = 15) -> str:
+    """还原 360 /link?m= 跳转为真实地址（需与搜索同会话）；失败原样返回。"""
+    if "/link?m=" not in url:
+        return url
+    try:
+        request = Request(url, headers={"User-Agent": USER_AGENT})
+        if opener is not None:
+            with opener(request, timeout=timeout) as resp:
+                body = resp.read(8000).decode("utf-8", "replace")
+                final = getattr(resp, "geturl", lambda: url)()
+        else:
+            with urlopen(request, timeout=timeout) as resp:
+                body = resp.read(8000).decode("utf-8", "replace")
+                final = resp.geturl()
+        m = _JS_REDIRECT_RE.search(body)
+        if m:
+            return m.group(1)
+        if final and "/link?m=" not in final:
+            return final  # 302 直跳型
+        return url
+    except Exception:
+        return url
 
 
 class _So360HTMLParser(HTMLParser):
@@ -75,19 +103,27 @@ def parse_so360_html(html: str) -> list[dict[str, str]]:
 
 
 class So360Collector:
-    def __init__(self, opener=None, proxy: str | None = None, timeout: float = 20, cache=None) -> None:
+    def __init__(self, opener=None, proxy: str | None = None, timeout: float = 20,
+                 cache=None, resolve_links: int = 3) -> None:
         if opener is not None:
             self._opener = opener
         elif proxy:
             self._opener = partial(
-                build_opener(ProxyHandler({"http": proxy, "https": proxy})).open, timeout=timeout
+                build_opener(ProxyHandler({"http": proxy, "https": proxy}),
+                             HTTPCookieProcessor(http.cookiejar.CookieJar())).open,
+                timeout=timeout,
             )
         else:
-            self._opener = partial(build_opener(ProxyHandler({})).open, timeout=timeout)
+            # 直连 + Cookie 会话（/link 跳转解析依赖搜索会话）
+            self._opener = partial(
+                build_opener(ProxyHandler({}), HTTPCookieProcessor(http.cookiejar.CookieJar())).open,
+                timeout=timeout,
+            )
         if cache is not None:
             from ..cache import cached_opener
 
             self._opener = cached_opener(cache, self._opener)
+        self._resolve_links = resolve_links
 
     def search(self, query: str) -> list[dict[str, str]]:
         url = SEARCH_ENDPOINT + quote_plus(query)
@@ -97,4 +133,10 @@ class So360Collector:
                 html = response.read().decode("utf-8", errors="replace")
         except Exception as exc:
             raise RuntimeError(f"360 检索失败：{exc}") from exc
-        return parse_so360_html(html)
+        results = parse_so360_html(html)
+        resolved = 0
+        for r in results:
+            if "/link?m=" in r["url"] and resolved < self._resolve_links:
+                r["url"] = resolve_so360_link(r["url"], opener=self._opener)
+                resolved += 1
+        return results
