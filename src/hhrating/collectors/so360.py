@@ -28,7 +28,7 @@ def resolve_so360_link(url: str, opener=None, timeout: float = 15) -> str:
         request = Request(url, headers={"User-Agent": USER_AGENT})
         if opener is not None:
             with opener(request, timeout=timeout) as resp:
-                body = resp.read(8000).decode("utf-8", "replace")
+                body = resp.read().decode("utf-8", "replace")
                 final = getattr(resp, "geturl", lambda: url)()
         else:
             with urlopen(request, timeout=timeout) as resp:
