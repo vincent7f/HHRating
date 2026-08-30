@@ -37,7 +37,7 @@ def main() -> None:
 
         # 搜索（每城 2 查询，串行以免触发限流；解析与抓文走线程池）
         for city in chunk:
-            for q in (f"{city} 必吃餐厅 名单", f"{city} 老字号 美食 推荐"):
+            for q in (f"{city} 美食街 店铺 名单", f"{city} 网红餐厅 打卡 推荐"):
                 try:
                     results = collector.search(q)
                 except Exception:
