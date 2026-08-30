@@ -59,16 +59,16 @@ class FallbackCollector:
         }
 
 
-def create_collector(proxy: str | None = None, engines: list[Engine] | None = None):
+def create_collector(proxy: str | None = None, engines: list[Engine] | None = None, cache=None):
     if engines is not None:
         return FallbackCollector(engines)
     # 360/搜狗对中文多词查询最可靠（必应/DDG 在部分代理环境下会丢弃中文词项）
     return FallbackCollector(
         [
-            So360Collector(proxy=proxy),
-            SogouCollector(proxy=proxy),
-            DuckDuckGoCollector(proxy=proxy),
-            BingCollector(proxy=proxy),
+            So360Collector(proxy=proxy, cache=cache),
+            SogouCollector(proxy=proxy, cache=cache),
+            DuckDuckGoCollector(proxy=proxy, cache=cache),
+            BingCollector(proxy=proxy, cache=cache),
         ]
     )
 

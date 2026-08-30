@@ -16,6 +16,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 from hhrating.amap import USER_AGENT, parse_amap_html, ranking_url  # noqa: E402
+from hhrating.cache import TextCache  # noqa: E402
 
 PRD = ["guangzhou", "shenzhen", "foshan", "dongguan", "zhuhai", "zhongshan", "huizhou", "jiangmen", "zhaoqing"]
 OTHER_GD = ["shantou", "chaozhou", "jieyang", "shanwei", "meizhou", "heyuan", "qingyuan", "shaoguan", "yunfu", "yangjiang", "maoming", "zhanjiang"]
@@ -49,10 +50,19 @@ def discover_districts(slug: str) -> list[str]:
     return sorted(set(re.findall(rf"/ranking/{slug}/food/(\d+)", html)))
 
 
+CACHE = TextCache(Path(__file__).parent.parent / "data" / "cache" / "text-cache.sqlite3")
+
+
 def harvest_district(slug: str, code: str) -> list[dict]:
     city = CITY_NAMES[slug]
     url = ranking_url(slug, code)
-    html = get(url)
+    html = CACHE.get(url)
+    if html is not None:
+        html = html
+    else:
+        html = get(url) or ""
+        if html:
+            CACHE.put(url, html)
     if not html:
         return []
     items = parse_amap_html(html)

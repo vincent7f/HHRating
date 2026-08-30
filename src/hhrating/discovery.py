@@ -30,7 +30,25 @@ _SUFFIX = sorted(
 )
 _LIST_WORDS = ("公司", "集团", "银行", "学校", "医院", "政府", "推荐", "必吃", "名单",
                "榜单", "攻略", "排行", "盘点", "合集", "一文", "大全", "排名", "指南",
-               "地图", "测评", "合集")
+               "地图", "测评", "哪家", "评价最高", "怎么样", "好不好")
+_ARTICLE_PREFIX = ("十大", "热门", "顶级", "宝藏", "本地人", "人气", "打卡", "最火",
+                   "正宗", "特色", "好店")
+
+
+def _strip_article_prefix(name: str, city: str) -> str:
+    """剥掉标题式前缀（年份/城市/十大/热门…），剩下的才是候选店名。"""
+    name = re.sub(r"^\d{4}年?", "", name)
+    if city:
+        name = re.sub(rf"^{re.escape(city)}", "", name)
+    changed = True
+    while changed and name:
+        changed = False
+        for w in _ARTICLE_PREFIX:
+            if name.startswith(w):
+                name = name[len(w):]
+                changed = True
+    return name
+
 
 _TAG_RE = re.compile(r"<[^>]+>")
 _NAME_RE = re.compile(
@@ -58,16 +76,14 @@ def extract_restaurant_names(text: str, city: str) -> list[str]:
         line = line.strip()
         if not line:
             continue
-        m = _NAME_RE.search(line)
-        if not m:
-            continue
-        name = m.group(0).strip()
-        if len(name) < 3 or len(name) > 20:
-            continue
-        if any(w in name for w in _LIST_WORDS):
-            continue
-        if name not in names:
-            names.append(name)
+        for m in _NAME_RE.finditer(line):
+            name = _strip_article_prefix(m.group(0).strip(), city)
+            if len(name) < 3 or len(name) > 20:
+                continue
+            if any(w in name for w in _LIST_WORDS):
+                continue
+            if name not in names:
+                names.append(name)
     return names
 
 

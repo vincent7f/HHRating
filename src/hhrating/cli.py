@@ -22,6 +22,18 @@ from .scoring import compute_index
 from .storage import Database
 
 DEFAULT_DB = "data/restaurants.json"
+DEFAULT_CACHE = "data/cache/text-cache.sqlite3"
+
+
+def _cache_from(args):
+    """按 --no-cache 构造本地文本缓存（默认 7 天有效）。"""
+    if getattr(args, "no_cache", False):
+        return None
+    from .cache import TextCache
+
+    return TextCache(DEFAULT_CACHE)
+
+
 DIGIT_LABELS = (
     ("overall", "综合得分"),
     ("celebrity", "名人推荐值"),
@@ -72,6 +84,7 @@ def build_parser() -> argparse.ArgumentParser:
     p = sub.add_parser("collect", help="联网检索公开摘要，辅助整理指标（结果需人工确认）")
     p.add_argument("--query", required=True)
     p.add_argument("--proxy", default=None, help="HTTP 代理，如 http://127.0.0.1:8009")
+    p.add_argument("--no-cache", action="store_true", help="禁用本地网页缓存")
 
     p = sub.add_parser("batch", help="按店名清单自动批量采集并入库")
     p.add_argument("--names-file", required=True, help="店名清单（每行一个，# 为注释）")
@@ -80,6 +93,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--limit", type=int, default=None)
     p.add_argument("--delay", type=float, default=0.8, help="每次检索间隔秒数")
     p.add_argument("--no-second-query", action="store_true", help="不追加创立年份补充检索")
+    p.add_argument("--no-cache", action="store_true", help="禁用本地网页缓存")
 
     p = sub.add_parser("apply-awards", help="把奖项名单（JSON）匹配到库内记录")
     p.add_argument("file")
@@ -258,7 +272,7 @@ def _cmd_show(db: Database, target: str) -> int:
 
 # --------------------------------------------------------------------- collect
 def _cmd_collect(args) -> int:
-    collector = create_collector(proxy=args.proxy)
+    collector = create_collector(proxy=args.proxy, cache=_cache_from(args))
     signals = collector.collect_signals(args.query)
     print(f"查询：{args.query}")
     print(f"评分候选：{signals['rating_candidates'] or '无'}")
@@ -285,7 +299,7 @@ def _cmd_batch(db: Database, args) -> int:
         line = line.strip()
         if line and not line.startswith("#"):
             names.append(line)
-    collector = create_collector(proxy=args.proxy)
+    collector = create_collector(proxy=args.proxy, cache=_cache_from(args))
     summary = batch_import(
         names,
         args.city,
@@ -317,7 +331,7 @@ def _cmd_apply_awards(db: Database, file_path: str) -> int:
 def _cmd_fill(db: Database, args) -> int:
     from .batch import fill_missing
 
-    collector = create_collector(proxy=args.proxy)
+    collector = create_collector(proxy=args.proxy, cache=_cache_from(args))
     summary = fill_missing(
         db, args.city, collector, delay=args.delay, progress=lambda msg: print(msg, flush=True)
     )

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source": "2026广州深圳米其林指南（米其林官方 michelin.com.cn / 界面新闻 / 深圳新闻网，2025-08 发布）；2025黑珍珠餐厅指南（美团）",
+  "awards": [
+    {"name": "东湾", "award": "michelin_2_star@2026", "city": "深圳"},
+    {"name": "云璟", "award": "michelin_2_star@2026", "city": "深圳"},
+    {"name": "潮上潮", "award": "michelin_1_star@2026", "city": "深圳"},
+    {"name": "Ensue", "award": "michelin_1_star@2026", "city": "深圳"},
+    {"name": "Fumée 拂鸣", "award": "michelin_1_star@2026", "city": "深圳"},
+    {"name": "OPUS 388", "award": "michelin_1_star@2026", "city": "深圳"},
+    {"name": "新荣记（深圳店）", "award": "michelin_1_star@2026", "city": "深圳"},
+    {"name": "揭阳老二粿条汤", "award": "bib_gourmand@2026", "city": "深圳"},
+    {"name": "高三姐豆花店", "award": "bib_gourmand@2026", "city": "深圳"},
+    {"name": "九九面馆", "award": "bib_gourmand@2026", "city": "深圳"},
+    {"name": "小龙牛肉面（福田）", "award": "bib_gourmand@2026", "city": "深圳"},
+    {"name": "新湖村促肉（龙华建设路）", "award": "bib_gourmand@2026", "city": "深圳"},
+    {"name": "新记客家味道", "award": "bib_gourmand@2026", "city": "深圳"},
+    {"name": "东山茶寮", "award": "bib_gourmand@2026", "city": "深圳"}
+  ]
+}

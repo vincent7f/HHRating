@@ -146,7 +146,7 @@ def extract_address(text: str) -> str | None:
 class DuckDuckGoCollector:
     """检索公开网页摘要，产出待人工确认的信号（评分/年份候选等）。"""
 
-    def __init__(self, opener=None, proxy: str | None = None, timeout: float = 20) -> None:
+    def __init__(self, opener=None, proxy: str | None = None, timeout: float = 20, cache=None) -> None:
         if opener is not None:
             self._opener = opener
         elif proxy:
@@ -156,6 +156,10 @@ class DuckDuckGoCollector:
         else:
             # 显式直连：避免被系统代理（注册表/env）劫持到不可用的本地端口
             self._opener = partial(build_opener(ProxyHandler({})).open, timeout=timeout)
+        if cache is not None:
+            from ..cache import cached_opener
+
+            self._opener = cached_opener(cache, self._opener)
 
     def search(self, query: str) -> list[dict[str, str]]:
         url = SEARCH_ENDPOINT + "?q=" + quote_plus(query)

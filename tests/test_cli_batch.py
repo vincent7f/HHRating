@@ -122,7 +122,7 @@ class TestCliCommands:
                 return {"results": results, "rating_candidates": [4.7],
                         "founded_year_candidates": [1933], "review_count_candidates": [50000]}
 
-        monkeypatch.setattr(cli, "create_collector", lambda proxy=None: FakeCollector())
+        monkeypatch.setattr(cli, "create_collector", lambda proxy=None, cache=None: FakeCollector())
         db_path = tmp_path / "db.json"
         out_dir = tmp_path / "pub"
         assert main([
@@ -172,7 +172,7 @@ class TestCliCommands:
                              "snippet": "乙店创立于1950年"}]
                 return []
 
-        monkeypatch.setattr(cli, "create_collector", lambda proxy=None: FakeCollector())
+        monkeypatch.setattr(cli, "create_collector", lambda proxy=None, cache=None: FakeCollector())
         db_path = tmp_path / "db.json"
         db = Database(db_path).load()
         db.upsert(make_record("gz-a", "甲店", "广州", {"online_rating": 4.8}))  # 完整 → 跳过

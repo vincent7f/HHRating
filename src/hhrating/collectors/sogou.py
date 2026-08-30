@@ -100,7 +100,7 @@ def parse_sogou_html(html: str) -> list[dict[str, str]]:
 
 class SogouCollector:
     def __init__(self, opener=None, proxy: str | None = None, timeout: float = 20,
-                 resolve_links: int = 1) -> None:
+                 resolve_links: int = 1, cache=None) -> None:
         if opener is not None:
             self._opener = opener
         elif proxy:
@@ -109,6 +109,10 @@ class SogouCollector:
             )
         else:
             self._opener = partial(build_opener(ProxyHandler({})).open, timeout=timeout)
+        if cache is not None:
+            from ..cache import cached_opener
+
+            self._opener = cached_opener(cache, self._opener)
         self._resolve_links = resolve_links
 
     def search(self, query: str) -> list[dict[str, str]]:

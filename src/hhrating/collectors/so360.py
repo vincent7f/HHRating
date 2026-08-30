@@ -75,7 +75,7 @@ def parse_so360_html(html: str) -> list[dict[str, str]]:
 
 
 class So360Collector:
-    def __init__(self, opener=None, proxy: str | None = None, timeout: float = 20) -> None:
+    def __init__(self, opener=None, proxy: str | None = None, timeout: float = 20, cache=None) -> None:
         if opener is not None:
             self._opener = opener
         elif proxy:
@@ -84,6 +84,10 @@ class So360Collector:
             )
         else:
             self._opener = partial(build_opener(ProxyHandler({})).open, timeout=timeout)
+        if cache is not None:
+            from ..cache import cached_opener
+
+            self._opener = cached_opener(cache, self._opener)
 
     def search(self, query: str) -> list[dict[str, str]]:
         url = SEARCH_ENDPOINT + quote_plus(query)
