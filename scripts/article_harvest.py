@@ -49,7 +49,7 @@ def main() -> None:
 
         # 并行抓文提取
         entries: list[dict] = []
-        with ThreadPoolExecutor(max_workers=6) as pool:
+        with ThreadPoolExecutor(max_workers=2) as pool:
             futures = {pool.submit(build_entries, [a], a["city"], "名录文章"): a for a in articles}
             for fut in as_completed(futures):
                 try:

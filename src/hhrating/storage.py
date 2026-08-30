@@ -115,6 +115,16 @@ class Database:
             return True
         return False
 
+    def remove_many(self, restaurant_ids: list[str]) -> int:
+        """批量删除，仅写盘一次。"""
+        drop = set(restaurant_ids)
+        before = len(self._restaurants)
+        self._restaurants = [r for r in self._restaurants if r.id not in drop]
+        removed = before - len(self._restaurants)
+        if removed:
+            self.save()
+        return removed
+
     # ----------------------------------------------------------------- query
     @property
     def restaurants(self) -> list[Restaurant]:

@@ -196,8 +196,7 @@ def _cmd_score(db: Database, target_id: str | None) -> int:
         raise ValueError(f"找不到记录：{target_id}")
     for r in targets:
         r.index, r.index_detail = compute_index(r.metrics, r.data_date)
-        db.upsert(r)
-    db.save()
+    db.save()  # 单次写盘：逐条 upsert 会触发 O(n²) 全文件序列化，大库会崩溃
     for r in sorted(targets, key=lambda x: x.index or "", reverse=True):
         print(f"{r.index}  {r.name}")
     return 0
