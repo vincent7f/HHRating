@@ -15821,8 +15821,8 @@
     },
     {
       "id": "r-b1426b38",
-      "name": "豪客来牛排(西昌大巷口月城广场餐厅)",
-      "city": "凉山",
+      "name": "豪客来牛排(广元利州区翰林广场餐厅)",
+      "city": "广元",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -15835,7 +15835,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/liangshan/food/513401"
+        "https://www.amap.com/ranking/guangyuan/food/510802"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -19111,8 +19111,8 @@
     },
     {
       "id": "r-d9a22cf4",
-      "name": "傣妹火锅(江苏盐城店)",
-      "city": "盐城",
+      "name": "傣妹火锅(福建莆田店)",
+      "city": "莆田",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -19125,7 +19125,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/yancheng/food/320902"
+        "https://www.amap.com/ranking/putian/food/350304"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -34469,8 +34469,8 @@
     },
     {
       "id": "r-ab912a82",
-      "name": "胖哥俩肉蟹煲(万象城店)",
-      "city": "石家庄",
+      "name": "胖哥俩肉蟹煲(漳州天虹店)",
+      "city": "漳州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -34483,7 +34483,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/shijiazhuang/food/130104"
+        "https://www.amap.com/ranking/zhangzhou/food/350602"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -34547,8 +34547,8 @@
     },
     {
       "id": "r-2b6c23b0",
-      "name": "汉巴味德(银泰城店)",
-      "city": "淄博",
+      "name": "汉巴味德(百年港湾)",
+      "city": "大连",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -34561,7 +34561,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/zibo/food/370303"
+        "https://www.amap.com/ranking/dalian/food/210203"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -34651,8 +34651,8 @@
     },
     {
       "id": "r-80c17a0f",
-      "name": "川骄海鲜自助(新华贸购物中心店)",
-      "city": "唐山",
+      "name": "川骄海鲜自助(嘉华国际商业中心店)",
+      "city": "天津",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -34665,7 +34665,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/tangshan/food/130202"
+        "https://www.amap.com/ranking/tianjin/food/120102"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -34755,8 +34755,8 @@
     },
     {
       "id": "r-54730edd",
-      "name": "西贝(康巴什店)",
-      "city": "鄂尔多斯",
+      "name": "西贝(包头昆区店)",
+      "city": "包头",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -34769,7 +34769,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/eerduosi/food/150603"
+        "https://www.amap.com/ranking/baotou/food/150203"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -34833,8 +34833,8 @@
     },
     {
       "id": "r-3c01ce23",
-      "name": "大吉利潮汕牛肉火锅(裕华店)",
-      "city": "石家庄",
+      "name": "大吉利潮汕牛肉火锅(河西店)",
+      "city": "天津",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -34847,7 +34847,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/shijiazhuang/food/130108"
+        "https://www.amap.com/ranking/tianjin/food/120103"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -34937,8 +34937,8 @@
     },
     {
       "id": "r-8ab8788f",
-      "name": "鲍师傅糕点(八一馆店)",
-      "city": "南昌",
+      "name": "鲍师傅糕点(柳巷商贸店)",
+      "city": "太原",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -34951,7 +34951,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/nanchang/food/360103"
+        "https://www.amap.com/ranking/taiyuan/food/140106"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -35041,8 +35041,8 @@
     },
     {
       "id": "r-9e3dfdf2",
-      "name": "源麦甜·品质千层(利辛店)",
-      "city": "亳州",
+      "name": "源麦甜·品质千层(蚌埠大学城店)",
+      "city": "蚌埠",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -35055,7 +35055,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/bozhou/food/341623"
+        "https://www.amap.com/ranking/bengbu/food/340302"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -37901,8 +37901,8 @@
     },
     {
       "id": "r-752a012f",
-      "name": "方中山胡辣汤(总店)",
-      "city": "郑州",
+      "name": "方中山胡辣汤(太康路店)",
+      "city": "洛阳",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -37915,7 +37915,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/zhengzhou/food/410105"
+        "https://www.amap.com/ranking/luoyang/food/410311"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -38317,8 +38317,8 @@
     },
     {
       "id": "r-205e3b13",
-      "name": "后火锅(友谊路店)",
-      "city": "山南",
+      "name": "后火锅(柳梧店)",
+      "city": "拉萨",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -38331,7 +38331,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/shannan/food/540522"
+        "https://www.amap.com/ranking/lasa/food/540103"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -39045,8 +39045,8 @@
     },
     {
       "id": "r-b3e19e39",
-      "name": "绿茶餐厅(邢台逗号立方店)",
-      "city": "邢台",
+      "name": "绿茶餐厅(太原茂业店)",
+      "city": "太原",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -39059,7 +39059,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/xingtai/food/130503"
+        "https://www.amap.com/ranking/taiyuan/food/140105"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -39409,8 +39409,8 @@
     },
     {
       "id": "r-f098ce5e",
-      "name": "牛New寿喜烧(滨江银泰店)",
-      "city": "杭州",
+      "name": "牛New寿喜烧(金茂览秀城店)",
+      "city": "南京",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -39423,7 +39423,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/hangzhou/food/330108"
+        "https://www.amap.com/ranking/nanjing/food/320106"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -39617,8 +39617,8 @@
     },
     {
       "id": "r-73f8d47c",
-      "name": "李白图书馆餐厅(文化艺术中心店)",
-      "city": "嘉兴",
+      "name": "李白图书馆餐厅(南浔古镇店)",
+      "city": "湖州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -39631,7 +39631,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jiaxing/food/330411"
+        "https://www.amap.com/ranking/huzhou/food/330503"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -40059,8 +40059,8 @@
     },
     {
       "id": "r-fc7de8df",
-      "name": "同庆楼(奥体中心店)",
-      "city": "芜湖",
+      "name": "同庆楼(C66购物体验公园店)",
+      "city": "安庆",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -40073,7 +40073,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/wuhu/food/340209"
+        "https://www.amap.com/ranking/anqing/food/340802"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -40111,8 +40111,8 @@
     },
     {
       "id": "r-e73ccfc2",
-      "name": "COMMUNE幻师(解放西路店)",
-      "city": "长沙",
+      "name": "COMMUNE幻师(总统府1912店)",
+      "city": "南京",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -40125,7 +40125,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/changsha/food/430103"
+        "https://www.amap.com/ranking/nanjing/food/320102"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -40735,7 +40735,7 @@
     },
     {
       "id": "r-f7c0b5c1",
-      "name": "香山湖家家宴(象山路店)",
+      "name": "香山湖家家宴(马群花港路店)",
       "city": "南京",
       "cuisine": "待分类",
       "metrics": {
@@ -40749,7 +40749,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/nanjing/food/320111"
+        "https://www.amap.com/ranking/nanjing/food/320113"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -41385,8 +41385,8 @@
     },
     {
       "id": "r-939dc62c",
-      "name": "小川洋风料理(百盛步行街广场·广西总店)",
-      "city": "南宁",
+      "name": "小川洋风料理(江汉路店)",
+      "city": "武汉",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -41399,7 +41399,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/nanning/food/450102"
+        "https://www.amap.com/ranking/wuhan/food/420103"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -41827,8 +41827,8 @@
     },
     {
       "id": "r-4db06084",
-      "name": "遇南三·重庆火锅(九江店)",
-      "city": "九江",
+      "name": "遇南三·重庆火锅(总店)",
+      "city": "武汉",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -41841,7 +41841,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jiujiang/food/360402"
+        "https://www.amap.com/ranking/wuhan/food/420105"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -42893,8 +42893,8 @@
     },
     {
       "id": "r-398207d7",
-      "name": "七欣天(丹阳凤凰路店)",
-      "city": "镇江",
+      "name": "七欣天(八佰伴店)",
+      "city": "安庆",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -42907,7 +42907,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/zhenjiang/food/321181"
+        "https://www.amap.com/ranking/anqing/food/340803"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -43439,8 +43439,8 @@
     },
     {
       "id": "r-71b066b2",
-      "name": "矮子馅饼(鼓楼旗舰店)",
-      "city": "宁波",
+      "name": "矮子馅饼(祥和园店)",
+      "city": "宜昌",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -43453,7 +43453,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/ningbo/food/330203"
+        "https://www.amap.com/ranking/yichang/food/420502"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -43465,8 +43465,8 @@
     },
     {
       "id": "r-fc0a7085",
-      "name": "七欣天品蟹轩(安吉云鸿西路店)",
-      "city": "湖州",
+      "name": "七欣天品蟹轩(瑞安滨江大道店)",
+      "city": "温州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -43479,7 +43479,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/huzhou/food/330523"
+        "https://www.amap.com/ranking/wenzhou/food/330381"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -44089,8 +44089,8 @@
     },
     {
       "id": "r-bec9bcfc",
-      "name": "阳光码头海鲜火锅(玉立店)",
-      "city": "宁波",
+      "name": "阳光码头海鲜火锅(嘉善店)",
+      "city": "嘉兴",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -44103,7 +44103,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/ningbo/food/330281"
+        "https://www.amap.com/ranking/jiaxing/food/330421"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -45129,8 +45129,8 @@
     },
     {
       "id": "r-eb9afab2",
-      "name": "全聚德(科苑路店)",
-      "city": "济宁",
+      "name": "全聚德(领城国际店)",
+      "city": "镇江",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -45143,7 +45143,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jining/food/370811"
+        "https://www.amap.com/ranking/zhenjiang/food/321111"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -45311,8 +45311,8 @@
     },
     {
       "id": "r-9a581e07",
-      "name": "東盛炭烤自助料理(环球港)",
-      "city": "常州",
+      "name": "東盛炭烤自助料理(旭辉广场店)",
+      "city": "嘉兴",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -45325,7 +45325,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/changzhou/food/320411"
+        "https://www.amap.com/ranking/jiaxing/food/330402"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -45337,8 +45337,8 @@
     },
     {
       "id": "r-db25888f",
-      "name": "忘不了(洛阳店)",
-      "city": "常州",
+      "name": "忘不了(界牌店)",
+      "city": "镇江",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -45351,7 +45351,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/changzhou/food/320412"
+        "https://www.amap.com/ranking/zhenjiang/food/321181"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -46403,8 +46403,8 @@
     },
     {
       "id": "r-f0e5eec9",
-      "name": "胖子烧烤(小康人家总店)",
-      "city": "徐州",
+      "name": "胖子烧烤(汇通店)",
+      "city": "咸阳",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -46417,7 +46417,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/xuzhou/food/320311"
+        "https://www.amap.com/ranking/xianyang/food/610402"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -48275,8 +48275,8 @@
     },
     {
       "id": "r-f99b3417",
-      "name": "我家酸菜鱼(都市春天店)",
-      "city": "绍兴",
+      "name": "我家酸菜鱼(镇江店)",
+      "city": "镇江",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -48289,7 +48289,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/shaoxing/food/330603"
+        "https://www.amap.com/ranking/zhenjiang/food/321111"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -48353,8 +48353,8 @@
     },
     {
       "id": "r-de196165",
-      "name": "诺丁牛排(绍兴柯桥万达广场店)",
-      "city": "绍兴",
+      "name": "诺丁牛排(宿迁金鹰广场店)",
+      "city": "宿迁",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -48367,7 +48367,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/shaoxing/food/330603"
+        "https://www.amap.com/ranking/suqian/food/321302"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -48769,8 +48769,8 @@
     },
     {
       "id": "r-5ff9228e",
-      "name": "柳州肥姨妈大骨螺蛳粉(曙光路店)",
-      "city": "本溪",
+      "name": "柳州肥姨妈大骨螺蛳粉(红博购物广场店)",
+      "city": "牡丹江",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -48783,7 +48783,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/benxi/food/210502"
+        "https://www.amap.com/ranking/mudanjiang/food/231002"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -49419,8 +49419,8 @@
     },
     {
       "id": "r-3c0ba702",
-      "name": "山河屯铁锅炖(哈站全国总店)",
-      "city": "哈尔滨",
+      "name": "山河屯铁锅炖(沈北店)",
+      "city": "沈阳",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -49433,7 +49433,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/harbin/food/230102"
+        "https://www.amap.com/ranking/shenyang/food/210113"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -50277,8 +50277,8 @@
     },
     {
       "id": "r-e345b6f9",
-      "name": "战友蚝情(官塘路店)",
-      "city": "铜陵",
+      "name": "战友蚝情(中央城财富街店)",
+      "city": "芜湖",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -50291,7 +50291,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/tongling/food/340705"
+        "https://www.amap.com/ranking/wuhu/food/340209"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -50459,8 +50459,8 @@
     },
     {
       "id": "r-0efe85d2",
-      "name": "临家闽南菜(环岛路店)",
-      "city": "厦门",
+      "name": "临家闽南菜(泉州店)",
+      "city": "泉州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -50473,7 +50473,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/xiamen/food/350203"
+        "https://www.amap.com/ranking/quanzhou/food/350503"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -52357,8 +52357,8 @@
     },
     {
       "id": "r-8885d555",
-      "name": "丽江龙继斑鱼庄(科苑路旗舰店)",
-      "city": "济宁",
+      "name": "丽江龙继斑鱼庄(昆明街店)",
+      "city": "大连",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -52371,7 +52371,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jining/food/370811"
+        "https://www.amap.com/ranking/dalian/food/210202"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -53137,8 +53137,8 @@
     },
     {
       "id": "r-0fc17ee9",
-      "name": "城南往事(千佛山•文化西路店)",
-      "city": "济南",
+      "name": "城南往事(聊城美食岛店)",
+      "city": "聊城",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -53151,7 +53151,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jinan/food/370102"
+        "https://www.amap.com/ranking/liaocheng/food/371502"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -53527,8 +53527,8 @@
     },
     {
       "id": "r-73ee05a2",
-      "name": "老牌坊鲁菜名店(边庄店)",
-      "city": "济南",
+      "name": "老牌坊鲁菜名店(聊城美食岛店)",
+      "city": "聊城",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -53541,7 +53541,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jinan/food/370105"
+        "https://www.amap.com/ranking/liaocheng/food/371502"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -54151,8 +54151,8 @@
     },
     {
       "id": "r-7047717e",
-      "name": "江上渔家(德尚世家店)",
-      "city": "烟台",
+      "name": "江上渔家(汉峪金谷店)",
+      "city": "济南",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -54165,7 +54165,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/yantai/food/370613"
+        "https://www.amap.com/ranking/jinan/food/370112"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -54905,59 +54905,7 @@
     },
     {
       "id": "r-2a2d52b0",
-      "name": "澳门陈光记烧味饭店(瑞安路旗舰店)",
-      "city": "柳州",
-      "cuisine": "待分类",
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.amap.com/ranking/liuzhou/food/450202"
-      ],
-      "data_date": "2026-08-30",
-      "address": null,
-      "name_en": null,
-      "branch": null,
-      "index": null,
-      "index_detail": null,
-      "notes": "来自名录「高德状元榜·美食（必吃美食）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "r-09a7d6b8",
-      "name": "大碗先生(基建营店)",
-      "city": "湘潭",
-      "cuisine": "待分类",
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.amap.com/ranking/xiangtan/food/430302"
-      ],
-      "data_date": "2026-08-30",
-      "address": null,
-      "name_en": null,
-      "branch": null,
-      "index": null,
-      "index_detail": null,
-      "notes": "来自名录「高德状元榜·美食（必吃美食）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "r-fec7b16f",
-      "name": "串小白烧烤(长沙沁园店)",
+      "name": "澳门陈光记烧味饭店(东成大厦店)",
       "city": "长沙",
       "cuisine": "待分类",
       "metrics": {
@@ -54972,6 +54920,58 @@
       },
       "sources": [
         "https://www.amap.com/ranking/changsha/food/430102"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "来自名录「高德状元榜·美食（必吃美食）」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "r-09a7d6b8",
+      "name": "大碗先生(田心北门店)",
+      "city": "株洲",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.amap.com/ranking/zhuzhou/food/430204"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "来自名录「高德状元榜·美食（必吃美食）」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "r-fec7b16f",
+      "name": "串小白烧烤(综保购店)",
+      "city": "衡阳",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.amap.com/ranking/hengyang/food/430408"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -56075,8 +56075,8 @@
     },
     {
       "id": "r-855c2be4",
-      "name": "馥茗苔(芙蓉店)",
-      "city": "湘潭",
+      "name": "馥茗苔(迎宾店)",
+      "city": "长沙",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -56089,7 +56089,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/xiangtan/food/430304"
+        "https://www.amap.com/ranking/changsha/food/430105"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -56231,8 +56231,8 @@
     },
     {
       "id": "r-640c15f1",
-      "name": "季季红火锅(柳州广惠商业店)",
-      "city": "柳州",
+      "name": "季季红火锅(长沙步行街店)",
+      "city": "长沙",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -56245,7 +56245,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/liuzhou/food/450202"
+        "https://www.amap.com/ranking/changsha/food/430103"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -56335,8 +56335,8 @@
     },
     {
       "id": "r-3aa6a1fc",
-      "name": "笨罗卜浏阳菜馆(丽景滨江店)",
-      "city": "株洲",
+      "name": "笨罗卜浏阳菜馆(太平街店)",
+      "city": "长沙",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -56349,7 +56349,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/zhuzhou/food/430211"
+        "https://www.amap.com/ranking/changsha/food/430103"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -56959,8 +56959,8 @@
     },
     {
       "id": "r-70b4c3e0",
-      "name": "泸溪河桃酥(江南万达店)",
-      "city": "南宁",
+      "name": "泸溪河桃酥(洋河华地万象广场店)",
+      "city": "宿迁",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -56973,7 +56973,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/nanning/food/450105"
+        "https://www.amap.com/ranking/suqian/food/321302"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -57193,8 +57193,8 @@
     },
     {
       "id": "r-741810f3",
-      "name": "槐店王婆大虾(晋安路分店)",
-      "city": "开封",
+      "name": "槐店王婆大虾(高平建设南路店)",
+      "city": "晋城",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -57207,7 +57207,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/kaifeng/food/410202"
+        "https://www.amap.com/ranking/jincheng/food/140581"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -57219,8 +57219,8 @@
     },
     {
       "id": "r-326b8a9b",
-      "name": "袁记串串香(廊坊广阳区)",
-      "city": "廊坊",
+      "name": "袁记串串香(永年区店)",
+      "city": "邯郸",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -57233,7 +57233,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/langfang/food/131003"
+        "https://www.amap.com/ranking/handan/food/130408"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -57583,8 +57583,8 @@
     },
     {
       "id": "r-ccc778ad",
-      "name": "韩风源烧烤涮自助餐厅(宝丰店)",
-      "city": "平顶山",
+      "name": "韩风源烧烤涮自助餐厅(上蔡店)",
+      "city": "驻马店",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -57597,7 +57597,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/pingdingshan/food/410421"
+        "https://www.amap.com/ranking/zhumadian/food/411722"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -60677,8 +60677,8 @@
     },
     {
       "id": "r-0eb5a4d8",
-      "name": "阿五黄河大鲤鱼(郑州建业路店)",
-      "city": "郑州",
+      "name": "阿五黄河大鲤鱼(河南长垣店)",
+      "city": "新乡",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -60691,7 +60691,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/zhengzhou/food/410105"
+        "https://www.amap.com/ranking/xinxiang/food/410783"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -61067,8 +61067,8 @@
     },
     {
       "id": "r-20e8dd22",
-      "name": "毛家饭店(九江旗舰店)",
-      "city": "九江",
+      "name": "毛家饭店(韶山总店)",
+      "city": "湘潭",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -61081,7 +61081,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jiujiang/food/360403"
+        "https://www.amap.com/ranking/xiangtan/food/430382"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -61769,8 +61769,8 @@
     },
     {
       "id": "r-7091468c",
-      "name": "椿记烧鹅(西街店)",
-      "city": "桂林",
+      "name": "椿记烧鹅(南亚店)",
+      "city": "柳州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -61783,7 +61783,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/guilin/food/450321"
+        "https://www.amap.com/ranking/liuzhou/food/450203"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -62003,8 +62003,8 @@
     },
     {
       "id": "r-1b8772c5",
-      "name": "成都老王串串香(普陀路总店)",
-      "city": "桂林",
+      "name": "成都老王串串香(车辆厂美食城店)",
+      "city": "柳州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -62017,7 +62017,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/guilin/food/450305"
+        "https://www.amap.com/ranking/liuzhou/food/450204"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -63017,8 +63017,8 @@
     },
     {
       "id": "r-659244be",
-      "name": "嘉华饼屋(景洪三店)",
-      "city": "西双版纳",
+      "name": "嘉华饼屋(丽江2店)",
+      "city": "丽江",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -63031,7 +63031,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/xishuangbanna/food/532801"
+        "https://www.amap.com/ranking/lijiang/food/530702"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -64109,8 +64109,8 @@
     },
     {
       "id": "r-86f2d4d1",
-      "name": "嘉华鲜花饼(大理五华楼旗舰店)",
-      "city": "大理",
+      "name": "嘉华鲜花饼(正义坊购物中心店)",
+      "city": "昆明",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -64123,7 +64123,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/dali/food/532901"
+        "https://www.amap.com/ranking/kunming/food/530102"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -65565,8 +65565,8 @@
     },
     {
       "id": "r-eb0e5492",
-      "name": "华晟山城火锅(英华街店)",
-      "city": "大连",
+      "name": "华晟山城火锅(爱民街店)",
+      "city": "牡丹江",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -65579,7 +65579,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/dalian/food/210203"
+        "https://www.amap.com/ranking/mudanjiang/food/231002"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -66215,8 +66215,8 @@
     },
     {
       "id": "r-05bc3021",
-      "name": "玉林串串香(步行街店)",
-      "city": "上饶",
+      "name": "玉林串串香(新世纪步行街店)",
+      "city": "廊坊",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -66229,7 +66229,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/shangrao/food/361102"
+        "https://www.amap.com/ranking/langfang/food/131003"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -70687,8 +70687,8 @@
     },
     {
       "id": "r-faa761c2",
-      "name": "淀里船宴",
-      "city": "保定",
+      "name": "淀里船宴(城投商贸广场店)",
+      "city": "石家庄",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -70701,7 +70701,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/baoding/food/130606"
+        "https://www.amap.com/ranking/shijiazhuang/food/130108"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -72091,8 +72091,8 @@
     },
     {
       "id": "r-c7620428",
-      "name": "东来顺饭庄(襄阳店)",
-      "city": "襄阳",
+      "name": "东来顺饭庄(京华新天地店)",
+      "city": "十堰",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -72105,7 +72105,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/xiangyang/food/420606"
+        "https://www.amap.com/ranking/shiyan/food/420302"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -72481,8 +72481,8 @@
     },
     {
       "id": "r-cf4b1810",
-      "name": "喜家德虾仁水饺(万达广场SOHO店)",
-      "city": "济宁",
+      "name": "喜家德虾仁水饺(桔子广场店)",
+      "city": "盘锦",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -72495,7 +72495,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jining/food/370811"
+        "https://www.amap.com/ranking/panjin/food/211103"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -73521,8 +73521,8 @@
     },
     {
       "id": "r-148e2400",
-      "name": "孙记包子(棚户区店)",
-      "city": "大同",
+      "name": "孙记包子(怀仁一中店)",
+      "city": "朔州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -73535,7 +73535,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/datong/food/140214"
+        "https://www.amap.com/ranking/shuozhou/food/140681"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -74977,8 +74977,8 @@
     },
     {
       "id": "r-7fd2d25d",
-      "name": "菜很下饭·辣椒炒肉(亲贤街店)",
-      "city": "太原",
+      "name": "菜很下饭·辣椒炒肉(阳泉奥莱店)",
+      "city": "阳泉",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -74991,7 +74991,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/taiyuan/food/140105"
+        "https://www.amap.com/ranking/yangquan/food/140311"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -75497,8 +75497,8 @@
     },
     {
       "id": "r-452a7449",
-      "name": "魏斯理汉堡(汉中艺苑社区店)",
-      "city": "汉中",
+      "name": "魏斯理汉堡(海兴城店)",
+      "city": "渭南",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -75511,7 +75511,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/hanzhong/food/610703"
+        "https://www.amap.com/ranking/weinan/food/610502"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -76303,8 +76303,8 @@
     },
     {
       "id": "r-35a70019",
-      "name": "廣順興(陇南店)",
-      "city": "陇南",
+      "name": "廣順興(衡水店)",
+      "city": "衡水",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -76317,7 +76317,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/longnan/food/621202"
+        "https://www.amap.com/ranking/hengshui/food/131102"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -76927,8 +76927,8 @@
     },
     {
       "id": "r-1ca21b53",
-      "name": "谷连天八宝粥(丛台东路店)",
-      "city": "邯郸",
+      "name": "谷连天八宝粥(红旗路店)",
+      "city": "安阳",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -76941,7 +76941,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/handan/food/130403"
+        "https://www.amap.com/ranking/anyang/food/410503"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -81009,8 +81009,8 @@
     },
     {
       "id": "r-ecbd5f11",
-      "name": "杨掌柜辣椒炒肉(天一广场店)",
-      "city": "邢台",
+      "name": "杨掌柜辣椒炒肉(美域美家店)",
+      "city": "驻马店",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -81023,7 +81023,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/xingtai/food/130528"
+        "https://www.amap.com/ranking/zhumadian/food/411702"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -81035,8 +81035,8 @@
     },
     {
       "id": "r-77fef988",
-      "name": "锅中锅新派炖肉(浚县黄河路店)",
-      "city": "鹤壁",
+      "name": "锅中锅新派炖肉",
+      "city": "菏泽",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -81049,7 +81049,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/hebi/food/410621"
+        "https://www.amap.com/ranking/heze/food/371728"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -82595,8 +82595,8 @@
     },
     {
       "id": "r-bb180d47",
-      "name": "安妮贝可生日蛋糕(鹤壁万达店)",
-      "city": "鹤壁",
+      "name": "安妮贝可生日蛋糕(邢台万达店)",
+      "city": "邢台",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -82609,7 +82609,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/hebi/food/410611"
+        "https://www.amap.com/ranking/xingtai/food/130502"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -84077,7 +84077,33 @@
     },
     {
       "id": "r-e7492e18",
-      "name": "唞妞豆花鱼火锅(张北店)",
+      "name": "唞妞豆花鱼火锅",
+      "city": "阳泉",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.amap.com/ranking/yangquan/food/140321"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": null,
+      "index_detail": null,
+      "notes": "来自名录「高德状元榜·美食（必吃美食）」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "r-180479bb",
+      "name": "福成肥牛(张家口怀来店)",
       "city": "张家口",
       "cuisine": "待分类",
       "metrics": {
@@ -84091,33 +84117,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/zhangjiakou/food/130722"
-      ],
-      "data_date": "2026-08-30",
-      "address": null,
-      "name_en": null,
-      "branch": null,
-      "index": null,
-      "index_detail": null,
-      "notes": "来自名录「高德状元榜·美食（必吃美食）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "r-180479bb",
-      "name": "福成肥牛(承德双滦店)",
-      "city": "承德",
-      "cuisine": "待分类",
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.amap.com/ranking/chengde/food/130803"
+        "https://www.amap.com/ranking/zhangjiakou/food/130730"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -85897,8 +85897,8 @@
     },
     {
       "id": "r-0cda1dfb",
-      "name": "爱饭",
-      "city": "怒江",
+      "name": "爱饭(红门馆店)",
+      "city": "湖州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -85911,7 +85911,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/nujiang/food/533301"
+        "https://www.amap.com/ranking/huzhou/food/330502"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -88185,8 +88185,8 @@
     },
     {
       "id": "r-cb1b423f",
-      "name": "小王烧烤",
-      "city": "鹤壁",
+      "name": "小王烧烤(毓龙路店)",
+      "city": "盐城",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -88199,7 +88199,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/hebi/food/410611"
+        "https://www.amap.com/ranking/yancheng/food/320902"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -88549,8 +88549,8 @@
     },
     {
       "id": "r-f97ca96d",
-      "name": "王阿盖手工小吃(金华店)",
-      "city": "金华",
+      "name": "王阿盖手工小吃(兴龙北路店)",
+      "city": "衢州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -88563,7 +88563,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jinhua/food/330703"
+        "https://www.amap.com/ranking/quzhou/food/330825"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -91591,8 +91591,8 @@
     },
     {
       "id": "r-794b8433",
-      "name": "巧掌柜辣椒炒肉(郸城店)",
-      "city": "周口",
+      "name": "巧掌柜辣椒炒肉(凤台中和一品店)",
+      "city": "淮南",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -91605,7 +91605,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/zhoukou/food/411625"
+        "https://www.amap.com/ranking/huainan/food/340421"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -91903,8 +91903,8 @@
     },
     {
       "id": "r-02ef3024",
-      "name": "醉得意·山茶油炒土鸡(南平武夷山店)",
-      "city": "南平",
+      "name": "醉得意·山茶油炒土鸡(三明将乐店)",
+      "city": "三明",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -91917,7 +91917,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/nanping/food/350782"
+        "https://www.amap.com/ranking/sanming/food/350428"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -94685,8 +94685,8 @@
     },
     {
       "id": "r-93167e62",
-      "name": "匠和风精致料理(南平万达店)",
-      "city": "南平",
+      "name": "匠和风精致料理(万达店)",
+      "city": "三明",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -94699,7 +94699,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/nanping/food/350703"
+        "https://www.amap.com/ranking/sanming/food/350404"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -95855,8 +95855,8 @@
     },
     {
       "id": "r-29db1397",
-      "name": "谷养元粥铺(林州店)",
-      "city": "安阳",
+      "name": "谷养元粥铺(商丘文化路店)",
+      "city": "商丘",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -95869,7 +95869,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/anyang/food/410581"
+        "https://www.amap.com/ranking/shangqiu/food/411403"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -96011,8 +96011,8 @@
     },
     {
       "id": "r-f9d37ece",
-      "name": "小龙坎老火锅(焦作店)",
-      "city": "焦作",
+      "name": "小龙坎老火锅(禾木店)",
+      "city": "阿勒泰",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -96025,7 +96025,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jiaozuo/food/410802"
+        "https://www.amap.com/ranking/aletai/food/654321"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -96089,8 +96089,8 @@
     },
     {
       "id": "r-8e60e61b",
-      "name": "春兰串串火锅村(南通路店)",
-      "city": "焦作",
+      "name": "春兰串串火锅村",
+      "city": "三门峡",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -96103,7 +96103,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jiaozuo/food/410802"
+        "https://www.amap.com/ranking/sanmenxia/food/411202"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -97649,8 +97649,8 @@
     },
     {
       "id": "r-31bc6fa1",
-      "name": "米谷糕点(漯河新天地店)",
-      "city": "漯河",
+      "name": "米谷糕点(建业凯旋广场)",
+      "city": "驻马店",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -97663,7 +97663,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/luohe/food/411102"
+        "https://www.amap.com/ranking/zhumadian/food/411702"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -101185,8 +101185,8 @@
     },
     {
       "id": "r-e20e8052",
-      "name": "兆家故事(金阳店)",
-      "city": "衡阳",
+      "name": "兆家故事(寒溪店)",
+      "city": "郴州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -101199,7 +101199,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/hengyang/food/430481"
+        "https://www.amap.com/ranking/chenzhou/food/431002"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -102849,8 +102849,8 @@
     },
     {
       "id": "r-2b413f7b",
-      "name": "黑土风情铁锅炖(朝阳东路万汇城店)",
-      "city": "平顶山",
+      "name": "黑土风情铁锅炖(朔州总店)",
+      "city": "朔州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -102863,7 +102863,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/pingdingshan/food/410482"
+        "https://www.amap.com/ranking/shuozhou/food/140602"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -103057,8 +103057,8 @@
     },
     {
       "id": "r-12775ad0",
-      "name": "曾掌柜土鸡馆(湘州阳光店)",
-      "city": "湘西",
+      "name": "曾掌柜土鸡馆(荣昌府店)",
+      "city": "怀化",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -103071,7 +103071,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/xiangxi/food/433101"
+        "https://www.amap.com/ranking/huaihua/food/431202"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -106203,8 +106203,8 @@
     },
     {
       "id": "r-159c0091",
-      "name": "三品王(灵山六峰店)",
-      "city": "钦州",
+      "name": "三品王(百色鼎盛金街店)",
+      "city": "百色",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -106217,7 +106217,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/qinzhou/food/450721"
+        "https://www.amap.com/ranking/baise/food/451002"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -107789,8 +107789,8 @@
     },
     {
       "id": "r-66809cdc",
-      "name": "六月雪干锅(汉城店)",
-      "city": "绵阳",
+      "name": "六月雪干锅(德阳印象汇店)",
+      "city": "德阳",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -107803,7 +107803,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/mianyang/food/510704"
+        "https://www.amap.com/ranking/deyang/food/510603"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -109271,8 +109271,8 @@
     },
     {
       "id": "r-ce767142",
-      "name": "山城柴火鸡(嘉陵店)",
-      "city": "南充",
+      "name": "山城柴火鸡(安岳柠都欧城店)",
+      "city": "资阳",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -109285,7 +109285,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/nanchong/food/511304"
+        "https://www.amap.com/ranking/ziyang/food/512021"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -109791,8 +109791,8 @@
     },
     {
       "id": "r-4d8201e6",
-      "name": "大蓉和(旗舰店)",
-      "city": "德阳",
+      "name": "大蓉和(内江店)",
+      "city": "内江",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -109805,7 +109805,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/deyang/food/510603"
+        "https://www.amap.com/ranking/neijiang/food/511011"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -110519,8 +110519,8 @@
     },
     {
       "id": "r-57771cec",
-      "name": "灶上鲜肝腰合炒(阿坝茂县店)",
-      "city": "阿坝",
+      "name": "灶上鲜肝腰合炒(眉山学士街店)",
+      "city": "眉山",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -110533,7 +110533,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/aba/food/513223"
+        "https://www.amap.com/ranking/meishan/food/511402"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -114263,8 +114263,8 @@
     },
     {
       "id": "r-7252c039",
-      "name": "惠诚滋知(安顺三店)",
-      "city": "安顺",
+      "name": "惠诚滋知(毕节五店)",
+      "city": "毕节",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -114277,7 +114277,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/anshun/food/520402"
+        "https://www.amap.com/ranking/bijie/food/520502"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -115511,8 +115511,8 @@
     },
     {
       "id": "r-888149a2",
-      "name": "御品轩(汉中钟楼店)",
-      "city": "汉中",
+      "name": "御品轩(蒲城店)",
+      "city": "渭南",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -115525,7 +115525,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/hanzhong/food/610702"
+        "https://www.amap.com/ranking/weinan/food/610526"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -116083,8 +116083,8 @@
     },
     {
       "id": "r-eab604e6",
-      "name": "小六汤包(行政东路店)",
-      "city": "宝鸡",
+      "name": "小六汤包(汇通店)",
+      "city": "咸阳",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -116097,7 +116097,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/baoji/food/610303"
+        "https://www.amap.com/ranking/xianyang/food/610402"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -120347,8 +120347,8 @@
     },
     {
       "id": "r-cf8e92d3",
-      "name": "重庆德庄火锅(夏河店)",
-      "city": "甘南",
+      "name": "重庆德庄火锅(联想科技城店)",
+      "city": "大庆",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -120361,7 +120361,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/gannan/food/623027"
+        "https://www.amap.com/ranking/daqing/food/230603"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -120425,8 +120425,8 @@
     },
     {
       "id": "r-725ad4fc",
-      "name": "城边边烧烤(雄关店)",
-      "city": "嘉峪关",
+      "name": "城边边烧烤(酒泉店)",
+      "city": "酒泉",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -120439,7 +120439,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/jiayuguan/food/620200"
+        "https://www.amap.com/ranking/jiuquan/food/620902"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -120451,8 +120451,8 @@
     },
     {
       "id": "r-82468724",
-      "name": "辣动时代自助火锅(定西安定区店)",
-      "city": "定西",
+      "name": "辣动时代自助火锅(庄浪店)",
+      "city": "平凉",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -120465,7 +120465,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/dingxi/food/621102"
+        "https://www.amap.com/ranking/pingliang/food/620825"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -121543,8 +121543,8 @@
     },
     {
       "id": "r-1aaa5a9c",
-      "name": "楠火锅(山南店)",
-      "city": "山南",
+      "name": "楠火锅(爱琴海城市花园店)",
+      "city": "张掖",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -121557,7 +121557,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/shannan/food/540502"
+        "https://www.amap.com/ranking/zhangye/food/620702"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -122323,8 +122323,8 @@
     },
     {
       "id": "r-67141cf9",
-      "name": "十五张重庆老火锅(平罗店)",
-      "city": "石嘴山",
+      "name": "十五张重庆老火锅(中宁店)",
+      "city": "中卫",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -122337,7 +122337,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/shizuishan/food/640221"
+        "https://www.amap.com/ranking/zhongwei/food/640521"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -122687,8 +122687,8 @@
     },
     {
       "id": "r-466e45ed",
-      "name": "马有鱼·馕坑烤全鱼(康乐店)",
-      "city": "临夏",
+      "name": "马有鱼·馕坑烤全鱼(叶城店)",
+      "city": "喀什",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -122701,7 +122701,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/linxia/food/622922"
+        "https://www.amap.com/ranking/kashi/food/653126"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -125469,8 +125469,8 @@
     },
     {
       "id": "r-88f2e346",
-      "name": "二嫂子烤骨头(通化市店)",
-      "city": "通化",
+      "name": "二嫂子烤骨头(四平店)",
+      "city": "四平",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -125483,7 +125483,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/tonghua/food/220502"
+        "https://www.amap.com/ranking/siping/food/220303"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -125521,8 +125521,8 @@
     },
     {
       "id": "r-9abef61b",
-      "name": "圣罗巴海鲜烤肉自助(宏运新天地店)",
-      "city": "葫芦岛",
+      "name": "圣罗巴海鲜烤肉自助",
+      "city": "阜新",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -125535,7 +125535,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/huludao/food/211402"
+        "https://www.amap.com/ranking/fuxin/food/210902"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -125781,8 +125781,8 @@
     },
     {
       "id": "r-8dfd8323",
-      "name": "老北街烤骨头(铁岭新区店)",
-      "city": "铁岭",
+      "name": "老北街烤骨头",
+      "city": "阜新",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -125795,7 +125795,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/tieling/food/211221"
+        "https://www.amap.com/ranking/fuxin/food/210921"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -126301,8 +126301,8 @@
     },
     {
       "id": "r-777aa4fd",
-      "name": "全州拌饭馆(总店)",
-      "city": "延边",
+      "name": "全州拌饭馆(丹东分店)",
+      "city": "丹东",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -126315,7 +126315,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/yanbian/food/222401"
+        "https://www.amap.com/ranking/dandong/food/210603"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -126795,8 +126795,8 @@
     },
     {
       "id": "r-e2570bc7",
-      "name": "朱熙熙三不炒(淇园路店)",
-      "city": "鹤壁",
+      "name": "朱熙熙三不炒(蒙城鸿业未来城店)",
+      "city": "亳州",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -126809,7 +126809,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/hebi/food/410622"
+        "https://www.amap.com/ranking/bozhou/food/341622"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -126899,8 +126899,8 @@
     },
     {
       "id": "r-899a69f7",
-      "name": "米兰西点(大洼店)",
-      "city": "盘锦",
+      "name": "米兰西点(阜新店)",
+      "city": "阜新",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -126913,7 +126913,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/panjin/food/211104"
+        "https://www.amap.com/ranking/fuxin/food/210902"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -127471,8 +127471,8 @@
     },
     {
       "id": "r-fdbf7181",
-      "name": "刘炭长牛烧大块烤肉(东兴路店)",
-      "city": "黑河",
+      "name": "刘炭长牛烧大块烤肉(宝清店)",
+      "city": "双鸭山",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -127485,7 +127485,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/heihe/food/231102"
+        "https://www.amap.com/ranking/shuangyashan/food/230523"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -130097,8 +130097,8 @@
     },
     {
       "id": "r-fee4bb0b",
-      "name": "朝族高丽火盆(长白山总店)",
-      "city": "延边",
+      "name": "朝族高丽火盆(火盆街店)",
+      "city": "通化",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -130111,7 +130111,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/yanbian/food/222426"
+        "https://www.amap.com/ranking/tonghua/food/220582"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -133945,8 +133945,8 @@
     },
     {
       "id": "r-945b4b03",
-      "name": "杏花村酒楼(天昱店)",
-      "city": "亳州",
+      "name": "杏花村酒楼(水木清华店)",
+      "city": "黑河",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -133959,7 +133959,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/bozhou/food/341623"
+        "https://www.amap.com/ranking/heihe/food/231183"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -139249,8 +139249,8 @@
     },
     {
       "id": "r-9225b3f9",
-      "name": "羊司令海鲜烤肉(清真)",
-      "city": "定西",
+      "name": "羊司令海鲜烤肉",
+      "city": "临夏",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -139263,7 +139263,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/dingxi/food/621124"
+        "https://www.amap.com/ranking/linxia/food/622923"
       ],
       "data_date": "2026-08-30",
       "address": null,
@@ -141589,8 +141589,8 @@
     },
     {
       "id": "r-dd349d5c",
-      "name": "冯校长老火锅(鄂尔多斯店)",
-      "city": "鄂尔多斯",
+      "name": "冯校长老火锅",
+      "city": "昌都",
       "cuisine": "待分类",
       "metrics": {
         "online_rating": null,
@@ -141603,7 +141603,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.amap.com/ranking/eerduosi/food/150602"
+        "https://www.amap.com/ranking/changdu/food/540302"
       ],
       "data_date": "2026-08-30",
       "address": null,
