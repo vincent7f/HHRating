@@ -11,7 +11,7 @@ import re
 from functools import partial
 from html.parser import HTMLParser
 from urllib.parse import quote_plus, urljoin
-from urllib.request import ProxyHandler, Request, build_opener, urlopen
+from urllib.request import HTTPCookieProcessor, ProxyHandler, Request, build_opener, urlopen
 
 SEARCH_ENDPOINT = "https://www.so.com/s?q="
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"

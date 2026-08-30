@@ -44,15 +44,17 @@ class TestResolve:
 class TestCollectorResolve:
     def test_search_resolves_top_links(self):
         page = (
-            '<a href="/link?m=aaa">洛阳老字号一 - 本地宝</a>'
-            '<a href="/link?m=bbb">洛阳老字号二 - 头条</a>'
+            '<li class="res-list"><h3 class="res-title"><a href="/link?m=aaa">洛阳老字号一 - 本地宝</a></h3>'
+            '<p class="res-desc">内容一</p></li>'
+            '<li class="res-list"><h3 class="res-title"><a href="/link?m=bbb">洛阳老字号二 - 头条</a></h3>'
+            '<p class="res-desc">内容二</p></li>'
         )
 
         def opener(req, timeout=20):
             url = req.full_url
             if "/s?q=" in url:
                 return FakeResponse(page, final_url=url)
-            return FakeResponse(f'window.location.replace("https://real.example.com/{len(url)}")')
+            return FakeResponse(f'window.location.replace("https://real.example.com/x")')
 
         collector = So360Collector(opener=opener, resolve_links=2)
         results = collector.search("洛阳 老字号")
