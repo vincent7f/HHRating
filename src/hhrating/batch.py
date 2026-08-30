@@ -194,6 +194,7 @@ def import_list_records(entries: list[dict], db: Database) -> dict:
     summary = {"imported": 0, "skipped_existing": 0, "failed": 0, "total": len(entries)}
     existing = {name_key(r.name) for r in db.restaurants}
     today = date.today().isoformat()
+    pending: list[Restaurant] = []
     for entry in entries:
         name = (entry.get("name") or "").strip()
         city = (entry.get("city") or "").strip()
@@ -220,9 +221,11 @@ def import_list_records(entries: list[dict], db: Database) -> dict:
             branch=entry.get("branch"),
             notes=notes,
         )
-        db.upsert(record)
+        pending.append(record)
         existing.add(name_key(name))
         summary["imported"] += 1
+    if pending:
+        db.bulk_upsert(pending)
     return summary
 
 

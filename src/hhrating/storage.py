@@ -95,6 +95,18 @@ class Database:
         self._restaurants.append(restaurant)
         self.save()
 
+    def bulk_upsert(self, restaurants: list[Restaurant]) -> None:
+        """批量插入/替换，仅在结束时写盘一次（大批量导入专用）。"""
+        by_id = {r.id: i for i, r in enumerate(self._restaurants)}
+        for restaurant in restaurants:
+            i = by_id.get(restaurant.id)
+            if i is not None:
+                self._restaurants[i] = restaurant
+            else:
+                self._restaurants.append(restaurant)
+                by_id[restaurant.id] = len(self._restaurants) - 1
+        self.save()
+
     def remove(self, restaurant_id: str) -> bool:
         before = len(self._restaurants)
         self._restaurants = [r for r in self._restaurants if r.id != restaurant_id]
