@@ -1,7 +1,8 @@
 # HHRating · 美食点评指数资料库
 
 HHRating（Huì Huǒ Rating）是一个美食点评资料库：收集、整理并分析市场上各家饭店的公开网络信息，
-以一个 **5 位指数** 的形式发布评价结果。
+以一个 **5 位指数** 的形式发布评价结果。当前收录 **7300+ 家**饭店（覆盖全国 200+ 城市，以广州和珠三角为主），
+全部由代码化+多线程管线自动采集，每条记录附来源与快照日期。
 
 ## 指数含义
 
@@ -91,6 +92,14 @@ python -m hhrating stats
 # 联网检索辅助信号（走本地代理；DuckDuckGo 失败自动切换必应）
 python -m hhrating collect --query "XX店 大众点评 评分 创立" --proxy http://127.0.0.1:8009
 ```
+
+## 采集管线与文档
+
+- 架构与数据管线详解：[`docs/architecture.md`](docs/architecture.md)（数据源清单、并行收割、缓存、质量门、续采手册）
+- 评分规范：[`docs/index-spec.md`](docs/index-spec.md) · 字段定义：[`docs/data-dictionary.md`](docs/data-dictionary.md)
+- 收割脚本：`scripts/harvest_amap_national.py`（高德分区榜）、`scripts/snippet_harvest.py`（4 引擎摘要）、
+  `scripts/article_harvest.py`（名录文章）、`scripts/harvest_dianping.py`（点评排行页）
+- 续采一句话：跑一遍收割脚本 → `import` → `score` → `publish`；全部脚本支持本地缓存与断点续跑
 
 ## 项目结构
 

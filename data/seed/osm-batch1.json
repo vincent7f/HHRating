@@ -1,0 +1,20 @@
+{"schema_version": 1, "source": "https://overpass-api.de/api/interpreter", "entries": [
+{"name": "名典咖啡语茶", "city": "广州", "cuisine": "咖啡厅", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "广东电视台餐厅", "city": "广州", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "小肥羊", "city": "广州", "cuisine": "火锅", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "明记海鲜城", "city": "广州", "cuisine": "海鲜", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "陶陶居（天河店）", "city": "广州", "cuisine": "粤菜", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "鹅公村", "city": "广州", "cuisine": "粤菜", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "意珍", "city": "广州", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "云居", "city": "广州", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "愉悦轩", "city": "广州", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "佰鲜汇", "city": "广州", "cuisine": "海鲜", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "兴悦酒家", "city": "广州", "cuisine": "粤菜", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "十八涌", "city": "广州", "cuisine": "粤菜", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "萨莉亚（广州店）", "city": "广州", "cuisine": "西餐", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "鸿富华酒家", "city": "广州", "cuisine": "粤菜", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "同湘会", "city": "广州", "cuisine": "湘菜", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "金成炖品", "city": "广州", "cuisine": "炖品", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "东川酒家", "city": "广州", "cuisine": "粤菜", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"},
+{"name": "芸香居", "city": "广州", "cuisine": "粤菜", "source": "https://overpass-api.de/api/interpreter", "list_name": "OpenStreetMap amenity=restaurant"}
+]}

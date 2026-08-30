@@ -3932,7 +3932,7 @@
     },
     {
       "id": "gz-5cbe94cf",
-      "name": "陶陶居（美院店）",
+      "name": "陶陶居（天河店）",
       "city": "广州",
       "cuisine": "粤菜",
       "metrics": {
@@ -3943,28 +3943,24 @@
         "celebrity_endorsements": null,
         "media_features": null,
         "master_chef": null,
-        "founded_year": 1880
+        "founded_year": null
       },
       "sources": [
-        "https://www.so.com/link?m=wpNWdtBMsK8gD1H9wZ1PCa88BWTQ5Q8RV5STar%2F3mlHoqVZgadU0FyWcBN6%2FlIspNR2tpSg7SM5%2FJ1jMt0gDnkBgW6uI7U0FtJxNs5yAQXPG%2FZpvHq7J75xuxDGTfEa19whOxXCWjnCeDV7NM3ASIFhPvBJ%2FQ9ghOEVEkPDYhbnLjZGf1dAzIJQ9E8TxDop0glWrX3ox9YUDsMRyjO5sMUV%2FRKEHrXVaQGhOugvyeeBKjFNyg9K4XN7TWOXa7S9mUWmh1qwlL5ESfbCxkBemdg%2FvQc6FYUG6pYi9ImxY2aIYuk7W9XbFTRNqC52vJ37dUqSvuSzgm%2BlO1IgNjUDaDA7qui%2F3UlLt2",
-        "https://www.so.com/link?m=zEVUP376kqNFxCpDICDkW5WDX8eA6xQfi8zhx6L2leq%2Bmai07OLga1xpKljGsWeVRJoyk8ZdIAT9rvDhgKb%2Bnwn0QIWT%2FemsJ6vcV3nkc9AIdprttznExsHTSTInpHuhAW8F10RW13kdSLpHfPnUk4S9eqG5vR61LRvWsZzeV2fstmnv6a9xJeKa2n56NLfzCxLBKRuhej%2Fq4JKQ6Km1H1HWG0kbvB7XgkB2ZYAiGqbjYr8TaoATgcMnMevK1rRio3cQHcAZUhH6AbBVy3P6AVDgZ87k%2BzpyfP2B%2BIQlt6qfoexKVhytr9Ru20lBZJtnvdDK2hPMX%2BdolAhEXNx7yZPneM%2B4%3D",
-        "https://www.so.com/link?m=u%2B9rpPva%2FBeZRjeBBRoczYpwPtnrSrH%2FCA6JXXCD0gmy4B43j6PAGI6HDTYdAi2JueuKxsKsP3THkxX3O1tarQD9vO%2B19j6B0XzPQaL4ech5eei0CxvmvGBMrag%2FRCz6Rz2t0PTmLeqRbzDRLDxAVL%2BuJmeFZf81sgV7ApOkkplb%2B0XN5OjU2ecjxsOthUZkQ0O6ZVMN4a0BUXAzzkxpyzRi5GAQYK1TSEFK4povkKQrd8uSZj4k8zovjXM%2F7wU2fxPp6j8zb8vvKzEftReExIu41GuPzHA5SVP9cf99qIZGz0qjts5U%2FP3SGFi34cHRIhXSqK1OhxXoUwiIyHdaYIVzDl1ZQuXleGM6tAHryBeiEvGsjJFUNAg%3D%3D",
-        "https://www.so.com/link?m=wkTTAjTdSvravjJdXAjX%2BvTXtj11nePFePZa%2FWKgb8ut620bQujFYvIKEw3oDll5s39PlTDxUWWpRLCwTnOUlMTFAjSMxtCnRI2rHc1npJKMT%2FRtiXnxyfBDPtM%2Bl5oM8qoajPDec67T0bhvm%2BxPmpvNWLHkr3ZBMm7vFuxhGt8fNBUFHBTjJFboMaMHUU6lAY16g1uHHCtonTLF0nnCGbfsbfI7R0iG6CiGmJRu0Nso8JPzm8QgRaOo7zDcQON2A5OGpZkMjCkGNShvqE6qUt459%2BlRcyIi1VVkWBHAAs3SSJej1Mg2%2FdoB1U3UlyW5v3mAirtKumCle3ppzhAVO%2F0pYVyE82diW%2FuY8%2FPZgch9Bo39JYcjoZw%3D%3D",
-        "https://www.so.com/link?m=e0RfJHoqkdzpQU04tHvoGqTtMJP9%2BVt7rsqeDvPZ501eNDzJUvQRncweG11yddRHAfiut239rnOlh5wEvbXzsJPjvVrng7jiNAn3Nidqh87rEO%2Finx%2FAPWKtQPtSA9aVF6MZwUQQD5C6xHJt5sIRBSt4KGDOdf9g2AmjnofZomsEUd7uuGDqvu3cGt04wYkUc6nJy0dLMeSl1iPnkAfhfDhnrg31vPt5q4PRgbvRmveaTon2Kf2oStVEsNEByE9GMUp4X3JfG%2FW87nT82NCVNmdNrvmwNJsgbvvfY%2BLyjIAM2sQRSua4BcTGNrQaTuCFqZCl4S0NV3aWg4sSNlBOLLsRGX25Fh2eI"
+        "https://overpass-api.de/api/interpreter"
       ],
-      "data_date": "2026-08-29",
+      "data_date": "2026-08-30",
       "address": null,
       "name_en": null,
       "branch": null,
-      "index": "00009",
+      "index": "00000",
       "index_detail": {
         "overall": 0,
         "celebrity": 0,
         "popularity": 0,
         "online": 0,
-        "age": 9
+        "age": 0
       },
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1880]，点评数候选 无"
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
     },
     {
       "id": "gz-e3949666",
@@ -234954,6 +234950,550 @@
         "age": 0
       },
       "notes": "来自名录「名录文章：吃货必看!台州十大美食,哪道让你流口水?|年糕|海苔|豆沙|内馅|嚼劲|台州市|」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-20577c98",
+      "name": "名典咖啡语茶",
+      "city": "广州",
+      "cuisine": "咖啡厅",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-a3603d9f",
+      "name": "广东电视台餐厅",
+      "city": "广州",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-1478226a",
+      "name": "小肥羊",
+      "city": "广州",
+      "cuisine": "火锅",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-1df37868",
+      "name": "明记海鲜城",
+      "city": "广州",
+      "cuisine": "海鲜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-2133ff42",
+      "name": "鹅公村",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-25a6733b",
+      "name": "意珍",
+      "city": "广州",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-c2976b5c",
+      "name": "云居",
+      "city": "广州",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-d37f79a5",
+      "name": "愉悦轩",
+      "city": "广州",
+      "cuisine": "待分类",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-074abd21",
+      "name": "佰鲜汇",
+      "city": "广州",
+      "cuisine": "海鲜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-569aa1b1",
+      "name": "兴悦酒家",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-2033f355",
+      "name": "十八涌",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-c505f682",
+      "name": "萨莉亚（广州店）",
+      "city": "广州",
+      "cuisine": "西餐",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-a642f545",
+      "name": "鸿富华酒家",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-55440714",
+      "name": "同湘会",
+      "city": "广州",
+      "cuisine": "湘菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-2dcb7187",
+      "name": "金成炖品",
+      "city": "广州",
+      "cuisine": "炖品",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-98719eef",
+      "name": "东川酒家",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "gz-f5055de1",
+      "name": "芸香居",
+      "city": "广州",
+      "cuisine": "粤菜",
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://overpass-api.de/api/interpreter"
+      ],
+      "data_date": "2026-08-30",
+      "address": null,
+      "name_en": null,
+      "branch": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
     }
   ]
 }
