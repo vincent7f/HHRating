@@ -92,7 +92,7 @@ class BingCollector:
                 build_opener(ProxyHandler({"http": proxy, "https": proxy})).open, timeout=timeout
             )
         else:
-            self._opener = partial(urlopen, timeout=timeout)
+            self._opener = partial(build_opener(ProxyHandler({})).open, timeout=timeout)
 
     def search(self, query: str) -> list[dict[str, str]]:
         url = SEARCH_ENDPOINT + "?q=" + quote_plus(query) + "&setmkt=zh-CN"

@@ -154,7 +154,8 @@ class DuckDuckGoCollector:
                 build_opener(ProxyHandler({"http": proxy, "https": proxy})).open, timeout=timeout
             )
         else:
-            self._opener = partial(urlopen, timeout=timeout)
+            # 显式直连：避免被系统代理（注册表/env）劫持到不可用的本地端口
+            self._opener = partial(build_opener(ProxyHandler({})).open, timeout=timeout)
 
     def search(self, query: str) -> list[dict[str, str]]:
         url = SEARCH_ENDPOINT + "?q=" + quote_plus(query)
