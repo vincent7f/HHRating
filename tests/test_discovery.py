@@ -43,3 +43,14 @@ class TestCityGuard:
     def test_looks_like_city_page(self):
         assert looks_like_city_page("深圳必吃餐厅名单 椰子鸡 火锅", "深圳") is True
         assert looks_like_city_page("北京烤鸭大全", "深圳") is False
+
+
+class TestRejectNoise:
+    def test_rejects_article_title_fragments(self):
+        text = "珠海有哪些自助餐厅 最好吃的10家烧鹅 360文库广州好吃的火锅 com反馈深圳好吃的糖水 中国品牌网前十大烧鹅"
+        assert extract_restaurant_names(text, city="珠海") == []
+
+    def test_keeps_real_names_with_noise_nearby(self):
+        text = "适合聚餐：松记食店、猪肉婆私房菜（容桂总店）"
+        names = extract_restaurant_names(text, city="佛山")
+        assert "松记食店" in names and "猪肉婆私房菜（容桂总店）" in names

@@ -132,3 +132,11 @@ class TestDatabase:
         db.upsert(make_restaurant())
         text = (tmp_path / "db.json").read_text(encoding="utf-8")
         assert "全聚德（前门店）" in text
+
+
+class TestSaveLock:
+    def test_save_releases_lock(self, tmp_path):
+        db = Database(tmp_path / "db.json")
+        db.upsert(make_restaurant())
+        assert not (tmp_path / "db.json.lock").exists()
+        assert (tmp_path / "db.json").exists()

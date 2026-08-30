@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "spec_version": "1.1",
-  "generated_at": "2026-08-30T12:45:27+08:00",
+  "generated_at": "2026-08-30T16:07:02+08:00",
   "legend": "指数共 5 位，每位 1–9 由差到好：第 1 位综合得分、第 2 位名人推荐值、第 3 位人气度、第 4 位网上得分、第 5 位出现时间（老店分高）。0 表示该维度暂无数据。评分标准见 docs/index-spec.md v1.1。",
   "disclaimer": "数据来自公开网络资料的近似统计（快照日期见各条目），仅供研究参考。",
   "restaurants": [
@@ -755,10 +755,11 @@
         "https://www.taotaoju1880.com/",
         "https://www.taotaoju1880.com/news/241.html",
         "https://zh.wikipedia.org/zh-cn/%E9%99%B6%E9%99%B6%E5%B1%85",
-        "https://www.so.com/link?m=eH7xc2e%2FBtUdPFdWZ6%2B9PcMZt6Z7KCOnYmaiwjx8WfvqErvphG%2B6JHGNPE38XKjL7LpzeDYil%2BEnwxO3O3WEoKgFUnOH3OUqM1lYcnZI4AfWVpPEMmnz%2BWV5p7AcYsXgm3WLyZ0ZiPsLtk3XKhPLv3sN5H073VWbrkp1KK%2FalU%2FuTWaDz1bJTFhE4BX5dLjAeFZT6o1qCNBhCp6f4V1XxXsPQax8IWWibxvel3t8%2Fl2vxKow3nNnsI13Vtbi1welBNe9jf1eWZGjJRgOCFtxtThmmPZQ4tsnpHyyq%2FjESUC%2B4rSi2Gd8Ld5H4GuSkuKbwHFngYhCiZI1Si%2BQnP6OAh0OMElQH5AgH0xmsvFIBW%2FBD4YWrmVEL%2B5CQa7t3uMQh%2FKy5Q7By5QvskJEEzSgS1w%3D%3D"
+        "https://www.so.com/link?m=eH7xc2e%2FBtUdPFdWZ6%2B9PcMZt6Z7KCOnYmaiwjx8WfvqErvphG%2B6JHGNPE38XKjL7LpzeDYil%2BEnwxO3O3WEoKgFUnOH3OUqM1lYcnZI4AfWVpPEMmnz%2BWV5p7AcYsXgm3WLyZ0ZiPsLtk3XKhPLv3sN5H073VWbrkp1KK%2FalU%2FuTWaDz1bJTFhE4BX5dLjAeFZT6o1qCNBhCp6f4V1XxXsPQax8IWWibxvel3t8%2Fl2vxKow3nNnsI13Vtbi1welBNe9jf1eWZGjJRgOCFtxtThmmPZQ4tsnpHyyq%2FjESUC%2B4rSi2Gd8Ld5H4GuSkuKbwHFngYhCiZI1Si%2BQnP6OAh0OMElQH5AgH0xmsvFIBW%2FBD4YWrmVEL%2B5CQa7t3uMQh%2FKy5Q7By5QvskJEEzSgS1w%3D%3D",
+        "https://www.amap.com/ranking/guangzhou/food/440103"
       ],
       "data_date": "2026-08-29",
-      "notes": "1880年（清光绪六年）创立，广州百年茶楼代表；评分取 Trip.com 4.2/5（2026-08 检索）；门店入选米其林指南并连获金梧桐等奖项；大众点评菜品实拍超11万张（人气佐证，未计入点评数）。；2026-08-29 补采：点评622"
+      "notes": "1880年（清光绪六年）创立，广州百年茶楼代表；评分取 Trip.com 4.2/5（2026-08 检索）；门店入选米其林指南并连获金梧桐等奖项；大众点评菜品实拍超11万张（人气佐证，未计入点评数）。；2026-08-29 补采：点评622；已合并重复记录 gz-8662dc08（同店异写）"
     },
     {
       "id": "gz-a58d91e4",
@@ -1057,6 +1058,45 @@
       "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 [5.0]，年份候选 无，点评数候选 [183]；人工复核：剔除噪声评分(0/1/5平分)"
     },
     {
+      "id": "gz-2e89e420",
+      "name": "宋",
+      "name_en": null,
+      "city": "广州",
+      "cuisine": "川菜",
+      "branch": null,
+      "address": null,
+      "index": "45400",
+      "index_detail": {
+        "overall": 4,
+        "celebrity": 5,
+        "popularity": 4,
+        "online": 0,
+        "age": 0
+      },
+      "metrics": {
+        "online_rating": null,
+        "review_count": 8366,
+        "social_mentions": null,
+        "awards": [
+          "michelin_1_star@2025"
+        ],
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.so.com/link?m=bRDtyWmCGNJIaM0QkMU8Z%2B6AWTBhbtun2Eu4VXuddzz3GkWSSOnyMZoFhXQChAMeIT2lbKl44jdj45cZkeM6FjFaBU%2FBpSrXw0T0%2FV1xOunoH3ZsqkcwcCvbRmT04jtLkClqQ9qhfCLazQwzyHLhMsjZsyPosRc%2FLagAwP3noXUBglROmku8GCi1mtnR%2BeiSkZUfM3HP7VHHvIKBV1es5Zd44iwulQr0hefLW9Isroxrj9MTXsRjqbnjp4KOyFaKANS880BskQlxDL%2FPA",
+        "https://www.so.com/link?m=us0A%2Fl0k6EQvrS1CWTYtE%2BOo180OINwxpfDOIq7dCMeUs%2FJrOLwi%2FCx2ACPsCE98R%2BoN%2BwrgC702p3jb9AZXSk6ozTCqnL6mnisIn67B%2F%2F4U2pTUuSqANrVySEyrcP7jwlCpeTk1%2FaTK3sOCa2HvEbkTre%2FC2DqFF%2BEFeVHAuQ4TSPa9wic%2FBr%2Bj4RKHmo8GZRXEL6QS4HgLUxscYjF4WJgD5evyI9Qj9D5Eq2JuP%2FXmahShfCW62VccrSDwKWtTZDCH5i%2BNUcdBBDwEC",
+        "https://www.so.com/link?m=ettgSPtYu7vwQoAdOAhlatZDi%2FKiUzjFKTPKcIHGJkmgQy7%2F4fDNfDaP%2BWEsM7YBXPQnAlGrRhI6IY8voQziXNtQft2jr8sDpSxuqjrMdpgCs404LCv%2Frz5m1%2BLGc2wcRrDk0ogL6ypRolJCKtJx5%2Bvpqvk37FECz8wkVJ28a8xTmSLTRdRTi8xObUukLNz6NxhaY6EAdP1RsVpvsrURRVKnoUZsciarpb%2BymXGemzzXyrM4c6OYNYUZ43Hdl%2Fw0mKp3lE%2Fcj0cw%3D",
+        "https://www.so.com/link?m=eFbKbq2BHcYKfHUb7Jl6U6Ngh2BFkM9tMlNy4u%2B7P9Zlr5NR%2F71eUA%2FCtjUa6uWdFnj%2BFZytohmd%2Bg8INCugnU1Io5xzYAd1MjvF0ZrHQMc3%2FTH2HPSv59e2ggA5nJMUZcuQOmvgwBu50Lu1Mix55SS2eMbjbMXLk6pwPGOTm3UmHE%2B90hdXbPYTyOkFLo4EwakJH5l3hx4yLw5qGqTISbF7sRlMK9o713CoYjy4UhjHGW1zeREH0ERlGR8g1Shw0QCmwDqE8dpY%3D",
+        "https://www.so.com/link?m=wa8xjFlVG1QqNGXUKxjjSlIhYclQFJq1CK%2FZmRaWwi9ZWhH%2Fgf6FyZb8UEGC1x3MjaYofRtQ7YitQ1rLx3Uu4Bf9nyqmy5FDRltH%2BDkpCpkKptxZNZKp5d6JArZx4yiVHywWfZepA7K5IqwuXzraNzPTyiTaIT0SXDfBWmJ5KzTqgB%2FardiYtUxcJThKfJc2DdfYTI98ruHVgvJC1aGCx3%2Fr3lTaCVT9h%2BA6ZkM6b7Rdosy9frYJ83e1t3wb6P3obG9EU%2BA%3D%3D",
+        "https://www.so.com/link?m=wJ8EuW%2BLWM2wlpkpxph8GILguqOHPRxKEw0H5gt3X%2FHs%2FaKvOeldsPm2ho1dGC1ZaWAf30TuF%2Btei5o5oT2TmE7tfeD2vQTi6FKOe1fZLEpZPYj2JW75jBqVX4dmzNQ6KmlvJ%2BhWVoNwJDuHzP5jFXQYGrc0sgBkKCcTsEmIGQ%2BQQ2bLmQdCoGvSuCaOudGp574M5zUUzHPaAwqRo"
+      ],
+      "data_date": "2026-08-29",
+      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 [8366]；2026-08-29 补采：评分3.0；人工复核：剔除可疑评分3.0（与米其林一星口碑严重不符且来源单一）"
+    },
+    {
       "id": "gz-e9f39e1c",
       "name": "御宝阁",
       "name_en": null,
@@ -1317,45 +1357,6 @@
       ],
       "data_date": "2026-08-29",
       "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 [1953]，点评数候选 [267]；2026-08-29 补采：评分5.0；人工复核：剔除噪声评分(0/1/5平分)"
-    },
-    {
-      "id": "gz-2e89e420",
-      "name": "宋",
-      "name_en": null,
-      "city": "广州",
-      "cuisine": "川菜",
-      "branch": null,
-      "address": null,
-      "index": "35420",
-      "index_detail": {
-        "overall": 3,
-        "celebrity": 5,
-        "popularity": 4,
-        "online": 2,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": 3.0,
-        "review_count": 8366,
-        "social_mentions": null,
-        "awards": [
-          "michelin_1_star@2025"
-        ],
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=bRDtyWmCGNJIaM0QkMU8Z%2B6AWTBhbtun2Eu4VXuddzz3GkWSSOnyMZoFhXQChAMeIT2lbKl44jdj45cZkeM6FjFaBU%2FBpSrXw0T0%2FV1xOunoH3ZsqkcwcCvbRmT04jtLkClqQ9qhfCLazQwzyHLhMsjZsyPosRc%2FLagAwP3noXUBglROmku8GCi1mtnR%2BeiSkZUfM3HP7VHHvIKBV1es5Zd44iwulQr0hefLW9Isroxrj9MTXsRjqbnjp4KOyFaKANS880BskQlxDL%2FPA",
-        "https://www.so.com/link?m=us0A%2Fl0k6EQvrS1CWTYtE%2BOo180OINwxpfDOIq7dCMeUs%2FJrOLwi%2FCx2ACPsCE98R%2BoN%2BwrgC702p3jb9AZXSk6ozTCqnL6mnisIn67B%2F%2F4U2pTUuSqANrVySEyrcP7jwlCpeTk1%2FaTK3sOCa2HvEbkTre%2FC2DqFF%2BEFeVHAuQ4TSPa9wic%2FBr%2Bj4RKHmo8GZRXEL6QS4HgLUxscYjF4WJgD5evyI9Qj9D5Eq2JuP%2FXmahShfCW62VccrSDwKWtTZDCH5i%2BNUcdBBDwEC",
-        "https://www.so.com/link?m=ettgSPtYu7vwQoAdOAhlatZDi%2FKiUzjFKTPKcIHGJkmgQy7%2F4fDNfDaP%2BWEsM7YBXPQnAlGrRhI6IY8voQziXNtQft2jr8sDpSxuqjrMdpgCs404LCv%2Frz5m1%2BLGc2wcRrDk0ogL6ypRolJCKtJx5%2Bvpqvk37FECz8wkVJ28a8xTmSLTRdRTi8xObUukLNz6NxhaY6EAdP1RsVpvsrURRVKnoUZsciarpb%2BymXGemzzXyrM4c6OYNYUZ43Hdl%2Fw0mKp3lE%2Fcj0cw%3D",
-        "https://www.so.com/link?m=eFbKbq2BHcYKfHUb7Jl6U6Ngh2BFkM9tMlNy4u%2B7P9Zlr5NR%2F71eUA%2FCtjUa6uWdFnj%2BFZytohmd%2Bg8INCugnU1Io5xzYAd1MjvF0ZrHQMc3%2FTH2HPSv59e2ggA5nJMUZcuQOmvgwBu50Lu1Mix55SS2eMbjbMXLk6pwPGOTm3UmHE%2B90hdXbPYTyOkFLo4EwakJH5l3hx4yLw5qGqTISbF7sRlMK9o713CoYjy4UhjHGW1zeREH0ERlGR8g1Shw0QCmwDqE8dpY%3D",
-        "https://www.so.com/link?m=wa8xjFlVG1QqNGXUKxjjSlIhYclQFJq1CK%2FZmRaWwi9ZWhH%2Fgf6FyZb8UEGC1x3MjaYofRtQ7YitQ1rLx3Uu4Bf9nyqmy5FDRltH%2BDkpCpkKptxZNZKp5d6JArZx4yiVHywWfZepA7K5IqwuXzraNzPTyiTaIT0SXDfBWmJ5KzTqgB%2FardiYtUxcJThKfJc2DdfYTI98ruHVgvJC1aGCx3%2Fr3lTaCVT9h%2BA6ZkM6b7Rdosy9frYJ83e1t3wb6P3obG9EU%2BA%3D%3D",
-        "https://www.so.com/link?m=wJ8EuW%2BLWM2wlpkpxph8GILguqOHPRxKEw0H5gt3X%2FHs%2FaKvOeldsPm2ho1dGC1ZaWAf30TuF%2Btei5o5oT2TmE7tfeD2vQTi6FKOe1fZLEpZPYj2JW75jBqVX4dmzNQ6KmlvJ%2BhWVoNwJDuHzP5jFXQYGrc0sgBkKCcTsEmIGQ%2BQQ2bLmQdCoGvSuCaOudGp574M5zUUzHPaAwqRo"
-      ],
-      "data_date": "2026-08-29",
-      "notes": "自动采集（DuckDuckGo/必应公开摘要，快照 2026-08-29），未经人工核实；信号：评分候选 无，年份候选 无，点评数候选 [8366]；2026-08-29 补采：评分3.0"
     },
     {
       "id": "gz-e95ca1a9",
@@ -4589,38 +4590,6 @@
       ],
       "data_date": "2026-08-29",
       "notes": "来自名录「2025高德状元榜·美食（必吃美食）」自动录入（快照 2026-08-29），指标待补采；区域：番禺区"
-    },
-    {
-      "id": "gz-8662dc08",
-      "name": "陶陶居酒家(第十甫路店)",
-      "name_en": null,
-      "city": "广州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.amap.com/ranking/guangzhou/food/440103"
-      ],
-      "data_date": "2026-08-29",
-      "notes": "来自名录「2025高德状元榜·美食（必吃美食）」自动录入（快照 2026-08-29），指标待补采；区域：荔湾区"
     },
     {
       "id": "gz-4046a789",
@@ -23119,166 +23088,6 @@
       "notes": "来自名录「名录文章：珠海值得一去的餐厅汇总- 珠海本地宝」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "zh-ab5f215a",
-      "name": "珠海有哪些自助餐厅",
-      "name_en": null,
-      "city": "珠海",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://zh.bendibao.com/meishi/2016923/43905.shtm"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「名录文章：珠海值得一去的餐厅汇总- 珠海本地宝」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zh-fd5b950c",
-      "name": "珠海有哪些外国特色美食餐厅",
-      "name_en": null,
-      "city": "珠海",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://zh.bendibao.com/meishi/2016923/43905.shtm"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「名录文章：珠海值得一去的餐厅汇总- 珠海本地宝」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zh-32f8b2ca",
-      "name": "珠海有哪些比较有创意的餐厅",
-      "name_en": null,
-      "city": "珠海",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://zh.bendibao.com/meishi/2016923/43905.shtm"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「名录文章：珠海值得一去的餐厅汇总- 珠海本地宝」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zh-b1e75ca6",
-      "name": "海香洲有哪些外地特色美食餐厅",
-      "name_en": null,
-      "city": "珠海",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://zh.bendibao.com/meishi/2016923/43905.shtm"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「名录文章：珠海值得一去的餐厅汇总- 珠海本地宝」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zh-439b1a75",
-      "name": "珠海哪些火锅",
-      "name_en": null,
-      "city": "珠海",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://zh.bendibao.com/meishi/2016923/43905.shtm"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「名录文章：珠海值得一去的餐厅汇总- 珠海本地宝」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "zh-32929990",
       "name": "珠海哪里的甜品店",
       "name_en": null,
@@ -23631,72 +23440,8 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "gz-be5fc63d",
-      "name": "最好吃问广州烧鹅",
-      "name_en": null,
-      "city": "广州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://ai.so.com/search?search=%E5%B9%BF%E5%B7%9E10%E5%AE%B6%E5%8F%AF%E5%B0%81%E7%A5%9E%E7%83%A7%E9%B9%85%2C%E5%90%84%E5%85%B7%E7%89%B9%E8%89%B2%E5%A5%BD%E5%90%83%E4%B8%8D%E8%B4%B5%20%23%E6%8A%96%E9%9F%B3%E7%BE%8E%E9%A3%9F%E6%8E%A8%E8%8D%90%E5%AE%98_%E8%B6%85%E5%B8%82%E4%BE%BF%E5%88%A9...&src=so_result_natural&srcg=so_result_natural"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "sz-44e3a8f9",
       "name": "最高的10家烧腊",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://mp.weixin.qq.com/s?src=3&timestamp=1788049697&ver=1&signature=Ds6bkCyzpLNiRk2*19yaX4-yJxOKPbZGBJSgWOy4u*XQVIrawm9Yq5MrNqKPNnGlr80PWnh5GzLbQMULcjY82VfGVvwB*t5IYgiwh*8EtsHZvW8puZBnFHH-n*IaNXXuldIO1Z7yAuB82sNpXWYU7nl48Sors7ZndelwgvLWSM4="
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（sogou）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "sz-8d9ff1cf",
-      "name": "最好吃的10家烧鹅",
       "name_en": null,
       "city": "深圳",
       "cuisine": "待分类",
@@ -23793,70 +23538,6 @@
     {
       "id": "sz-9f0eb029",
       "name": "金细数深圳不可错过的人气烧鹅",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://mp.weixin.qq.com/s?src=3&timestamp=1788049697&ver=1&signature=Ds6bkCyzpLNiRk2*19yaX4-yJxOKPbZGBJSgWOy4u*XQVIrawm9Yq5MrNqKPNnGlr80PWnh5GzLbQMULcjY82VfGVvwB*t5IYgiwh*8EtsHZvW8puZBnFHH-n*IaNXXuldIO1Z7yAuB82sNpXWYU7nl48Sors7ZndelwgvLWSM4="
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（sogou）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "sz-f0962080",
-      "name": "店深圳最好吃的10家烧鹅",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://mp.weixin.qq.com/s?src=3&timestamp=1788049697&ver=1&signature=Ds6bkCyzpLNiRk2*19yaX4-yJxOKPbZGBJSgWOy4u*XQVIrawm9Yq5MrNqKPNnGlr80PWnh5GzLbQMULcjY82VfGVvwB*t5IYgiwh*8EtsHZvW8puZBnFHH-n*IaNXXuldIO1Z7yAuB82sNpXWYU7nl48Sors7ZndelwgvLWSM4="
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（sogou）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "sz-67071f0b",
-      "name": "中国品牌网前十大烧鹅",
       "name_en": null,
       "city": "深圳",
       "cuisine": "待分类",
@@ -24239,72 +23920,8 @@
       "notes": "来自名录「搜索摘要（sogou）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "zs-ae57921f",
-      "name": "众我国最好吃最有名的十大烧鹅",
-      "name_en": null,
-      "city": "中山",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://mp.weixin.qq.com/s?src=3&timestamp=1788049701&ver=1&signature=xLA-MtAk-qkUhI8BsPONXpKFwCKgJDfNyS6gq7UKNE15hYu0qE7ToggOXxrVPSJNe-KyKkdvnIjxv4KoSIX9l*MRunhu5fexMxKxTJX0dPNCZrk1yNc2nkioLuj5CvMMb-C*Q8xv2liW*SgrFgRG0BUgs4XatDQ7vofqtZ2zZfI="
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（sogou）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "zs-66ea7612",
       "name": "买购APP东莞烧鹅",
-      "name_en": null,
-      "city": "中山",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://mp.weixin.qq.com/s?src=3&timestamp=1788049701&ver=1&signature=xLA-MtAk-qkUhI8BsPONXpKFwCKgJDfNyS6gq7UKNE15hYu0qE7ToggOXxrVPSJNe-KyKkdvnIjxv4KoSIX9l*MRunhu5fexMxKxTJX0dPNCZrk1yNc2nkioLuj5CvMMb-C*Q8xv2liW*SgrFgRG0BUgs4XatDQ7vofqtZ2zZfI="
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（sogou）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zs-eb18d3c9",
-      "name": "中国品牌网中山最强荔枝木烧鹅",
       "name_en": null,
       "city": "中山",
       "cuisine": "待分类",
@@ -25167,38 +24784,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "sz-0f0131ac",
-      "name": "十几块top好吃颜值高的糖水",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=zHgxULy9LRffH1atZWV5D5rXwYcn%2F%2FbMFGgpNvvR3aNdEByOgREE1PLCYIVxHcPRCg64MwNe5OXvCMPzz%2BK6B74lHKedAgbnpT3TtFrTQqUhJD0mztnZCThOeIASRsj8Xv4kY%2Fg7Bpt9L744Mso3b80iFvB13SnaabMD87hEw3PqvIHH75gWS%2FbVlt%2BwRB4tTtHazRU3tEunx8ZdberxcKKz26Dhwym1%2BaVhOA2i8a87N2aJ1%2BazBkA%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "sz-a5e57d95",
       "name": "这家糖叙糖水铺",
       "name_en": null,
@@ -25327,72 +24912,8 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "sz-d801ce00",
-      "name": "com反馈深圳好吃的糖水",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=zHgxULy9LRffH1atZWV5D5rXwYcn%2F%2FbMFGgpNvvR3aNdEByOgREE1PLCYIVxHcPRCg64MwNe5OXvCMPzz%2BK6B74lHKedAgbnpT3TtFrTQqUhJD0mztnZCThOeIASRsj8Xv4kY%2Fg7Bpt9L744Mso3b80iFvB13SnaabMD87hEw3PqvIHH75gWS%2FbVlt%2BwRB4tTtHazRU3tEunx8ZdberxcKKz26Dhwym1%2BaVhOA2i8a87N2aJ1%2BazBkA%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "sz-a26d98c9",
       "name": "店比较有名深圳糖水",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=zHgxULy9LRffH1atZWV5D5rXwYcn%2F%2FbMFGgpNvvR3aNdEByOgREE1PLCYIVxHcPRCg64MwNe5OXvCMPzz%2BK6B74lHKedAgbnpT3TtFrTQqUhJD0mztnZCThOeIASRsj8Xv4kY%2Fg7Bpt9L744Mso3b80iFvB13SnaabMD87hEw3PqvIHH75gWS%2FbVlt%2BwRB4tTtHazRU3tEunx8ZdberxcKKz26Dhwym1%2BaVhOA2i8a87N2aJ1%2BazBkA%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "sz-951931a0",
-      "name": "好吃的糖水",
       "name_en": null,
       "city": "深圳",
       "cuisine": "待分类",
@@ -26031,104 +25552,8 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "gz-0325d6d6",
-      "name": "有什么好吃的火锅",
-      "name_en": null,
-      "city": "广州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=u6iPBauAbBdLuJmnHuzW0haI43X9O472%2BJtP%2BrCQRQ76SZYQgJogXV455xqjQAlpMOwFV7PvdNVzdfV8ynYlYOhXhlBhntWhGSrFr5GQC8BFFhJcaAy5BRpOTph1zKIqxA%2FSUXT5CR229SMNyE1rpIASnah4VmvlRdrlpDaI%2BcGE%2BciH7%2B4Al4ciNw%2FaskfdoPp673lcC1jkE5MCd%2Bcq67xmzRhhAUusEGmArQ3RQtQQDEviWsp4TeOoxd0vaOWNsPjb6TGaRmYxV5VeF"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "gz-98d9bc0d",
       "name": "平价火锅",
-      "name_en": null,
-      "city": "广州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=u6iPBauAbBdLuJmnHuzW0haI43X9O472%2BJtP%2BrCQRQ76SZYQgJogXV455xqjQAlpMOwFV7PvdNVzdfV8ynYlYOhXhlBhntWhGSrFr5GQC8BFFhJcaAy5BRpOTph1zKIqxA%2FSUXT5CR229SMNyE1rpIASnah4VmvlRdrlpDaI%2BcGE%2BciH7%2B4Al4ciNw%2FaskfdoPp673lcC1jkE5MCd%2Bcq67xmzRhhAUusEGmArQ3RQtQQDEviWsp4TeOoxd0vaOWNsPjb6TGaRmYxV5VeF"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "gz-3473b50a",
-      "name": "360文库广州好吃的火锅",
-      "name_en": null,
-      "city": "广州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=u6iPBauAbBdLuJmnHuzW0haI43X9O472%2BJtP%2BrCQRQ76SZYQgJogXV455xqjQAlpMOwFV7PvdNVzdfV8ynYlYOhXhlBhntWhGSrFr5GQC8BFFhJcaAy5BRpOTph1zKIqxA%2FSUXT5CR229SMNyE1rpIASnah4VmvlRdrlpDaI%2BcGE%2BciH7%2B4Al4ciNw%2FaskfdoPp673lcC1jkE5MCd%2Bcq67xmzRhhAUusEGmArQ3RQtQQDEviWsp4TeOoxd0vaOWNsPjb6TGaRmYxV5VeF"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "gz-007d11d5",
-      "name": "360文库广州哪里的火锅",
       "name_en": null,
       "city": "广州",
       "cuisine": "待分类",
@@ -26223,72 +25648,8 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "zh-05577737",
-      "name": "今日头条珠海哪些火锅",
-      "name_en": null,
-      "city": "珠海",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=ur2sktNHSyHHzK%2B2kl7mIeCRI%2FvPmCUQtBo3AFL7Ck%2BdZ4LRMIXUJxvYU1UrjtKloH77KFKEOZz4tCf0%2FiDVPdTVcD7bsymiQJEdXJ%2FLmSb0PgzCU2%2BrMuIO45%2BD5ztnJIgsfqgyZagXZXb96L5uck5RaTKrDHPnpmB49LVTQNpBUJs8kYNLfNEqOZwaLqetFnc4j%2BSUD9WYe6X8%2FPIdvgxsF4gD5wkd5kKaZxhDXo4F5ZzulNmUEPAL93RsM%2FVAv0SKK4f7heos%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "zh-b5f56525",
       "name": "本地宝珠海哪个饭馆的火锅",
-      "name_en": null,
-      "city": "珠海",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=ur2sktNHSyHHzK%2B2kl7mIeCRI%2FvPmCUQtBo3AFL7Ck%2BdZ4LRMIXUJxvYU1UrjtKloH77KFKEOZz4tCf0%2FiDVPdTVcD7bsymiQJEdXJ%2FLmSb0PgzCU2%2BrMuIO45%2BD5ztnJIgsfqgyZagXZXb96L5uck5RaTKrDHPnpmB49LVTQNpBUJs8kYNLfNEqOZwaLqetFnc4j%2BSUD9WYe6X8%2FPIdvgxsF4gD5wkd5kKaZxhDXo4F5ZzulNmUEPAL93RsM%2FVAv0SKK4f7heos%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zh-0d467e8a",
-      "name": "最好吃的25家火锅",
       "name_en": null,
       "city": "珠海",
       "cuisine": "待分类",
@@ -26378,38 +25739,6 @@
       },
       "sources": [
         "https://www.so.com/link?m=ur2sktNHSyHHzK%2B2kl7mIeCRI%2FvPmCUQtBo3AFL7Ck%2BdZ4LRMIXUJxvYU1UrjtKloH77KFKEOZz4tCf0%2FiDVPdTVcD7bsymiQJEdXJ%2FLmSb0PgzCU2%2BrMuIO45%2BD5ztnJIgsfqgyZagXZXb96L5uck5RaTKrDHPnpmB49LVTQNpBUJs8kYNLfNEqOZwaLqetFnc4j%2BSUD9WYe6X8%2FPIdvgxsF4gD5wkd5kKaZxhDXo4F5ZzulNmUEPAL93RsM%2FVAv0SKK4f7heos%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zq-032bd92a",
-      "name": "最好吃的火锅",
-      "name_en": null,
-      "city": "肇庆",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://ai.so.com/search/so4092babafb9e0b8261c115d917256931?search=%E8%82%87%E5%BA%86%E6%9C%80%E5%A5%BD%E5%90%83%E7%9A%84%E7%81%AB%E9%94%85%E5%9C%A8%E5%93%AA%E9%87%8C%3F&src=so_result_natural_ask&srcg=so_result_natural_ask"
       ],
       "data_date": "2026-08-30",
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
@@ -26641,70 +25970,6 @@
     {
       "id": "zq-0bb630f4",
       "name": "开肇庆这家很接地气的街头火锅",
-      "name_en": null,
-      "city": "肇庆",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://ai.so.com/search/so4092babafb9e0b8261c115d917256931?search=%E8%82%87%E5%BA%86%E6%9C%80%E5%A5%BD%E5%90%83%E7%9A%84%E7%81%AB%E9%94%85%E5%9C%A8%E5%93%AA%E9%87%8C%3F&src=so_result_natural_ask&srcg=so_result_natural_ask"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zq-59278bce",
-      "name": "附近好吃的火锅",
-      "name_en": null,
-      "city": "肇庆",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://ai.so.com/search/so4092babafb9e0b8261c115d917256931?search=%E8%82%87%E5%BA%86%E6%9C%80%E5%A5%BD%E5%90%83%E7%9A%84%E7%81%AB%E9%94%85%E5%9C%A8%E5%93%AA%E9%87%8C%3F&src=so_result_natural_ask&srcg=so_result_natural_ask"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zq-b7f36039",
-      "name": "评为您找到858家好吃的火锅",
       "name_en": null,
       "city": "肇庆",
       "cuisine": "待分类",
@@ -27055,38 +26320,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "dg-c60e41eb",
-      "name": "全东莞最好吃椰子鸡",
-      "name_en": null,
-      "city": "东莞",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=wRIAErl%2F%2B32ZkpubzSQ9CBx4Jth%2FZNrYX3%2BWfCBQOEdht8EoOnOPSJeo7x%2Fs%2FyuB6Y9vBZJup2vy7TImPfE5jxhwUEpKVLU7MuifdfOhroK1kj0zZFB72aMp%2B24myT2F8ftJEhn3L%2F9bEgkpNCKOU2Rt4rPHm8zCisWTDoMPgCQG5%2BcKZi%2B5GS7Nafl8crVVZpyCMEU99YDYEGDJK%2B5qxIPeizUF0sa8gmN5wN%2BYl%2B4C73XRvx3bCW8XXmvR0In4a1%2FPchwSYvBsqwdSGnU6k8A%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "dg-028c836e",
       "name": "润泽园椰子鸡(汇一城店)",
       "name_en": null,
@@ -27311,70 +26544,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "jm-645e25a8",
-      "name": "可以说是江门最好吃的椰子鸡",
-      "name_en": null,
-      "city": "江门",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=ef2YP6NqTl3DCDB9ItsKX1ftf5QzRr6Om89dVhX8gSQxk%2Bkevs0jWAEODe7WzB5xrN4SNi%2FqyO0n1LWStEtc2EuQqA%2BKC5URfSgvffeDbbHSm%2Far6cU51GOO%2F4%2FgArUqA1cTnTQKwWagamtd8gwKGsK%2Fsf4oz5t%2FwWmNc5q8soyzqZ3UhpdC3qWJxu1xBbIT88vsFouVfku48IiShHg0%2Ff%2FczaX6kJQOh9QZMIcbcwuwUv9bZerJ14sdwX5w4pHsY79Nepop%2BWl1dti5P"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "jm-134e76fa",
-      "name": "好吃啊好好吃喜欢吃椰子鸡",
-      "name_en": null,
-      "city": "江门",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=ef2YP6NqTl3DCDB9ItsKX1ftf5QzRr6Om89dVhX8gSQxk%2Bkevs0jWAEODe7WzB5xrN4SNi%2FqyO0n1LWStEtc2EuQqA%2BKC5URfSgvffeDbbHSm%2Far6cU51GOO%2F4%2FgArUqA1cTnTQKwWagamtd8gwKGsK%2Fsf4oz5t%2FwWmNc5q8soyzqZ3UhpdC3qWJxu1xBbIT88vsFouVfku48IiShHg0%2Ff%2FczaX6kJQOh9QZMIcbcwuwUv9bZerJ14sdwX5w4pHsY79Nepop%2BWl1dti5P"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "jm-63bc98ab",
       "name": "腊味煲仔饭",
       "name_en": null,
@@ -27535,38 +26704,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "jm-9d249d8a",
-      "name": "好吃的椰子鸡",
-      "name_en": null,
-      "city": "江门",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=ef2YP6NqTl3DCDB9ItsKX1ftf5QzRr6Om89dVhX8gSQxk%2Bkevs0jWAEODe7WzB5xrN4SNi%2FqyO0n1LWStEtc2EuQqA%2BKC5URfSgvffeDbbHSm%2Far6cU51GOO%2F4%2FgArUqA1cTnTQKwWagamtd8gwKGsK%2Fsf4oz5t%2FwWmNc5q8soyzqZ3UhpdC3qWJxu1xBbIT88vsFouVfku48IiShHg0%2Ff%2FczaX6kJQOh9QZMIcbcwuwUv9bZerJ14sdwX5w4pHsY79Nepop%2BWl1dti5P"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "fs-93b05261",
       "name": "八大高人气餐厅",
       "name_en": null,
@@ -27695,38 +26832,6 @@
       "notes": "来自名录「搜索摘要（sogou）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "hz-662580f8",
-      "name": "有许多好吃的烤鱼餐厅",
-      "name_en": null,
-      "city": "惠州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=evqY9RhHRq1T8tlp2RZ0QwS%2FWkwm3Rcx2zumNF%2BZ5d8tRFjJYe2jDEmmnulQ2HhKU9O67KbpjEAOLG3EyPfixVrs%2BIa2cHZEHIYTzgKCdjA%2FV9BdK70CU93nsjlsNulymBmaW%2BgRTZXLdcTbg56qDY4GZBSSeeCwh%2BSmu8KmpID963kW3FNAd3rtb6118ipp3wK2TBngPCnZpmpTN0u9nXcuLE69AFDJo2fNnm5PnHHi0MH9qYuEd9bOGM7YtTR4O%2B0hr3Xla5SF6G2hg"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "hz-ba42ac32",
       "name": "口味和预算选择适合自己的餐厅",
       "name_en": null,
@@ -27754,38 +26859,6 @@
       },
       "sources": [
         "https://www.so.com/link?m=evqY9RhHRq1T8tlp2RZ0QwS%2FWkwm3Rcx2zumNF%2BZ5d8tRFjJYe2jDEmmnulQ2HhKU9O67KbpjEAOLG3EyPfixVrs%2BIa2cHZEHIYTzgKCdjA%2FV9BdK70CU93nsjlsNulymBmaW%2BgRTZXLdcTbg56qDY4GZBSSeeCwh%2BSmu8KmpID963kW3FNAd3rtb6118ipp3wK2TBngPCnZpmpTN0u9nXcuLE69AFDJo2fNnm5PnHHi0MH9qYuEd9bOGM7YtTR4O%2B0hr3Xla5SF6G2hg"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zs-8847d576",
-      "name": "您找到171家好吃的寿司餐厅",
-      "name_en": null,
-      "city": "中山",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=ebFQjaJgVU6TylzZTdIkyGftR1ml3lPqQ3u82XK94YtjnhSLQV305Ii9LVzvEzND%2FwxdQU2mu6Z8R2YzheIa5%2FHSnsOZDFjKCgKhK0liym%2BjTwOpYZoa4TDcEwXizh9V2yhS3rPpIaIOxF2KrWpDRwlrZ8IbuTB7rmKX%2BS%2FkDtMKCGdsEHg9WKyVm9Lnh5MaTyakSK7f5m00Z%2F6YmowaPpk9cO%2Fjq%2FpP1%2FAwNIMfFPkBd%2F6KdiK2UuA%3D%3D"
       ],
       "data_date": "2026-08-30",
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
@@ -28239,102 +27312,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "hz-6b128869",
-      "name": "最好吃的湘菜馆",
-      "name_en": null,
-      "city": "惠州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=zXsuy33H60ZmPWq4jnD5DoqcOViL9iSNCCzO84rpyXYRJHgM312fQ1nTeuCH%2FezpSG8Nam9KxA9UBsdxCZMCIUDxEvjpRO0ISC8pRUKD8j1F644fqHQ5Jxmksq0%2BptmRAxXTfT%2B3DYVU2lubjt4UAKoON0uDs3rqvuTtmNlSryorkoGRS9hUNAkhAtQexoGxDIrTa1wngzkAvGrMc%2FRfRIwtWSxdn5U%2FpjVpsJo4ihcIxBBZXjcuJveXQpodXW8sL9up5F9VpFms%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "hz-6677c954",
-      "name": "东平好吃的湘菜馆",
-      "name_en": null,
-      "city": "惠州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=zXsuy33H60ZmPWq4jnD5DoqcOViL9iSNCCzO84rpyXYRJHgM312fQ1nTeuCH%2FezpSG8Nam9KxA9UBsdxCZMCIUDxEvjpRO0ISC8pRUKD8j1F644fqHQ5Jxmksq0%2BptmRAxXTfT%2B3DYVU2lubjt4UAKoON0uDs3rqvuTtmNlSryorkoGRS9hUNAkhAtQexoGxDIrTa1wngzkAvGrMc%2FRfRIwtWSxdn5U%2FpjVpsJo4ihcIxBBZXjcuJveXQpodXW8sL9up5F9VpFms%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "hz-9a17a4cb",
-      "name": "抖音惠州最好吃的湘菜馆",
-      "name_en": null,
-      "city": "惠州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=zXsuy33H60ZmPWq4jnD5DoqcOViL9iSNCCzO84rpyXYRJHgM312fQ1nTeuCH%2FezpSG8Nam9KxA9UBsdxCZMCIUDxEvjpRO0ISC8pRUKD8j1F644fqHQ5Jxmksq0%2BptmRAxXTfT%2B3DYVU2lubjt4UAKoON0uDs3rqvuTtmNlSryorkoGRS9hUNAkhAtQexoGxDIrTa1wngzkAvGrMc%2FRfRIwtWSxdn5U%2FpjVpsJo4ihcIxBBZXjcuJveXQpodXW8sL9up5F9VpFms%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "hz-bef51fa5",
       "name": "翠山华美达酒店·红咖啡西餐厅",
       "name_en": null,
@@ -28399,38 +27376,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "sz-140a39a6",
-      "name": "有哪些好吃的川菜馆",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=wvYkyIpMp%2FWak6bVaN0eOSxtCOMfNRstjgpToVCNT6XThwlWSjojRkOoS8dqkkQiKpTrMbGqru9DdAHtqjHtvUCYjosKsOnJMaRsitTdxlkgCUm%2BMnRh7t3qQrIF5CR8rE1mp6XpzcNE%2ByiyisM38aHObTIQyCMwMVflvBcop7fPt8FW2pAtm%2Fl6rzCTCtTRoBkKgKMAs%2FauO%2BjyN1Xs7C3P7hTG5YFGVKOiP%2FWpUHTDMnW0fBccBtOMUmtgI%2BmAnbkCXT33%2ByuQ%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "sz-9d34b1c4",
       "name": "川菜馆",
       "name_en": null,
@@ -28465,38 +27410,6 @@
     {
       "id": "sz-94de38da",
       "name": "更是有很多川菜馆",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=wvYkyIpMp%2FWak6bVaN0eOSxtCOMfNRstjgpToVCNT6XThwlWSjojRkOoS8dqkkQiKpTrMbGqru9DdAHtqjHtvUCYjosKsOnJMaRsitTdxlkgCUm%2BMnRh7t3qQrIF5CR8rE1mp6XpzcNE%2ByiyisM38aHObTIQyCMwMVflvBcop7fPt8FW2pAtm%2Fl6rzCTCtTRoBkKgKMAs%2FauO%2BjyN1Xs7C3P7hTG5YFGVKOiP%2FWpUHTDMnW0fBccBtOMUmtgI%2BmAnbkCXT33%2ByuQ%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "sz-fb46a30e",
-      "name": "整理了深圳好吃又正宗的川菜馆",
       "name_en": null,
       "city": "深圳",
       "cuisine": "待分类",
@@ -28625,38 +27538,6 @@
     {
       "id": "zs-8ac58301",
       "name": "中山区最牛川菜馆",
-      "name_en": null,
-      "city": "中山",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=uDn7kIDjsvIpWlQB7DdY3tvcY7BPZfJhDmyxenj6q%2F90%2BJuaWiqcM3VtC5PxWW8ZVq6AinOhQyxrfbrjDMcg36T3%2Ffr9dXFsJlDnkhsvM0TntRLC000q8jrx3%2F1H5eVNvcXZrMtz2erPrkMk1XTtKGdoseYFx0DAuPi9Hlz8kO81p6vn5viDCxmaTpSBiYOLoZjVKGAvlv5hFjBkcMOoNFTvxYlB4qofguq%2Bl8%2F0LqR1RFuOHw5F%2FF5ZYtDzVbthKMxh5Horzcu0%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zs-c473d326",
-      "name": "市区比较正宗好吃的川菜馆",
       "name_en": null,
       "city": "中山",
       "cuisine": "待分类",
@@ -29039,38 +27920,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "fs-92bd1e4e",
-      "name": "好吃到哭的烧腊",
-      "name_en": null,
-      "city": "佛山",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=bsMmcLplzvBv%2FyzQoWnvjZuX31XtgUhyLx%2F9OLi1s5nHYuYEfzMuOqqcf5kScDYOJgApnaU65WmcORQR3mSTCRL1ibhO46cUpOYbMHyB4m8U89obcVcSJxyfwEWUfPTjvBDcyoYVeIeSYHkGOLf1WuEY1Zx9oLIB6PbxczjKiirTo3iuaHHALW9T%2BybYmdSKfwKV95Q63cPZMvGb696HumOoHOQ0r1ONvl2oteD2Om5cRCEV%2BDKD5Ky2Kt98lJ00cAhhqnvpenTtu7iMe%2BHEp5A%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "fs-593e72d2",
       "name": "烧鹅佛山能记烧腊(盐步店)",
       "name_en": null,
@@ -29105,70 +27954,6 @@
     {
       "id": "fs-43554d4a",
       "name": "能记烧腊(盐步店)",
-      "name_en": null,
-      "city": "佛山",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=bsMmcLplzvBv%2FyzQoWnvjZuX31XtgUhyLx%2F9OLi1s5nHYuYEfzMuOqqcf5kScDYOJgApnaU65WmcORQR3mSTCRL1ibhO46cUpOYbMHyB4m8U89obcVcSJxyfwEWUfPTjvBDcyoYVeIeSYHkGOLf1WuEY1Zx9oLIB6PbxczjKiirTo3iuaHHALW9T%2BybYmdSKfwKV95Q63cPZMvGb696HumOoHOQ0r1ONvl2oteD2Om5cRCEV%2BDKD5Ky2Kt98lJ00cAhhqnvpenTtu7iMe%2BHEp5A%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "fs-2b497ce4",
-      "name": "附近好吃的烧腊",
-      "name_en": null,
-      "city": "佛山",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=bsMmcLplzvBv%2FyzQoWnvjZuX31XtgUhyLx%2F9OLi1s5nHYuYEfzMuOqqcf5kScDYOJgApnaU65WmcORQR3mSTCRL1ibhO46cUpOYbMHyB4m8U89obcVcSJxyfwEWUfPTjvBDcyoYVeIeSYHkGOLf1WuEY1Zx9oLIB6PbxczjKiirTo3iuaHHALW9T%2BybYmdSKfwKV95Q63cPZMvGb696HumOoHOQ0r1ONvl2oteD2Om5cRCEV%2BDKD5Ky2Kt98lJ00cAhhqnvpenTtu7iMe%2BHEp5A%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "fs-fd8c57c2",
-      "name": "评为您找到857家好吃的烧腊",
       "name_en": null,
       "city": "佛山",
       "cuisine": "待分类",
@@ -29290,38 +28075,6 @@
       },
       "sources": [
         "https://www.so.com/link?m=bsMmcLplzvBv%2FyzQoWnvjZuX31XtgUhyLx%2F9OLi1s5nHYuYEfzMuOqqcf5kScDYOJgApnaU65WmcORQR3mSTCRL1ibhO46cUpOYbMHyB4m8U89obcVcSJxyfwEWUfPTjvBDcyoYVeIeSYHkGOLf1WuEY1Zx9oLIB6PbxczjKiirTo3iuaHHALW9T%2BybYmdSKfwKV95Q63cPZMvGb696HumOoHOQ0r1ONvl2oteD2Om5cRCEV%2BDKD5Ky2Kt98lJ00cAhhqnvpenTtu7iMe%2BHEp5A%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "hz-e960ab4f",
-      "name": "烧腊好吃的粤菜餐厅",
-      "name_en": null,
-      "city": "惠州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=z2TQ4Sg7SWW%2BQ6WMCIZgr8RZcc3Oycbg%2FmXsd1llcZ8togrLbNgswvUecUEUo2hkCB4auG4q8BLo01Ff76khA3GfIM%2FQ2UfTK%2BGYncqkfvSE6GzzvLrITUCDmBhAEM7zG3tVMElfvTyu%2F97WzWU1NeyjBdbW36EE6jm2I6TrtWyVRk2N7aXz6RLrgzV1N%2FVGeZWZ6r5icsK6JX4LE2PwqGM2J5xZirHm0NBwNZHwacqARkMKg06sbZpYyyKLLm1w49rvSYXaLDaXAw7vR7sHR%2FZoqRS0wuvvVT3ztV6VWHoobdwBQ"
       ],
       "data_date": "2026-08-30",
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
@@ -30223,38 +28976,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "dg-7fda1ff3",
-      "name": "有什么好吃的茶餐厅",
-      "name_en": null,
-      "city": "东莞",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=wfyqE%2B1kHRgAsEsvQOwcsf2SX7B9FAoqIYwAuD6uDWo72LE7qSQA9m%2F84pc2vCqAOprQcQx2Mmqijtdxro4s1s4o4c93PZZ7O6CuFaDD8fPBMqFCbGDTb5kIwU83RBfiAGraSc9nCjWNeYgzfP8ZWAVQeQmGfmwzlsApqL%2BDajpZ7CpnG3jdOVo6zqSzqhqWcGv4dJtBDDg9XMHB42MoUlJ6zjUnGEiV2Ln3Cci2IK8MbAQL1oDHHChUg2CLvdQSK"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "jm-7695d90d",
       "name": "茶餐厅",
       "name_en": null,
@@ -30287,72 +29008,8 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "jm-11b55d41",
-      "name": "好吃超级大份是正宗的港式茶餐厅",
-      "name_en": null,
-      "city": "江门",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=wwPtpNbK0YDSzvQ3M9KlANwrO9%2BeCmD7TX5hjnf5L%2BcVWdl%2FJYUNfEQHkq0WxOiShr1dINc0WavgPB3RN3zSBW4Iu%2BwZt%2F8RCrEdKZ7534bqf956qoSlt4SpomzaTw%2BN5JtRUYCqUMu3m0%2BizFicvpANTXfkB7taeTTtuA1Fl0FTv9AvVBT%2BfOjlkkRZXrVYxr1ZhFTciAJNWXv7EFgIM3Qh3H4onAyCjwcmpKlDH7a5PM%2B1CMnayGMu7ICWWcxA0GTKTpCRfWET4cexU%2F5BbQA%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "jm-c028e74e",
       "name": "又靓又美味的正宗港式茶餐厅",
-      "name_en": null,
-      "city": "江门",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=wwPtpNbK0YDSzvQ3M9KlANwrO9%2BeCmD7TX5hjnf5L%2BcVWdl%2FJYUNfEQHkq0WxOiShr1dINc0WavgPB3RN3zSBW4Iu%2BwZt%2F8RCrEdKZ7534bqf956qoSlt4SpomzaTw%2BN5JtRUYCqUMu3m0%2BizFicvpANTXfkB7taeTTtuA1Fl0FTv9AvVBT%2BfOjlkkRZXrVYxr1ZhFTciAJNWXv7EFgIM3Qh3H4onAyCjwcmpKlDH7a5PM%2B1CMnayGMu7ICWWcxA0GTKTpCRfWET4cexU%2F5BbQA%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "jm-cdcf5c5f",
-      "name": "味道江门好吃的餐厅",
       "name_en": null,
       "city": "江门",
       "cuisine": "待分类",
@@ -30543,38 +29200,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "sz-7b3327a5",
-      "name": "最好吃的甜品",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=uyV6Tg9TdaSj%2BjsMEW4sBzDDU7EkE7PPk5yg7crl7urRK9FBp1IPpzBAYKVljqfN%2F6V74THnblQMqWcuLdzsCU4ptGJbFnSR%2FqBcXvO8mTNyUdscqxN0yN2%2FWz9Su2NWE2DgD48DQ63NmjZnm0%2Fc9pXfYI1sMwH3T06CboNlyOAFPfPExwyfZQ1t0FN3KoXWgMaHDStVTOnU3gS53IIQ5BR6zrh6CcNh3HRpnZZJLZHhSXT1eaRPhdhg7L%2Fg%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "sz-68f5279c",
       "name": "爆甜品店",
       "name_en": null,
@@ -30641,38 +29266,6 @@
     {
       "id": "sz-06bf389e",
       "name": "爱吃甜品",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=uyV6Tg9TdaSj%2BjsMEW4sBzDDU7EkE7PPk5yg7crl7urRK9FBp1IPpzBAYKVljqfN%2F6V74THnblQMqWcuLdzsCU4ptGJbFnSR%2FqBcXvO8mTNyUdscqxN0yN2%2FWz9Su2NWE2DgD48DQ63NmjZnm0%2Fc9pXfYI1sMwH3T06CboNlyOAFPfPExwyfZQ1t0FN3KoXWgMaHDStVTOnU3gS53IIQ5BR6zrh6CcNh3HRpnZZJLZHhSXT1eaRPhdhg7L%2Fg%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "sz-dd6abc7d",
-      "name": "有哪些甜品店",
       "name_en": null,
       "city": "深圳",
       "cuisine": "待分类",
@@ -31183,38 +29776,6 @@
       "notes": "来自名录「搜索摘要（sogou）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "zs-8523405c",
-      "name": "前十大烧鹅",
-      "name_en": null,
-      "city": "中山",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "http://mp.weixin.qq.com/s?src=11&timestamp=1788063056&ver=6935&signature=wIMVHsd62eDoQJjmO3e2p1ooMwfpoIeGZxmcS2eDCLDqvweoTvWTnpfQ8*-4vSiTp7TeCX0yiLVO*bbJ9r1zZg-dnMLy45DeL5Q5HY0dS-xXEjgd9*3OENiHbpffqAkW&new=1"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（sogou）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "zs-1a8a830c",
       "name": "网易订阅中山这家烧鹅",
       "name_en": null,
@@ -31343,70 +29904,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "sz-70104883",
-      "name": "找到了一家超级好吃的煲仔饭",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=uJ2%2FOreTyLX7bYdQGytw6om6ikUTquWW3mDRCqNLHYxEGcMQHjpUHmdTrZ4G0HFnon4iU08mw%2BTepEgc5boW7DVu4O8BaRM%2FRWBal%2Fi7PnLZx%2BEDQJWX0ZlOjb7kAZPzhboRHEF7fp%2BphFE9bxiuqmLQm18LfTQtytG6uan75%2FBnI0nU7zHCax5uBBEZn8sMm39NZwdKCQ6L04Go%2FXnqGo1wSM7RwI1JbjVgLRqD9YUe0w292BrtXFtRFJMWZ72l%2F"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "sz-e4bf7b9d",
-      "name": "最好吃的煲仔饭",
-      "name_en": null,
-      "city": "深圳",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=uJ2%2FOreTyLX7bYdQGytw6om6ikUTquWW3mDRCqNLHYxEGcMQHjpUHmdTrZ4G0HFnon4iU08mw%2BTepEgc5boW7DVu4O8BaRM%2FRWBal%2Fi7PnLZx%2BEDQJWX0ZlOjb7kAZPzhboRHEF7fp%2BphFE9bxiuqmLQm18LfTQtytG6uan75%2FBnI0nU7zHCax5uBBEZn8sMm39NZwdKCQ6L04Go%2FXnqGo1wSM7RwI1JbjVgLRqD9YUe0w292BrtXFtRFJMWZ72l%2F"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "sz-546957b7",
       "name": "最出名的5家煲仔饭",
       "name_en": null,
@@ -31505,38 +30002,6 @@
     {
       "id": "zs-499f348c",
       "name": "这几家神级煲仔饭",
-      "name_en": null,
-      "city": "中山",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=b96ck7MkvOcKMaJFi%2Fzh5fxBa5x%2B57vTj7c6aeMZchWswX4qmX%2F6Gc72YVaE1n3eBD6ojZcGUgIoUfD6kST9kWyN30MSHfGadkloUBz1kBw9S3O0lhYjQhkTUlVhNmZ87nUXq9rAiUTVBbQvqDMYxlfpSv8BV8ovhSMsW4Y%2FaYamtHJSEOr4etrqHoJ%2BHdAc6VZ8ZCAnXBhOvVVbhb%2Fl%2FLt8W1HPAiQgjO%2BlO6Qa6J9OoqOIZK9cYgy440HQu0FMO"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "zs-1169affa",
-      "name": "好吃的煲仔饭",
       "name_en": null,
       "city": "中山",
       "cuisine": "待分类",
@@ -32047,38 +30512,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "gz-23f08257",
-      "name": "有哪些好吃的烧烤店",
-      "name_en": null,
-      "city": "广州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=zBfNIE0SN74BDP90B6VEFn6O3Fb1wOFfXpBEnRFNTvDiS3iL9uhC%2BoPv%2BNnFua1zLY76Bc%2FHKQrbz020LrJz8q%2F6esMpr7OgAZsVpY3vWTaDv5%2B7NA1r03%2FF6CB%2FGG7fkq8eKsIjgszEULgkZvFoO2cyUJknat6nwDJ%2Fp1TVkDsTbZpf8k6BGA9Ww8hiIDI8Cx3tj3TKYQSIZihqVSEnw3afeMivTu%2B%2FdhByPeWx1LGPmL7A4YfXqFg%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "gz-a57c4142",
       "name": "烧烤店",
       "name_en": null,
@@ -32239,38 +30672,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "zh-4004fd2a",
-      "name": "可以说是珠海最好吃的一家火锅",
-      "name_en": null,
-      "city": "珠海",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=beQvyTHc%2FNky9E%2BXALC7crnjSEqwDHO2O%2Ff0l6VcDylvcaqd0HDqzVYGwML7WPX8RuUhvuXNmNRySUv4QwZNcpO4ZHs3n6%2Fsz4Cvc5m41Ub604T4GMw98U7MTdg5q63ubFbuvjgV9xXEy46EJWeBepkXrqplmm4rjl1pzXZGzdU329Fub3ErG2pnnmq5bIJCv3PW0IFFoMwncq90V6vg%2BeL6%2FhT1fXuE%2FWuFWaW9vuar1Yxvon692QCxMQ%2BQ%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "zh-fb543fc8",
       "name": "美食会串串",
       "name_en": null,
@@ -32335,70 +30736,6 @@
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     },
     {
-      "id": "zq-cf75aa8a",
-      "name": "9家好吃的端州区烧烤烤串餐厅",
-      "name_en": null,
-      "city": "肇庆",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=unqETGxV7J%2FyO2PLUDUmGq91%2B3FUCC9c2NVN6FGX6iL3F1oKdBxJ1xs40aJP0S%2BG%2BFE6WEjts1MQ6JpEbQ9CjJFX1GX0KCmD6PRMDbzxJ6r1btr2tloS5th2DNiIgO7lAASGZwUxYgnPWXUSsRqn2%2B3Ox7pnA%2B%2FJL3z2sgXOtaP4JTpaqNynE%2FK0vqahBNlKd3IS%2Fx0aQJchaQiZIbTK89TbUVzAYSKBm%2BnFSMvIlN9MXbkplAAnukG2ZhfFiTNIzvwcUcF4uhb7crqta"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "jm-4913e39f",
-      "name": "江海广场也有好吃的啦牛蛙甜品",
-      "name_en": null,
-      "city": "江门",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=z5XiCRIUsk7aMFxWaKE6vc1Gsa32SSQUTP2CM7ULsWrhLHtHAsYn7MbtVku3oKJaU7RcdqayeCVz%2BOX3n8kxY33j7fTUOlJ5yrzL10i5wSddFOmtZA45KW0A6uH%2FvuaxPnrQqeS671EIQbQ1xYe8eFvDfXP%2FJbY4rSLWaOckZAxDJ7VMaghdHBBsjHnXs3R%2B%2FV2QRSQ%2FZ%2FL6q1wIncVBydzE4zWvE3OPglXOhcIhaH0cBzMLQH9JNcB0hU9FAGqunB5DQ7A%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
       "id": "fs-4aefb022",
       "name": "深小龙我们从几十家小龙虾餐厅",
       "name_en": null,
@@ -32458,38 +30795,6 @@
       },
       "sources": [
         "https://www.so.com/link?m=ufw%2B9fSuH%2FMB9OAEwbnehAYF%2FreZpq%2FxRclXB2jfHnb5sxJ1zo14rh4PoZEKGQkD9grXilWs4rJbpkCn%2FxZ%2FUVqoC5lnlb2ZPx5ElCptWDZ1FtET3J7TV6lO6Y%2FNBgi3UTbXEQ30YjjHGfUtE0BHizIIwp4ysdVCqImLl4NQLSheN310HRVMevwRAnd1OQQNB5RiYVu20F5qhVoR8zqT49PDjcVCl2HuJdrlZHvyEF3RDChOKaLixWuUtmq%2BbzcVX%2Bd4KgdwqmvGqbacP38XNUCfvgt1xFFwQTb6hTsTKuFY4IwJS4CVzBg%3D%3D"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "hz-bb3eaf35",
-      "name": "找到486家好吃的小龙虾餐厅",
-      "name_en": null,
-      "city": "惠州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=z%2BtbGDiDHEkHmH2TN7r4go2h58ZB5cwL201DERYH%2FnXtVoRwlEW4eQ3ubB2yxytO92870ZWeiSFjLF0SHAMGXU5k5zdEfN%2BKz2BcqCLFytRXDme1Az7ZtMoTd%2F94SxlIAJuGqMDhvfQIURYytSt71vEeqr7iep54rI7uWEN4zE5xK2J74HUN7Rczoo%2BlTfoO6dIxGpZRsdovTXWkRkBY28qk1zbYRu%2BJ5%2F3nt2dKBW13aVVzRktqoig%3D%3D"
       ],
       "data_date": "2026-08-30",
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
@@ -32561,38 +30866,6 @@
     {
       "id": "gz-b2a1a24f",
       "name": "网红螺蛳粉店",
-      "name_en": null,
-      "city": "广州",
-      "cuisine": "待分类",
-      "branch": null,
-      "address": null,
-      "index": "00000",
-      "index_detail": {
-        "overall": 0,
-        "celebrity": 0,
-        "popularity": 0,
-        "online": 0,
-        "age": 0
-      },
-      "metrics": {
-        "online_rating": null,
-        "review_count": null,
-        "social_mentions": null,
-        "awards": null,
-        "celebrity_endorsements": null,
-        "media_features": null,
-        "master_chef": null,
-        "founded_year": null
-      },
-      "sources": [
-        "https://www.so.com/link?m=zh2un%2FbNzhstnnfnj0%2BVKEjPYx4ULXRIxbVvcZr0rXmhiM%2BRPg4Kv1TH6ix7Df1Zv7FLw8NBHgeZUwYFuvoRxmGd21vabnempLiH1WqGEltjrlVWZjPMfoqYngR9s4YIrkcXNaxnPFldMuJQkzpI7%2FMNoH4r%2BWlOOB69DjO5A%2BtCDyM%2Br9m8fhvHZNQayPfEa0rYq8Of%2FeXihqGHrFebgkda%2FUWRrWauZzixHfdtBn0Hh3VQv%2FFd2uL%2FcJItr0cGW"
-      ],
-      "data_date": "2026-08-30",
-      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
-    },
-    {
-      "id": "gz-c6ed2187",
-      "name": "闻广州10大最好吃的螺蛳粉店",
       "name_en": null,
       "city": "广州",
       "cuisine": "待分类",

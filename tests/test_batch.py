@@ -160,3 +160,11 @@ class TestBatchImport:
         assert guess_cuisine(["潮汕菜 砂锅粥"]) == "潮汕菜"
         assert guess_cuisine(["正宗重庆火锅"]) == "火锅"
         assert guess_cuisine(["评分4.5 人均80"]) == "待分类"
+
+
+class TestNameKey:
+    def test_folds_fullwidth_parens(self):
+        from hhrating.batch import name_key
+
+        assert name_key("陶陶居酒家（第十甫路总店）") == name_key("陶陶居酒家(第十甫路总店)")
+        assert name_key("点都德（大茶楼店）") != name_key("点都德(长隆店)")

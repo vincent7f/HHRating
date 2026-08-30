@@ -48,8 +48,8 @@ def normalize_name(name: str) -> str:
 
 
 def name_key(name: str) -> str:
-    """查重键：分店级全名（保留括号注记，仅去空白）。"""
-    return re.sub(r"\s+", "", name)
+    """查重键：分店级全名（全角括号折算为半角，仅去空白）。"""
+    return re.sub(r"\s+", "", name).replace("（", "(").replace("）", ")")
 
 
 def guess_cuisine(texts: list[str]) -> str:
