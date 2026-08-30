@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "spec_version": "1.1",
-  "generated_at": "2026-08-30T20:46:00+08:00",
+  "generated_at": "2026-08-30T23:24:16+08:00",
   "legend": "指数共 5 位，每位 1–9 由差到好：第 1 位综合得分、第 2 位名人推荐值、第 3 位人气度、第 4 位网上得分、第 5 位出现时间（老店分高）。0 表示该维度暂无数据。评分标准见 docs/index-spec.md v1.1。",
   "disclaimer": "数据来自公开网络资料的近似统计（快照日期见各条目），仅供研究参考。",
   "restaurants": [
@@ -179213,7 +179213,7 @@
     },
     {
       "id": "r-4e259b7f",
-      "name": "羊额烧鹅",
+      "name": "羊额烧鹅(合肥首店)",
       "name_en": null,
       "city": "合肥",
       "cuisine": "待分类",
@@ -179238,7 +179238,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.so.com/link?m=uOqvC0UiXmQat1XR898b4aUPzmpi%2BVJ7jzco5ku90HKhodxQaQeYKF7g4uLkzVPXUGiih1mkfEt2NMhQGnqxBztOhTzWnL0jjxIZcKReNIUiZGTLu8jN0TIO1eVg%2FhE65%2FfLJtqWBPj0rI4MJMNvOlenRAqMfIZtDQ66PU%2Fts6O4DKuAgRnm%2FGUXgVYlofMJhz6uHtdOHoDYd5bdqHBwtgwfDdY2hbIcq%2BUaObUeQFsG54AvGilyduSkyr%2FaB5jz81tV%2BzlBsNGM%3D"
+        "https://you.ctrip.com/fooditem/hefei196/7756087-p1.html"
       ],
       "data_date": "2026-08-30",
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
@@ -185293,7 +185293,7 @@
     },
     {
       "id": "r-75852ed3",
-      "name": "伍贰赫兹·云上法餐厅",
+      "name": "伍贰赫兹·云上法餐厅(常州店)",
       "name_en": null,
       "city": "常州",
       "cuisine": "待分类",
@@ -185318,7 +185318,7 @@
         "founded_year": null
       },
       "sources": [
-        "https://www.so.com/link?m=bbCXbq84jhEp9ZgFxO9areIZVdlg7WgWPjTbS4Gh11r4agMT3naKgMnkGViiBqwKpYDrkSDxvpL4rkg7Jo3LfZQ0s0187F02sCTGpsRkQ3kx8ZtAUUclEZ1Yyom5onetcBAgc8%2FRzhEbCOAAaIZAVoHt833%2BIJmtzeYqrWJ53LsiBpFxNDDIN2VJTAGdgC2e7bdY3KtLlcQtqG%2B2RwCmaC3f1viT0CmQR%2Bs%2F3Kws48pId9Zgj31tOTZgb%2BZb0yeOQx%2Bl9RbgR50c%3D"
+        "https://www.jobui.com/rank/company/view/jiangsu/baitang/"
       ],
       "data_date": "2026-08-30",
       "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
@@ -251082,6 +251082,166 @@
       ],
       "data_date": "2026-08-30",
       "notes": "来自名录「OpenStreetMap amenity=restaurant」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "r-4c795db4",
+      "name": "今日头条三亚宝藏快餐",
+      "name_en": null,
+      "city": "三亚",
+      "cuisine": "待分类",
+      "branch": null,
+      "address": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://you.ctrip.com/fooditem/haikou37/7756087-p1.html"
+      ],
+      "data_date": "2026-08-30",
+      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "r-855e6726",
+      "name": "百人百城美食探店小吃",
+      "name_en": null,
+      "city": "南昌",
+      "cuisine": "待分类",
+      "branch": null,
+      "address": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://ai.so.com/search/so33fe7138d326234d9fe21ace021a0b09?search=%E5%8D%97%E6%98%8C%E5%93%AA%E9%87%8C%E6%9C%89%E5%A5%BD%E5%90%83%E7%9A%84%E8%82%A0%E7%B2%89%2C%E8%A6%81%E7%8E%B0%E5%9C%A8%E8%BF%98%E6%9C%89%E7%9A%84%2C%E6%9C%80%E5%A5%BD%E6%98%AF%E8%87%AA%E5%B7%B1%E5%8E%BB%E5%90%83%E8%BF%87%E7%9A%84%2C%E5%9C%A8%E7%BA%BF%E7%AD%89%E7%AD%94%E6%A1%88%21&src=so_result_natural_ask&srcg=so_result_natural_ask"
+      ],
+      "data_date": "2026-08-30",
+      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "r-4241f02e",
+      "name": "万象汇挖到宝藏糖水铺",
+      "name_en": null,
+      "city": "大连",
+      "cuisine": "待分类",
+      "branch": null,
+      "address": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.toutiao.com/article/7664025747199230505/"
+      ],
+      "data_date": "2026-08-30",
+      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "r-3d287dec",
+      "name": "这7家宝藏甜品店",
+      "name_en": null,
+      "city": "昆明",
+      "cuisine": "待分类",
+      "branch": null,
+      "address": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "http://www.sohu.com/a/164049373_682089"
+      ],
+      "data_date": "2026-08-30",
+      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
+    },
+    {
+      "id": "r-289f90d0",
+      "name": "店行业品牌评选投票得来的糖水",
+      "name_en": null,
+      "city": "银川",
+      "cuisine": "待分类",
+      "branch": null,
+      "address": null,
+      "index": "00000",
+      "index_detail": {
+        "overall": 0,
+        "celebrity": 0,
+        "popularity": 0,
+        "online": 0,
+        "age": 0
+      },
+      "metrics": {
+        "online_rating": null,
+        "review_count": null,
+        "social_mentions": null,
+        "awards": null,
+        "celebrity_endorsements": null,
+        "media_features": null,
+        "master_chef": null,
+        "founded_year": null
+      },
+      "sources": [
+        "https://www.toutiao.com/article/7664025747199230505/"
+      ],
+      "data_date": "2026-08-30",
+      "notes": "来自名录「搜索摘要（so360）」自动录入（快照 2026-08-30），指标待补采"
     }
   ]
 }
