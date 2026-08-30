@@ -26,7 +26,9 @@ from hhrating.collectors.websearch import DuckDuckGoCollector  # noqa: E402
 from hhrating.discovery import extract_restaurant_names  # noqa: E402
 from hhrating.storage import Database  # noqa: E402
 
-CITIES = ["广州", "深圳", "佛山", "东莞", "珠海", "中山", "惠州", "江门", "肇庆"]
+PRD_CITIES = ["广州", "深圳", "佛山", "东莞", "珠海", "中山", "惠州", "江门", "肇庆"]
+_NATIONAL = "北京 上海 广州 深圳 成都 杭州 武汉 重庆 南京 天津 西安 苏州 郑州 长沙 沈阳 青岛 合肥 宁波 无锡 厦门 福州 济南 昆明 哈尔滨 长春 大连 石家庄 南昌 南宁 贵阳 太原 太原 石家庄 徐州 烟台 温州 金华 嘉兴 绍兴 台州 常州 南通 扬州 徐州 保定 唐山 廊坊 沧州 大同 洛阳 惠州 中山 江门 芜湖 蚌埠 泉州 漳州 莆田 贵港 北海 柳州 桂林 海口 三亚 兰州 乌鲁木齐 呼和浩特 银川 西宁".split()
+CITIES = sorted(set(PRD_CITIES + _NATIONAL))
 DISHES = ["烧鹅", "早茶", "肠粉", "糖水", "火锅", "椰子鸡", "烤鱼", "寿司", "牛杂",
           "砂锅粥", "湘菜", "川菜", "日本菜", "自助餐", "烧腊", "饺子", "米线",
           "茶餐厅", "海鲜", "点心", "猪肚鸡", "牛腩", "云吞面", "煲仔饭", "卤鹅",
