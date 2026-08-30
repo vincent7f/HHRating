@@ -1,0 +1,195 @@
+{
+ "schema_version": 1,
+ "source": "amap v2 补充探测",
+ "entries": [
+  {
+   "name": "罗浮山满记土窑烧鸡",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441322",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "谢记乳鸽皇(博罗分店)",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441322",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "金塘胜宴",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441322",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "尚食海鲜坊",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441323",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "井珠阁海鲜饭店",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441323",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "好味道海鲜大排档(巽寮湾)",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441323",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "傅记海鲜饭店",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441323",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "花海美食·爱的驿站",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441323",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "自家人海鲜农家菜(巽寮湾店)",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441323",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "新千味餐厅(无敌海景店)",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441323",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "皓景海鲜餐厅(双月湾地标美食店)",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441323",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "聚鲜阁海鲜大排档(双月湾店)",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441323",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "明记海鲜大排档",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441323",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "菲食不可农庄(龙门永汉店)",
+   "city": "惠州",
+   "address": null,
+   "source": "https://www.amap.com/ranking/huizhou/food/441324",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "得利轩(祥龙店)",
+   "city": "江门",
+   "address": null,
+   "source": "https://www.amap.com/ranking/jiangmen/food/440783",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "优之名鹅城",
+   "city": "江门",
+   "address": null,
+   "source": "https://www.amap.com/ranking/jiangmen/food/440783",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "晶莹烘焙",
+   "city": "江门",
+   "address": null,
+   "source": "https://www.amap.com/ranking/jiangmen/food/440783",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "侨家村农庄",
+   "city": "江门",
+   "address": null,
+   "source": "https://www.amap.com/ranking/jiangmen/food/440783",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "德记饭店",
+   "city": "江门",
+   "address": null,
+   "source": "https://www.amap.com/ranking/jiangmen/food/440783",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "开平市鼎宴宴会中心",
+   "city": "江门",
+   "address": null,
+   "source": "https://www.amap.com/ranking/jiangmen/food/440783",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "华宴酒楼",
+   "city": "江门",
+   "address": null,
+   "source": "https://www.amap.com/ranking/jiangmen/food/440783",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "福兴酒楼",
+   "city": "江门",
+   "address": null,
+   "source": "https://www.amap.com/ranking/jiangmen/food/440784",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "山顶沙河粉(鹤山凯旋店)",
+   "city": "江门",
+   "address": null,
+   "source": "https://www.amap.com/ranking/jiangmen/food/440784",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "霄乡饭店·温三爷牛世家",
+   "city": "江门",
+   "address": null,
+   "source": "https://www.amap.com/ranking/jiangmen/food/440784",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "阿庆嫂海鲜舫",
+   "city": "肇庆",
+   "address": null,
+   "source": "https://www.amap.com/ranking/zhaoqing/food/441284",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "荣记顺德炸滋味",
+   "city": "肇庆",
+   "address": null,
+   "source": "https://www.amap.com/ranking/zhaoqing/food/441284",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  },
+  {
+   "name": "聚缘居(半岛壹号店)",
+   "city": "肇庆",
+   "address": null,
+   "source": "https://www.amap.com/ranking/zhaoqing/food/441284",
+   "list_name": "2025高德状元榜·美食（必吃美食）"
+  }
+ ]
+}
