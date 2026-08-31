@@ -1,6 +1,6 @@
 # HHRating 系统架构与数据管线
 
-> 版本 1.1 · 2026-08-30 · 本文档描述 HHRating 的采集/评分/发布全链路设计与运维方法。
+> 版本 1.2 · 2026-08-31 · 本文档描述 HHRating 的采集/评分/发布全链路设计与运维方法。
 
 ## 1. 总体架构
 
@@ -18,6 +18,7 @@
 │ storage.Database JSON 文档库（锁文件互斥 + 临时文件原子替换；bulk_upsert/remove_many）│
 │ 代理策略：--proxy 显式指定；默认显式直连（绕过系统代理劫持）                          │
 ├──────────────────────────── 评分与发布层 ────────────────────────────────────────┤
+│ batch.classify_all_cuisines  待分类菜系推断（店名+备注，最长关键词，不覆盖已有）     │
 │ scoring.compute_index  五位指数（规范 docs/index-spec.md v1.1 的代码化）             │
 │ publish                四件产物：hhrating-index.json / index.md / index.html /       │
 │                        explorer.html（全字段搜索/筛选/排序/详情，零依赖单文件）       │
@@ -33,7 +34,7 @@
 | 搜索摘要 | `scripts/snippet_harvest.py`（4 引擎线程轮转 + 限流冷却） | ~800 家/多轮 | ✅ 可重复跑 |
 | 名录文章 | `scripts/article_harvest.py`（360 跳转解析 → 抓文 → 提取） | ~1500 家 | ✅ 可重复跑 |
 | 大众点评 m 站排行页 | `hhrating/dianping.py`（解析器就绪） | 待 URL 发现方案 | ⏸ 搜索引擎不收录其 URL |
-| OpenStreetMap Overpass | `data/seed/osm-batch1.json` 样例 + §5 网格收割法 | 首批 18 家 | ⏸ 直连被 406 拦截 |
+| OpenStreetMap Overpass | `data/seed/osm-batch1.json` 样例 + §6 网格收割法 | 首批 18 家 | ⏸ 直连被 406 拦截 |
 | Wikidata SPARQL | query.wikidata.org | 未接入 | ⏸ SSL 被墙 |
 
 ## 3. 关键设计决策
@@ -50,7 +51,25 @@
 5. **并发**：写库经锁文件互斥；长时间运行的收割器必须在**收割结束后**重新加载
    数据库再导入（避免旧快照丢失更新——已发生并修复）。
 
-## 4. 指数与发布
+## 4. 菜系分类管线
+
+采集入库时大量记录的 `cuisine` 只能记占位「待分类」。分类分两段，不要混用：
+
+1. **采集期** `guess_cuisine(texts)`：扫搜索标题/摘要，`CUISINE_KEYWORDS` 首次命中即返回该词本身，否则「待分类」。这是收割时的弱信号，不回写已有菜系。
+2. **事后** `hhrating classify`（`classify_all_cuisines`）：只处理 `cuisine` 为空或「待分类」的记录；把店名与 `notes` 拼成 haystack，按关键词长度降序匹配到规范菜系名（如「韩式」→「韩国料理」、「冰室」→「茶餐厅」）。
+
+规则：
+
+- 最长关键词优先；同长度保持词表原顺序。
+- 已有菜系绝不覆盖。
+- 店名与备注都无线索则保持「待分类」（知名品牌如「海底捞」不强判）。
+- 写盘走 `bulk_upsert` 一次，避免万级记录逐条序列化。
+
+```bash
+python -m hhrating classify
+```
+
+## 5. 指数与发布
 
 - 评分规范唯一依据：`docs/index-spec.md`（v1.1）。五位指数每位 1–9（0=暂无数据），
   综合位要求至少两个维度可得（防单维度放大）。
@@ -58,19 +77,20 @@
 - explorer.html 为零依赖单文件应用，可直接双击或托管为静态站点
   （GitHub Pages：仓库设置 → Pages → 选择 main 分支 /published 目录）。
 
-## 5. 续采手册（冲 1 万条的操作路线）
+## 6. 续采手册（冲 1 万条的操作路线）
 
-### 5.1 常规增量（引擎未封禁时）
+### 6.1 常规增量（引擎未封禁时）
 
 ```bash
 python scripts/snippet_harvest.py --limit 400        # 摘要收割（4 引擎并行，约 30-40 分钟）
 python scripts/article_harvest.py --batch-cities 10  # 名录文章收割（360 跳转解析）
 python scripts/harvest_amap_national.py              # 高德新城市（新榜上线时）
 python -m hhrating fill --city 广州 --proxy http://127.0.0.1:8009   # 补采指标
+python -m hhrating classify
 python -m hhrating score && python -m hhrating publish && python -m hhrating stats
 ```
 
-### 5.2 Overpass 网格收割法（代理恢复后自动化 / 当前用 WebFetch 人工转录）
+### 6.2 Overpass 网格收割法（代理恢复后自动化 / 当前用 WebFetch 人工转录）
 
 Overpass GET 模板（bbox 按城市网格切分，单格 ≤300 条保证转录完整）：
 
@@ -85,7 +105,7 @@ https://overpass-api.de/api/interpreter?data=[out:json][timeout:50];
 - 广州全域约 20-40 格、深圳约 15 格、佛山/东莞/珠海/中山/惠州/江门/肇庆各 8-15 格。
 - 转录结果存 `data/seed/osm-*.json`（结构同 osm-batch1.json）后 `import_list_records` 导入。
 
-### 5.3 限流与封锁应对
+### 6.3 限流与封锁应对
 
 | 症状 | 处置 |
 |------|------|
@@ -93,7 +113,7 @@ https://overpass-api.de/api/interpreter?data=[out:json][timeout:50];
 | Overpass 406/500 | 换镜像（kumi/mail.ru/osm.jp）或经代理/WebFetch 通道 |
 | 系统代理劫持 | 收割器已显式 `ProxyHandler({})` 直连，不受注册表代理影响 |
 
-## 6. 已知限制
+## 7. 已知限制
 
 - 搜索摘要/名录文章自动提取的店名存在少量噪声（已多轮过滤+审计清理，
   残留率约 1-2%），记录 `notes` 均标注"未经人工核实"。

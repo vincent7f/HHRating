@@ -61,7 +61,7 @@ HHRating（Huì Huǒ Rating）是一个美食点评资料库：收集、整理�
 # 安装（开发模式）
 python -m pip install -e .
 
-# 运行测试（140 个用例）
+# 运行测试（229 个用例）
 python -m pytest
 
 # 导入种子数据并计算指数
@@ -72,6 +72,7 @@ python -m hhrating score
 python -m hhrating list                 # 指数榜单
 python -m hhrating list --min 7         # 只看综合 ≥ 7
 python -m hhrating show quanjude-qianmen  # 档案详情（逐位说明+来源）
+python -m hhrating classify             # 待分类菜系推断（店名/备注关键词，不覆盖已有）
 python -m hhrating publish              # 生成 published/ 下三种产物
 
 # 录入新店（指标缺省可只填已知项）
@@ -95,11 +96,11 @@ python -m hhrating collect --query "XX店 大众点评 评分 创立" --proxy ht
 
 ## 采集管线与文档
 
-- 架构与数据管线详解：[`docs/architecture.md`](docs/architecture.md)（数据源清单、并行收割、缓存、质量门、续采手册）
+- 架构与数据管线详解：[`docs/architecture.md`](docs/architecture.md)（数据源清单、并行收割、缓存、质量门、菜系分类、续采手册）
 - 评分规范：[`docs/index-spec.md`](docs/index-spec.md) · 字段定义：[`docs/data-dictionary.md`](docs/data-dictionary.md)
 - 收割脚本：`scripts/harvest_amap_national.py`（高德分区榜）、`scripts/snippet_harvest.py`（4 引擎摘要）、
   `scripts/article_harvest.py`（名录文章）、`scripts/harvest_dianping.py`（点评排行页）
-- 续采一句话：跑一遍收割脚本 → `import` → `score` → `publish`；全部脚本支持本地缓存与断点续跑
+- 续采一句话：跑一遍收割脚本 → `import` → `classify` → `score` → `publish`；全部脚本支持本地缓存与断点续跑
 
 ## 项目结构
 
@@ -112,7 +113,7 @@ python -m hhrating collect --query "XX店 大众点评 评分 创立" --proxy ht
 │   ├── collectors/      #   联网采集器（DuckDuckGo/必应，代理支持，可注入测试）
 │   ├── publish.py       #   发布模块（JSON/MD/HTML）
 │   └── cli.py           #   命令行接口
-├── tests/               # pytest 测试（140 个）
+├── tests/               # pytest 测试（229 个）
 ├── data/                # 种子数据（seed/）与数据库文件（restaurants.json）
 └── published/           # 发布产物（JSON / Markdown / 指数榜 HTML / 数据查询页 HTML）
 ```
