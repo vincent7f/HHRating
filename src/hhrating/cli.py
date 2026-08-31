@@ -7,6 +7,8 @@
   hhrating list [--min N]                      # 指数榜单
   hhrating show ID_OR_NAME                     # 档案详情
   hhrating collect --query "..." [--proxy ...] # 联网检索辅助信号
+  hhrating stats                               # 统计分析
+  hhrating classify                            # 待分类菜系推断（店名/备注关键词）
   hhrating publish [--out DIR]                 # 发布 JSON/MD/HTML
 """
 from __future__ import annotations
@@ -105,6 +107,8 @@ def build_parser() -> argparse.ArgumentParser:
 
     p = sub.add_parser("stats", help="数据库统计分析（覆盖率/分布/TOP榜）")
 
+    p = sub.add_parser("classify", help="按店名/备注关键词为待分类记录推断菜系")
+
     p = sub.add_parser("publish", help="发布 JSON/Markdown/HTML")
     p.add_argument("--out", default="published", help="输出目录（默认 published/）")
 
@@ -136,6 +140,8 @@ def main(argv: list[str] | None = None) -> int:
             return _cmd_fill(db, args)
         if args.command == "stats":
             return _cmd_stats(db)
+        if args.command == "classify":
+            return _cmd_classify(db)
         if args.command == "publish":
             return _cmd_publish(db, args.out)
     except (ValueError, RuntimeError) as exc:
@@ -342,6 +348,17 @@ def _cmd_stats(db: Database) -> int:
     from .analysis import format_summary, summarize
 
     print(format_summary(summarize(db)))
+    return 0
+
+
+def _cmd_classify(db: Database) -> int:
+    from .batch import classify_all_cuisines
+
+    counts = classify_all_cuisines(db)
+    total = sum(counts.values())
+    print(f"已分类 {total} 家")
+    for cuisine, n in counts.most_common():
+        print(f"  {cuisine}：{n}")
     return 0
 
 

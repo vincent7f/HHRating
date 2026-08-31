@@ -186,3 +186,17 @@ class TestCliCommands:
         assert filled.metrics.review_count == 9000
         assert filled.metrics.founded_year == 1950
         assert "补采" in (filled.notes or "")
+
+    def test_classify_command(self, tmp_path, capsys):
+        db_path = tmp_path / "db.json"
+        db = Database(db_path).load()
+        db.upsert(Restaurant(
+            id="gz-1", name="木屋烧烤", city="广州", cuisine="待分类",
+            metrics=Metrics(), sources=["https://e.com/s"], data_date="2026-08-31",
+        ))
+        db.save()
+        assert main(["--db", str(db_path), "classify"]) == 0
+        out = capsys.readouterr().out
+        assert "已分类 1 家" in out
+        assert "烧烤" in out
+        assert Database(db_path).load().get("gz-1").cuisine == "烧烤"
